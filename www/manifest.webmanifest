@@ -1,0 +1,12 @@
+{
+  "name": "Choose the Correct Word",
+  "short_name": "Correct Word",
+  "description": "Chọn đúng từ tiếng Anh gần nghĩa, có IPA và giọng đọc.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "vi",
+  "background_color": "#eef1f0",
+  "theme_color": "#16212b"
+}
