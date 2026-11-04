@@ -23,6 +23,7 @@
     --on-accent: #ffffff;
     --hl: #ffe66b;
     --hl-ink: #16212b;
+    --warn: #b3261e;
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
@@ -35,6 +36,7 @@
       --on-accent: #0e151b;
       --hl: #5c4d0c;
       --hl-ink: #fff1a8;
+      --warn: #ff8a80;
       color-scheme: dark;
     }
   }
@@ -48,6 +50,7 @@
     --on-accent: #0e151b;
     --hl: #5c4d0c;
     --hl-ink: #fff1a8;
+    --warn: #ff8a80;
     color-scheme: dark;
   }
 
@@ -233,19 +236,51 @@
   }
   html { color-scheme: light; }
   [hidden] { display: none !important; }
+
+  /* Menu chuyên mục */
+  .menu { display: flex; gap: 6px; margin-top: 24px; overflow-x: auto; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+  .tab {
+    flex: none; padding: 9px 14px; border: 0; border-radius: 4px 4px 0 0;
+    background: transparent; color: var(--muted); font-weight: 500; white-space: nowrap;
+  }
+  .tab:hover { color: var(--ink); }
+  .tab[aria-selected="true"] { background: var(--ink); color: var(--bg); }
+  .tab[aria-selected="true"] .age { background: var(--hl); color: var(--hl-ink); }
+  .search { margin-top: 20px; }
+
+  /* Sắc thái của từ */
+  .tags { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin-top: 6px; }
+  .tags .pos { display: inline; margin: 0; }
+  .reg { padding: 1px 8px; border: 1px solid var(--line); border-radius: 999px; font-size: 0.72rem; color: var(--muted); }
+  .reg.formal { border-color: var(--accent); color: var(--accent); }
+  .reg.casual { border-color: var(--ink); color: var(--ink); }
+  .reg.vulgar { border-color: var(--warn); color: var(--warn); font-weight: 600; }
+  .use b { display: block; margin-bottom: 1px; font-size: 0.68rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+  .link { border: 0; background: transparent; padding: 6px 0; color: var(--accent); text-decoration: underline; font-size: 0.88rem; }
+
+  /* Hộp xác nhận năm sinh */
+  .agegate { position: fixed; inset: 0; z-index: 50; overflow-y: auto; background: var(--bg); padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 32px; }
+  .agebox { max-width: 520px; margin: 0 auto; }
+  .agebox h2 { margin: 12px 0 0; font-family: var(--font-display); font-size: clamp(1.7rem, 6vw, 2.4rem); line-height: 1.1; text-wrap: balance; }
+  .agebox p { margin: 12px 0 0; color: var(--muted); }
+  .agerow { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+  .agerow label { display: flex; flex-direction: column; gap: 4px; font-size: 0.8rem; color: var(--muted); flex: 1; min-width: 130px; }
+  .agerow select { font-size: 1.1rem; padding: 12px; border: 2px solid var(--ink); border-radius: 4px; background: var(--card); color: var(--ink); }
+  .ageerr { min-height: 1.5em; margin: 10px 0 0; color: var(--warn); font-weight: 600; }
+  .agebtns { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 8px; }
+  .agebtns .go { height: 48px; }
 </style>
-</head>
-<body>
 
-
-<div class="wrap">
+<div class="wrap" id="app" hidden>
   <p class="brand">choosethecorrectword.com</p>
   <h1>Choose the <em>correct</em> word</h1>
-  <p class="sub">Gõ một từ tiếng Anh, ví dụ <b>see</b>, để xem nó khác gì các từ gần nghĩa. Mỗi từ có nghĩa tiếng Việt, ví dụ, bản dịch, phiên âm IPA và giọng đọc.</p>
+  <p class="sub">Gõ một từ tiếng Anh, ví dụ <b>see</b>, để xem nó khác gì các từ gần nghĩa. Mỗi từ có nghĩa tiếng Việt kèm sắc thái, ví dụ, bản dịch, phiên âm IPA và giọng đọc.</p>
+
+  <nav class="menu" id="menu" role="tablist" aria-label="Chuyên mục"></nav>
 
   <form class="search" id="form" role="search" autocomplete="off">
     <div class="field">
-      <input id="q" type="text" value="see" placeholder="Thử gõ: say, big, mistake, nhìn…" aria-label="Tìm từ tiếng Anh hoặc nghĩa tiếng Việt" role="combobox" aria-expanded="false" aria-controls="sugg" aria-autocomplete="list" autocapitalize="none" spellcheck="false">
+      <input id="q" type="text" value="" placeholder="Thử gõ: say, big, cool, ASAP, nhìn…" aria-label="Tìm từ tiếng Anh hoặc nghĩa tiếng Việt" role="combobox" aria-expanded="false" aria-controls="sugg" aria-autocomplete="list" autocapitalize="none" spellcheck="false">
       <ul class="sugg" id="sugg" role="listbox" hidden></ul>
     </div>
     <button class="go" type="submit">Tìm</button>
@@ -261,17 +296,35 @@
       <button type="button" id="accUK" aria-pressed="false">Anh-Anh (UK)</button>
     </span>
     <button type="button" class="tog" id="slow" aria-pressed="false">Đọc chậm</button>
+    <button type="button" class="tog" id="t18" aria-pressed="true" hidden>Hiện nội dung 18+</button>
+    <button type="button" class="link" id="chg" hidden>Đổi năm sinh</button>
   </div>
 
   <section id="result" aria-live="polite"></section>
 
-  <p class="foot" id="foot">Giọng đọc lấy từ bộ đọc có sẵn trên thiết bị của bạn, nên âm thanh có thể khác nhau giữa iPhone, Android, Windows và Mac. Phiên âm IPA ghi theo giọng Anh-Mỹ (US) và Anh-Anh (UK).</p>
+  <p class="foot" id="foot">Giọng đọc lấy từ bộ đọc có sẵn trên thiết bị của bạn, nên âm thanh có thể khác nhau giữa các máy. Phiên âm IPA ghi theo giọng Anh-Mỹ (US) và Anh-Anh (UK). Thẻ sắc thái (trung tính, thân mật, thô tục…) cho biết từ đó phù hợp với hoàn cảnh nào.</p>
+</div>
+
+<div class="agegate" id="agegate" role="dialog" aria-modal="true" aria-labelledby="agTitle" hidden>
+  <div class="agebox">
+    <p class="brand">choosethecorrectword.com</p>
+    <h2 id="agTitle">Bạn sinh vào tháng và năm nào?</h2>
+    <p>Ứng dụng có phần từ vựng dành cho người lớn (tiếng lóng, từ thô tục, nội dung tình dục) chỉ mở cho người từ 18 tuổi trở lên. Tháng và năm sinh được lưu ngay trên máy của bạn và không gửi đi đâu.</p>
+    <div class="agerow">
+      <label for="bm">Tháng sinh<select id="bm"></select></label>
+      <label for="by">Năm sinh<select id="by"></select></label>
+    </div>
+    <p class="ageerr" id="ageErr" role="alert"></p>
+    <div class="agebtns">
+      <button type="button" class="go" id="ageGo">Tiếp tục</button>
+      <button type="button" class="link" id="ageCancel" hidden>Hủy</button>
+    </div>
+  </div>
 </div>
 <div class="toast" id="toast" role="status" hidden></div>
-
 <script>
-/* Dữ liệu: mỗi nhóm = [cách chọn, [ [từ, loại từ, IPA US, IPA UK (null nếu giống), nghĩa, cách dùng, ví dụ (*từ*), dịch ví dụ], ... ]] */
-const DATA = [
+const D = {
+ search: [
  ["Mắt tự thấy → see. Nhìn có chủ ý một thứ đang chuyển động → watch. Quay mắt về một hướng → look (at).", [
   ["see","động từ","siː",null,"nhìn thấy, thấy; hiểu ra","Hình ảnh tự đi vào mắt, không cần cố ý. Cũng dùng với nghĩa “hiểu”.","I can *see* a small bird on the roof.","Tôi thấy một chú chim nhỏ trên mái nhà."],
   ["watch","động từ","wɑːtʃ","wɒtʃ","xem, theo dõi","Nhìn có chủ ý trong một khoảng thời gian, thường là thứ đang chuyển động: phim, trận đấu, trẻ con.","We *watch* a film together every Friday.","Tối thứ Sáu nào chúng tôi cũng cùng xem một bộ phim."],
@@ -424,123 +477,445 @@ const DATA = [
   ["think","động từ","θɪŋk",null,"nghĩ, cho rằng","Ý kiến hoặc suy nghĩ thông thường.","I *think* it's a good idea.","Tôi nghĩ đó là một ý hay."],
   ["believe","động từ","bɪˈliːv",null,"tin, tin rằng","Chắc chắn hơn think; cũng là tin vào ai đó.","I *believe* in you.","Tôi tin bạn."],
   ["consider","động từ","kənˈsɪd.ɚ","kənˈsɪd.ə","cân nhắc, xem xét","Suy nghĩ cẩn thận trước khi quyết định.","We should *consider* all the options.","Chúng ta nên cân nhắc mọi lựa chọn."]
- ]],
- ["sex: trung tính, kỹ thuật. have sex: cách nói thông thường, trực tiếp. make love: lãng mạn, có tình cảm. sleep with: nói tránh. hook up: tiếng lóng, không ràng buộc. fuck: rất thô tục, dễ xúc phạm.", [
-  ["sex","danh từ","seks",null,"giới tính; quan hệ tình dục","Từ trung tính, dùng trong y khoa, giáo dục và biểu mẫu: sex education, the sex of the baby.","The form asks for your name, age and *sex*.","Mẫu đơn yêu cầu họ tên, tuổi và giới tính."],
-  ["have sex","cụm động từ","hæv seks",null,"quan hệ tình dục","Cách nói trực tiếp và trung tính. Dùng được trong y tế, báo chí và đời sống.","Doctors advise couples to use protection when they *have sex*.","Bác sĩ khuyên các cặp đôi dùng biện pháp bảo vệ khi quan hệ tình dục."],
-  ["make love","cụm động từ","meɪk lʌv",null,"làm tình, ân ái","Lãng mạn, nhẹ nhàng, nhấn vào tình cảm giữa hai người. Hay gặp trong văn chương, phim ảnh.","They *made love* for the first time on their wedding night.","Họ ân ái lần đầu tiên vào đêm tân hôn."],
-  ["sleep with","cụm động từ","sliːp wɪð",null,"ngủ với, qua đêm với (nói tránh)","Cách nói giảm nói tránh. Nghĩa đen là ngủ cạnh nhau, ngữ cảnh quyết định nghĩa.","He admitted that he had *slept with* his coworker.","Anh ấy thừa nhận đã ngủ với đồng nghiệp."],
-  ["hook up","cụm động từ","hʊk ʌp",null,"qua lại chớp nhoáng (tiếng lóng); kết nối","Tiếng lóng thân mật và mơ hồ: có thể chỉ hôn hít hoặc quan hệ, không ràng buộc. Không dùng nơi trang trọng.","They *hooked up* at a party last weekend.","Họ qua lại với nhau ở một bữa tiệc cuối tuần trước."],
-  ["fuck","động từ","fʌk",null,"quan hệ tình dục (nói rất thô tục); tiếng chửi thề","Rất thô tục, dễ xúc phạm. Tránh dùng với người lạ, nơi làm việc, văn bản trang trọng. Bạn chủ yếu cần nhận ra từ này khi xem phim, nghe nhạc.","Never use *fuck* in a job interview; it sounds very offensive.","Đừng bao giờ dùng từ fuck trong buổi phỏng vấn xin việc, nghe rất xúc phạm."]
- ], true],
- ["damn: nhẹ, dùng khi bực bội. crap: thô nhưng nhẹ hơn shit. shit: mạnh, thô tục. Mức nặng nhất là fuck (xem nhóm quan hệ tình dục).", [
-  ["damn","thán từ","dæm",null,"chết tiệt, đáng ghét (chửi nhẹ)","Chửi nhẹ khi bực mình; thường chấp nhận được với bạn bè, nhưng vẫn nên tránh nơi trang trọng.","*Damn*, I forgot my keys again!","Chết tiệt, tôi lại quên chìa khóa rồi!"],
-  ["crap","danh từ","kræp",null,"đồ tồi, rác rưởi; chết tiệt","Thô nhưng ít nặng hơn shit. Dùng cho thứ chất lượng kém hoặc khi bực.","I spent all day cleaning up this *crap*.","Tôi mất cả ngày dọn đống rác rưởi này."],
-  ["shit","danh từ","ʃɪt",null,"phân; chết tiệt (chửi thề mạnh)","Thô tục, không dùng nơi trang trọng. Nghĩa đen là phân, nghĩa bóng là chửi thề.","Oh *shit*, I missed the last bus!","Chết tiệt, tôi lỡ chuyến xe buýt cuối rồi!"]
- ], true]
-];
+ ]]
+ ],
+ slang: [
+  ["cool: ngầu hoặc điềm tĩnh, dùng được cả khi nói nghiêm túc. chill: thư giãn, không căng thẳng. lit: cực sôi động, rất đỉnh, chủ yếu giới trẻ dùng.", [
+   ["cool","tính từ","kuːl",null,"ngầu, tuyệt; bình tĩnh","Khen thứ gì đó phong cách, hay; cũng có nghĩa giữ bình tĩnh: stay cool. Dùng thoải mái trong giao tiếp thân mật.","That jacket is so *cool*!","Chiếc áo khoác đó ngầu quá!","thân mật"],
+   ["chill","động từ","tʃɪl",null,"thư giãn, đi chơi thoải mái","Không làm gì căng thẳng, ở bên bạn bè. Dạng tính từ chill nghĩa là dễ tính, thoải mái.","Let's *chill* at my place after school.","Sau giờ học mình qua nhà tớ chơi cho thoải mái nhé.","tiếng lóng"],
+   ["lit","tính từ","lɪt",null,"cực sôi động, rất đỉnh","Khen một bữa tiệc, buổi diễn hoặc không khí rất náo nhiệt. Chỉ dùng giữa bạn bè cùng trang lứa.","The party was *lit*!","Bữa tiệc sôi động hết nấc!","tiếng lóng"]
+  ]],
+  ["bestie: bạn thân nhất. squad: cả hội bạn thân. fam: anh em, người thân thiết như người nhà.", [
+   ["bestie","danh từ","ˈbes.ti",null,"bạn thân nhất","Cách gọi thân mật của best friend, thường dùng giữa các bạn nữ và giới trẻ.","She has been my *bestie* since third grade.","Cô ấy là bạn thân nhất của tớ từ hồi lớp ba.","tiếng lóng"],
+   ["squad","danh từ","skwɑːd","skwɒd","hội bạn thân, nhóm","Nhóm bạn thân đi chơi cùng nhau. Nghĩa gốc là tiểu đội, đội.","My *squad* is going to the movies tonight.","Hội bạn tớ tối nay đi xem phim.","tiếng lóng"],
+   ["fam","danh từ","fæm",null,"anh em, người thân thiết","Rút gọn từ family; gọi bạn bè thân như người nhà, cũng dùng để chào cả nhóm.","What's up, *fam*?","Mọi người sao rồi?","tiếng lóng"]
+  ]],
+  ["cap: nói dối, nói điêu. no cap: nói thật, không điêu. Chỉ dùng thân mật, nhất là trên mạng.", [
+   ["cap","danh từ","kæp",null,"lời nói điêu, nói dối","Dùng khi nghi ai đó nói quá sự thật. Gốc từ tiếng lóng của giới nhạc rap.","You ran a marathon? That's *cap*.","Cậu chạy marathon á? Điêu thế.","tiếng lóng"],
+   ["no cap","cụm từ","noʊ kæp","nəʊ kæp","thật đấy, không nói điêu","Cam đoan mình nói thật, hoặc nhấn mạnh lời khen.","This is the best burger ever, *no cap*.","Cái burger này ngon nhất từ trước đến giờ, thật đấy.","tiếng lóng"]
+  ]],
+  ["salty: cay cú, bực vì thua hoặc bị chê. cringe: ngượng chín người khi thấy thứ gì gượng gạo, sến. sus: đáng ngờ, có gì đó không ổn.", [
+   ["salty","tính từ","ˈsɑːl.ti","ˈsɒl.ti","cay cú, hậm hực","Bực bội vì thua hoặc bị chọc, thường là phản ứng hơi quá mức.","He got *salty* after losing the game.","Cậu ấy cay cú sau khi thua trận.","tiếng lóng"],
+   ["cringe","tính từ","krɪndʒ",null,"ngượng thay, sến đến nổi da gà","Cảm giác ngượng chín người khi thấy ai đó làm gì quá gượng ép. Cũng dùng như danh từ: that was cringe.","That old video of me is so *cringe*.","Cái video cũ của tớ nhìn mà ngượng chín người.","tiếng lóng"],
+   ["sus","tính từ","sʌs",null,"đáng ngờ, có vấn đề","Rút gọn của suspicious; phổ biến nhờ trò chơi Among Us.","His story sounds a bit *sus*.","Câu chuyện của cậu ta nghe hơi đáng ngờ.","tiếng lóng"]
+  ]],
+  ["flex: khoe khoang. slay: làm cực kỳ xuất sắc, tỏa sáng. mood: tâm trạng, hoặc “đúng tâm trạng của mình”.", [
+   ["flex","động từ","fleks",null,"khoe khoang, phô trương","Khoe đồ, thành tích; thường hơi mỉa mai. Nghĩa gốc là gồng cơ.","He keeps *flexing* his new phone.","Cậu ấy cứ khoe cái điện thoại mới mãi.","tiếng lóng"],
+   ["slay","động từ","sleɪ",null,"làm quá đỉnh, tỏa sáng","Khen ai đó làm rất xuất sắc hoặc ăn mặc cuốn hút. Nghĩa gốc là giết.","You *slayed* that presentation!","Bài thuyết trình của cậu đỉnh quá!","tiếng lóng"],
+   ["mood","danh từ","muːd",null,"tâm trạng; “đúng tâm trạng mình luôn”","Danh từ nghĩa là tâm trạng. Nói một mình “Mood.” nghĩa là mình cũng cảm thấy y như vậy.","Staying in bed all day? *Mood*.","Nằm cả ngày trên giường á? Đúng tâm trạng của mình luôn.","tiếng lóng"]
+  ]],
+  ["ghost: biến mất, không trả lời. bae: người yêu, cục cưng. crush: người mình thầm thích.", [
+   ["ghost","động từ","ɡoʊst","ɡəʊst","bơ, cắt liên lạc không báo trước","Đột ngột ngừng nhắn tin, gọi điện mà không giải thích. Nghĩa gốc là con ma.","He *ghosted* me after we argued.","Cậu ấy biến mất không trả lời tớ sau khi tụi tớ cãi nhau.","tiếng lóng"],
+   ["bae","danh từ","beɪ",null,"người yêu, cục cưng","Cách gọi âu yếm người yêu hoặc người mình quý nhất. Hơi sến.","Dinner with *bae* tonight!","Tối nay đi ăn tối với người yêu!","tiếng lóng"],
+   ["crush","danh từ","krʌʃ",null,"người mình thầm thích; cảm nắng","Có tình cảm đơn phương, chưa nói ra. Cũng là động từ nghĩa là nghiền nát.","I have a *crush* on my classmate.","Tớ cảm nắng bạn cùng lớp.","thân mật"]
+  ]],
+  ["nerd: mọt sách, giỏi học hành. geek: người đam mê sâu một lĩnh vực. dork: vụng về, ngố một cách dễ thương.", [
+   ["nerd","danh từ","nɝːd","nɜːd","mọt sách","Người say mê học hành, hay bị trêu nhưng cũng được xem là thông minh. Tùy giọng điệu có thể gây xúc phạm.","My brother is a total math *nerd*.","Anh tớ là mọt toán chính hiệu.","tiếng lóng"],
+   ["geek","danh từ","ɡiːk",null,"người đam mê (công nghệ, game…)","Người đam mê sâu một lĩnh vực: tech geek. Ngày nay nhiều người tự hào nhận mình là geek.","She is a proud science *geek*.","Cô ấy tự hào là dân mê khoa học.","tiếng lóng"],
+   ["dork","danh từ","dɔːrk","dɔːk","đứa ngố, hậu đậu","Vụng về, hơi ngô nghê; thường trêu đùa giữa bạn bè.","Stop being such a *dork*!","Đừng ngố thế chứ!","tiếng lóng"]
+  ]],
+  ["big cheese: người quan trọng nhất ở một nơi. big fish: nhân vật có thế lực. cold fish: người lạnh lùng, ít bộc lộ cảm xúc.", [
+   ["big cheese","danh từ","bɪɡ tʃiːz",null,"ông lớn, người có quyền nhất","Người đứng đầu hoặc quan trọng trong một tổ chức. Giọng điệu thường hài hước.","The *big cheese* from head office is visiting today.","Ông lớn từ trụ sở chính hôm nay đến thăm.","tiếng lóng"],
+   ["big fish","danh từ","bɪɡ fɪʃ",null,"nhân vật có thế lực, “cá lớn”","Người hoặc tổ chức có ảnh hưởng lớn trong một lĩnh vực. Gốc từ thành ngữ a big fish in a small pond.","He is a *big fish* in the local music scene.","Anh ấy là nhân vật lớn trong giới âm nhạc địa phương.","thân mật"],
+   ["cold fish","danh từ","koʊld fɪʃ","kəʊld fɪʃ","người lạnh lùng, khó gần","Chỉ người ít bộc lộ cảm xúc, ít thân thiện; hàm ý hơi chê.","Some people think the new teacher is a *cold fish*.","Một số người nghĩ cô giáo mới là người lạnh lùng.","thân mật"]
+  ]],
+  ["lowkey: hơi hơi, âm thầm, không muốn phô ra. highkey: rất, công khai, không giấu.", [
+   ["lowkey","phó từ","ˈloʊ.kiː","ˈləʊ.kiː","hơi hơi, âm thầm","Thừa nhận điều gì đó một cách kín đáo, nhẹ nhàng.","I *lowkey* want to skip the party.","Mình hơi hơi muốn bỏ buổi tiệc.","tiếng lóng"],
+   ["highkey","phó từ","ˈhaɪ.kiː",null,"rất, hoàn toàn thừa nhận","Ngược với lowkey: nói thẳng, nhấn mạnh.","I *highkey* love this song.","Mình mê bài này lắm luôn.","tiếng lóng"]
+  ]],
+  ["bruh: trời ơi, ông ơi (bất ngờ, chán, buồn cười). dude: ông bạn, kiểu Mỹ. mate: bạn, kiểu Anh và Úc.", [
+   ["bruh","thán từ","brʌ",null,"trời ơi, ông ơi","Phản ứng khi bất ngờ, thất vọng hoặc thấy buồn cười. Rút gọn từ bro.","*Bruh*, you forgot your homework again?","Trời ơi, cậu lại quên bài tập nữa à?","tiếng lóng"],
+   ["dude","danh từ","duːd",null,"ông bạn, ê","Gọi bạn nam, kiểu Mỹ; cũng dùng để thu hút sự chú ý.","*Dude*, check this out!","Ê, xem cái này đi!","tiếng lóng"],
+   ["mate","danh từ","meɪt",null,"bạn, anh bạn (Anh, Úc)","Cách gọi thân thiện giữa bạn bè, rất phổ biến ở Anh và Úc.","Thanks, *mate*!","Cảm ơn nhé, bạn!","thân mật"]
+  ]]
+ ],
+ idiom: [
+  ["piece of cake: rất dễ. a walk in the park: dễ, không phải cố gắng. easy peasy: dễ ợt, cách nói trẻ con.", [
+   ["piece of cake","thành ngữ","",null,"dễ như ăn bánh","Việc rất dễ làm, ví với việc ăn một miếng bánh.","The test was a *piece of cake*.","Bài kiểm tra dễ như ăn bánh.","thân mật"],
+   ["a walk in the park","thành ngữ","",null,"dễ như đi dạo công viên","Việc nhẹ nhàng, không gặp khó khăn. Hay dùng ở dạng phủ định: it was no walk in the park.","Learning to drive was no *walk in the park*.","Học lái xe không hề dễ như đi dạo công viên.","thân mật"],
+   ["easy peasy","thành ngữ","",null,"dễ ợt","Cách nói vui, trẻ con của easy.","Folding paper cranes is *easy peasy*.","Gấp hạc giấy dễ ợt.","trẻ con"]
+  ]],
+  ["cost an arm and a leg: rất đắt. dirt cheap: rất rẻ. a steal: món hời, mua được giá rất rẻ.", [
+   ["cost an arm and a leg","thành ngữ","",null,"đắt cắt cổ","Rất đắt, như phải trả bằng tay chân.","That watch *cost an arm and a leg*.","Chiếc đồng hồ đó đắt cắt cổ.","thân mật"],
+   ["dirt cheap","thành ngữ","",null,"rẻ như bèo","Rẻ đến bất ngờ.","I got these shoes *dirt cheap*.","Tớ mua đôi giày này rẻ như bèo.","thân mật"],
+   ["a steal","thành ngữ","",null,"món hời","Thứ chất lượng tốt mà giá quá rẻ, như được lấy không.","For ten dollars, it's *a steal*.","Chỉ mười đô thì đúng là món hời.","thân mật"]
+  ]],
+  ["under the weather: hơi mệt, không khỏe. feel blue: buồn rầu. down in the dumps: rất chán nản.", [
+   ["under the weather","thành ngữ","",null,"hơi mệt, không khỏe","Ốm nhẹ hoặc thiếu sức sống, chưa phải bệnh nặng.","I'm feeling a bit *under the weather*.","Tôi thấy hơi mệt trong người.","thân mật"],
+   ["feel blue","thành ngữ","",null,"buồn rầu","Buồn nhẹ, không rõ lý do cụ thể.","She *felt blue* after her friend moved away.","Cô ấy buồn rầu sau khi bạn chuyển đi.","thân mật"],
+   ["down in the dumps","thành ngữ","",null,"rất chán nản","Nặng hơn feel blue, kéo dài một thời gian.","He has been *down in the dumps* all week.","Cả tuần nay anh ấy rất chán nản.","thân mật"]
+  ]],
+  ["spill the beans: lỡ miệng nói ra bí mật. let the cat out of the bag: vô tình để lộ. beat around the bush: nói vòng vo.", [
+   ["spill the beans","thành ngữ","",null,"lỡ nói ra bí mật","Để lộ thông tin lẽ ra phải giữ kín.","Don't *spill the beans* about the surprise party.","Đừng lỡ miệng nói về bữa tiệc bất ngờ nhé.","thân mật"],
+   ["let the cat out of the bag","thành ngữ","",null,"vô tình để lộ bí mật","Gần nghĩa spill the beans, nhưng thường là vô ý.","My brother *let the cat out of the bag* about the gift.","Em trai tớ vô tình để lộ chuyện món quà.","thân mật"],
+   ["beat around the bush","thành ngữ","",null,"nói vòng vo","Tránh đi thẳng vào vấn đề.","Stop *beating around the bush* and tell me.","Đừng vòng vo nữa, nói cho tớ đi.","thân mật"]
+  ]],
+  ["break a leg: chúc may mắn trước khi biểu diễn. once in a blue moon: rất hiếm khi. the ball is in your court: đến lượt bạn quyết định.", [
+   ["break a leg","thành ngữ","",null,"chúc may mắn (trước khi biểu diễn)","Giới sân khấu tin nói good luck là xui, nên chúc ngược lại.","*Break a leg* at your concert tonight!","Chúc buổi diễn tối nay thật tốt nhé!","thân mật"],
+   ["once in a blue moon","thành ngữ","",null,"rất hiếm khi","Chỉ xảy ra cực kỳ hiếm hoi.","We only eat out *once in a blue moon*.","Nhà tôi rất hiếm khi đi ăn ngoài.","thân mật"],
+   ["the ball is in your court","thành ngữ","",null,"đến lượt bạn quyết định","Mình đã làm phần mình, giờ chờ người kia hành động.","I've made my offer, so the *ball is in your court*.","Tôi đã đưa đề nghị, giờ đến lượt bạn quyết định.","thân mật"]
+  ]],
+  ["hit the books: chăm chỉ học bài. burn the midnight oil: thức khuya làm việc. call it a day: dừng việc hôm nay.", [
+   ["hit the books","thành ngữ","",null,"chăm chỉ học bài","Ngồi vào học nghiêm túc, thường trước kỳ thi.","I have to *hit the books* before the exam.","Tôi phải chăm chỉ học bài trước kỳ thi.","thân mật"],
+   ["burn the midnight oil","thành ngữ","",null,"thức khuya làm việc hoặc học","Làm việc đến khuya vì có hạn chót.","She *burned the midnight oil* to finish her essay.","Cô ấy thức khuya để viết xong bài luận.","thân mật"],
+   ["call it a day","thành ngữ","",null,"dừng việc hôm nay, nghỉ thôi","Quyết định ngừng làm việc, nhất là khi đã mệt.","We're tired, let's *call it a day*.","Mình mệt rồi, hôm nay dừng ở đây nhé.","thân mật"]
+  ]],
+  ["bite the bullet: cắn răng chịu đựng. cut corners: làm ẩu, làm tắt để tiết kiệm. back to square one: quay lại điểm xuất phát.", [
+   ["bite the bullet","thành ngữ","",null,"cắn răng chịu đựng","Chấp nhận làm việc khó chịu mà không thể tránh.","I had to *bite the bullet* and apologize.","Tôi phải cắn răng xin lỗi.","thân mật"],
+   ["cut corners","thành ngữ","",null,"làm ẩu, làm tắt để tiết kiệm","Bỏ qua bước cần thiết để nhanh hoặc rẻ, thường gây hậu quả xấu.","The builder *cut corners* to save money.","Người thợ làm ẩu để tiết kiệm tiền.","thân mật"],
+   ["back to square one","thành ngữ","",null,"quay về điểm xuất phát","Phải làm lại từ đầu vì cách cũ thất bại.","The plan failed, so we're *back to square one*.","Kế hoạch thất bại, vậy là ta quay về điểm xuất phát.","thân mật"]
+  ]]
+ ],
+ abbr: [
+  ["VIP: khách quan trọng. BBQ: tiệc nướng ngoài trời. RSVP: xin hồi âm xác nhận tham dự. TBA: sẽ thông báo sau.", [
+   ["VIP","viết tắt","ˌviː.aɪˈpiː",null,"khách quan trọng, nhân vật đặc biệt","Very Important Person. Người được ưu tiên hoặc đối đãi đặc biệt.","The *VIP* guests enter through a private door.","Khách VIP đi vào bằng cửa riêng.","trung tính","V I P"],
+   ["BBQ","viết tắt","ˌbiː.biːˈkjuː",null,"tiệc nướng ngoài trời","Barbecue. Viết tắt rất hay gặp trong thiệp mời và thực đơn.","We are having a *BBQ* in the backyard on Sunday.","Chủ nhật bọn mình tổ chức tiệc nướng ngoài sân sau.","thân mật","B B Q"],
+   ["RSVP","viết tắt","ˌɑːr.es.viːˈpiː","ˌɑː.es.viːˈpiː","xin vui lòng hồi âm (xác nhận tham dự)","Gốc tiếng Pháp répondez s'il vous plaît. Thường ở cuối thiệp mời, mang tính lịch sự.","Please *RSVP* by Friday.","Xin vui lòng xác nhận tham dự trước thứ Sáu.","trang trọng","R S V P"],
+   ["TBA","viết tắt","ˌtiː.biːˈeɪ",null,"sẽ thông báo sau","To Be Announced. Dùng khi ngày, giờ, địa điểm chưa chốt.","The date of the concert is *TBA*.","Ngày tổ chức hòa nhạc sẽ được thông báo sau.","trung tính","T B A"]
+  ]],
+  ["ASAP: càng sớm càng tốt. ETA: giờ dự kiến đến. FYI: để bạn biết thêm thông tin. FAQ: câu hỏi thường gặp.", [
+   ["ASAP","viết tắt","ˌeɪ.esˌeɪˈpiː",null,"càng sớm càng tốt","As Soon As Possible. Hay gặp trong email công việc, nghe hơi thúc giục.","Please reply *ASAP*.","Vui lòng phản hồi sớm nhất có thể.","trung tính","A S A P"],
+   ["ETA","viết tắt","ˌiː.tiːˈeɪ",null,"giờ dự kiến đến","Estimated Time of Arrival. Dùng trong vận chuyển và hẹn gặp.","What is your *ETA*?","Dự kiến bạn đến lúc mấy giờ?","trung tính","E T A"],
+   ["FYI","viết tắt","ˌef.waɪˈaɪ",null,"để bạn biết (thông tin tham khảo)","For Your Information. Dùng khi chuyển thông tin, giọng điệu sai có thể nghe hơi cộc.","*FYI*, the meeting starts at nine.","Để bạn biết, cuộc họp bắt đầu lúc chín giờ.","thân mật","F Y I"],
+   ["FAQ","viết tắt","ˌef.eɪˈkjuː",null,"câu hỏi thường gặp","Frequently Asked Questions. Phần giải đáp có sẵn trên website.","Check our *FAQ* page for answers.","Hãy xem trang câu hỏi thường gặp để biết thêm.","trung tính","F A Q"]
+  ]],
+  ["LOL: cười lớn. BRB: lát nữa quay lại. OMG: trời ơi. BTW: nhân tiện.", [
+   ["LOL","viết tắt","ˌel.oʊˈel","ˌel.əʊˈel","cười ha ha, buồn cười quá","Laughing Out Loud. Nhiều khi chỉ là dấu hiệu thân thiện, chưa chắc người viết đang cười.","*LOL*, that video is hilarious.","Ha ha, video đó buồn cười quá.","thân mật","L O L"],
+   ["BRB","viết tắt","ˌbiː.ɑːrˈbiː","ˌbiː.ɑːˈbiː","lát nữa quay lại","Be Right Back. Dùng khi nhắn tin, chơi game.","*BRB*, my mom is calling.","Lát nữa mình quay lại nhé, mẹ mình đang gọi.","thân mật","B R B"],
+   ["OMG","viết tắt","ˌoʊ.emˈdʒiː","ˌəʊ.emˈdʒiː","trời ơi!","Oh My God. Cảm thán bất ngờ; một số người thấy không phù hợp vì nhắc đến Chúa.","*OMG*, I passed the exam!","Trời ơi, mình đậu kỳ thi rồi!","thân mật","O M G"],
+   ["BTW","viết tắt","ˌbiː.tiːˈdʌb.əl.juː",null,"nhân tiện, tiện thể","By The Way. Dùng khi thêm một ý ngoài chủ đề.","*BTW*, are you free tomorrow?","Nhân tiện, mai bạn rảnh không?","thân mật","B T W"]
+  ]],
+  ["IDK: không biết. TBH: thật lòng mà nói. IMO: theo ý tôi.", [
+   ["IDK","viết tắt","ˌaɪ.diːˈkeɪ",null,"không biết (I don't know)","Trả lời nhanh khi nhắn tin; hơi cộc nếu dùng với người lớn.","*IDK*, maybe we should ask Anna.","Mình không biết, có lẽ nên hỏi Anna.","thân mật","I D K"],
+   ["TBH","viết tắt","ˌtiː.biːˈeɪtʃ",null,"thật lòng mà nói","To Be Honest. Đứng trước một ý kiến thẳng thắn.","*TBH*, I didn't like the movie.","Thật lòng mà nói, mình không thích bộ phim.","thân mật","T B H"],
+   ["IMO","viết tắt","ˌaɪ.emˈoʊ","ˌaɪ.emˈəʊ","theo ý kiến của tôi","In My Opinion. Làm lời chê, lời góp ý nghe mềm hơn.","*IMO*, we should leave early.","Theo ý mình thì nên đi sớm.","thân mật","I M O"]
+  ]],
+  ["BFF: bạn thân mãi mãi. FOMO: nỗi sợ bỏ lỡ. GOAT: người xuất sắc nhất mọi thời đại. YOLO: đời chỉ sống một lần.", [
+   ["BFF","viết tắt","ˌbiː.efˈef",null,"bạn thân mãi mãi","Best Friends Forever.","She's my *BFF*.","Cô ấy là bạn thân nhất của mình.","thân mật","B F F"],
+   ["FOMO","viết tắt","ˈfoʊ.moʊ","ˈfəʊ.məʊ","nỗi sợ bỏ lỡ","Fear Of Missing Out. Cảm giác lo bị bỏ lại khi thấy người khác vui.","I went to the party because of *FOMO*.","Mình đi dự tiệc vì sợ bỏ lỡ.","tiếng lóng","fomo"],
+   ["GOAT","viết tắt","ɡoʊt","ɡəʊt","người xuất sắc nhất mọi thời đại","Greatest Of All Time. Trùng chữ với goat là con dê.","Many fans call him the *GOAT*.","Nhiều người hâm mộ gọi anh ấy là huyền thoại.","tiếng lóng","goat"],
+   ["YOLO","viết tắt","ˈjoʊ.loʊ","ˈjəʊ.ləʊ","đời chỉ sống một lần, cứ liều","You Only Live Once. Hay dùng để biện hộ cho việc làm bốc đồng.","Let's try the zip line, *YOLO*!","Thử đu dây đi, đời chỉ sống một lần!","tiếng lóng","yolo"]
+  ]],
+  ["ATM: máy rút tiền. PIN: mã bảo mật. ID: giấy tờ tùy thân. DIY: tự làm lấy.", [
+   ["ATM","viết tắt","ˌeɪ.tiːˈem",null,"máy rút tiền tự động","Automated Teller Machine.","I need to find an *ATM*.","Tôi cần tìm một máy ATM.","trung tính","A T M"],
+   ["PIN","viết tắt","pɪn",null,"mã PIN (mã bảo mật)","Personal Identification Number. Nhiều người nói PIN number dù thừa chữ number.","Enter your *PIN* to continue.","Nhập mã PIN để tiếp tục.","trung tính","pin"],
+   ["ID","viết tắt","ˌaɪˈdiː",null,"giấy tờ tùy thân","Identification: thẻ, hộ chiếu dùng để chứng minh bạn là ai.","Please show your *ID* at the door.","Vui lòng xuất trình giấy tờ tùy thân ở cửa.","trung tính","I D"],
+   ["DIY","viết tắt","ˌdiː.aɪˈwaɪ",null,"tự làm lấy","Do It Yourself. Tự làm, tự sửa thay vì thuê người.","We built the shelf as a *DIY* project.","Bọn mình tự làm cái kệ này.","trung tính","D I Y"]
+  ]]
+ ],
+ search18: [
+  ["chest: ngực nói chung, trung tính, cả nam lẫn nữ. breast: ngực phụ nữ, cách nói lịch sự hoặc y khoa. boobs: thô tục, thân mật. tits: rất thô tục.", [
+   ["chest","danh từ","tʃest",null,"ngực, lồng ngực","Trung tính, chỉ vùng từ dưới cổ đến phần ngực trên, dùng cho cả nam và nữ.","He felt a sharp pain in his *chest*.","Anh ấy thấy đau nhói ở ngực.","trung tính"],
+   ["breast","danh từ","brest",null,"ngực, bầu ngực (phụ nữ)","Chỉ phần ngực bao gồm cả vòng một của phụ nữ. Đôi khi là cách nói lịch sự để chỉ vòng một; hay gặp trong y khoa.","Regular screening helps detect *breast* cancer early.","Khám sàng lọc định kỳ giúp phát hiện sớm ung thư vú.","lịch sự, y khoa"],
+   ["boobs","danh từ","buːbz",null,"vú, ngực (nói thô tục)","Từ thô tục chỉ thẳng vào vòng một của phụ nữ. Không dùng thường xuyên trong giao tiếp lịch sự.","It is rude to joke about someone's *boobs* at work.","Đùa về vòng một của ai đó ở nơi làm việc là thiếu lịch sự.","thô tục, thân mật"],
+   ["tits","danh từ","tɪts",null,"vú (rất thô tục)","Thô hơn boobs, dễ gây xúc phạm. Chủ yếu nhận ra khi nghe nhạc, xem phim.","The comedian was criticized for using the word *tits* on a family show.","Danh hài bị chỉ trích vì dùng từ tits trong chương trình gia đình.","rất thô tục"]
+  ]],
+  ["sex: trung tính, kỹ thuật. have sex: cách nói thông thường, trực tiếp. make love: lãng mạn, có tình cảm. sleep with: nói tránh. hook up: tiếng lóng, không ràng buộc. fuck: rất thô tục, dễ xúc phạm.", [
+   ["sex","danh từ","seks",null,"giới tính; quan hệ tình dục","Từ trung tính, dùng trong y khoa, giáo dục và biểu mẫu: sex education, the sex of the baby.","The form asks for your name, age and *sex*.","Mẫu đơn yêu cầu họ tên, tuổi và giới tính.","trung tính"],
+   ["have sex","cụm động từ","hæv seks",null,"quan hệ tình dục","Cách nói trực tiếp và trung tính. Dùng được trong y tế, báo chí và đời sống.","Doctors advise couples to use protection when they *have sex*.","Bác sĩ khuyên các cặp đôi dùng biện pháp bảo vệ khi quan hệ tình dục.","trung tính"],
+   ["make love","cụm động từ","meɪk lʌv",null,"làm tình, ân ái","Lãng mạn, nhẹ nhàng, nhấn vào tình cảm giữa hai người. Hay gặp trong văn chương, phim ảnh.","They *made love* for the first time on their wedding night.","Họ ân ái lần đầu tiên vào đêm tân hôn.","lãng mạn, lịch sự"],
+   ["sleep with","cụm động từ","sliːp wɪð",null,"ngủ với, qua đêm với (nói tránh)","Cách nói giảm nói tránh. Nghĩa đen là ngủ cạnh nhau, ngữ cảnh quyết định nghĩa.","He admitted that he had *slept with* his coworker.","Anh ấy thừa nhận đã ngủ với đồng nghiệp.","nói tránh"],
+   ["hook up","cụm động từ","hʊk ʌp",null,"qua lại chớp nhoáng (tiếng lóng); kết nối","Tiếng lóng thân mật và mơ hồ: có thể chỉ hôn hít hoặc quan hệ, không ràng buộc. Không dùng nơi trang trọng.","They *hooked up* at a party last weekend.","Họ qua lại với nhau ở một bữa tiệc cuối tuần trước.","tiếng lóng"],
+   ["fuck","động từ","fʌk",null,"quan hệ tình dục (nói rất thô tục); tiếng chửi thề","Rất thô tục, dễ xúc phạm. Tránh dùng với người lạ, nơi làm việc, văn bản trang trọng. Chủ yếu cần nhận ra khi xem phim, nghe nhạc.","Never use *fuck* in a job interview; it sounds very offensive.","Đừng bao giờ dùng từ fuck trong buổi phỏng vấn xin việc, nghe rất xúc phạm.","thô tục, xúc phạm"]
+  ]],
+  ["damn: chửi nhẹ khi bực. crap: thô nhưng nhẹ hơn shit. shit: mạnh, thô tục. Mức nặng nhất là fuck (xem nhóm quan hệ tình dục).", [
+   ["damn","thán từ","dæm",null,"chết tiệt, đáng ghét (chửi nhẹ)","Chửi nhẹ khi bực mình; thường chấp nhận được với bạn bè, nhưng nên tránh nơi trang trọng.","*Damn*, I forgot my keys again!","Chết tiệt, tôi lại quên chìa khóa rồi!","thân mật, hơi thô"],
+   ["crap","danh từ","kræp",null,"đồ tồi, rác rưởi; chết tiệt","Thô nhưng nhẹ hơn shit. Dùng cho thứ chất lượng kém hoặc khi bực.","I spent all day cleaning up this *crap*.","Tôi mất cả ngày dọn đống rác rưởi này.","thân mật, hơi thô"],
+   ["shit","danh từ","ʃɪt",null,"phân; chết tiệt (chửi thề mạnh)","Thô tục, không dùng nơi trang trọng. Nghĩa đen là phân, nghĩa bóng là chửi thề.","Oh *shit*, I missed the last bus!","Chết tiệt, tôi lỡ chuyến xe buýt cuối rồi!","thô tục"]
+  ]],
+  ["penis: từ y khoa, trung tính. dick: thô tục; cũng là từ chửi người.", [
+   ["penis","danh từ","ˈpiː.nɪs",null,"dương vật","Từ y khoa, trung tính, dùng trong sách giáo khoa và nói chuyện nghiêm túc.","Biology textbooks use the word *penis*, not slang.","Sách sinh học dùng từ penis, không dùng từ lóng.","y khoa, trung tính"],
+   ["dick","danh từ","dɪk",null,"dương vật (thô tục); đồ khốn","Thô tục khi chỉ bộ phận cơ thể. Dùng chửi người: be a dick nghĩa là cư xử khốn nạn.","Don't be a *dick* to your coworkers.","Đừng cư xử khốn nạn với đồng nghiệp.","thô tục"]
+  ]],
+  ["vagina: từ y khoa, trung tính. pussy: thô tục; cũng dùng chê ai nhát gan.", [
+   ["vagina","danh từ","vəˈdʒaɪ.nə",null,"âm đạo","Từ y khoa, trung tính. Dùng trong giáo dục giới tính và khám chữa bệnh.","A nurse explained how the *vagina* is part of the reproductive system.","Một y tá giải thích âm đạo là một phần của hệ sinh sản.","y khoa, trung tính"],
+   ["pussy","danh từ","ˈpʊs.i",null,"âm hộ (thô tục); đồ nhát gan","Thô tục khi chỉ bộ phận cơ thể. Dùng chê ai nhát gan. Nghĩa trẻ con: mèo con, nhưng dễ gây hiểu lầm.","In slang, calling someone a *pussy* means they are a coward.","Trong tiếng lóng, gọi ai đó là pussy nghĩa là chê họ nhát gan.","thô tục"]
+  ]],
+  ["buttocks: trang trọng, y khoa. bottom: lịch sự, hơi trẻ con. butt: thân mật, hay dùng ở Mỹ. ass: thô tục (người Anh nói arse).", [
+   ["buttocks","danh từ","ˈbʌt.əks",null,"mông","Trang trọng, hay gặp trong y khoa, thể hình.","The injection goes into the *buttocks*.","Mũi tiêm được tiêm vào mông.","trang trọng, y khoa"],
+   ["bottom","danh từ","ˈbɑː.t̬əm","ˈbɒt.əm","mông (nói nhẹ nhàng)","Cách nói lịch sự, hơi trẻ con. Nghĩa thường là đáy, phía dưới.","The baby fell on his *bottom*.","Em bé ngã ngồi xuống mông.","lịch sự, trẻ con"],
+   ["butt","danh từ","bʌt",null,"mông (thân mật)","Thân mật, thông dụng ở Mỹ; không thô nhưng chưa trang trọng.","I fell on my *butt* on the ice.","Tôi ngã dập mông trên băng.","thân mật"],
+   ["ass","danh từ","æs",null,"mông (thô tục); cũng là từ chửi","Thô tục. Ở Anh nói arse. Nghĩa cổ là con lừa, rất ít dùng trong đời thường.","Don't say *ass* in front of the teacher.","Đừng nói từ ass trước mặt thầy giáo.","thô tục"]
+  ]],
+  ["pee: thân mật, rất phổ biến. urinate: y khoa, trang trọng. piss: thô tục. wee: trẻ con, kiểu Anh.", [
+   ["pee","động từ","piː",null,"đi tiểu","Thân mật, dùng phổ biến, không quá thô.","I need to *pee* before the movie.","Tôi cần đi tiểu trước khi xem phim.","thân mật"],
+   ["urinate","động từ","ˈjʊr.ə.neɪt","ˈjʊə.rɪ.neɪt","tiểu tiện","Từ y khoa, trang trọng.","The patient was asked to *urinate* into a cup.","Bệnh nhân được yêu cầu tiểu vào cốc.","y khoa"],
+   ["piss","động từ","pɪs",null,"đái (thô tục)","Thô tục. Piss off nghĩa là làm bực mình hoặc bảo ai đó biến đi.","Don't *piss* me off!","Đừng chọc tôi nổi điên!","thô tục"],
+   ["wee","động từ","wiː",null,"đi tè (nói trẻ con)","Cách nói nhẹ nhàng, hơi trẻ con, hay gặp ở Anh.","The little boy needs a *wee*.","Cậu bé cần đi tè.","trẻ con"]
+  ]],
+  ["stupid: ngu ngốc, trung tính nhưng dễ làm mất lòng. idiot: đồ ngốc, xúc phạm. moron: đồ đần, xúc phạm nặng. asshole: đồ khốn, thô tục.", [
+   ["stupid","tính từ","ˈstuː.pɪd","ˈstjuː.pɪd","ngu ngốc, dại dột","Dùng cho hành động hoặc ý tưởng. Nói thẳng vào người khác thì dễ xúc phạm.","That was a *stupid* mistake.","Đó là một sai lầm ngu ngốc.","trung tính, dễ mất lòng"],
+   ["idiot","danh từ","ˈɪd.i.ət",null,"đồ ngốc","Xúc phạm nhưng thường nhẹ khi đùa giữa bạn bè thân.","Don't be an *idiot*.","Đừng có ngốc thế.","xúc phạm nhẹ"],
+   ["moron","danh từ","ˈmɔːr.ɑːn","ˈmɔː.rɒn","đồ đần","Trước đây là thuật ngữ y học, nay lỗi thời và mang tính xúc phạm nặng.","Calling someone a *moron* is insulting.","Gọi ai đó là đồ đần là xúc phạm.","xúc phạm"],
+   ["asshole","danh từ","ˈæs.hoʊl","ˈɑːs.həʊl","đồ khốn, thằng khốn","Thô tục, dùng chửi người cư xử tệ. Không dùng nơi lịch sự.","He's such an *asshole* to his staff.","Ông ta cư xử khốn nạn với nhân viên.","thô tục, xúc phạm"]
+  ]],
+  ["prostitute: trang trọng, mang tính pháp lý. sex worker: trung lập, tôn trọng hơn. escort: uyển ngữ, có thể ám chỉ dịch vụ tình dục. hooker: thô tục, dễ xúc phạm.", [
+   ["prostitute","danh từ","ˈprɑː.stə.tuːt","ˈprɒs.tɪ.tjuːt","người bán dâm","Từ chính thức trong luật và báo chí; mang sắc thái tiêu cực nhẹ.","In some countries, it is illegal to hire a *prostitute*.","Ở một số nước, thuê người bán dâm là bất hợp pháp.","trang trọng"],
+   ["sex worker","danh từ","ˈseks ˌwɝː.kɚ","ˈseks ˌwɜː.kə","người hành nghề mại dâm (cách gọi trung lập)","Cách gọi tôn trọng, nhấn vào đây là một công việc.","Many *sex workers* want the same labor rights as other workers.","Nhiều người hành nghề mại dâm muốn có quyền lao động như người khác.","trung lập, tôn trọng"],
+   ["escort","danh từ","ˈes.kɔːrt","ˈes.kɔːt","người đi cùng có thu phí (uyển ngữ)","Nghĩa gốc là người hộ tống; trong ngữ cảnh dịch vụ có thể ám chỉ mại dâm.","He worked as an *escort*, but says he only accompanied clients to dinners.","Anh ta làm nghề escort nhưng nói chỉ đi cùng khách ăn tối.","uyển ngữ"],
+   ["hooker","danh từ","ˈhʊk.ɚ","ˈhʊk.ə","gái điếm (thô tục, xúc phạm)","Tiếng lóng thô, dễ xúc phạm; nên dùng prostitute hoặc sex worker.","Calling her a *hooker* was deeply offensive.","Gọi cô ấy là gái điếm là lăng mạ nặng nề.","xúc phạm"]
+  ]]
+ ],
+ slang18: [
+  ["hot: nóng bỏng, hấp dẫn thể chất. sexy: gợi cảm, quyến rũ. hottie: người rất hấp dẫn, thân mật.", [
+   ["hot","tính từ","hɑːt","hɒt","nóng bỏng, hấp dẫn","Nghĩa lóng: ngoại hình thu hút. Nghĩa thường là nóng. Nói về người thì thân mật, đôi khi suồng sã.","Everyone says the new actor is *hot*.","Ai cũng bảo nam diễn viên mới rất nóng bỏng.","tiếng lóng"],
+   ["sexy","tính từ","ˈsek.si",null,"gợi cảm, quyến rũ","Khen vẻ quyến rũ về mặt tình dục; cũng dùng cho thứ hấp dẫn: a sexy car.","She wore a *sexy* red dress.","Cô ấy mặc chiếc váy đỏ gợi cảm.","trung tính"],
+   ["hottie","danh từ","ˈhɑː.t̬i","ˈhɒt.i","người hấp dẫn, “nóng bỏng”","Tiếng lóng thân mật, có thể suồng sã.","The guy at the gym is a total *hottie*.","Anh chàng ở phòng gym đúng là mẫu người nóng bỏng.","thân mật"]
+  ]],
+  ["one-night stand: tình một đêm. fling: mối tình chóng vánh. booty call: gọi nhau chỉ để quan hệ. friends with benefits: bạn bè có quan hệ thể xác.", [
+   ["one-night stand","danh từ","ˌwʌn.naɪt ˈstænd",null,"tình một đêm","Quan hệ tình dục một lần, không có ý tiếp tục.","It was just a *one-night stand*.","Chỉ là tình một đêm thôi.","thân mật"],
+   ["fling","danh từ","flɪŋ",null,"mối tình chóng vánh","Mối quan hệ ngắn, vui vẻ, không nghiêm túc; nhẹ hơn one-night stand.","She had a summer *fling* with a surfer.","Cô ấy có một mối tình mùa hè chóng vánh với một chàng lướt sóng.","thân mật"],
+   ["booty call","danh từ","ˈbuː.t̬i ˌkɔːl","ˈbuː.ti ˌkɔːl","cuộc gọi hẹn quan hệ","Tiếng lóng: gọi hoặc nhắn ai đó chỉ để hẹn quan hệ, thường vào đêm muộn.","A text at 2 a.m. is usually a *booty call*.","Tin nhắn lúc hai giờ sáng thường là hẹn quan hệ.","tiếng lóng"],
+   ["friends with benefits","danh từ","ˌfrendz wɪð ˈben.ɪ.fɪts",null,"bạn tình (bạn bè có quan hệ thể xác)","Bạn bè kèm quan hệ tình dục, không cam kết yêu đương; viết tắt FWB.","They are *friends with benefits*, not a couple.","Họ là bạn tình, không phải một cặp.","tiếng lóng"]
+  ]],
+  ["aroused: bị kích thích, trang trọng hoặc y khoa. turned on: bị kích thích, thân mật. horny: thèm muốn tình dục, thô và trực tiếp.", [
+   ["aroused","tính từ","əˈraʊzd",null,"bị kích thích, bị khơi gợi","Dùng trong y khoa, tâm lý; nghĩa chung là bị khuấy động cảm xúc.","The study measured how *aroused* participants felt.","Nghiên cứu đo mức độ kích thích của người tham gia.","trang trọng, y khoa"],
+   ["turned on","tính từ","ˌtɝːnd ˈɑːn","ˌtɜːnd ˈɒn","bị kích thích, bị cuốn hút","Cách nói thông dụng, nhẹ hơn horny. Turn on còn nghĩa là bật thiết bị.","Confident people really *turn* me *on*.","Những người tự tin khiến tôi rất bị cuốn hút.","thân mật"],
+   ["horny","tính từ","ˈhɔːr.ni","ˈhɔː.ni","thèm muốn tình dục","Nói thẳng về ham muốn, không dùng nơi lịch sự.","He admitted he was feeling *horny* and lonely.","Anh ấy thú nhận mình đang cô đơn và thèm muốn.","thô tục"]
+  ]],
+  ["tipsy: hơi say, vui vẻ. buzzed: lâng lâng nhẹ. drunk: say, nói chung. wasted: say bí tỉ, thân mật. hammered: say xỉn, rất say.", [
+   ["tipsy","tính từ","ˈtɪp.si",null,"hơi say, chếnh choáng","Say nhẹ, vẫn còn tỉnh táo, thường mang sắc thái vui vẻ.","I'm a little *tipsy*, so I'll take a taxi.","Tôi hơi chếnh choáng nên sẽ đi taxi.","thân mật"],
+   ["buzzed","tính từ","bʌzd",null,"lâng lâng (hơi men)","Hơi say nhẹ, cảm giác vui và thoải mái.","After one beer, I felt *buzzed*.","Sau một cốc bia tôi thấy lâng lâng.","thân mật"],
+   ["drunk","tính từ","drʌŋk",null,"say rượu","Từ trung tính, dùng cho mọi mức độ say.","Never drive when you're *drunk*.","Đừng bao giờ lái xe khi say.","trung tính"],
+   ["wasted","tính từ","ˈweɪ.stɪd",null,"say bí tỉ","Say nặng, thân mật. Nghĩa thường là lãng phí.","We got totally *wasted* at the wedding.","Bọn tôi say bí tỉ ở đám cưới.","tiếng lóng"],
+   ["hammered","tính từ","ˈhæm.ɚd","ˈhæm.əd","say xỉn","Say rất nặng, tiếng lóng thông dụng.","He was *hammered* by midnight.","Đến nửa đêm anh ta đã say xỉn.","tiếng lóng"]
+  ]]
+ ],
+ abbr18: [
+  ["NSFW: nội dung nhạy cảm, không nên xem nơi làm việc. FWB: bạn tình. NSA: quan hệ không ràng buộc.", [
+   ["NSFW","viết tắt","ˌen.es.efˈdʌb.əl.juː",null,"nội dung nhạy cảm, không nên xem ở nơi làm việc","Not Safe For Work. Cảnh báo ảnh, video, bài viết có nội dung người lớn.","Warning: this link is *NSFW*.","Cảnh báo: đường link này có nội dung nhạy cảm.","thân mật","N S F W"],
+   ["FWB","viết tắt","ˌef.dʌb.əl.juːˈbiː",null,"bạn tình","Friends With Benefits.","They are *FWB*, nothing more.","Họ chỉ là bạn tình, không hơn.","tiếng lóng","F W B"],
+   ["NSA","viết tắt","ˌen.esˈeɪ",null,"không ràng buộc (no strings attached)","Trong chuyện tình cảm là không cam kết. Cũng là tên cơ quan an ninh Mỹ.","She wants something casual, *NSA*.","Cô ấy muốn mối quan hệ thoải mái, không ràng buộc.","tiếng lóng","N S A"]
+  ]],
+  ["WTF: cái quái gì vậy. STFU: câm miệng đi. IDGAF: tôi chẳng thèm quan tâm. Cả ba đều thô, chỉ dùng thân mật.", [
+   ["WTF","viết tắt","ˌdʌb.əl.juː.tiːˈef",null,"cái quái gì thế","What The F***. Ngạc nhiên hoặc bực tức mạnh.","*WTF*, why is the door open?","Cái quái gì thế, sao cửa lại mở?","thô tục","W T F"],
+   ["STFU","viết tắt","ˌes.tiː.efˈjuː",null,"câm miệng đi (rất thô, xúc phạm)","Shut The F*** Up. Rất cộc lốc, dễ gây cãi vã.","Telling a coworker *STFU* can get you fired.","Bảo đồng nghiệp STFU có thể khiến bạn bị sa thải.","thô tục, xúc phạm","S T F U"],
+   ["IDGAF","viết tắt","ˌaɪ.diː.dʒiː.eɪˈef",null,"tôi chẳng thèm quan tâm","I Don't Give A F***. Thể hiện thái độ phớt lờ, bất cần.","He posted *IDGAF* under the critics' comments.","Anh ấy viết IDGAF dưới các bình luận chê bai.","thô tục","I D G A F"]
+  ]],
+  ["LMAO: cười rụng rốn, hơi thô. LMFAO: cười muốn rụng mông, mạnh nhất.", [
+   ["LMAO","viết tắt","ˌel.em.eɪˈoʊ","ˌel.em.eɪˈəʊ","cười rụng rốn","Laughing My A** Off. Mạnh hơn LOL, hơi thô.","*LMAO*, did you see his face?","Cười rụng rốn, cậu thấy mặt anh ta chưa?","thân mật, hơi thô","L M A O"],
+   ["LMFAO","viết tắt","ˌel.em.ef.eɪˈoʊ","ˌel.em.ef.eɪˈəʊ","cười muốn rụng mông (thô tục)","Laughing My F***ing A** Off. Mức mạnh nhất, thô tục.","*LMFAO*, he fell in the pool!","Cười chết mất, anh ta ngã xuống hồ bơi!","thô tục","L M F A O"]
+  ]]
+ ]
 
-const groups = DATA.map(g => ({
-  tip: g[0],
-  adult: !!g[2],
-  words: g[1].map(a => ({ w: a[0], pos: a[1], us: a[2], uk: a[3] || a[2], same: !a[3], vi: a[4], use: a[5], ex: a[6], exVi: a[7] }))
-}));
+};
+
+/* ---- Cấu trúc chuyên mục ---- */
+const SECTIONS = [
+  { id: "search", label: "Tìm từ", adult: false, defReg: "trung tính" },
+  { id: "slang", label: "Tiếng lóng", adult: false, defReg: "tiếng lóng" },
+  { id: "idiom", label: "Thành ngữ", adult: false, defReg: "thân mật" },
+  { id: "abbr", label: "Viết tắt", adult: false, defReg: "trung tính" },
+  { id: "search18", label: "Tìm từ", adult: true, defReg: "trung tính" },
+  { id: "slang18", label: "Tiếng lóng", adult: true, defReg: "tiếng lóng" },
+  { id: "abbr18", label: "Viết tắt", adult: true, defReg: "tiếng lóng" }
+];
+const FORMAL = ["large", "request", "select", "obtain", "receive", "recall", "provide", "occupation", "seek", "voyage", "rapid", "begin"];
+const CASUAL = ["big", "pick", "get"];
 
 const norm = s => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/đ/g, "d").replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
 const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const hl = s => esc(s).replace(/\*(.+?)\*/g, "<mark>$1</mark>");
 const slug = s => norm(s).replace(/ /g, "-");
+const $ = id => document.getElementById(id);
+
+function mk(a, s) {
+  let reg = a[8];
+  if (!reg) {
+    reg = s.defReg;
+    if (s.id === "search") { if (FORMAL.indexOf(a[0]) >= 0) reg = "trang trọng"; else if (CASUAL.indexOf(a[0]) >= 0) reg = "thân mật"; }
+  }
+  return { w: a[0], pos: a[1], us: a[2], uk: a[3] || a[2], same: !a[3], vi: a[4], use: a[5], ex: a[6], exVi: a[7], reg: reg, say: a[9] || a[0] };
+}
+const SEC = {};
+SECTIONS.forEach(s => {
+  s.groups = D[s.id].map(g => ({ tip: g[0], words: g[1].map(a => mk(a, s)) }));
+  SEC[s.id] = s;
+});
 
 const index = [];
-groups.forEach((g, gi) => g.words.forEach(w => index.push({ gi, w: w.w, nw: norm(w.w), nvi: norm(w.vi), vi: w.vi, adult: g.adult })));
+SECTIONS.forEach(s => s.groups.forEach((g, gi) => g.words.forEach(w => {
+  const n = norm(w.w);
+  index.push({ sec: s.id, gi: gi, w: w.w, nw: n, nwc: n.replace(/ /g, ""), nvi: norm(w.vi), vi: w.vi, adult: s.adult });
+})));
 
-const state = { gi: 0, active: "see", accent: "us", slow: false, adultOk: false };
-try { state.adultOk = localStorage.getItem("ctcw_adult") === "1"; } catch (e) {}
-const $ = id => document.getElementById(id);
+const state = { sec: "search", gi: 0, active: "see", hit: "see", accent: "us", slow: false, adult: false, show18: true };
+const visible = id => !SEC[id].adult || (state.adult && state.show18);
+
+/* ---- Tuổi người dùng ---- */
+function isAdult(y, m) {
+  const d = new Date(), cy = d.getFullYear(), cm = d.getMonth() + 1;
+  const diff = cy - y;
+  return diff > 18 || (diff === 18 && cm > m);
+}
+function readBirth() {
+  try {
+    const b = JSON.parse(localStorage.getItem("ctcw_birth") || "null");
+    if (b && b.y >= 1900 && b.m >= 1 && b.m <= 12 && b.y <= new Date().getFullYear()) return b;
+  } catch (e) {}
+  return null;
+}
+function applyAge(b) {
+  state.adult = isAdult(b.y, b.m);
+  let pref = "1";
+  try { pref = localStorage.getItem("ctcw_show18") || "1"; } catch (e) {}
+  state.show18 = pref !== "0";
+  syncTools();
+}
+function syncTools() {
+  $("t18").hidden = !state.adult;
+  $("chg").hidden = !state.adult;
+  $("t18").setAttribute("aria-pressed", state.show18 ? "true" : "false");
+}
+
+/* ---- Hộp hỏi năm sinh ---- */
+let firstRun = false;
+function fillAgeForm() {
+  const cy = new Date().getFullYear();
+  let h = '<option value="">Chọn</option>';
+  for (let m = 1; m <= 12; m++) h += '<option value="' + m + '">Tháng ' + m + '</option>';
+  $("bm").innerHTML = h;
+  h = '<option value="">Chọn</option>';
+  for (let y = cy; y >= cy - 90; y--) h += '<option value="' + y + '">' + y + '</option>';
+  $("by").innerHTML = h;
+}
+function openGate(first) {
+  firstRun = first;
+  fillAgeForm();
+  $("ageErr").textContent = "";
+  $("ageCancel").hidden = first;
+  $("agegate").hidden = false;
+  $("app").hidden = first;
+  try { $("app").inert = true; } catch (e) {}
+  setTimeout(() => { try { $("bm").focus(); } catch (e) {} }, 50);
+}
+function closeGate() {
+  $("agegate").hidden = true;
+  $("app").hidden = false;
+  try { $("app").inert = false; } catch (e) {}
+}
+$("ageGo").addEventListener("click", () => {
+  const m = +$("bm").value, y = +$("by").value, d = new Date();
+  if (!m || !y) { $("ageErr").textContent = "Hãy chọn cả tháng và năm sinh."; return; }
+  if (y > d.getFullYear() || (y === d.getFullYear() && m > d.getMonth() + 1)) { $("ageErr").textContent = "Năm sinh này chưa hợp lệ."; return; }
+  const b = { y: y, m: m };
+  try { localStorage.setItem("ctcw_birth", JSON.stringify(b)); } catch (e) {}
+  applyAge(b);
+  closeGate();
+  if (firstRun) {
+    start();
+    if (!state.adult) toast("Đã lưu. Nội dung chỉ dành cho người từ 18 tuổi được ẩn.");
+  } else {
+    buildMenu();
+    if (!visible(state.sec)) show("search", 0, null, null); else render();
+  }
+});
+$("ageCancel").addEventListener("click", closeGate);
+$("chg").addEventListener("click", () => openGate(false));
+$("t18").addEventListener("click", () => {
+  state.show18 = !state.show18;
+  try { localStorage.setItem("ctcw_show18", state.show18 ? "1" : "0"); } catch (e) {}
+  syncTools();
+  buildMenu();
+  if (!visible(state.sec)) show("search", 0, null, null); else render();
+});
+
+/* ---- Hiển thị ---- */
+function regClass(r) {
+  if (/thô tục|xúc phạm/.test(r)) return "vulgar";
+  if (/thân mật|lóng|trẻ con|uyển ngữ|nói tránh/.test(r)) return "casual";
+  if (/trang trọng|y khoa|pháp lý/.test(r)) return "formal";
+  return "";
+}
 const ICON = '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
-
 function spk(text, lang, label) {
   return '<button type="button" class="spk" data-say="' + esc(text) + '" data-lang="' + lang + '" aria-label="Nghe ' + esc(label) + '">' + ICON + '<span>' + label + '</span></button>';
 }
-
 function cardHTML(w, hit) {
-  const wordLabel = n => n;
   let ipa;
-  if (w.same) {
-    ipa = '<div class="ipa"><span class="sym">/' + esc(w.us) + '/</span><span class="btns">' +
-      spk(w.w, "en-US", "US") + spk(w.w, "en-GB", "UK") + '</span></div>';
+  if (!w.us) {
+    ipa = '<div class="ipa"><span class="btns">' + spk(w.say, "en-US", "US") + spk(w.say, "en-GB", "UK") + '</span></div>';
+  } else if (w.same) {
+    ipa = '<div class="ipa"><span class="sym">/' + esc(w.us) + '/</span><span class="btns">' + spk(w.say, "en-US", "US") + spk(w.say, "en-GB", "UK") + '</span></div>';
   } else {
-    ipa = '<div class="ipa"><span class="sym">US /' + esc(w.us) + '/</span><span class="btns">' + spk(w.w, "en-US", "US") + '</span></div>' +
-          '<div class="ipa"><span class="sym">UK /' + esc(w.uk) + '/</span><span class="btns">' + spk(w.w, "en-GB", "UK") + '</span></div>';
+    ipa = '<div class="ipa"><span class="sym">US /' + esc(w.us) + '/</span><span class="btns">' + spk(w.say, "en-US", "US") + '</span></div>' +
+          '<div class="ipa"><span class="sym">UK /' + esc(w.uk) + '/</span><span class="btns">' + spk(w.say, "en-GB", "UK") + '</span></div>';
   }
   const plain = w.ex.replace(/\*/g, "");
+  const rc = regClass(w.reg);
   return '<article class="card' + (hit ? " hit" : "") + '">' +
-    '<div class="top"><div><h3>' + esc(w.w) + '</h3><span class="pos">' + esc(w.pos) + '</span></div>' + (hit ? '<span class="flag">Từ bạn tìm</span>' : "") + '</div>' +
+    '<div class="top"><div><h3>' + esc(w.w) + '</h3><div class="tags"><span class="pos">' + esc(w.pos) + '</span><span class="reg ' + rc + '">' + esc(w.reg) + '</span></div></div>' + (hit ? '<span class="flag">Từ bạn tìm</span>' : "") + '</div>' +
     '<div class="ipas">' + ipa + '</div>' +
     '<p class="vi">' + esc(w.vi) + '</p>' +
-    '<p class="use">' + esc(w.use) + '</p>' +
+    '<p class="use"><b>Sắc thái và cách dùng</b>' + esc(w.use) + '</p>' +
     '<div class="exbox"><p class="ex">' + hl(w.ex) + '</p>' +
     '<button type="button" class="spk" data-say="' + esc(plain) + '" data-lang="auto" aria-label="Nghe câu ví dụ">' + ICON + '<span>Nghe câu ví dụ</span></button>' +
     '<p class="exvi">' + esc(w.exVi) + '</p></div></article>';
 }
-
+function buildMenu() {
+  $("menu").innerHTML = SECTIONS.filter(s => visible(s.id)).map(s =>
+    '<button type="button" role="tab" class="tab" data-sec="' + s.id + '" aria-selected="false">' + esc(s.label) + (s.adult ? ' <span class="age">18+</span>' : "") + '</button>').join("");
+}
+function buildChips() {
+  $("chips").innerHTML = SEC[state.sec].groups.map((g, i) =>
+    '<button type="button" class="chip" data-gi="' + i + '" aria-pressed="false">' + g.words.map(w => esc(w.w)).join(" · ") + '</button>').join("");
+}
 function render() {
-  const g = groups[state.gi];
-  if (g.adult && !state.adultOk) {
-    $("result").innerHTML = '<div class="head"><h2>Nội dung 18+</h2>' +
-      '<p class="rule"><b>Cần xác nhận</b>Nhóm này giải thích từ vựng về tình dục và chửi thề để bạn phân biệt mức độ lịch sự và tránh dùng nhầm. Chỉ dành cho người từ 18 tuổi trở lên.</p>' +
-      '<p><button type="button" class="go gate" id="gateBtn">Tôi đủ 18 tuổi, xem nội dung</button></p></div>';
-    document.querySelectorAll(".chip").forEach((c, i) => c.setAttribute("aria-pressed", i === state.gi ? "true" : "false"));
-    return;
-  }
-  const titles = g.words.map(w => '<span' + (w.w === state.active ? ' class="hit-word"' : "") + '>' + esc(w.w) + '</span>').join("<i>·</i>");
+  const g = SEC[state.sec].groups[state.gi];
+  const titles = g.words.map(w => '<span' + (w.w === state.hit ? ' class="hit-word"' : "") + '>' + esc(w.w) + '</span>').join("<i>·</i>");
   $("result").innerHTML =
     '<div class="head"><h2>' + titles + '</h2>' +
     '<p class="rule"><b>Cách chọn</b>' + esc(g.tip) + '</p></div>' +
-    '<div class="grid">' + g.words.map(w => cardHTML(w, w.w === state.active)).join("") + '</div>';
+    '<div class="grid">' + g.words.map(w => cardHTML(w, w.w === state.hit)).join("") + '</div>';
+  document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", t.dataset.sec === state.sec ? "true" : "false"));
   document.querySelectorAll(".chip").forEach((c, i) => c.setAttribute("aria-pressed", i === state.gi ? "true" : "false"));
 }
-
-function show(gi, word, quiet) {
+function show(sec, gi, word, hit, quiet) {
+  if (!visible(sec)) return;
+  const changed = state.sec !== sec || !$("chips").children.length;
+  state.sec = sec;
   state.gi = gi;
-  state.active = word || groups[gi].words[0].w;
-  $("q").value = state.active;
+  state.active = word || SEC[sec].groups[gi].words[0].w;
+  state.hit = hit || null;
+  $("q").value = hit || "";
   $("notice").textContent = "";
+  if (changed) buildChips();
   render();
   if (!quiet) {
     try { history.replaceState(null, "", "#" + slug(state.active)); } catch (e) { try { location.hash = slug(state.active); } catch (e2) {} }
   }
 }
 
+/* ---- Tìm kiếm ---- */
 function search(q) {
   const nq = norm(q);
   if (!nq) return [];
-  const seen = new Set(), out = [];
-  const add = list => list.forEach(e => { const k = e.gi + ":" + e.w; if (!seen.has(k)) { seen.add(k); out.push(e); } });
-  add(index.filter(e => e.nw === nq));
-  add(index.filter(e => e.nw.startsWith(nq)));
-  add(index.filter(e => e.nw.includes(nq)));
-  add(index.filter(e => (!e.adult || state.adultOk) && (e.nvi.split(/[ ]/).some(t => t === nq) || e.nvi.includes(nq))));
+  const nqc = nq.replace(/ /g, "");
+  const pool = index.filter(e => visible(e.sec));
+  const seen = {}, out = [];
+  const add = list => list.forEach(e => { const k = e.sec + ":" + e.gi + ":" + e.w; if (!seen[k]) { seen[k] = 1; out.push(e); } });
+  add(pool.filter(e => e.nw === nq || e.nwc === nqc));
+  add(pool.filter(e => e.nw.indexOf(nq) === 0 || e.nwc.indexOf(nqc) === 0));
+  add(pool.filter(e => e.nw.indexOf(nq) >= 0));
+  add(pool.filter(e => e.nvi.indexOf(nq) >= 0));
   return out;
 }
-
-/* Gợi ý khi gõ */
 let sel = -1, current = [];
 function closeSugg() { $("sugg").hidden = true; $("q").setAttribute("aria-expanded", "false"); $("q").removeAttribute("aria-activedescendant"); sel = -1; }
 function openSugg(list) {
   current = list.slice(0, 8);
   if (!current.length) { closeSugg(); return; }
-  $("sugg").innerHTML = current.map((e, i) => '<li role="option" id="s' + i + '" data-i="' + i + '" aria-selected="false"><span class="sw">' + esc(e.w) + '</span><span class="sv">' + esc(e.adult && !state.adultOk ? "Nội dung 18+" : e.vi) + '</span></li>').join("");
+  $("sugg").innerHTML = current.map((e, i) => '<li role="option" id="s' + i + '" data-i="' + i + '" aria-selected="false"><span class="sw">' + esc(e.w) + (e.adult ? ' <span class="age">18+</span>' : "") + '</span><span class="sv">' + esc(e.vi) + '</span></li>').join("");
   $("sugg").hidden = false;
   $("q").setAttribute("aria-expanded", "true");
   sel = -1;
 }
 function mark(i) {
   sel = i;
-  [...$("sugg").children].forEach((li, k) => li.setAttribute("aria-selected", k === i ? "true" : "false"));
+  [].forEach.call($("sugg").children, (li, k) => li.setAttribute("aria-selected", k === i ? "true" : "false"));
   if (i >= 0) $("q").setAttribute("aria-activedescendant", "s" + i); else $("q").removeAttribute("aria-activedescendant");
 }
-function pick(e) { closeSugg(); show(e.gi, e.w); }
+function pick(e) { closeSugg(); show(e.sec, e.gi, e.w, e.w); }
 
 $("q").addEventListener("input", () => { const v = $("q").value; if (!norm(v)) { closeSugg(); return; } openSugg(search(v)); });
 $("q").addEventListener("focus", () => { $("q").select(); });
@@ -556,21 +931,18 @@ $("sugg").addEventListener("mousedown", ev => {
   ev.preventDefault(); pick(current[+li.dataset.i]);
 });
 document.addEventListener("click", ev => { if (!ev.target.closest(".field")) closeSugg(); });
-
 $("form").addEventListener("submit", ev => {
   ev.preventDefault();
   const q = $("q").value;
   const res = search(q);
   closeSugg();
-  if (res.length) { show(res[0].gi, res[0].w); }
-  else if (norm(q)) { $("notice").textContent = "Chưa có nhóm từ nào chứa “" + q.trim() + "”. Hãy chọn một nhóm bên dưới hoặc thử từ khác."; }
+  if (res.length) show(res[0].sec, res[0].gi, res[0].w, res[0].w);
+  else if (norm(q)) $("notice").textContent = "Chưa có từ nào khớp với “" + q.trim() + "”. Hãy chọn một nhóm bên dưới hoặc thử từ khác.";
 });
+$("chips").addEventListener("click", ev => { const b = ev.target.closest(".chip"); if (b) show(state.sec, +b.dataset.gi, null, null); });
+$("menu").addEventListener("click", ev => { const b = ev.target.closest(".tab"); if (b) show(b.dataset.sec, 0, null, null); });
 
-/* Chips */
-$("chips").innerHTML = groups.map((g, i) => '<button type="button" class="chip" data-gi="' + i + '" aria-pressed="false">' + g.words.map(w => esc(w.w)).join(" · ") + (g.adult ? ' <span class="age">18+</span>' : "") + '</button>').join("");
-$("chips").addEventListener("click", ev => { const b = ev.target.closest(".chip"); if (b) show(+b.dataset.gi); });
-
-/* Giọng đọc: app Android dùng bộ đọc của máy (AndroidTTS), trình duyệt dùng Web Speech */
+/* ---- Giọng đọc: app Android dùng bộ đọc của máy (AndroidTTS), trình duyệt dùng Web Speech ---- */
 const nativeTTS = typeof window.AndroidTTS !== "undefined";
 const webTTS = "speechSynthesis" in window && typeof SpeechSynthesisUtterance !== "undefined";
 const hasTTS = nativeTTS || webTTS;
@@ -624,16 +996,9 @@ function speak(text, lang, btn) {
   setTimeout(() => { try { speechSynthesis.speak(u); } catch (e) { toast("Không phát được âm thanh trên thiết bị này."); } }, 40);
 }
 $("result").addEventListener("click", ev => {
-  if (ev.target.closest("#gateBtn")) {
-    state.adultOk = true;
-    try { localStorage.setItem("ctcw_adult", "1"); } catch (e) {}
-    render();
-    return;
-  }
   const b = ev.target.closest(".spk"); if (!b) return;
   speak(b.dataset.say, b.dataset.lang, b);
 });
-
 function setAccent(a) {
   state.accent = a;
   $("accUS").setAttribute("aria-pressed", a === "us" ? "true" : "false");
@@ -647,19 +1012,26 @@ $("slow").addEventListener("click", () => {
 });
 if (!hasTTS) $("foot").textContent += " Thiết bị hiện tại không hỗ trợ đọc trực tiếp, bạn vẫn xem được phiên âm IPA.";
 
-/* Liên kết theo từ: #see, #put-on */
+/* ---- Liên kết theo từ: #see, #put-on ---- */
 function fromHash() {
   let h = ""; try { h = decodeURIComponent(location.hash.slice(1)); } catch (e) {}
   if (!h) return false;
-  const e = index.find(x => slug(x.w) === h);
-  if (e) { show(e.gi, e.w, true); return true; }
+  const e = index.filter(x => visible(x.sec)).find(x => slug(x.w) === h);
+  if (e) { show(e.sec, e.gi, e.w, e.w, true); return true; }
   return false;
 }
 window.addEventListener("hashchange", fromHash);
-if (!fromHash()) show(0, "see", true);
+
+/* ---- Khởi động ---- */
+function start() {
+  buildMenu();
+  if (!fromHash()) show("search", 0, "see", "see", true);
+}
+const birth = readBirth();
+if (birth) { applyAge(birth); $("app").hidden = false; start(); }
+else { openGate(true); }
 
 if ('serviceWorker' in navigator && location.protocol.indexOf('http') === 0) { navigator.serviceWorker.register('sw.js').catch(function () {}); }
 </script>
-
 </body>
 </html>
