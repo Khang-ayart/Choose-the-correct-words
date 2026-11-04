@@ -142,6 +142,9 @@
     .chips { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 8px; }
   }
 
+  .age { margin-left: 4px; padding: 1px 5px; border-radius: 3px; background: var(--hl); color: var(--hl-ink); font-size: 0.65rem; font-weight: 600; }
+  .gate { height: 48px; margin-top: 8px; }
+
   .tools {
     display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px;
     margin-top: 28px; padding-top: 16px; border-top: 1px solid var(--line);
@@ -421,11 +424,25 @@ const DATA = [
   ["think","động từ","θɪŋk",null,"nghĩ, cho rằng","Ý kiến hoặc suy nghĩ thông thường.","I *think* it's a good idea.","Tôi nghĩ đó là một ý hay."],
   ["believe","động từ","bɪˈliːv",null,"tin, tin rằng","Chắc chắn hơn think; cũng là tin vào ai đó.","I *believe* in you.","Tôi tin bạn."],
   ["consider","động từ","kənˈsɪd.ɚ","kənˈsɪd.ə","cân nhắc, xem xét","Suy nghĩ cẩn thận trước khi quyết định.","We should *consider* all the options.","Chúng ta nên cân nhắc mọi lựa chọn."]
- ]]
+ ]],
+ ["sex: trung tính, kỹ thuật. have sex: cách nói thông thường, trực tiếp. make love: lãng mạn, có tình cảm. sleep with: nói tránh. hook up: tiếng lóng, không ràng buộc. fuck: rất thô tục, dễ xúc phạm.", [
+  ["sex","danh từ","seks",null,"giới tính; quan hệ tình dục","Từ trung tính, dùng trong y khoa, giáo dục và biểu mẫu: sex education, the sex of the baby.","The form asks for your name, age and *sex*.","Mẫu đơn yêu cầu họ tên, tuổi và giới tính."],
+  ["have sex","cụm động từ","hæv seks",null,"quan hệ tình dục","Cách nói trực tiếp và trung tính. Dùng được trong y tế, báo chí và đời sống.","Doctors advise couples to use protection when they *have sex*.","Bác sĩ khuyên các cặp đôi dùng biện pháp bảo vệ khi quan hệ tình dục."],
+  ["make love","cụm động từ","meɪk lʌv",null,"làm tình, ân ái","Lãng mạn, nhẹ nhàng, nhấn vào tình cảm giữa hai người. Hay gặp trong văn chương, phim ảnh.","They *made love* for the first time on their wedding night.","Họ ân ái lần đầu tiên vào đêm tân hôn."],
+  ["sleep with","cụm động từ","sliːp wɪð",null,"ngủ với, qua đêm với (nói tránh)","Cách nói giảm nói tránh. Nghĩa đen là ngủ cạnh nhau, ngữ cảnh quyết định nghĩa.","He admitted that he had *slept with* his coworker.","Anh ấy thừa nhận đã ngủ với đồng nghiệp."],
+  ["hook up","cụm động từ","hʊk ʌp",null,"qua lại chớp nhoáng (tiếng lóng); kết nối","Tiếng lóng thân mật và mơ hồ: có thể chỉ hôn hít hoặc quan hệ, không ràng buộc. Không dùng nơi trang trọng.","They *hooked up* at a party last weekend.","Họ qua lại với nhau ở một bữa tiệc cuối tuần trước."],
+  ["fuck","động từ","fʌk",null,"quan hệ tình dục (nói rất thô tục); tiếng chửi thề","Rất thô tục, dễ xúc phạm. Tránh dùng với người lạ, nơi làm việc, văn bản trang trọng. Bạn chủ yếu cần nhận ra từ này khi xem phim, nghe nhạc.","Never use *fuck* in a job interview; it sounds very offensive.","Đừng bao giờ dùng từ fuck trong buổi phỏng vấn xin việc, nghe rất xúc phạm."]
+ ], true],
+ ["damn: nhẹ, dùng khi bực bội. crap: thô nhưng nhẹ hơn shit. shit: mạnh, thô tục. Mức nặng nhất là fuck (xem nhóm quan hệ tình dục).", [
+  ["damn","thán từ","dæm",null,"chết tiệt, đáng ghét (chửi nhẹ)","Chửi nhẹ khi bực mình; thường chấp nhận được với bạn bè, nhưng vẫn nên tránh nơi trang trọng.","*Damn*, I forgot my keys again!","Chết tiệt, tôi lại quên chìa khóa rồi!"],
+  ["crap","danh từ","kræp",null,"đồ tồi, rác rưởi; chết tiệt","Thô nhưng ít nặng hơn shit. Dùng cho thứ chất lượng kém hoặc khi bực.","I spent all day cleaning up this *crap*.","Tôi mất cả ngày dọn đống rác rưởi này."],
+  ["shit","danh từ","ʃɪt",null,"phân; chết tiệt (chửi thề mạnh)","Thô tục, không dùng nơi trang trọng. Nghĩa đen là phân, nghĩa bóng là chửi thề.","Oh *shit*, I missed the last bus!","Chết tiệt, tôi lỡ chuyến xe buýt cuối rồi!"]
+ ], true]
 ];
 
 const groups = DATA.map(g => ({
   tip: g[0],
+  adult: !!g[2],
   words: g[1].map(a => ({ w: a[0], pos: a[1], us: a[2], uk: a[3] || a[2], same: !a[3], vi: a[4], use: a[5], ex: a[6], exVi: a[7] }))
 }));
 
@@ -435,9 +452,10 @@ const hl = s => esc(s).replace(/\*(.+?)\*/g, "<mark>$1</mark>");
 const slug = s => norm(s).replace(/ /g, "-");
 
 const index = [];
-groups.forEach((g, gi) => g.words.forEach(w => index.push({ gi, w: w.w, nw: norm(w.w), nvi: norm(w.vi), vi: w.vi })));
+groups.forEach((g, gi) => g.words.forEach(w => index.push({ gi, w: w.w, nw: norm(w.w), nvi: norm(w.vi), vi: w.vi, adult: g.adult })));
 
-const state = { gi: 0, active: "see", accent: "us", slow: false };
+const state = { gi: 0, active: "see", accent: "us", slow: false, adultOk: false };
+try { state.adultOk = localStorage.getItem("ctcw_adult") === "1"; } catch (e) {}
 const $ = id => document.getElementById(id);
 const ICON = '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
 
@@ -468,6 +486,13 @@ function cardHTML(w, hit) {
 
 function render() {
   const g = groups[state.gi];
+  if (g.adult && !state.adultOk) {
+    $("result").innerHTML = '<div class="head"><h2>Nội dung 18+</h2>' +
+      '<p class="rule"><b>Cần xác nhận</b>Nhóm này giải thích từ vựng về tình dục và chửi thề để bạn phân biệt mức độ lịch sự và tránh dùng nhầm. Chỉ dành cho người từ 18 tuổi trở lên.</p>' +
+      '<p><button type="button" class="go gate" id="gateBtn">Tôi đủ 18 tuổi, xem nội dung</button></p></div>';
+    document.querySelectorAll(".chip").forEach((c, i) => c.setAttribute("aria-pressed", i === state.gi ? "true" : "false"));
+    return;
+  }
   const titles = g.words.map(w => '<span' + (w.w === state.active ? ' class="hit-word"' : "") + '>' + esc(w.w) + '</span>').join("<i>·</i>");
   $("result").innerHTML =
     '<div class="head"><h2>' + titles + '</h2>' +
@@ -495,7 +520,7 @@ function search(q) {
   add(index.filter(e => e.nw === nq));
   add(index.filter(e => e.nw.startsWith(nq)));
   add(index.filter(e => e.nw.includes(nq)));
-  add(index.filter(e => e.nvi.split(/[ ]/).some(t => t === nq) || e.nvi.includes(nq)));
+  add(index.filter(e => (!e.adult || state.adultOk) && (e.nvi.split(/[ ]/).some(t => t === nq) || e.nvi.includes(nq))));
   return out;
 }
 
@@ -505,7 +530,7 @@ function closeSugg() { $("sugg").hidden = true; $("q").setAttribute("aria-expand
 function openSugg(list) {
   current = list.slice(0, 8);
   if (!current.length) { closeSugg(); return; }
-  $("sugg").innerHTML = current.map((e, i) => '<li role="option" id="s' + i + '" data-i="' + i + '" aria-selected="false"><span class="sw">' + esc(e.w) + '</span><span class="sv">' + esc(e.vi) + '</span></li>').join("");
+  $("sugg").innerHTML = current.map((e, i) => '<li role="option" id="s' + i + '" data-i="' + i + '" aria-selected="false"><span class="sw">' + esc(e.w) + '</span><span class="sv">' + esc(e.adult && !state.adultOk ? "Nội dung 18+" : e.vi) + '</span></li>').join("");
   $("sugg").hidden = false;
   $("q").setAttribute("aria-expanded", "true");
   sel = -1;
@@ -542,26 +567,47 @@ $("form").addEventListener("submit", ev => {
 });
 
 /* Chips */
-$("chips").innerHTML = groups.map((g, i) => '<button type="button" class="chip" data-gi="' + i + '" aria-pressed="false">' + g.words.map(w => esc(w.w)).join(" · ") + '</button>').join("");
+$("chips").innerHTML = groups.map((g, i) => '<button type="button" class="chip" data-gi="' + i + '" aria-pressed="false">' + g.words.map(w => esc(w.w)).join(" · ") + (g.adult ? ' <span class="age">18+</span>' : "") + '</button>').join("");
 $("chips").addEventListener("click", ev => { const b = ev.target.closest(".chip"); if (b) show(+b.dataset.gi); });
 
-/* Giọng đọc */
-const hasTTS = "speechSynthesis" in window && typeof SpeechSynthesisUtterance !== "undefined";
-let voices = [], warned = {}, toastTimer;
+/* Giọng đọc: app Android dùng bộ đọc của máy (AndroidTTS), trình duyệt dùng Web Speech */
+const nativeTTS = typeof window.AndroidTTS !== "undefined";
+const webTTS = "speechSynthesis" in window && typeof SpeechSynthesisUtterance !== "undefined";
+const hasTTS = nativeTTS || webTTS;
+let voices = [], warned = {}, toastTimer, playingBtn = null;
 function loadVoices() { try { voices = speechSynthesis.getVoices() || []; } catch (e) { voices = []; } }
-if (hasTTS) { loadVoices(); try { speechSynthesis.addEventListener("voiceschanged", loadVoices); } catch (e) {} }
+if (webTTS && !nativeTTS) { loadVoices(); try { speechSynthesis.addEventListener("voiceschanged", loadVoices); } catch (e) {} }
 
 function toast(msg) {
   const t = $("toast"); t.textContent = msg; t.hidden = false;
-  clearTimeout(toastTimer); toastTimer = setTimeout(() => { t.hidden = true; }, 3800);
+  clearTimeout(toastTimer); toastTimer = setTimeout(() => { t.hidden = true; }, 5000);
 }
 function findVoice(lang) {
   const l = lang.toLowerCase();
   return voices.find(v => v.lang.replace("_", "-").toLowerCase() === l);
 }
+window.__ttsEvent = function (t) {
+  if (!playingBtn) return;
+  if (t === "start") { playingBtn.classList.add("playing"); }
+  else { playingBtn.classList.remove("playing"); playingBtn = null; }
+};
+function speakNative(text, lang, btn) {
+  document.querySelectorAll(".spk.playing").forEach(b => b.classList.remove("playing"));
+  playingBtn = btn;
+  let r = "error";
+  try { r = window.AndroidTTS.speak(text, lang, state.slow ? 0.6 : 0.95); } catch (e) {}
+  if (r === "ok") return;
+  playingBtn = null;
+  if (r === "fallback") { toast("Máy chưa có giọng Anh-Anh nên đang đọc bằng giọng Anh-Mỹ."); }
+  else if (r === "missing") { toast("Máy chưa có dữ liệu giọng English. Vào Cài đặt, tìm “Chuyển văn bản thành giọng nói”, tải gói English rồi thử lại."); }
+  else if (r === "noengine") { toast("Máy chưa có bộ đọc giọng nói. Hãy cài Google Text-to-speech từ CH Play."); }
+  else if (r === "notready") { toast("Bộ đọc đang khởi động, bấm lại sau vài giây."); }
+  else { toast("Không phát được âm thanh trên thiết bị này."); }
+}
 function speak(text, lang, btn) {
   if (!hasTTS) { toast("Thiết bị này chưa hỗ trợ đọc trực tiếp. Hãy thử trình duyệt khác."); return; }
   if (lang === "auto") lang = state.accent === "uk" ? "en-GB" : "en-US";
+  if (nativeTTS) { speakNative(text, lang, btn); return; }
   try { speechSynthesis.cancel(); } catch (e) {}
   document.querySelectorAll(".spk.playing").forEach(b => b.classList.remove("playing"));
   const u = new SpeechSynthesisUtterance(text);
@@ -578,6 +624,12 @@ function speak(text, lang, btn) {
   setTimeout(() => { try { speechSynthesis.speak(u); } catch (e) { toast("Không phát được âm thanh trên thiết bị này."); } }, 40);
 }
 $("result").addEventListener("click", ev => {
+  if (ev.target.closest("#gateBtn")) {
+    state.adultOk = true;
+    try { localStorage.setItem("ctcw_adult", "1"); } catch (e) {}
+    render();
+    return;
+  }
   const b = ev.target.closest(".spk"); if (!b) return;
   speak(b.dataset.say, b.dataset.lang, b);
 });
