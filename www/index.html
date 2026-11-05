@@ -270,6 +270,23 @@
   .ageerr { min-height: 1.5em; margin: 10px 0 0; color: var(--warn); font-weight: 600; }
   .agebtns { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 8px; }
   .agebtns .go { height: 48px; }
+
+  /* Từ của người dùng */
+  .ed { padding-bottom: 40px; }
+  .fl { display: flex; flex-direction: column; gap: 4px; margin-top: 14px; font-size: 0.82rem; color: var(--muted); }
+  .fl input, .fl select, .fl textarea { font: inherit; font-size: 1rem; padding: 10px 12px; border: 2px solid var(--ink); border-radius: 4px; background: var(--card); color: var(--ink); width: 100%; box-sizing: border-box; }
+  .fl textarea { resize: vertical; }
+  .fl small { color: var(--muted); font-size: 0.74rem; }
+  .fl.req > span::after { content: " *"; color: var(--warn); }
+  .chk { display: flex; gap: 8px; align-items: flex-start; margin-top: 14px; font-size: 0.9rem; }
+  .wb { margin-top: 20px; padding: 14px; border: 1px solid var(--line); border-radius: 6px; background: var(--card); }
+  .wb h4 { margin: 0; font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); display: flex; justify-content: space-between; align-items: center; }
+  .wb details { margin-top: 12px; }
+  .wb summary { cursor: pointer; color: var(--accent); font-size: 0.88rem; }
+  .row2 { display: flex; gap: 10px; flex-wrap: wrap; }
+  .row2 > .fl { flex: 1; min-width: 140px; }
+  .mine-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 18px; }
+  .empty { margin-top: 28px; padding: 20px; border: 1px dashed var(--line); border-radius: 6px; color: var(--muted); }
 </style>
 
 <div class="wrap" id="app" hidden>
@@ -297,13 +314,14 @@
       <button type="button" id="accUK" aria-pressed="false">Anh-Anh (UK)</button>
     </span>
     <button type="button" class="tog" id="slow" aria-pressed="false">Đọc chậm</button>
+    <button type="button" class="tog" id="addw">＋ Thêm từ của bạn</button>
     <button type="button" class="tog" id="t18" aria-pressed="true" hidden>Hiện nội dung 18+</button>
     <button type="button" class="link" id="chg" hidden>Đổi năm sinh</button>
   </div>
 
   <section id="result" aria-live="polite"></section>
 
-  <p class="foot" id="foot">Giọng đọc lấy từ bộ đọc có sẵn trên thiết bị của bạn, nên âm thanh có thể khác nhau giữa các máy. Phiên âm IPA ghi theo giọng Anh-Mỹ (US) và Anh-Anh (UK). Thẻ sắc thái (trung tính, thân mật, thô tục…) cho biết từ đó phù hợp với hoàn cảnh nào. Dữ liệu từ vựng mở rộng dựa trên Open English WordNet (CC BY 4.0, dựa trên Princeton WordNet) và CMU Pronouncing Dictionary; phần dịch tiếng Việt, sắc thái, ví dụ và cụm liên quan do dự án tự biên soạn (bản alpha, chưa được người bản ngữ rà soát hết). Xem NOTICE.md.</p>
+  <p class="foot" id="foot">Giọng đọc lấy từ bộ đọc có sẵn trên thiết bị của bạn, nên âm thanh có thể khác nhau giữa các máy. Phiên âm IPA ghi theo giọng Anh-Mỹ (US) và Anh-Anh (UK). Thẻ sắc thái (trung tính, thân mật, thô tục…) cho biết từ đó phù hợp với hoàn cảnh nào. Dữ liệu từ vựng mở rộng dựa trên Open English WordNet (CC BY 4.0, dựa trên Princeton WordNet) và CMU Pronouncing Dictionary; phần dịch tiếng Việt, sắc thái, ví dụ và cụm liên quan do dự án tự biên soạn (bản alpha, chưa được người bản ngữ rà soát hết). Từ bạn tự thêm chỉ được lưu trên máy này. Xem NOTICE.md.</p>
 </div>
 
 <div class="agegate" id="agegate" role="dialog" aria-modal="true" aria-labelledby="agTitle" hidden>
@@ -320,6 +338,18 @@
       <button type="button" class="go" id="ageGo">Tiếp tục</button>
       <button type="button" class="link" id="ageCancel" hidden>Hủy</button>
     </div>
+  </div>
+</div>
+<div class="agegate" id="editor" role="dialog" aria-modal="true" aria-labelledby="edTitle" hidden>
+  <div class="agebox ed">
+    <p class="brand">Từ của tôi · lưu trên máy này</p>
+    <h2 id="edTitle">Thêm nhóm từ</h2>
+    <label class="chk" id="edAdultRow" hidden><input type="checkbox" id="edAdult"><span>Nội dung 18+ (chỉ hiện với người từ 18 tuổi)</span></label>
+    <label class="fl"><span>Cách chọn giữa các từ trong nhóm (không bắt buộc)</span><textarea id="edTip" rows="2" maxlength="400" placeholder="Ví dụ: see là tự thấy, watch là nhìn có chủ ý, look là hướng mắt về"></textarea></label>
+    <div id="edWords"></div>
+    <div class="agebtns" style="margin-top:14px"><button type="button" class="tog" id="edAddWord">＋ Thêm từ gần nghĩa vào nhóm</button></div>
+    <p class="ageerr" id="edErr" role="alert"></p>
+    <div class="agebtns"><button type="button" class="go" id="edSave">Lưu</button><button type="button" class="link" id="edCancel">Hủy</button></div>
   </div>
 </div>
 <div class="toast" id="toast" role="status" hidden></div>
@@ -711,6 +741,16 @@ const NEWD = {"search":[["See là việc mắt tự nhận được hình ảnh 
 D.related = NEWD.related;
 D.related18 = NEWD.related18;
 
+/* ---- Từ do người dùng thêm (lưu trên máy) ---- */
+let U = { g: [] };
+try { const u = JSON.parse(localStorage.getItem("ctcw_user") || "null"); if (u && Array.isArray(u.g)) U = u; } catch (e) {}
+function saveU() { try { localStorage.setItem("ctcw_user", JSON.stringify(U)); return true; } catch (e) { return false; } }
+function userGroups(adult) {
+  return U.g.filter(g => !!g.adult === adult).map(g => [g.tip, g.words.map(w => [w.w, w.pos, w.us || "", null, w.vi, w.use || "", w.ex, w.exVi || "", w.reg, w.say || null]), null, g.id]);
+}
+D.mine = userGroups(false);
+D.mine18 = userGroups(true);
+
 /* ---- Cấu trúc chuyên mục ---- */
 const SECTIONS = [
   { id: "search", label: "Tìm từ", adult: false, defReg: "trung tính" },
@@ -721,7 +761,9 @@ const SECTIONS = [
   { id: "slang18", label: "Tiếng lóng", adult: true, defReg: "tiếng lóng" },
   { id: "abbr18", label: "Viết tắt", adult: true, defReg: "tiếng lóng" },
   { id: "related", label: "Cụm liên quan", adult: false, defReg: "thân mật" },
-  { id: "related18", label: "Cụm liên quan", adult: true, defReg: "thân mật" }
+  { id: "related18", label: "Cụm liên quan", adult: true, defReg: "thân mật" },
+  { id: "mine", label: "Của tôi", adult: false, defReg: "trung tính", mine: true },
+  { id: "mine18", label: "Của tôi", adult: true, defReg: "trung tính", mine: true }
 ];
 const FORMAL = ["large", "request", "select", "obtain", "receive", "recall", "provide", "occupation", "seek", "voyage", "rapid", "begin"];
 const CASUAL = ["big", "pick", "get"];
@@ -741,16 +783,23 @@ function mk(a, s) {
   return { w: a[0], pos: a[1], us: a[2], uk: a[3] || a[2], same: !a[3], vi: a[4], use: a[5], ex: a[6], exVi: a[7], reg: reg, say: a[9] || a[0], oth: a[10] || null };
 }
 const SEC = {};
-SECTIONS.forEach(s => {
-  s.groups = D[s.id].map(g => ({ tip: g[0], kw: g[2] || null, words: g[1].map(a => mk(a, s)) }));
-  SEC[s.id] = s;
-});
+function buildGroups(s) {
+  s.groups = D[s.id].map(g => ({ tip: g[0], kw: g[2] || null, id: g[3] || null, words: g[1].map(a => mk(a, s)) }));
+}
+SECTIONS.forEach(s => { buildGroups(s); SEC[s.id] = s; });
 
 const index = [];
-SECTIONS.forEach(s => s.groups.forEach((g, gi) => { if (g.kw) { const n = norm(g.kw); index.push({ sec: s.id, gi: gi, w: g.kw, nw: n, nwc: n.replace(/ /g, ""), nvi: "", vi: "cụm liên quan", adult: s.adult }); } g.words.forEach(w => {
-  const n = norm(w.w);
-  index.push({ sec: s.id, gi: gi, w: w.w, nw: n, nwc: n.replace(/ /g, ""), nvi: norm(w.vi), vi: w.vi, adult: s.adult });
-}); }));
+function buildIndex() {
+  index.length = 0;
+  SECTIONS.forEach(s => s.groups.forEach((g, gi) => {
+    if (g.kw) { const n = norm(g.kw); index.push({ sec: s.id, gi: gi, w: g.kw, nw: n, nwc: n.replace(/ /g, ""), nvi: "", vi: "cụm liên quan", adult: s.adult }); }
+    g.words.forEach(w => {
+      const n = norm(w.w);
+      index.push({ sec: s.id, gi: gi, w: w.w, nw: n, nwc: n.replace(/ /g, ""), nvi: norm(w.vi), vi: w.vi, adult: s.adult });
+    });
+  }));
+}
+buildIndex();
 
 const state = { sec: "search", gi: 0, active: "see", hit: "see", accent: "us", slow: false, adult: false, show18: true };
 const visible = id => !SEC[id].adult || (state.adult && state.show18);
@@ -861,7 +910,7 @@ function cardHTML(w, hit) {
     '<div class="ipas">' + ipa + '</div>' +
     '<p class="vi">' + esc(w.vi) + '</p>' +
     (w.oth && w.oth.length ? '<p class="use"><b>Nghĩa khác của từ này</b>' + w.oth.map(esc).join("; ") + '</p>' : "") +
-    '<p class="use"><b>Sắc thái và cách dùng</b>' + esc(w.use) + '</p>' +
+    (w.use ? '<p class="use"><b>Sắc thái và cách dùng</b>' + esc(w.use) + '</p>' : "") +
     '<div class="exbox"><p class="ex">' + hl(w.ex) + '</p>' +
     '<button type="button" class="spk" data-say="' + esc(plain) + '" data-lang="auto" aria-label="Nghe câu ví dụ">' + ICON + '<span>Nghe câu ví dụ</span></button>' +
     '<p class="exvi">' + esc(w.exVi) + '</p></div></article>';
@@ -876,11 +925,17 @@ function buildChips() {
 }
 function render() {
   const g = SEC[state.sec].groups[state.gi];
+  if (!g) {
+    $("result").innerHTML = '<div class="empty">Bạn chưa thêm từ nào ở mục này. Bấm “＋ Thêm từ của bạn” để bắt đầu. Từ bạn thêm chỉ lưu trên máy này.</div>';
+    document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", t.dataset.sec === state.sec ? "true" : "false"));
+    return;
+  }
   const titles = g.words.map(w => '<span' + (w.w === state.hit ? ' class="hit-word"' : "") + '>' + esc(w.w) + '</span>').join("<i>·</i>");
   $("result").innerHTML =
     '<div class="head"><h2>' + titles + '</h2>' +
     '<p class="rule"><b>Cách chọn</b>' + esc(g.tip) + '</p></div>' +
-    '<div class="grid">' + g.words.map(w => cardHTML(w, w.w === state.hit)).join("") + '</div>';
+    '<div class="grid">' + g.words.map(w => cardHTML(w, w.w === state.hit)).join("") + '</div>' +
+    (SEC[state.sec].mine ? '<div class="mine-actions"><button type="button" class="tog" data-act="edit">Sửa nhóm này</button><button type="button" class="tog" data-act="del">Xóa nhóm này</button></div>' : "");
   document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", t.dataset.sec === state.sec ? "true" : "false"));
   document.querySelectorAll(".chip").forEach((c, i) => c.setAttribute("aria-pressed", i === state.gi ? "true" : "false"));
 }
@@ -889,7 +944,7 @@ function show(sec, gi, word, hit, quiet) {
   const changed = state.sec !== sec || !$("chips").children.length;
   state.sec = sec;
   state.gi = gi;
-  state.active = word || SEC[sec].groups[gi].words[0].w;
+  state.active = word || (SEC[sec].groups[gi] ? SEC[sec].groups[gi].words[0].w : "");
   state.hit = hit || null;
   $("q").value = hit || "";
   $("notice").textContent = "";
@@ -1035,6 +1090,176 @@ function fromHash() {
   return false;
 }
 window.addEventListener("hashchange", fromHash);
+
+/* ---- Thêm, sửa, xóa từ của người dùng ---- */
+let cmuState = 0, cmuCbs = [];
+function loadCMU(cb) {
+  if (window.CMU_IPA) { if (cb) cb(); return; }
+  if (cb) cmuCbs.push(cb);
+  if (cmuState) return;
+  cmuState = 1;
+  const sc = document.createElement("script");
+  sc.src = "cmu-ipa.js";
+  sc.onload = () => { cmuState = 2; cmuCbs.splice(0).forEach(f => f()); };
+  sc.onerror = () => { cmuState = 0; cmuCbs.length = 0; };
+  document.head.appendChild(sc);
+}
+function ipaOf(w) {
+  if (!window.CMU_IPA) return "";
+  const parts = w.toLowerCase().split(/[ \-]+/).filter(Boolean), r = [];
+  for (const p of parts) { const v = /^[a-z]+$/.test(p) ? window.CMU_IPA[p] : null; if (!v) return ""; r.push(v); }
+  return r.join(" ");
+}
+const POS_LIST = ["danh từ", "động từ", "tính từ", "trạng từ", "cụm từ", "viết tắt", "khác"];
+const REG_LIST = ["trung tính", "thân mật", "trang trọng", "tiếng lóng", "uyển ngữ", "y khoa", "văn chương", "thô tục", "xúc phạm"];
+const ADULT_REG = /thô tục|xúc phạm/;
+let editId = null, dupOk = "";
+function opts(list, sel, skipAdult) {
+  return list.filter(x => !(skipAdult && ADULT_REG.test(x))).map(x => '<option' + (x === sel ? " selected" : "") + '>' + x + '</option>').join("");
+}
+function wordBlock(w) {
+  w = w || {};
+  const d = document.createElement("div");
+  d.className = "wb";
+  d.innerHTML =
+    '<h4><span class="wbt">Từ</span><button type="button" class="link wbx">Bỏ từ này</button></h4>' +
+    '<label class="fl req"><span>Từ tiếng Anh</span><input class="f-w" type="text" maxlength="40" autocapitalize="none" autocomplete="off" placeholder="Ví dụ: glance"></label>' +
+    '<div class="row2"><label class="fl"><span>Loại từ</span><select class="f-pos">' + opts(POS_LIST, w.pos) + '</select></label>' +
+    '<label class="fl"><span>Mức độ trang trọng</span><select class="f-reg">' + opts(REG_LIST, w.reg || "trung tính", !state.adult) + '</select></label></div>' +
+    '<label class="fl req"><span>Nghĩa tiếng Việt</span><input class="f-vi" type="text" maxlength="200" placeholder="Ví dụ: liếc nhìn nhanh"></label>' +
+    '<label class="fl req"><span>Câu ví dụ (tiếng Anh, có chứa từ trên)</span><input class="f-ex" type="text" maxlength="300" placeholder="Ví dụ: She *glanced* at her watch."></label>' +
+    '<label class="fl"><span>Dịch câu ví dụ</span><input class="f-exvi" type="text" maxlength="300"></label>' +
+    '<details><summary>Thêm chi tiết (phiên âm, sắc thái, cách đọc)</summary>' +
+    '<label class="fl"><span>Phiên âm IPA</span><input class="f-us" type="text" maxlength="60" placeholder="Tự điền nếu từ có trong từ điển"><small>Chỉ để hiển thị. Máy đọc theo chữ viết của từ, không đọc theo IPA.</small></label>' +
+    '<label class="fl"><span>Sắc thái và cách dùng</span><textarea class="f-use" rows="2" maxlength="400"></textarea></label>' +
+    '<label class="fl"><span>Cách đọc (nếu máy đọc sai)</span><input class="f-say" type="text" maxlength="60" placeholder="Viết lại gần giống cách đọc, ví dụ: sai-nonim"></label></details>';
+  const q = c => d.querySelector(c);
+  q(".f-w").value = w.w || ""; q(".f-vi").value = w.vi || ""; q(".f-ex").value = (w.ex || "");
+  q(".f-exvi").value = w.exVi || ""; q(".f-us").value = w.us || ""; q(".f-use").value = w.use || ""; q(".f-say").value = w.say || "";
+  if (w.us) q(".f-us").dataset.manual = "1";
+  let t;
+  q(".f-w").addEventListener("input", () => {
+    clearTimeout(t);
+    t = setTimeout(() => {
+      const us = q(".f-us");
+      if (us.dataset.manual && us.value) return;
+      const v = q(".f-w").value.trim();
+      if (!v) { us.value = ""; return; }
+      loadCMU(() => { if (!us.dataset.manual || !us.value) us.value = ipaOf(v); });
+    }, 300);
+  });
+  q(".f-us").addEventListener("input", ev => { if (ev.target.value) ev.target.dataset.manual = "1"; else delete ev.target.dataset.manual; });
+  q(".wbx").addEventListener("click", () => { d.remove(); renumber(); });
+  return d;
+}
+function renumber() {
+  const bs = document.querySelectorAll("#edWords .wb");
+  bs.forEach((b, i) => { b.querySelector(".wbt").textContent = "Từ " + (i + 1); b.querySelector(".wbx").hidden = bs.length < 2; });
+}
+function openEditor(id) {
+  editId = id || null; dupOk = "";
+  $("edErr").textContent = "";
+  $("edWords").innerHTML = "";
+  let g = null;
+  if (id) g = U.g.find(x => x.id === id);
+  $("edTitle").textContent = g ? "Sửa nhóm từ" : "Thêm nhóm từ";
+  $("edTip").value = g ? g.tip : "";
+  $("edAdultRow").hidden = !state.adult;
+  $("edAdult").checked = g ? !!g.adult : (state.adult && state.sec === "mine18");
+  (g ? g.words : [null]).forEach(w => $("edWords").appendChild(wordBlock(w)));
+  renumber();
+  loadCMU();
+  $("editor").hidden = false;
+  try { $("app").inert = true; } catch (e) {}
+  setTimeout(() => { const f = document.querySelector("#edWords .f-w"); if (f) try { f.focus(); } catch (e) {} }, 50);
+}
+function closeEditor() {
+  $("editor").hidden = true;
+  try { $("app").inert = false; } catch (e) {}
+}
+function markEx(ex, w) {
+  if (ex.indexOf("*") >= 0) return ex;
+  const lo = ex.toLowerCase(), key = w.toLowerCase();
+  for (let n = key.length; n >= Math.min(3, key.length); n--) {
+    const stem = key.slice(0, n), i = lo.indexOf(stem);
+    if (i >= 0) {
+      let j = i + stem.length;
+      while (j < ex.length && /[A-Za-z']/.test(ex[j])) j++;
+      return ex.slice(0, i) + "*" + ex.slice(i, j) + "*" + ex.slice(j);
+    }
+  }
+  return null;
+}
+function saveEditor() {
+  const err = m => { $("edErr").textContent = m; return false; };
+  const blocks = [].slice.call(document.querySelectorAll("#edWords .wb"));
+  if (!blocks.length) return err("Nhóm cần có ít nhất một từ.");
+  let adult = state.adult && $("edAdult").checked;
+  const words = [];
+  for (let i = 0; i < blocks.length; i++) {
+    const b = blocks[i], v = c => b.querySelector(c).value.trim(), n = "Từ " + (i + 1) + ": ";
+    const w = v(".f-w"), vi = v(".f-vi"), ex = v(".f-ex"), reg = v(".f-reg");
+    if (!w) return err(n + "chưa nhập từ tiếng Anh.");
+    if (!/^[A-Za-z][A-Za-z' \-]*$/.test(w)) return err(n + "từ tiếng Anh chỉ gồm chữ cái, dấu cách, gạch nối hoặc dấu nháy.");
+    if (!vi) return err(n + "chưa nhập nghĩa tiếng Việt.");
+    if (!ex) return err(n + "chưa nhập câu ví dụ.");
+    const mx = markEx(ex, w);
+    if (!mx) return err(n + "câu ví dụ cần có chứa từ “" + w + "”.");
+    if (ADULT_REG.test(reg)) {
+      if (!state.adult) return err(n + "mức độ này chỉ dành cho người từ 18 tuổi.");
+      adult = true;
+    }
+    words.push({ w: w, pos: v(".f-pos"), us: v(".f-us"), vi: vi, use: v(".f-use"), ex: mx, exVi: v(".f-exvi"), reg: reg, say: v(".f-say") });
+  }
+  const names = words.map(x => x.w).join("|");
+  if (dupOk !== names) {
+    const own = editId ? U.g.find(x => x.id === editId) : null;
+    const dup = words.filter(x => index.some(e => !SEC[e.sec].mine && e.nw === norm(x.w) && visible(e.sec))).map(x => x.w);
+    if (dup.length) { dupOk = names; return err("“" + dup.join(", ") + "” đã có sẵn trong app. Bấm Lưu lần nữa nếu bạn vẫn muốn thêm."); }
+  }
+  const tip = $("edTip").value.trim() || (words.length > 1 ? "Nhóm từ do bạn tạo." : "Từ do bạn thêm.");
+  const grp = { id: editId || ("u" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6)), adult: adult, tip: tip, words: words };
+  const old = U.g.slice();
+  if (editId) { const k = U.g.findIndex(x => x.id === editId); if (k >= 0) U.g[k] = grp; else U.g.push(grp); } else U.g.push(grp);
+  if (!saveU()) { U = { g: old }; return err("Không lưu được trên thiết bị này (bộ nhớ bị chặn hoặc đầy)."); }
+  closeEditor();
+  refreshUser(grp.id, adult ? "mine18" : "mine");
+  toast("Đã lưu. Từ này chỉ nằm trên máy của bạn.");
+  return true;
+}
+function refreshUser(id, sec) {
+  D.mine = userGroups(false); D.mine18 = userGroups(true);
+  buildGroups(SEC.mine); buildGroups(SEC.mine18);
+  buildIndex();
+  buildMenu();
+  const gi = SEC[sec].groups.findIndex(g => g.id === id);
+  if (visible(sec)) show(sec, Math.max(gi, 0), null, null); else show("search", 0, null, null);
+}
+let delTimer = null;
+$("result").addEventListener("click", ev => {
+  const b = ev.target.closest("[data-act]"); if (!b) return;
+  const g = SEC[state.sec].groups[state.gi]; if (!g || !g.id) return;
+  if (b.dataset.act === "edit") { openEditor(g.id); return; }
+  if (!b.dataset.arm) {
+    b.dataset.arm = "1"; b.textContent = "Bấm lần nữa để xóa";
+    clearTimeout(delTimer);
+    delTimer = setTimeout(() => { b.textContent = "Xóa nhóm này"; delete b.dataset.arm; }, 4000);
+    return;
+  }
+  const old = U.g.slice();
+  U.g = U.g.filter(x => x.id !== g.id);
+  if (!saveU()) { U = { g: old }; toast("Không xóa được trên thiết bị này."); return; }
+  const sec = state.sec;
+  D.mine = userGroups(false); D.mine18 = userGroups(true);
+  buildGroups(SEC.mine); buildGroups(SEC.mine18); buildIndex();
+  show(sec, 0, null, null);
+  toast("Đã xóa nhóm từ.");
+});
+$("addw").addEventListener("click", () => openEditor(null));
+$("edAddWord").addEventListener("click", () => { $("edWords").appendChild(wordBlock(null)); renumber(); const bs = document.querySelectorAll("#edWords .f-w"); try { bs[bs.length - 1].focus(); } catch (e) {} });
+$("edSave").addEventListener("click", saveEditor);
+$("edCancel").addEventListener("click", closeEditor);
+document.addEventListener("keydown", ev => { if (ev.key === "Escape" && !$("editor").hidden) closeEditor(); });
 
 /* ---- Khởi động ---- */
 function start() {
