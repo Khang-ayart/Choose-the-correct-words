@@ -95,3 +95,7 @@ Built out of curiosity, a love of language, and the desire to make vocabulary ex
 No big company. No fancy team. Just one developer, some AI assistance, and a vocabulary database that keeps growing.
 
 Thanks for checking out Choose The Correct Words! ❤️
+
+## Data and licenses
+
+Vocabulary data is built from Open English WordNet (CC BY 4.0) and the CMU Pronouncing Dictionary; Vietnamese translations, nuance notes and related phrases are written by the project. See [NOTICE.md](NOTICE.md). Entries not yet included in the app are kept in [data-pack/](data-pack/).
