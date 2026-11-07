@@ -4,6 +4,10 @@ on:
   workflow_dispatch:
   push:
     branches: [main, master]
+    tags: ['v*']
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -19,7 +23,18 @@ jobs:
           gradle-version: '8.9'
       - name: Build debug APK
         run: gradle -p android assembleDebug --no-daemon
+      - name: Name the APK
+        run: cp android/app/build/outputs/apk/debug/app-debug.apk ChooseTheCorrectWord.apk
       - uses: actions/upload-artifact@v4
         with:
           name: ChooseTheCorrectWord-apk
-          path: android/app/build/outputs/apk/debug/app-debug.apk
+          path: ChooseTheCorrectWord.apk
+      - name: Publish release (only for tags like v1.3.0)
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="${GITHUB_REF_NAME}"
+          cp ChooseTheCorrectWord.apk "ChooseTheCorrectWord-${TAG}.apk"
+          NOTES=$(python3 -c "import json;print(json.load(open('www/version.json'))['notes'])")
+          gh release create "$TAG" "ChooseTheCorrectWord-${TAG}.apk" --title "Choose The Correct Word ${TAG}" --notes "$NOTES"

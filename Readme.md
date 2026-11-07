@@ -74,7 +74,7 @@ Users should use their own judgment when applying vocabulary and expressions in 
 
 🛠️ Installation
 
-The app is in **alpha** and is still being tested by the developer, so there is no public download yet. A proper installation guide and official releases will be added after testing is complete.
+The app is in **alpha** and still being tested. You can download the APK from the [Releases](../../releases) page; each new version installs over the previous one. A full installation guide will be added after testing is complete.
 
 Until then, please do not install the app from unofficial sources. Any official installation package will be published only in the Releases section of this repository.
 
