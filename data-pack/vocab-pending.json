@@ -1,0 +1,3300 @@
+{
+"version": 1,
+"note": "Nhóm từ tự biên soạn, chưa nạp vào app. Mỗi nhóm: g=[tip,[[word,pos,ipaUS,ipaUK,vi,use,ex,exVi,reg,say],...]], adult=true là nội dung 18+. Nạp: thêm g vào D.search (hoặc D.search18 nếu adult).",
+"groups": [
+{
+"batch": "pending/b01.py",
+"adult": false,
+"g": [
+"walk: đi bộ bình thường. stroll: đi dạo thong thả. hike: đi bộ đường dài ở vùng núi, rừng. jog: chạy chậm. run: chạy.",
+[
+[
+"walk",
+"động từ",
+"wɔk",
+null,
+"đi bộ",
+"Di chuyển bằng chân với tốc độ bình thường, không phân biệt mục đích.",
+"I *walk* to work every day.",
+"Ngày nào tôi cũng đi bộ đến chỗ làm.",
+"trung tính",
+null
+],
+[
+"stroll",
+"động từ",
+"stɹoʊl",
+null,
+"đi dạo, thong thả bước",
+"Đi chậm, thư thả, để thưởng thức cảnh vật, không vội.",
+"We *strolled* along the river after dinner.",
+"Ăn tối xong chúng tôi thong thả đi dọc bờ sông.",
+"trung tính",
+null
+],
+[
+"hike",
+"động từ",
+"haɪk",
+null,
+"đi bộ đường dài, leo đồi núi",
+"Đi bộ dài ngày hoặc nhiều giờ ở nơi thiên nhiên như đồi, rừng, núi.",
+"They *hiked* up the mountain for six hours.",
+"Họ đi bộ lên núi trong sáu giờ.",
+"trung tính",
+null
+],
+[
+"jog",
+"động từ",
+"dʒɑɡ",
+null,
+"chạy bộ chậm",
+"Chạy với tốc độ vừa phải để rèn luyện sức khỏe.",
+"She *jogs* in the park every morning.",
+"Sáng nào cô ấy cũng chạy bộ ở công viên.",
+"trung tính",
+null
+],
+[
+"run",
+"động từ",
+"ɹʌn",
+null,
+"chạy",
+"Di chuyển nhanh bằng chân, nhanh hơn jog. Có rất nhiều nghĩa khác như điều hành, hoạt động.",
+"He *ran* to catch the bus.",
+"Anh ấy chạy để kịp xe buýt.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b01.py",
+"adult": false,
+"g": [
+"jump: nhảy lên, nhảy qua. leap: nhảy vọt, bước lớn. hop: nhảy lò cò hoặc nhảy nhẹ. bounce: nảy lên. skip: nhảy cò cò, bỏ qua.",
+[
+[
+"jump",
+"động từ",
+"dʒʌmp",
+null,
+"nhảy",
+"Rời khỏi mặt đất bằng chân, lên cao hoặc qua một chỗ.",
+"The cat *jumped* onto the table.",
+"Con mèo nhảy lên bàn.",
+"trung tính",
+null
+],
+[
+"leap",
+"động từ",
+"lip",
+null,
+"nhảy vọt, phóng",
+"Nhảy xa hoặc cao hơn jump, thường nhanh và mạnh. Nghĩa bóng: tiến bộ nhảy vọt.",
+"The deer *leaped* over the fence.",
+"Con nai phóng qua hàng rào.",
+"trung tính",
+null
+],
+[
+"hop",
+"động từ",
+"hɑp",
+null,
+"nhảy lò cò, nhảy nhẹ",
+"Nhảy một chân hoặc những bước nhảy ngắn như thỏ, chim.",
+"The rabbit *hopped* across the grass.",
+"Con thỏ nhảy qua bãi cỏ.",
+"trung tính",
+null
+],
+[
+"bounce",
+"động từ",
+"baʊns",
+null,
+"nảy lên; nhún nhảy",
+"Nói về quả bóng nảy hoặc người nhún nhảy đầy năng lượng.",
+"The ball *bounced* off the wall.",
+"Quả bóng nảy ra khỏi bức tường.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b01.py",
+"adult": false,
+"g": [
+"throw: ném nói chung. toss: ném nhẹ, tùy tiện. hurl: ném mạnh. fling: ném mạnh, bực. pitch: ném (bóng chày). cast: quăng (lưới, cần câu).",
+[
+[
+"throw",
+"động từ",
+"θɹoʊ",
+null,
+"ném, quăng",
+"Nghĩa chung, dùng được cho mọi cách ném.",
+"He *threw* the ball to his dog.",
+"Anh ấy ném quả bóng cho con chó.",
+"trung tính",
+null
+],
+[
+"toss",
+"động từ",
+"tɔs",
+null,
+"ném nhẹ, tung",
+"Ném nhẹ hoặc tùy tiện, không cần ngắm. Toss a coin là tung đồng xu.",
+"Just *toss* your bag on the sofa.",
+"Cứ ném túi lên ghế sofa đi.",
+"thân mật",
+null
+],
+[
+"hurl",
+"động từ",
+"hɝl",
+null,
+"ném mạnh, phóng",
+"Ném bằng sức mạnh, thường vì giận hoặc để gây tác động. Cũng dùng cho lời lăng mạ.",
+"She *hurled* the book across the room.",
+"Cô ấy ném mạnh cuốn sách qua phòng.",
+"trang trọng",
+null
+],
+[
+"fling",
+"động từ",
+"flɪŋ",
+null,
+"ném mạnh, quăng",
+"Ném nhanh và mạnh, thường là hành động bốc đồng hoặc bực tức.",
+"He *flung* his coat on the floor.",
+"Anh ta quăng áo khoác xuống sàn.",
+"thân mật",
+null
+],
+[
+"cast",
+"động từ",
+"kæst",
+null,
+"quăng, thả (lưới, ánh nhìn); chọn vai",
+"Hay dùng cho lưới, cần câu, bóng, ánh mắt. Cũng là chọn diễn viên.",
+"The fisherman *cast* his net into the sea.",
+"Người đánh cá quăng lưới xuống biển.",
+"trang trọng",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b01.py",
+"adult": false,
+"g": [
+"push: đẩy. shove: xô mạnh. press: ấn. pull: kéo. drag: lôi, kéo lê. tug: giật mạnh.",
+[
+[
+"push",
+"động từ",
+"pʊʃ",
+null,
+"đẩy",
+"Dùng lực để làm vật hay người di chuyển ra xa mình.",
+"Please *push* the door to open it.",
+"Xin hãy đẩy cửa để mở.",
+"trung tính",
+null
+],
+[
+"shove",
+"động từ",
+"ʃʌv",
+null,
+"xô, đẩy mạnh",
+"Đẩy thô bạo, vội vàng, thường trong đám đông.",
+"Someone *shoved* me on the train.",
+"Ai đó xô tôi trên tàu.",
+"thân mật",
+null
+],
+[
+"press",
+"động từ",
+"pɹɛs",
+null,
+"ấn, nhấn",
+"Dùng lực ép xuống hay vào, như nút, bàn phím.",
+"*Press* the red button to stop.",
+"Nhấn nút đỏ để dừng.",
+"trung tính",
+null
+],
+[
+"pull",
+"động từ",
+"pʊl",
+null,
+"kéo",
+"Dùng lực để kéo vật về phía mình.",
+"*Pull* the door, don't push it.",
+"Kéo cửa, đừng đẩy.",
+"trung tính",
+null
+],
+[
+"drag",
+"động từ",
+"dɹæɡ",
+null,
+"lôi, kéo lê",
+"Kéo vật nặng trên mặt đất, có ma sát. Nghĩa bóng: kéo dài, nhàm chán.",
+"He *dragged* the heavy bag up the stairs.",
+"Anh ấy lôi cái túi nặng lên cầu thang.",
+"trung tính",
+null
+],
+[
+"tug",
+"động từ",
+"tʌɡ",
+null,
+"giật mạnh, kéo mạnh",
+"Kéo nhanh một hoặc vài lần, thường vào quần áo hay dây.",
+"The child *tugged* at her sleeve.",
+"Đứa trẻ giật tay áo cô.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b01.py",
+"adult": false,
+"g": [
+"shout: la to, thường vì cần ai nghe thấy. yell: hét, giận hoặc phấn khích. scream: hét thét, vì sợ hay đau. cry out: kêu lên. bellow: gầm.",
+[
+[
+"shout",
+"động từ",
+"ʃaʊt",
+null,
+"la, hét to",
+"Nói rất to để ai đó ở xa nghe thấy hoặc để thể hiện cảm xúc.",
+"He *shouted* her name across the street.",
+"Anh ấy hét tên cô qua bên kia đường.",
+"trung tính",
+null
+],
+[
+"yell",
+"động từ",
+"jɛl",
+null,
+"hét, quát",
+"Hét to, thường do tức giận, phấn khích hoặc để báo hiệu. Thân mật hơn shout.",
+"Don't *yell* at me!",
+"Đừng quát tôi!",
+"thân mật",
+null
+],
+[
+"scream",
+"động từ",
+"skɹim",
+null,
+"thét, la hét",
+"Tiếng thét cao, vì sợ, đau hoặc cực kỳ phấn khích.",
+"She *screamed* when she saw the spider.",
+"Cô ấy thét lên khi thấy con nhện.",
+"trung tính",
+null
+],
+[
+"bellow",
+"động từ",
+"ˈbɛloʊ",
+null,
+"gầm, quát vang",
+"Tiếng nói to, trầm, thường của đàn ông giận dữ.",
+"The coach *bellowed* orders from the sideline.",
+"Huấn luyện viên quát vang mệnh lệnh bên đường biên.",
+"trang trọng",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b01.py",
+"adult": false,
+"g": [
+"whisper: thì thầm, rất nhỏ. mutter: lầm bầm, khó nghe. murmur: thì thào, êm. mumble: nói lí nhí, không rõ.",
+[
+[
+"whisper",
+"động từ",
+"ˈwɪspɚ",
+null,
+"thì thầm, nói thầm",
+"Nói rất khẽ, chủ yếu bằng hơi, để không ai khác nghe thấy.",
+"They *whispered* during the movie.",
+"Họ thì thầm suốt buổi xem phim.",
+"trung tính",
+null
+],
+[
+"mutter",
+"động từ",
+"ˈmʌtɚ",
+null,
+"lầm bầm",
+"Nói nhỏ trong miệng, thường vì bực mình hay không muốn người khác nghe.",
+"He *muttered* something and walked away.",
+"Anh ta lầm bầm vài câu rồi bỏ đi.",
+"trung tính",
+null
+],
+[
+"murmur",
+"động từ",
+"ˈmɝmɚ",
+null,
+"thì thào, rì rầm",
+"Nói nhỏ và êm ái, đôi khi dịu dàng. Cũng là tiếng rì rào của nước, gió.",
+"She *murmured* a quiet thank you.",
+"Cô ấy thì thào một lời cảm ơn khẽ.",
+"trang trọng",
+null
+],
+[
+"mumble",
+"động từ",
+"ˈmʌmbəl",
+null,
+"nói lí nhí",
+"Nói không rõ chữ nên người nghe khó hiểu, thường do ngại hoặc thiếu tự tin.",
+"Stop *mumbling*, I can't hear you.",
+"Đừng nói lí nhí nữa, tôi không nghe rõ.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b01.py",
+"adult": false,
+"g": [
+"laugh: cười thành tiếng. giggle: cười khúc khích. chuckle: cười khe khẽ. grin: cười toe. smile: mỉm cười. smirk: cười đểu.",
+[
+[
+"laugh",
+"động từ",
+"læf",
+null,
+"cười, cười thành tiếng",
+"Phát ra tiếng cười vì buồn cười hoặc vui.",
+"We *laughed* until we cried.",
+"Chúng tôi cười đến chảy nước mắt.",
+"trung tính",
+null
+],
+[
+"giggle",
+"động từ",
+"ˈɡɪɡəl",
+null,
+"cười khúc khích",
+"Tiếng cười nhỏ, nhanh, thường của trẻ con hoặc khi ngượng.",
+"The girls *giggled* behind their hands.",
+"Các cô bé cười khúc khích sau bàn tay.",
+"trung tính",
+null
+],
+[
+"chuckle",
+"động từ",
+"ˈtʃʌkəl",
+null,
+"cười khẽ, cười thầm",
+"Cười nhẹ trong cổ họng, thường vì thấy thú vị.",
+"He *chuckled* at the joke.",
+"Anh ấy cười khẽ trước câu đùa.",
+"trung tính",
+null
+],
+[
+"grin",
+"động từ",
+"ɡɹɪn",
+null,
+"cười toe, nhếch miệng cười",
+"Nụ cười rộng, lộ răng, thường vui sướng hay tinh quái, có thể không thành tiếng.",
+"She *grinned* from ear to ear.",
+"Cô ấy cười toe tận mang tai.",
+"trung tính",
+null
+],
+[
+"smile",
+"động từ",
+"smaɪl",
+null,
+"mỉm cười",
+"Cong miệng thể hiện vui, thân thiện, không phát ra tiếng.",
+"Please *smile* for the camera.",
+"Xin hãy mỉm cười nhìn vào máy ảnh.",
+"trung tính",
+null
+],
+[
+"smirk",
+"động từ",
+"smɝk",
+null,
+"cười đểu, cười tự mãn",
+"Nụ cười nửa miệng thể hiện sự tự mãn hay khinh thường. Hàm ý tiêu cực.",
+"He *smirked* when she made a mistake.",
+"Anh ta cười đểu khi cô mắc lỗi.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b01.py",
+"adult": false,
+"g": [
+"cry: khóc nói chung. weep: khóc nức nở, trang trọng. sob: khóc nấc. sniffle: sụt sịt. wail: khóc than lớn tiếng.",
+[
+[
+"cry",
+"động từ",
+"kɹaɪ",
+null,
+"khóc",
+"Chảy nước mắt vì buồn, đau hoặc xúc động. Cũng là kêu to.",
+"The baby *cried* all night.",
+"Em bé khóc cả đêm.",
+"trung tính",
+null
+],
+[
+"weep",
+"động từ",
+"wip",
+null,
+"khóc, rơi lệ",
+"Trang trọng hoặc văn chương hơn cry, thường là nỗi đau sâu.",
+"She *wept* quietly at the funeral.",
+"Cô lặng lẽ rơi lệ trong đám tang.",
+"văn chương",
+null
+],
+[
+"sob",
+"động từ",
+"sɑb",
+null,
+"khóc nấc, nức nở",
+"Khóc dữ dội, thở ngắt quãng, vai rung lên.",
+"He *sobbed* into his pillow.",
+"Anh nức nở khóc vào gối.",
+"trung tính",
+null
+],
+[
+"sniffle",
+"động từ",
+"ˈsnɪfəl",
+null,
+"sụt sịt",
+"Hít mũi liên tục vì cảm lạnh hoặc sau khi khóc.",
+"She *sniffled* and wiped her nose.",
+"Cô sụt sịt và lau mũi.",
+"thân mật",
+null
+],
+[
+"wail",
+"động từ",
+"weɪl",
+null,
+"khóc than, gào khóc",
+"Khóc hoặc kêu than thành tiếng dài, to vì đau buồn.",
+"The child *wailed* when his toy broke.",
+"Đứa trẻ gào khóc khi đồ chơi bị gãy.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b02.py",
+"adult": false,
+"g": [
+"big: lớn nói chung. large: lớn, trang trọng hơn. huge: rất lớn. enormous: khổng lồ. giant: to lớn bất thường. vast: mênh mông.",
+[
+[
+"big",
+"tính từ",
+"bɪɡ",
+null,
+"to, lớn",
+"Từ thông dụng nhất, dùng cho kích thước, tầm quan trọng. Thân mật.",
+"That's a *big* house.",
+"Đó là một ngôi nhà lớn.",
+"trung tính",
+null
+],
+[
+"large",
+"tính từ",
+"lɑɹdʒ",
+null,
+"lớn, rộng",
+"Trang trọng hơn big, hay dùng cho số lượng, kích cỡ, diện tích. Không dùng cho tầm quan trọng.",
+"A *large* crowd gathered outside.",
+"Một đám đông lớn tụ tập bên ngoài.",
+"trang trọng",
+null
+],
+[
+"huge",
+"tính từ",
+"hjudʒ",
+null,
+"to lớn, rất lớn",
+"Mạnh hơn big, nhấn vào quy mô lớn bất ngờ.",
+"They had a *huge* argument.",
+"Họ có một trận cãi nhau rất lớn.",
+"trung tính",
+null
+],
+[
+"enormous",
+"tính từ",
+"ɪˈnɔɹməs",
+null,
+"khổng lồ, to đùng",
+"Lớn vượt mức bình thường, nhấn vào cảm giác choáng ngợp.",
+"The elephant is an *enormous* animal.",
+"Con voi là loài vật khổng lồ.",
+"trung tính",
+null
+],
+[
+"vast",
+"tính từ",
+"væst",
+null,
+"mênh mông, bao la",
+"Lớn về diện tích, phạm vi, như đại dương, sa mạc, kiến thức.",
+"A *vast* desert stretched before us.",
+"Một sa mạc mênh mông trải ra trước mắt chúng tôi.",
+"trang trọng",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b02.py",
+"adult": false,
+"g": [
+"small: nhỏ nói chung. little: nhỏ, bé, thường gợi sự đáng yêu. tiny: rất nhỏ. minor: nhỏ, không quan trọng. petite: nhỏ nhắn (nói về phụ nữ).",
+[
+[
+"small",
+"tính từ",
+"smɔl",
+null,
+"nhỏ, bé",
+"Từ thông dụng nhất cho kích thước nhỏ, trung tính, nghĩa đối lập với large.",
+"I live in a *small* town.",
+"Tôi sống ở một thị trấn nhỏ.",
+"trung tính",
+null
+],
+[
+"little",
+"tính từ",
+"ˈlɪtəl",
+null,
+"nhỏ bé, bé xíu",
+"Thường mang cảm xúc, như đáng yêu hay thương: a little girl. Không dùng sau động từ be khi nói về kích thước.",
+"What a cute *little* puppy!",
+"Chú chó con bé xíu đáng yêu quá!",
+"thân mật",
+null
+],
+[
+"tiny",
+"tính từ",
+"ˈtaɪni",
+null,
+"tí hon, nhỏ xíu",
+"Cực kỳ nhỏ, nhỏ hơn small nhiều.",
+"There is a *tiny* spider on the wall.",
+"Có một con nhện nhỏ xíu trên tường.",
+"trung tính",
+null
+],
+[
+"minor",
+"tính từ",
+"ˈmaɪnɚ",
+null,
+"nhỏ, thứ yếu, không đáng kể",
+"Chỉ tầm quan trọng thấp chứ không chỉ kích thước.",
+"It was only a *minor* injury.",
+"Đó chỉ là một vết thương nhẹ.",
+"trang trọng",
+null
+],
+[
+"petite",
+"tính từ",
+"pəˈtit",
+null,
+"nhỏ nhắn, mảnh mai",
+"Dùng cho phụ nữ có vóc dáng nhỏ, thường mang ý khen.",
+"She is a *petite* woman with dark hair.",
+"Cô ấy là một phụ nữ nhỏ nhắn với mái tóc đen.",
+"trang trọng",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b02.py",
+"adult": false,
+"g": [
+"good: tốt nói chung. great: tuyệt, rất tốt. excellent: xuất sắc. fine: ổn. wonderful: tuyệt vời. superb: tuyệt hảo.",
+[
+[
+"good",
+"tính từ",
+"ɡʊd",
+null,
+"tốt, hay",
+"Từ thông dụng nhất để khen, mức độ trung bình đến khá.",
+"This is a *good* book.",
+"Đây là một cuốn sách hay.",
+"trung tính",
+null
+],
+[
+"great",
+"tính từ",
+"ɡɹeɪt",
+null,
+"tuyệt, rất tốt",
+"Mạnh hơn good, dùng khi hài lòng nhiều. Cũng nghĩa là to lớn: a great deal.",
+"We had a *great* time at the party.",
+"Chúng tôi có thời gian tuyệt vời ở bữa tiệc.",
+"thân mật",
+null
+],
+[
+"excellent",
+"tính từ",
+"ˈɛksələnt",
+null,
+"xuất sắc, tuyệt vời",
+"Rất tốt, đạt mức cao nhất, trang trọng hơn great.",
+"She speaks *excellent* English.",
+"Cô ấy nói tiếng Anh xuất sắc.",
+"trang trọng",
+null
+],
+[
+"fine",
+"tính từ",
+"faɪn",
+null,
+"ổn, tốt, khỏe",
+"Hài lòng ở mức vừa phải, đủ ổn. How are you? I'm fine. Đôi khi chỉ là ổn chứ chưa thật tốt.",
+"The weather is *fine* today.",
+"Hôm nay thời tiết đẹp.",
+"trung tính",
+null
+],
+[
+"wonderful",
+"tính từ",
+"ˈwʌndɚfəl",
+null,
+"tuyệt diệu, tuyệt vời",
+"Gây cảm giác vui và thán phục.",
+"What a *wonderful* surprise!",
+"Thật là một bất ngờ tuyệt vời!",
+"trung tính",
+null
+],
+[
+"superb",
+"tính từ",
+"sʊˈpɝb",
+null,
+"tuyệt hảo, siêu hạng",
+"Chất lượng rất cao, mạnh hơn excellent.",
+"The chef prepared a *superb* meal.",
+"Đầu bếp chuẩn bị một bữa ăn tuyệt hảo.",
+"trang trọng",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b02.py",
+"adult": false,
+"g": [
+"bad: xấu, tệ nói chung. terrible: kinh khủng. awful: tồi tệ, đáng sợ. poor: kém. dreadful: khủng khiếp. horrible: kinh khủng.",
+[
+[
+"bad",
+"tính từ",
+"bæd",
+null,
+"xấu, tệ, dở",
+"Từ thông dụng nhất cho không tốt, từ nhẹ đến nặng.",
+"I had a *bad* day at work.",
+"Tôi có một ngày làm việc tệ.",
+"trung tính",
+null
+],
+[
+"terrible",
+"tính từ",
+"ˈtɛɹəbəl",
+null,
+"kinh khủng, tồi tệ",
+"Rất tệ, gây hoảng sợ hoặc khó chịu nhiều.",
+"The traffic was *terrible* this morning.",
+"Giao thông sáng nay thật kinh khủng.",
+"trung tính",
+null
+],
+[
+"awful",
+"tính từ",
+"ˈɑfəl",
+null,
+"tệ hại, khủng khiếp",
+"Rất tệ, thường dùng thân mật để nói quá lên.",
+"The coffee tastes *awful*.",
+"Cà phê này dở tệ.",
+"thân mật",
+null
+],
+[
+"poor",
+"tính từ",
+"puɹ",
+null,
+"kém, tồi; nghèo; tội nghiệp",
+"Chất lượng thấp hơn mức mong đợi. Cũng là nghèo hoặc tội nghiệp.",
+"He got a *poor* result in the exam.",
+"Anh ấy có kết quả kém trong kỳ thi.",
+"trung tính",
+null
+],
+[
+"horrible",
+"tính từ",
+"ˈhɔɹəbəl",
+null,
+"kinh khủng, đáng sợ",
+"Gây ghê sợ, ghét bỏ. Cũng dùng thân mật nói quá.",
+"That was a *horrible* movie.",
+"Đó là một bộ phim kinh khủng.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b02.py",
+"adult": false,
+"g": [
+"beautiful: đẹp (nói chung). pretty: xinh. gorgeous: đẹp lộng lẫy. lovely: đáng yêu, dễ chịu. handsome: đẹp trai. stunning: đẹp choáng ngợp.",
+[
+[
+"beautiful",
+"tính từ",
+"ˈbjutəfəl",
+null,
+"đẹp",
+"Mức đẹp cao, dùng cho người, cảnh vật, âm nhạc.",
+"She has a *beautiful* voice.",
+"Cô ấy có giọng hát đẹp.",
+"trung tính",
+null
+],
+[
+"pretty",
+"tính từ",
+"ˈpɹɪti",
+null,
+"xinh, xinh xắn",
+"Đẹp nhẹ nhàng, dễ thương, thường dùng cho nữ và trẻ em. Nhẹ hơn beautiful. Làm trạng từ nghĩa là khá.",
+"What a *pretty* dress!",
+"Chiếc váy xinh quá!",
+"trung tính",
+null
+],
+[
+"gorgeous",
+"tính từ",
+"ˈɡɔɹdʒəs",
+null,
+"lộng lẫy, tuyệt đẹp",
+"Đẹp rất cuốn hút, mạnh hơn beautiful, thân mật.",
+"You look *gorgeous* tonight.",
+"Tối nay bạn trông lộng lẫy quá.",
+"thân mật",
+null
+],
+[
+"lovely",
+"tính từ",
+"ˈlʌvli",
+null,
+"đáng yêu, dễ chịu",
+"Kiểu Anh: đẹp và gây cảm giác dễ chịu, thân thiện. Dùng cho người, thời tiết, bữa ăn.",
+"What a *lovely* day!",
+"Thật là một ngày đẹp trời!",
+"thân mật",
+null
+],
+[
+"handsome",
+"tính từ",
+"ˈhænsəm",
+null,
+"đẹp trai, ưa nhìn",
+"Thường dùng cho nam, đẹp theo kiểu mạnh mẽ, đường nét rõ.",
+"He is a *handsome* young man.",
+"Anh ấy là chàng trai đẹp trai.",
+"trung tính",
+null
+],
+[
+"stunning",
+"tính từ",
+"ˈstʌnɪŋ",
+null,
+"đẹp choáng ngợp",
+"Đẹp đến mức làm người ta sững sờ.",
+"The view from the top is *stunning*.",
+"Cảnh nhìn từ trên đỉnh đẹp choáng ngợp.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b02.py",
+"adult": false,
+"g": [
+"ugly: xấu xí. plain: giản dị, ít nổi bật. unattractive: kém hấp dẫn. hideous: xấu kinh khủng.",
+[
+[
+"ugly",
+"tính từ",
+"ˈʌɡli",
+null,
+"xấu xí",
+"Không đẹp, gây khó chịu khi nhìn. Nói về người dễ gây tổn thương.",
+"That building is really *ugly*.",
+"Tòa nhà đó thật xấu.",
+"trung tính",
+null
+],
+[
+"plain",
+"tính từ",
+"pleɪn",
+null,
+"giản dị, mộc mạc; không nổi bật",
+"Không trang trí, không đặc biệt. Nói về người thì hàm ý ngoại hình bình thường. Cũng là rõ ràng.",
+"She wore a *plain* white dress.",
+"Cô ấy mặc chiếc váy trắng giản dị.",
+"trung tính",
+null
+],
+[
+"unattractive",
+"tính từ",
+"ˌʌnəˈtɹæktɪv",
+null,
+"kém hấp dẫn",
+"Cách nói nhẹ nhàng, trung lập hơn ugly.",
+"The design is rather *unattractive*.",
+"Thiết kế này khá kém hấp dẫn.",
+"trang trọng",
+null
+],
+[
+"hideous",
+"tính từ",
+"ˈhɪdiəs",
+null,
+"xấu xí ghê tởm",
+"Cực kỳ xấu, gây ghê sợ. Mạnh nhất nhóm.",
+"The monster had a *hideous* face.",
+"Con quái vật có khuôn mặt xấu xí ghê tởm.",
+"trang trọng",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b02.py",
+"adult": false,
+"g": [
+"house: ngôi nhà (tòa nhà để ở). home: nơi ở, tổ ấm. apartment: căn hộ (Mỹ). flat: căn hộ (Anh). residence: nơi cư trú (trang trọng).",
+[
+[
+"house",
+"danh từ",
+"haʊs",
+null,
+"nhà, ngôi nhà",
+"Công trình để ở, nhấn vào tòa nhà.",
+"They bought a big *house* by the sea.",
+"Họ mua một ngôi nhà lớn gần biển.",
+"trung tính",
+null
+],
+[
+"home",
+"danh từ",
+"hoʊm",
+null,
+"nhà, tổ ấm, quê nhà",
+"Nơi ta sống và gắn bó về tình cảm, không nhất thiết là tòa nhà.",
+"There is no place like *home*.",
+"Không đâu bằng nhà mình.",
+"trung tính",
+null
+],
+[
+"apartment",
+"danh từ",
+"əˈpɑɹtmənt",
+null,
+"căn hộ",
+"Kiểu Mỹ: một đơn vị ở trong tòa nhà lớn.",
+"We rent an *apartment* downtown.",
+"Chúng tôi thuê một căn hộ ở trung tâm.",
+"trung tính",
+null
+],
+[
+"flat",
+"danh từ",
+"flæt",
+null,
+"căn hộ (Anh)",
+"Kiểu Anh của apartment.",
+"She shares a *flat* with two friends.",
+"Cô ấy ở chung căn hộ với hai người bạn.",
+"trung tính",
+null
+],
+[
+"residence",
+"danh từ",
+"ˈɹɛzɪdəns",
+null,
+"nơi cư trú, dinh thự",
+"Trang trọng, hay dùng trong văn bản hành chính hoặc nơi ở lớn.",
+"Please state your place of *residence*.",
+"Xin ghi rõ nơi cư trú của bạn.",
+"trang trọng",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b02.py",
+"adult": false,
+"g": [
+"job: công việc kiếm sống. work: công việc, lao động nói chung. career: sự nghiệp. occupation: nghề nghiệp (trang trọng). profession: nghề chuyên môn.",
+[
+[
+"job",
+"danh từ",
+"dʒɑb",
+null,
+"công việc, việc làm",
+"Việc cụ thể được trả lương. Đếm được: a job.",
+"She has a *job* at a bank.",
+"Cô ấy làm việc ở một ngân hàng.",
+"trung tính",
+null
+],
+[
+"work",
+"danh từ",
+"wɝk",
+null,
+"công việc, việc làm; tác phẩm",
+"Rộng hơn job, không đếm được. Cũng chỉ nơi làm việc và sản phẩm lao động.",
+"I have a lot of *work* to do today.",
+"Hôm nay tôi có nhiều việc phải làm.",
+"trung tính",
+null
+],
+[
+"career",
+"danh từ",
+"kɚˈɪɹ",
+null,
+"sự nghiệp",
+"Chuỗi công việc, con đường nghề nghiệp lâu dài của một người.",
+"She built a successful *career* in law.",
+"Cô ấy xây dựng sự nghiệp thành công trong ngành luật.",
+"trung tính",
+null
+],
+[
+"occupation",
+"danh từ",
+"ˌɑkjəˈpeɪʃən",
+null,
+"nghề nghiệp",
+"Trang trọng, dùng trong biểu mẫu: Occupation: teacher.",
+"Please write your *occupation* here.",
+"Xin ghi nghề nghiệp của bạn vào đây.",
+"trang trọng",
+null
+],
+[
+"profession",
+"danh từ",
+"pɹəˈfɛʃən",
+null,
+"nghề, ngành nghề chuyên môn",
+"Nghề đòi hỏi đào tạo chuyên môn, như bác sĩ, luật sư.",
+"Teaching is a noble *profession*.",
+"Dạy học là một nghề cao quý.",
+"trang trọng",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b02.py",
+"adult": false,
+"g": [
+"road: đường nói chung. street: phố, đường trong thành phố. avenue: đại lộ. path: lối đi nhỏ. lane: ngõ, làn đường. highway: xa lộ.",
+[
+[
+"road",
+"danh từ",
+"ɹoʊd",
+null,
+"đường, con đường",
+"Lối đi cho xe cộ giữa các nơi, có thể ở ngoài thành phố.",
+"The *road* to the village is very narrow.",
+"Con đường vào làng rất hẹp.",
+"trung tính",
+null
+],
+[
+"street",
+"danh từ",
+"stɹit",
+null,
+"phố, đường phố",
+"Đường trong thành phố có nhà dọc hai bên.",
+"They live on the same *street*.",
+"Họ sống cùng một con phố.",
+"trung tính",
+null
+],
+[
+"avenue",
+"danh từ",
+"ˈævəˌnu",
+null,
+"đại lộ",
+"Đường lớn, rộng, thường có cây hai bên.",
+"The hotel is on Fifth *Avenue*.",
+"Khách sạn nằm trên Đại lộ số Năm.",
+"trang trọng",
+null
+],
+[
+"path",
+"danh từ",
+"pæθ",
+null,
+"lối đi, đường mòn",
+"Đường nhỏ cho người đi bộ, qua rừng, công viên. Nghĩa bóng: con đường đời.",
+"We followed the *path* through the woods.",
+"Chúng tôi đi theo lối mòn xuyên rừng.",
+"trung tính",
+null
+],
+[
+"lane",
+"danh từ",
+"leɪn",
+null,
+"ngõ nhỏ; làn đường",
+"Đường hẹp ở nông thôn hoặc làn xe trên đường lớn.",
+"They live in a quiet *lane*.",
+"Họ sống trong một con ngõ yên tĩnh.",
+"trung tính",
+null
+],
+[
+"highway",
+"danh từ",
+"ˈhaɪˌweɪ",
+null,
+"xa lộ, quốc lộ",
+"Đường lớn nối các thành phố, xe chạy nhanh.",
+"We drove along the *highway* for hours.",
+"Chúng tôi chạy xe dọc xa lộ hàng giờ.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b03.py",
+"adult": false,
+"g": [
+"afraid: sợ, thường đi với of hoặc that. scared: sợ hãi, thân mật. frightened: bị hoảng sợ do sự việc cụ thể. terrified: kinh hãi. nervous: lo lắng, hồi hộp.",
+[
+[
+"afraid",
+"tính từ",
+"əˈfɹeɪd",
+null,
+"sợ, e rằng",
+"Sợ điều gì: afraid of dogs. Cũng dùng lịch sự để báo tin xấu: I'm afraid I can't come. Chỉ dùng sau động từ be.",
+"She is *afraid* of the dark.",
+"Cô ấy sợ bóng tối.",
+"trung tính",
+null
+],
+[
+"scared",
+"tính từ",
+"skɛɹd",
+null,
+"sợ, hoảng",
+"Thân mật hơn afraid, thường là sợ vì một sự việc đang xảy ra hoặc sắp xảy ra.",
+"I was too *scared* to move.",
+"Tôi sợ đến mức không dám động đậy.",
+"thân mật",
+null
+],
+[
+"frightened",
+"tính từ",
+"ˈfɹaɪtənd",
+null,
+"hoảng sợ, khiếp",
+"Bị làm cho sợ bởi một điều cụ thể. Dùng được trước danh từ: a frightened child.",
+"The *frightened* child hid under the bed.",
+"Đứa trẻ hoảng sợ trốn dưới gầm giường.",
+"trung tính",
+null
+],
+[
+"terrified",
+"tính từ",
+"ˈtɛɹəˌfaɪd",
+null,
+"kinh hãi, sợ chết khiếp",
+"Rất sợ, mạnh hơn scared nhiều.",
+"He is *terrified* of flying.",
+"Anh ấy sợ đi máy bay đến kinh hãi.",
+"trung tính",
+null
+],
+[
+"nervous",
+"tính từ",
+"ˈnɝvəs",
+null,
+"lo lắng, hồi hộp",
+"Căng thẳng trước một sự kiện như thi, phỏng vấn, chưa hẳn là sợ.",
+"I'm *nervous* about my interview.",
+"Tôi hồi hộp về buổi phỏng vấn.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b03.py",
+"adult": false,
+"g": [
+"surprised: ngạc nhiên. amazed: kinh ngạc, thán phục. astonished: sửng sốt. shocked: choáng, bị sốc. stunned: chết lặng.",
+[
+[
+"surprised",
+"tính từ",
+"sɚˈpɹaɪzd",
+null,
+"ngạc nhiên, bất ngờ",
+"Mức nhẹ nhất, có thể vui hoặc không.",
+"I was *surprised* to see him there.",
+"Tôi ngạc nhiên khi thấy anh ấy ở đó.",
+"trung tính",
+null
+],
+[
+"amazed",
+"tính từ",
+"əˈmeɪzd",
+null,
+"kinh ngạc, thán phục",
+"Ngạc nhiên kèm sự ngưỡng mộ.",
+"We were *amazed* by her talent.",
+"Chúng tôi kinh ngạc trước tài năng của cô ấy.",
+"trung tính",
+null
+],
+[
+"astonished",
+"tính từ",
+"əˈstɑnɪʃt",
+null,
+"sửng sốt, kinh ngạc",
+"Rất ngạc nhiên, khó tin, mạnh hơn surprised.",
+"He looked *astonished* at the news.",
+"Anh ấy trông sửng sốt trước tin đó.",
+"trang trọng",
+null
+],
+[
+"shocked",
+"tính từ",
+"ʃɑkt",
+null,
+"bị sốc, choáng váng",
+"Ngạc nhiên nhiều, kèm khó chịu hoặc buồn, thường vì tin xấu.",
+"She was *shocked* by the accident.",
+"Cô ấy bị sốc vì tai nạn.",
+"trung tính",
+null
+],
+[
+"stunned",
+"tính từ",
+"stʌnd",
+null,
+"chết lặng, sững người",
+"Quá bất ngờ đến mức không nói hoặc không phản ứng được.",
+"They were *stunned* into silence.",
+"Họ chết lặng không nói nên lời.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b03.py",
+"adult": false,
+"g": [
+"worried: lo lắng. anxious: lo âu, bồn chồn. concerned: quan ngại. uneasy: không yên tâm. stressed: căng thẳng.",
+[
+[
+"worried",
+"tính từ",
+"ˈwɝid",
+null,
+"lo, lo lắng",
+"Nghĩ nhiều về điều xấu có thể xảy ra. Thông dụng nhất.",
+"I'm *worried* about my exam.",
+"Tôi lo về kỳ thi của mình.",
+"trung tính",
+null
+],
+[
+"anxious",
+"tính từ",
+"ˈæŋkʃəs",
+null,
+"lo âu, bồn chồn",
+"Lo lắng mạnh, kèm hồi hộp, đôi khi mang tính y học (anxiety).",
+"She felt *anxious* before the flight.",
+"Cô ấy thấy bồn chồn trước chuyến bay.",
+"trung tính",
+null
+],
+[
+"concerned",
+"tính từ",
+"kənˈsɝnd",
+null,
+"quan ngại, lo ngại",
+"Lo vì quan tâm đến người hay việc, nhẹ nhàng, hơi trang trọng.",
+"Parents are *concerned* about safety.",
+"Phụ huynh quan ngại về an toàn.",
+"trang trọng",
+null
+],
+[
+"uneasy",
+"tính từ",
+"əˈnizi",
+null,
+"bất an, không yên tâm",
+"Cảm giác khó chịu mơ hồ, chưa rõ lý do.",
+"I felt *uneasy* walking home alone.",
+"Tôi thấy bất an khi đi bộ về nhà một mình.",
+"trung tính",
+null
+],
+[
+"stressed",
+"tính từ",
+"stɹɛst",
+null,
+"căng thẳng, áp lực",
+"Chịu áp lực công việc hay cuộc sống. Thân mật: stressed out.",
+"He is *stressed* about the deadline.",
+"Anh ấy căng thẳng vì hạn chót.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b03.py",
+"adult": false,
+"g": [
+"proud: tự hào, có thể tốt hoặc xấu tùy ngữ cảnh. arrogant: kiêu ngạo. conceited: tự phụ. humble: khiêm tốn. modest: khiêm nhường.",
+[
+[
+"proud",
+"tính từ",
+"pɹaʊd",
+null,
+"tự hào; kiêu hãnh",
+"Vui vì thành quả của mình hoặc người thân. Cũng có thể là kiêu hãnh, không chịu cúi đầu.",
+"I'm so *proud* of you.",
+"Mẹ rất tự hào về con.",
+"trung tính",
+null
+],
+[
+"arrogant",
+"tính từ",
+"ˈɛɹəɡənt",
+null,
+"kiêu ngạo, ngạo mạn",
+"Coi mình hơn người và tỏ ra như vậy. Nghĩa tiêu cực.",
+"He is too *arrogant* to listen.",
+"Anh ta quá kiêu ngạo nên không chịu nghe.",
+"trung tính",
+null
+],
+[
+"conceited",
+"tính từ",
+"kənˈsitəd",
+null,
+"tự phụ, tự cao",
+"Quá hãnh diện về bản thân, hơi nhẹ hơn arrogant, hay dùng cho tính khoe khoang.",
+"She is *conceited* about her looks.",
+"Cô ta tự phụ về vẻ ngoài.",
+"trung tính",
+null
+],
+[
+"humble",
+"tính từ",
+"ˈhʌmbəl",
+null,
+"khiêm tốn, nhún nhường",
+"Không khoe khoang, coi trọng người khác. Nghĩa tích cực.",
+"Despite his fame, he remained *humble*.",
+"Dù nổi tiếng, anh ấy vẫn khiêm tốn.",
+"trung tính",
+null
+],
+[
+"modest",
+"tính từ",
+"ˈmɑdəst",
+null,
+"khiêm tốn; giản dị",
+"Không đề cao thành tích. Cũng chỉ thứ không lớn: a modest income.",
+"She is *modest* about her success.",
+"Cô ấy khiêm tốn về thành công của mình.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b03.py",
+"adult": false,
+"g": [
+"brave: dũng cảm nói chung. courageous: can đảm, trang trọng. bold: táo bạo. fearless: không biết sợ. daring: liều lĩnh.",
+[
+[
+"brave",
+"tính từ",
+"bɹeɪv",
+null,
+"dũng cảm, gan dạ",
+"Đối mặt với nguy hiểm hay đau đớn mà không bỏ chạy.",
+"The *brave* firefighter saved the child.",
+"Người lính cứu hỏa dũng cảm đã cứu đứa trẻ.",
+"trung tính",
+null
+],
+[
+"courageous",
+"tính từ",
+"kɚˈeɪdʒəs",
+null,
+"can đảm, anh dũng",
+"Trang trọng hơn brave, nhấn vào sức mạnh tinh thần khi làm điều đúng.",
+"It was a *courageous* decision.",
+"Đó là một quyết định can đảm.",
+"trang trọng",
+null
+],
+[
+"bold",
+"tính từ",
+"boʊld",
+null,
+"táo bạo, mạnh dạn",
+"Dám làm điều khác thường, tự tin, đôi khi liều.",
+"She made a *bold* move to change careers.",
+"Cô ấy táo bạo đổi nghề.",
+"trung tính",
+null
+],
+[
+"fearless",
+"tính từ",
+"ˈfɪɹləs",
+null,
+"không biết sợ, gan lì",
+"Hầu như không biết sợ, nhấn vào tính cách.",
+"He is a *fearless* explorer.",
+"Ông là nhà thám hiểm không biết sợ.",
+"trung tính",
+null
+],
+[
+"daring",
+"tính từ",
+"ˈdɛɹɪŋ",
+null,
+"liều lĩnh, mạo hiểm",
+"Dám làm việc nguy hiểm hoặc gây sốc.",
+"It was a *daring* escape.",
+"Đó là cuộc trốn thoát liều lĩnh.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b03.py",
+"adult": false,
+"g": [
+"angry: giận nói chung. furious: giận dữ. annoyed: bực. irritated: bực mình, khó chịu. upset: buồn bực. outraged: phẫn nộ.",
+[
+[
+"angry",
+"tính từ",
+"ˈæŋɡɹi",
+null,
+"giận, tức giận",
+"Cảm giác giận chung, mức trung bình đến mạnh.",
+"He was *angry* about the delay.",
+"Anh ấy giận vì sự chậm trễ.",
+"trung tính",
+null
+],
+[
+"furious",
+"tính từ",
+"ˈfjʊɹiəs",
+null,
+"giận dữ, nổi đóa",
+"Rất giận, mạnh hơn angry.",
+"She was *furious* when she heard the lie.",
+"Cô ấy giận dữ khi nghe lời nói dối.",
+"trung tính",
+null
+],
+[
+"annoyed",
+"tính từ",
+"əˈnɔɪd",
+null,
+"bực, phiền",
+"Khó chịu nhẹ vì điều lặp lại hay làm phiền.",
+"I'm *annoyed* with the noise.",
+"Tôi bực vì tiếng ồn.",
+"trung tính",
+null
+],
+[
+"irritated",
+"tính từ",
+"ˈɪɹəˌteɪtəd",
+null,
+"bực mình, cáu",
+"Bực kéo dài và dễ bộc lộ, hơi mạnh hơn annoyed. Cũng chỉ da bị kích ứng.",
+"He sounded *irritated* on the phone.",
+"Nghe anh ấy cáu trong điện thoại.",
+"trung tính",
+null
+],
+[
+"upset",
+"tính từ",
+"əpˈsɛt",
+null,
+"buồn bực, khó chịu",
+"Buồn và bực cùng lúc, hay vì chuyện đã xảy ra.",
+"She was *upset* about the news.",
+"Cô ấy buồn bực vì tin đó.",
+"trung tính",
+null
+],
+[
+"outraged",
+"tính từ",
+"ˈaʊˌtɹeɪdʒd",
+null,
+"phẫn nộ, căm phẫn",
+"Giận dữ vì thấy điều bất công, sai trái.",
+"People were *outraged* by the decision.",
+"Mọi người phẫn nộ trước quyết định đó.",
+"trang trọng",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b03.py",
+"adult": false,
+"g": [
+"lonely: cô đơn, buồn vì thiếu bạn. alone: một mình, không buồn. isolated: bị cô lập. solitary: ở một mình, thường tự chọn.",
+[
+[
+"lonely",
+"tính từ",
+"ˈloʊnli",
+null,
+"cô đơn, lẻ loi",
+"Buồn vì không có ai bên cạnh. Là cảm xúc.",
+"He felt *lonely* in the big city.",
+"Anh cảm thấy cô đơn ở thành phố lớn.",
+"trung tính",
+null
+],
+[
+"alone",
+"tính từ",
+"əˈloʊn",
+null,
+"một mình",
+"Chỉ ở một mình, không nói đến cảm xúc. Có thể là thích.",
+"I like to be *alone* sometimes.",
+"Đôi khi tôi thích ở một mình.",
+"trung tính",
+null
+],
+[
+"isolated",
+"tính từ",
+"ˈaɪsəˌleɪtəd",
+null,
+"bị cô lập, hẻo lánh",
+"Bị tách khỏi người khác hoặc ở nơi xa xôi.",
+"They live in an *isolated* village.",
+"Họ sống ở một ngôi làng hẻo lánh.",
+"trung tính",
+null
+],
+[
+"solitary",
+"tính từ",
+"ˈsɑləˌtɛɹi",
+null,
+"đơn độc, ưa ở một mình",
+"Thường chủ ý chọn cuộc sống một mình, trang trọng.",
+"He leads a *solitary* life in the mountains.",
+"Ông sống cuộc đời đơn độc trên núi.",
+"trang trọng",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b03.py",
+"adult": false,
+"g": [
+"bored: chán. dull: tẻ nhạt, buồn tẻ. tedious: tẻ nhạt kéo dài. monotonous: đơn điệu. boring: nhàm chán (gây chán).",
+[
+[
+"bored",
+"tính từ",
+"bɔɹd",
+null,
+"chán, buồn chán",
+"Cảm giác của người thấy chán. Nói về người.",
+"I'm *bored* with this game.",
+"Tôi chán trò chơi này.",
+"trung tính",
+null
+],
+[
+"boring",
+"tính từ",
+"ˈbɔɹɪŋ",
+null,
+"nhàm chán, tẻ nhạt",
+"Nói về thứ gây chán. Chú ý khác nhau: I'm bored, it is boring.",
+"The lecture was *boring*.",
+"Bài giảng rất nhàm chán.",
+"trung tính",
+null
+],
+[
+"dull",
+"tính từ",
+"dʌl",
+null,
+"buồn tẻ, nhạt nhẽo",
+"Không thú vị, không có gì đặc sắc. Cũng là mờ, xỉn.",
+"It was a *dull* day with nothing to do.",
+"Đó là một ngày buồn tẻ chẳng có gì làm.",
+"trung tính",
+null
+],
+[
+"tedious",
+"tính từ",
+"ˈtidiəs",
+null,
+"tẻ nhạt, mất kiên nhẫn",
+"Chán vì dài và lặp lại, cần nhiều công sức.",
+"Filling in forms is *tedious*.",
+"Điền biểu mẫu rất tẻ nhạt.",
+"trang trọng",
+null
+],
+[
+"monotonous",
+"tính từ",
+"məˈnɑtənəs",
+null,
+"đơn điệu",
+"Cứ lặp lại như nhau, không đổi.",
+"His voice was *monotonous*.",
+"Giọng anh ta đơn điệu.",
+"trang trọng",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b04.py",
+"adult": false,
+"g": [
+"cook: nấu ăn nói chung. bake: nướng bằng lò (bánh). fry: chiên, rán. boil: luộc, đun sôi. roast: quay, nướng thịt. grill: nướng vỉ. steam: hấp.",
+[
+[
+"cook",
+"động từ",
+"kʊk",
+null,
+"nấu, nấu ăn",
+"Nghĩa chung cho việc làm chín thức ăn bằng nhiệt.",
+"She *cooks* dinner every evening.",
+"Tối nào cô ấy cũng nấu bữa tối.",
+"trung tính",
+null
+],
+[
+"bake",
+"động từ",
+"beɪk",
+null,
+"nướng (bằng lò)",
+"Làm chín bằng nhiệt khô trong lò, hay dùng cho bánh mì, bánh ngọt, khoai.",
+"I *baked* a cake for her birthday.",
+"Tôi nướng một chiếc bánh cho sinh nhật cô ấy.",
+"trung tính",
+null
+],
+[
+"fry",
+"động từ",
+"fɹaɪ",
+null,
+"chiên, rán",
+"Nấu trong dầu hoặc mỡ nóng.",
+"*Fry* the onions until golden.",
+"Chiên hành đến khi vàng.",
+"trung tính",
+null
+],
+[
+"boil",
+"động từ",
+"bɔɪl",
+null,
+"luộc, đun sôi",
+"Nấu trong nước sôi. Cũng là nước sôi lên.",
+"*Boil* the eggs for ten minutes.",
+"Luộc trứng mười phút.",
+"trung tính",
+null
+],
+[
+"roast",
+"động từ",
+"ɹoʊst",
+null,
+"quay, nướng (thịt, rau)",
+"Nướng thịt, rau trong lò hoặc lửa với nhiệt cao, cho vàng ngoài.",
+"We *roasted* a chicken for Sunday lunch.",
+"Chúng tôi quay một con gà cho bữa trưa Chủ nhật.",
+"trung tính",
+null
+],
+[
+"grill",
+"động từ",
+"ɡɹɪl",
+null,
+"nướng vỉ",
+"Nướng trực tiếp trên lửa hoặc vỉ. Kiểu Anh nói đến lò nướng trên cao.",
+"He *grilled* burgers in the garden.",
+"Anh ấy nướng bánh burger ngoài vườn.",
+"trung tính",
+null
+],
+[
+"steam",
+"động từ",
+"stim",
+null,
+"hấp",
+"Nấu bằng hơi nước, giữ chất dinh dưỡng.",
+"*Steam* the vegetables for five minutes.",
+"Hấp rau trong năm phút.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b04.py",
+"adult": false,
+"g": [
+"cut: cắt nói chung. slice: cắt lát. chop: chặt, băm. dice: cắt hạt lựu. peel: gọt vỏ. grate: bào.",
+[
+[
+"cut",
+"động từ",
+"kʌt",
+null,
+"cắt, thái",
+"Nghĩa chung, dùng dao hoặc kéo.",
+"*Cut* the paper in half.",
+"Cắt tờ giấy làm đôi.",
+"trung tính",
+null
+],
+[
+"slice",
+"động từ",
+"slaɪs",
+null,
+"thái lát",
+"Cắt thành lát mỏng.",
+"*Slice* the bread thinly.",
+"Thái bánh mì thật mỏng.",
+"trung tính",
+null
+],
+[
+"chop",
+"động từ",
+"tʃɑp",
+null,
+"chặt, băm, thái nhỏ",
+"Cắt bằng nhát dao dứt khoát thành miếng nhỏ.",
+"*Chop* the garlic finely.",
+"Băm nhỏ tỏi.",
+"trung tính",
+null
+],
+[
+"dice",
+"động từ",
+"daɪs",
+null,
+"cắt hạt lựu",
+"Cắt thành khối vuông nhỏ đều nhau.",
+"*Dice* the carrots for the soup.",
+"Cắt cà rốt hạt lựu để nấu súp.",
+"trung tính",
+null
+],
+[
+"peel",
+"động từ",
+"pil",
+null,
+"gọt vỏ, bóc vỏ",
+"Lột bỏ lớp vỏ ngoài.",
+"*Peel* the potatoes before boiling.",
+"Gọt vỏ khoai tây trước khi luộc.",
+"trung tính",
+null
+],
+[
+"grate",
+"động từ",
+"ɡɹeɪt",
+null,
+"bào, nạo",
+"Chà vào dụng cụ có lỗ để thành sợi nhỏ.",
+"*Grate* some cheese over the pasta.",
+"Bào ít phô mai lên mì.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b04.py",
+"adult": false,
+"g": [
+"wash: rửa nói chung. clean: làm sạch. rinse: xả, tráng. scrub: cọ mạnh. wipe: lau. mop: lau sàn.",
+[
+[
+"wash",
+"động từ",
+"wɑʃ",
+null,
+"rửa, giặt",
+"Làm sạch bằng nước, thường kèm xà phòng.",
+"I *wash* my hands before meals.",
+"Tôi rửa tay trước bữa ăn.",
+"trung tính",
+null
+],
+[
+"clean",
+"động từ",
+"klin",
+null,
+"dọn, làm sạch",
+"Làm cho hết bẩn bằng mọi cách, rộng hơn wash.",
+"She *cleaned* the kitchen after dinner.",
+"Cô ấy dọn bếp sau bữa tối.",
+"trung tính",
+null
+],
+[
+"rinse",
+"động từ",
+"ɹɪns",
+null,
+"xả, tráng",
+"Dùng nước sạch để loại xà phòng, bụi.",
+"*Rinse* the dishes with cold water.",
+"Tráng bát đĩa bằng nước lạnh.",
+"trung tính",
+null
+],
+[
+"scrub",
+"động từ",
+"skɹʌb",
+null,
+"cọ, chà mạnh",
+"Chà mạnh bằng bàn chải để làm sạch vết bẩn cứng.",
+"He *scrubbed* the floor for an hour.",
+"Anh cọ sàn suốt một giờ.",
+"trung tính",
+null
+],
+[
+"wipe",
+"động từ",
+"waɪp",
+null,
+"lau",
+"Lau bằng giẻ hoặc khăn để loại bụi hoặc nước.",
+"*Wipe* the table with a damp cloth.",
+"Lau bàn bằng khăn ẩm.",
+"trung tính",
+null
+],
+[
+"mop",
+"động từ",
+"mɑp",
+null,
+"lau sàn, lau nhà",
+"Lau sàn bằng cây lau nhà.",
+"She *mopped* the kitchen floor.",
+"Cô ấy lau sàn bếp.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b04.py",
+"adult": false,
+"g": [
+"hungry: đói. starving: đói lả, nói quá. thirsty: khát. full: no. stuffed: no căng.",
+[
+[
+"hungry",
+"tính từ",
+"ˈhʌŋɡɹi",
+null,
+"đói",
+"Muốn ăn. Cũng nghĩa bóng: hungry for success.",
+"I'm *hungry*, let's eat.",
+"Tôi đói rồi, đi ăn thôi.",
+"trung tính",
+null
+],
+[
+"starving",
+"tính từ",
+"ˈstɑɹvɪŋ",
+null,
+"đói lả, đói muốn chết",
+"Thân mật, nói quá lên: I'm starving. Nghĩa thật là chết đói.",
+"I'm *starving*, I skipped lunch.",
+"Tôi đói muốn chết, tôi bỏ bữa trưa.",
+"thân mật",
+null
+],
+[
+"thirsty",
+"tính từ",
+"ˈθɝsti",
+null,
+"khát",
+"Muốn uống.",
+"It's hot and I'm *thirsty*.",
+"Trời nóng và tôi khát.",
+"trung tính",
+null
+],
+[
+"full",
+"tính từ",
+"fʊl",
+null,
+"no",
+"I'm full nghĩa là đã ăn đủ, không muốn ăn thêm.",
+"No more, thanks. I'm *full*.",
+"Thôi, cảm ơn. Tôi no rồi.",
+"trung tính",
+null
+],
+[
+"stuffed",
+"tính từ",
+"stʌft",
+null,
+"no căng, no cứng bụng",
+"Thân mật, ăn nhiều đến khó chịu.",
+"I'm *stuffed* after that huge meal.",
+"Tôi no căng sau bữa ăn lớn đó.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b04.py",
+"adult": false,
+"g": [
+"delicious: ngon nói chung. tasty: ngon miệng. yummy: ngon (trẻ con). bland: nhạt nhẽo. spicy: cay. sweet: ngọt. bitter: đắng. sour: chua.",
+[
+[
+"delicious",
+"tính từ",
+"dɪˈlɪʃəs",
+null,
+"ngon, thơm ngon",
+"Rất ngon, mức khen cao, trang trọng hơn tasty.",
+"This soup is *delicious*.",
+"Món súp này ngon quá.",
+"trung tính",
+null
+],
+[
+"tasty",
+"tính từ",
+"ˈteɪsti",
+null,
+"ngon miệng, đậm đà",
+"Ngon, vị đậm, thân mật.",
+"That was a *tasty* sandwich.",
+"Chiếc bánh mì kẹp đó ngon miệng thật.",
+"thân mật",
+null
+],
+[
+"yummy",
+"tính từ",
+"ˈjʌmi",
+null,
+"ngon (kiểu trẻ con)",
+"Thân mật, vui vẻ, hay dùng với trẻ nhỏ.",
+"What a *yummy* cake!",
+"Chiếc bánh ngon quá đi!",
+"thân mật",
+null
+],
+[
+"bland",
+"tính từ",
+"blænd",
+null,
+"nhạt nhẽo, vô vị",
+"Thiếu vị, không đậm đà.",
+"The soup was a bit *bland*.",
+"Món súp hơi nhạt.",
+"trung tính",
+null
+],
+[
+"spicy",
+"tính từ",
+"ˈspaɪsi",
+null,
+"cay",
+"Có vị cay của ớt, tiêu.",
+"I love *spicy* food.",
+"Tôi thích đồ ăn cay.",
+"trung tính",
+null
+],
+[
+"sour",
+"tính từ",
+"ˈsaʊɚ",
+null,
+"chua",
+"Vị chua như chanh. Cũng chỉ sữa hỏng.",
+"These lemons taste *sour*.",
+"Chanh này có vị chua.",
+"trung tính",
+null
+],
+[
+"bitter",
+"tính từ",
+"ˈbɪtɚ",
+null,
+"đắng; cay đắng",
+"Vị đắng như cà phê đen. Nghĩa bóng: cay đắng, hằn học.",
+"The coffee tastes *bitter*.",
+"Cà phê có vị đắng.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b04.py",
+"adult": false,
+"g": [
+"friend: bạn nói chung. buddy: bạn thân (thân mật). mate: bạn (Anh, Úc). pal: bạn. companion: bạn đồng hành. acquaintance: người quen.",
+[
+[
+"friend",
+"danh từ",
+"fɹɛnd",
+null,
+"bạn, bạn bè",
+"Người mình có tình cảm và quen biết, từ nhẹ đến thân.",
+"She is my best *friend*.",
+"Cô ấy là bạn thân nhất của tôi.",
+"trung tính",
+null
+],
+[
+"buddy",
+"danh từ",
+"ˈbʌdi",
+null,
+"bạn thân, anh bạn",
+"Thân mật, kiểu Mỹ. Cũng dùng để gọi người lạ một cách thân thiện, đôi khi hơi bực.",
+"Hey *buddy*, can you help me?",
+"Này bạn, giúp tôi được không?",
+"thân mật",
+null
+],
+[
+"pal",
+"danh từ",
+"pæl",
+null,
+"bạn, người bạn",
+"Thân mật, hơi cũ. Penpal là bạn qua thư.",
+"He is an old *pal* of mine.",
+"Anh ấy là người bạn cũ của tôi.",
+"thân mật",
+null
+],
+[
+"companion",
+"danh từ",
+"kəmˈpænjən",
+null,
+"bạn đồng hành, người bầu bạn",
+"Người đi cùng hoặc ở cùng, hơi trang trọng.",
+"The dog is her faithful *companion*.",
+"Chú chó là người bạn đồng hành trung thành của cô.",
+"trang trọng",
+null
+],
+[
+"acquaintance",
+"danh từ",
+"əˈkweɪntəns",
+null,
+"người quen",
+"Biết nhau nhưng không thân.",
+"He's just an *acquaintance*, not a friend.",
+"Anh ta chỉ là người quen, không phải bạn.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b05.py",
+"adult": false,
+"g": [
+"soon: sắp, chẳng bao lâu. shortly: ít phút nữa (trang trọng). immediately: ngay lập tức. at once: ngay. promptly: nhanh chóng, đúng giờ.",
+[
+[
+"soon",
+"trạng từ",
+"sun",
+null,
+"sớm, chẳng bao lâu nữa",
+"Trong thời gian ngắn tính từ bây giờ, không chính xác.",
+"I'll see you *soon*.",
+"Sớm gặp lại bạn nhé.",
+"trung tính",
+null
+],
+[
+"shortly",
+"trạng từ",
+"ˈʃɔɹtli",
+null,
+"ít phút nữa, sắp",
+"Trang trọng, hay nghe trong thông báo: The train will depart shortly.",
+"The doctor will see you *shortly*.",
+"Bác sĩ sẽ gặp bạn trong ít phút nữa.",
+"trang trọng",
+null
+],
+[
+"immediately",
+"trạng từ",
+"ˌɪˈmiˌdiətli",
+null,
+"ngay lập tức",
+"Không chậm trễ chút nào.",
+"Call me *immediately* if there's a problem.",
+"Gọi cho tôi ngay nếu có vấn đề.",
+"trung tính",
+null
+],
+[
+"at once",
+"cụm từ",
+"æt wʌns",
+null,
+"ngay lập tức; cùng một lúc",
+"Hai nghĩa: ngay lập tức, hoặc cùng lúc (all at once).",
+"Come here *at once*!",
+"Lại đây ngay!",
+"trang trọng",
+null
+],
+[
+"promptly",
+"trạng từ",
+"ˈpɹɑmptli",
+null,
+"nhanh chóng, đúng giờ",
+"Làm đúng lúc hoặc không chậm trễ.",
+"She replied *promptly* to my email.",
+"Cô ấy trả lời email của tôi ngay.",
+"trang trọng",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b05.py",
+"adult": false,
+"g": [
+"always: luôn luôn. usually: thường. often: thường xuyên. sometimes: đôi khi. rarely: hiếm khi. never: không bao giờ.",
+[
+[
+"always",
+"trạng từ",
+"ˈɔlˌweɪz",
+null,
+"luôn luôn",
+"Mọi lúc, 100 phần trăm.",
+"She *always* arrives early.",
+"Cô ấy luôn đến sớm.",
+"trung tính",
+null
+],
+[
+"usually",
+"trạng từ",
+"ˈjuʒəwəli",
+null,
+"thường, thường thì",
+"Hầu hết các lần, khoảng 80 đến 90 phần trăm.",
+"I *usually* walk to school.",
+"Tôi thường đi bộ đến trường.",
+"trung tính",
+null
+],
+[
+"often",
+"trạng từ",
+"ˈɔfən",
+null,
+"thường xuyên, hay",
+"Nhiều lần, khoảng 60 đến 70 phần trăm.",
+"We *often* eat out on Fridays.",
+"Chúng tôi hay đi ăn ngoài vào thứ Sáu.",
+"trung tính",
+null
+],
+[
+"sometimes",
+"trạng từ",
+"səmˈtaɪmz",
+null,
+"đôi khi, thỉnh thoảng",
+"Không thường xuyên, khoảng 30 phần trăm.",
+"*Sometimes* I take the bus.",
+"Thỉnh thoảng tôi đi xe buýt.",
+"trung tính",
+null
+],
+[
+"rarely",
+"trạng từ",
+"ˈɹɛɹli",
+null,
+"hiếm khi",
+"Rất ít, khoảng 10 phần trăm. Đi với động từ khẳng định, mang nghĩa phủ định.",
+"He *rarely* speaks in meetings.",
+"Anh ấy hiếm khi phát biểu trong cuộc họp.",
+"trung tính",
+null
+],
+[
+"never",
+"trạng từ",
+"ˈnɛvɚ",
+null,
+"không bao giờ",
+"Không lần nào.",
+"I have *never* been to Paris.",
+"Tôi chưa bao giờ đến Paris.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b05.py",
+"adult": false,
+"g": [
+"many: nhiều (đếm được). much: nhiều (không đếm được). a lot of: nhiều, thân mật. plenty of: nhiều, dư dả. several: vài. few: ít.",
+[
+[
+"many",
+"từ hạn định",
+"ˈmɛni",
+null,
+"nhiều (đếm được)",
+"Dùng trong câu hỏi và phủ định với danh từ đếm được: How many, not many.",
+"How *many* people came to the party?",
+"Có bao nhiêu người đến dự tiệc?",
+"trung tính",
+null
+],
+[
+"much",
+"từ hạn định",
+"mʌtʃ",
+null,
+"nhiều (không đếm được)",
+"Dùng với danh từ không đếm được trong câu hỏi và phủ định.",
+"I don't have *much* time.",
+"Tôi không có nhiều thời gian.",
+"trung tính",
+null
+],
+[
+"a lot of",
+"cụm từ",
+"ə lɑt ʌv",
+null,
+"nhiều",
+"Dùng được cả đếm được lẫn không đếm được, thân mật, phổ biến trong câu khẳng định.",
+"We have *a lot of* work today.",
+"Hôm nay chúng tôi có nhiều việc.",
+"thân mật",
+null
+],
+[
+"plenty of",
+"cụm từ",
+"ˈplɛnti ʌv",
+null,
+"rất nhiều, thừa thãi",
+"Nhiều hơn mức cần, đủ dùng.",
+"There's *plenty of* food for everyone.",
+"Có thừa đồ ăn cho mọi người.",
+"thân mật",
+null
+],
+[
+"several",
+"từ hạn định",
+"ˈsɛvɹəl",
+null,
+"vài, một số",
+"Nhiều hơn hai nhưng không quá nhiều.",
+"I called her *several* times.",
+"Tôi gọi cho cô ấy vài lần.",
+"trung tính",
+null
+],
+[
+"few",
+"từ hạn định",
+"fju",
+null,
+"ít, vài (đếm được)",
+"A few là một vài (tích cực), few là ít, gần như không đủ (tiêu cực).",
+"A *few* friends came to visit.",
+"Vài người bạn đến thăm.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b05.py",
+"adult": false,
+"g": [
+"fast: nhanh. quick: nhanh (thời gian ngắn). rapid: nhanh chóng, trang trọng. swift: nhanh nhẹn. speedy: mau lẹ. slow: chậm.",
+[
+[
+"fast",
+"tính từ",
+"fæst",
+null,
+"nhanh (tốc độ)",
+"Chỉ tốc độ di chuyển hoặc hoạt động: a fast car. Cũng là trạng từ.",
+"He is a *fast* runner.",
+"Anh ấy chạy nhanh.",
+"trung tính",
+null
+],
+[
+"quick",
+"tính từ",
+"kwɪk",
+null,
+"nhanh, mau",
+"Nhanh về thời gian hoàn thành: a quick break, a quick answer.",
+"Can I ask you a *quick* question?",
+"Tôi hỏi nhanh một câu được không?",
+"trung tính",
+null
+],
+[
+"rapid",
+"tính từ",
+"ˈɹæpəd",
+null,
+"nhanh chóng, dồn dập",
+"Trang trọng, thay đổi hay phát triển rất nhanh.",
+"The city has seen *rapid* growth.",
+"Thành phố phát triển nhanh chóng.",
+"trang trọng",
+null
+],
+[
+"swift",
+"tính từ",
+"swɪft",
+null,
+"nhanh nhẹn, mau lẹ",
+"Văn phong trang trọng hoặc văn chương, hành động nhanh gọn.",
+"The company took *swift* action.",
+"Công ty hành động nhanh chóng.",
+"trang trọng",
+null
+],
+[
+"slow",
+"tính từ",
+"sloʊ",
+null,
+"chậm",
+"Đối lập với fast. Cũng nghĩa là chậm hiểu.",
+"The internet is very *slow* today.",
+"Hôm nay mạng rất chậm.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b05.py",
+"adult": false,
+"g": [
+"early: sớm. late: muộn. on time: đúng giờ. punctual: đúng giờ (tính cách). delayed: bị hoãn.",
+[
+[
+"early",
+"tính từ",
+"ˈɝli",
+null,
+"sớm",
+"Trước giờ dự kiến hoặc trước bình thường.",
+"I woke up *early* this morning.",
+"Sáng nay tôi dậy sớm.",
+"trung tính",
+null
+],
+[
+"late",
+"tính từ",
+"leɪt",
+null,
+"muộn, trễ",
+"Sau giờ dự kiến. Cũng là quá cố: the late Mr Smith.",
+"I'm sorry I'm *late*.",
+"Xin lỗi, tôi đến muộn.",
+"trung tính",
+null
+],
+[
+"on time",
+"cụm từ",
+"ɑn taɪm",
+null,
+"đúng giờ",
+"Đến hoặc làm đúng thời điểm đã định. Khác in time (vừa kịp).",
+"The train arrived *on time*.",
+"Tàu đến đúng giờ.",
+"trung tính",
+null
+],
+[
+"punctual",
+"tính từ",
+"ˈpʌŋktʃuəl",
+null,
+"đúng giờ, đúng hẹn",
+"Mô tả tính cách luôn đúng giờ, trang trọng.",
+"He is always *punctual* for meetings.",
+"Anh ấy luôn đúng giờ trong các cuộc họp.",
+"trang trọng",
+null
+],
+[
+"delayed",
+"tính từ",
+"dɪˈleɪd",
+null,
+"bị trễ, bị hoãn",
+"Chuyến bay, tàu bị chậm so với lịch.",
+"Our flight was *delayed* by two hours.",
+"Chuyến bay của chúng tôi bị trễ hai giờ.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b05.py",
+"adult": false,
+"g": [
+"teach: dạy. instruct: hướng dẫn (trang trọng). train: huấn luyện, đào tạo. coach: kèm cặp. educate: giáo dục.",
+[
+[
+"teach",
+"động từ",
+"titʃ",
+null,
+"dạy, giảng dạy",
+"Truyền kiến thức hoặc kỹ năng, thường ở trường lớp.",
+"She *teaches* English at a high school.",
+"Cô ấy dạy tiếng Anh ở trường cấp ba.",
+"trung tính",
+null
+],
+[
+"instruct",
+"động từ",
+"ˌɪnˈstɹʌkt",
+null,
+"hướng dẫn, chỉ dẫn",
+"Trang trọng, chỉ cách làm hoặc ra lệnh có hệ thống.",
+"He *instructed* us to wait outside.",
+"Ông ấy hướng dẫn chúng tôi chờ bên ngoài.",
+"trang trọng",
+null
+],
+[
+"train",
+"động từ",
+"tɹeɪn",
+null,
+"huấn luyện, đào tạo",
+"Dạy kỹ năng cụ thể qua thực hành, hay dùng trong nghề và thể thao.",
+"They *train* new staff every month.",
+"Họ đào tạo nhân viên mới mỗi tháng.",
+"trung tính",
+null
+],
+[
+"coach",
+"động từ",
+"koʊtʃ",
+null,
+"kèm cặp, huấn luyện",
+"Dẫn dắt từng người để nâng cao kỹ năng, như thể thao hoặc phỏng vấn.",
+"He *coaches* the school football team.",
+"Anh ấy huấn luyện đội bóng của trường.",
+"trung tính",
+null
+],
+[
+"educate",
+"động từ",
+"ˈɛdʒəˌkeɪt",
+null,
+"giáo dục, đào tạo",
+"Cung cấp kiến thức và nhận thức một cách có hệ thống, nghĩa rộng.",
+"We must *educate* children about safety.",
+"Chúng ta phải giáo dục trẻ em về an toàn.",
+"trang trọng",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b05.py",
+"adult": false,
+"g": [
+"boss: sếp. manager: quản lý. supervisor: người giám sát. leader: người dẫn đầu. director: giám đốc, người chỉ đạo. employer: chủ thuê.",
+[
+[
+"boss",
+"danh từ",
+"bɑs",
+null,
+"sếp, ông chủ",
+"Thân mật, người có quyền chỉ đạo mình.",
+"My *boss* is out of the office today.",
+"Sếp tôi hôm nay không có ở văn phòng.",
+"thân mật",
+null
+],
+[
+"manager",
+"danh từ",
+"ˈmænədʒɚ",
+null,
+"quản lý, giám đốc bộ phận",
+"Người điều hành một nhóm hay bộ phận.",
+"The *manager* approved my leave.",
+"Quản lý đã duyệt đơn nghỉ phép của tôi.",
+"trang trọng",
+null
+],
+[
+"supervisor",
+"danh từ",
+"ˈsupɚˌvaɪzɚ",
+null,
+"người giám sát",
+"Theo dõi công việc hằng ngày của nhân viên, cấp dưới manager.",
+"Ask your *supervisor* for help.",
+"Hãy nhờ người giám sát giúp bạn.",
+"trang trọng",
+null
+],
+[
+"leader",
+"danh từ",
+"ˈlidɚ",
+null,
+"người lãnh đạo, trưởng nhóm",
+"Người dẫn dắt nhóm, không nhất thiết có chức vụ.",
+"She is a natural *leader*.",
+"Cô ấy là người lãnh đạo bẩm sinh.",
+"trung tính",
+null
+],
+[
+"employer",
+"danh từ",
+"ɛmˈplɔɪɚ",
+null,
+"chủ thuê, người sử dụng lao động",
+"Người hoặc công ty trả lương cho nhân viên.",
+"My *employer* offers free lunch.",
+"Chủ tôi cho ăn trưa miễn phí.",
+"trang trọng",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b05.py",
+"adult": false,
+"g": [
+"salary: lương tháng cố định. wage: tiền công, theo giờ hoặc tuần. pay: tiền trả công nói chung. income: thu nhập. earnings: tiền kiếm được.",
+[
+[
+"salary",
+"danh từ",
+"ˈsælɚi",
+null,
+"lương (tháng, cố định)",
+"Thu nhập cố định theo năm hoặc tháng, thường nhân viên văn phòng.",
+"He earns a good *salary*.",
+"Anh ấy có lương tốt.",
+"trung tính",
+null
+],
+[
+"wage",
+"danh từ",
+"weɪdʒ",
+null,
+"tiền công, lương (theo giờ)",
+"Trả theo giờ hoặc ngày, tuần, thường lao động chân tay.",
+"The minimum *wage* will rise next year.",
+"Lương tối thiểu sẽ tăng vào năm sau.",
+"trung tính",
+null
+],
+[
+"pay",
+"danh từ",
+"peɪ",
+null,
+"tiền lương, thù lao",
+"Từ chung chỉ khoản tiền nhận được khi làm việc.",
+"The *pay* is low but the hours are good.",
+"Lương thấp nhưng giờ làm tốt.",
+"trung tính",
+null
+],
+[
+"income",
+"danh từ",
+"ˈɪnˌkʌm",
+null,
+"thu nhập",
+"Tổng tiền nhận được từ mọi nguồn trong một khoảng thời gian.",
+"Her monthly *income* is stable.",
+"Thu nhập hằng tháng của cô ấy ổn định.",
+"trang trọng",
+null
+],
+[
+"earnings",
+"danh từ",
+"ˈɝnɪŋz",
+null,
+"khoản kiếm được, thu nhập",
+"Tiền kiếm được nhờ làm việc hoặc kinh doanh, hay dùng cho công ty.",
+"The company's *earnings* fell this year.",
+"Thu nhập của công ty giảm trong năm nay.",
+"trang trọng",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b06.py",
+"adult": false,
+"g": [
+"hot: nóng. warm: ấm. cool: mát. cold: lạnh. freezing: lạnh buốt. boiling: nóng như đổ lửa.",
+[
+[
+"hot",
+"tính từ",
+"hɑt",
+null,
+"nóng",
+"Nhiệt độ cao, thường khó chịu hoặc rất nóng.",
+"It's really *hot* today.",
+"Hôm nay trời rất nóng.",
+"trung tính",
+null
+],
+[
+"warm",
+"tính từ",
+"wɔɹm",
+null,
+"ấm, ấm áp",
+"Nhiệt độ dễ chịu, giữa mát và nóng.",
+"The soup keeps you *warm*.",
+"Món súp giữ ấm cho bạn.",
+"trung tính",
+null
+],
+[
+"cool",
+"tính từ",
+"kul",
+null,
+"mát, mát mẻ",
+"Nhiệt độ hơi thấp, dễ chịu. Thân mật còn là ngầu.",
+"A *cool* breeze came from the sea.",
+"Một làn gió mát thổi từ biển vào.",
+"trung tính",
+null
+],
+[
+"cold",
+"tính từ",
+"koʊld",
+null,
+"lạnh",
+"Nhiệt độ thấp, thường khó chịu.",
+"It's *cold* outside, wear a coat.",
+"Ngoài trời lạnh, hãy mặc áo khoác.",
+"trung tính",
+null
+],
+[
+"freezing",
+"tính từ",
+"ˈfɹizɪŋ",
+null,
+"lạnh buốt, đóng băng",
+"Cực lạnh, dưới hoặc gần 0 độ. Nói quá: I'm freezing.",
+"I'm *freezing*, close the window.",
+"Tôi lạnh cóng, đóng cửa sổ lại đi.",
+"thân mật",
+null
+],
+[
+"boiling",
+"tính từ",
+"ˈbɔɪlɪŋ",
+null,
+"nóng như thiêu",
+"Thân mật, nói quá: It's boiling in here.",
+"It's *boiling* in this room.",
+"Phòng này nóng như thiêu.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b06.py",
+"adult": false,
+"g": [
+"cheap: rẻ, đôi khi chất lượng kém. inexpensive: rẻ, lịch sự. affordable: giá phải chăng. expensive: đắt. costly: tốn kém. pricey: đắt (thân mật).",
+[
+[
+"cheap",
+"tính từ",
+"tʃip",
+null,
+"rẻ; rẻ tiền",
+"Giá thấp. Có thể hàm ý chất lượng kém hoặc keo kiệt.",
+"This hotel is *cheap* but clean.",
+"Khách sạn này rẻ mà sạch.",
+"trung tính",
+null
+],
+[
+"inexpensive",
+"tính từ",
+"ˌɪnɪkˈspɛnsɪv",
+null,
+"giá rẻ, không đắt",
+"Lịch sự hơn cheap, không hàm ý chất lượng kém.",
+"We found an *inexpensive* restaurant.",
+"Chúng tôi tìm được một nhà hàng giá không đắt.",
+"trang trọng",
+null
+],
+[
+"affordable",
+"tính từ",
+"əˈfɔɹdəbəl",
+null,
+"giá phải chăng",
+"Vừa túi tiền với nhiều người.",
+"They offer *affordable* housing.",
+"Họ cung cấp nhà ở giá phải chăng.",
+"trang trọng",
+null
+],
+[
+"expensive",
+"tính từ",
+"ɪkˈspɛnsɪv",
+null,
+"đắt, đắt tiền",
+"Giá cao so với mức bình thường.",
+"That bag is too *expensive* for me.",
+"Cái túi đó quá đắt đối với tôi.",
+"trung tính",
+null
+],
+[
+"costly",
+"tính từ",
+"ˈkɑstli",
+null,
+"tốn kém",
+"Trang trọng, hay nhấn vào chi phí hoặc cái giá phải trả. Cũng dùng nghĩa bóng.",
+"A *costly* mistake cost them the game.",
+"Một sai lầm đắt giá khiến họ thua trận.",
+"trang trọng",
+null
+],
+[
+"pricey",
+"tính từ",
+"ˈpɹaɪsi",
+null,
+"hơi đắt",
+"Thân mật, đắt hơn mong đợi.",
+"The tickets are a bit *pricey*.",
+"Vé hơi đắt.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b06.py",
+"adult": false,
+"g": [
+"trip: chuyến đi ngắn. journey: hành trình dài. tour: chuyến tham quan. voyage: chuyến đi biển, vũ trụ. excursion: chuyến đi chơi. flight: chuyến bay.",
+[
+[
+"trip",
+"danh từ",
+"tɹɪp",
+null,
+"chuyến đi",
+"Đi một nơi rồi quay lại, có thể ngắn hoặc dài.",
+"We took a *trip* to Da Nang.",
+"Chúng tôi có một chuyến đi Đà Nẵng.",
+"trung tính",
+null
+],
+[
+"journey",
+"danh từ",
+"ˈdʒɝni",
+null,
+"hành trình",
+"Quãng đường dài và thường nhấn vào quá trình đi, kể cả nghĩa bóng.",
+"The *journey* took three days.",
+"Hành trình mất ba ngày.",
+"trung tính",
+null
+],
+[
+"tour",
+"danh từ",
+"tʊɹ",
+null,
+"chuyến tham quan, tour",
+"Đi qua nhiều nơi để xem, có thể có hướng dẫn viên.",
+"We joined a *tour* of the old town.",
+"Chúng tôi tham gia chuyến tham quan phố cổ.",
+"trung tính",
+null
+],
+[
+"voyage",
+"danh từ",
+"ˈvɔɪədʒ",
+null,
+"chuyến hải hành, chuyến đi xa",
+"Chuyến đi dài bằng tàu hoặc vũ trụ, mang tính phiêu lưu.",
+"The *voyage* lasted six weeks.",
+"Chuyến hải hành kéo dài sáu tuần.",
+"trang trọng",
+null
+],
+[
+"excursion",
+"danh từ",
+"ɪkˈskɝʒən",
+null,
+"chuyến đi chơi, chuyến tham quan ngắn",
+"Đi ngắn ngày để giải trí, thường theo nhóm.",
+"The class went on an *excursion* to the zoo.",
+"Cả lớp đi chơi ở sở thú.",
+"trang trọng",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b06.py",
+"adult": false,
+"g": [
+"sick: ốm (Mỹ), buồn nôn (Anh). ill: ốm, bệnh (Anh). unwell: không khỏe (lịch sự). poorly: ốm (Anh, thân mật). nauseous: buồn nôn.",
+[
+[
+"sick",
+"tính từ",
+"sɪk",
+null,
+"ốm, bệnh; buồn nôn",
+"Mỹ dùng cho ốm nói chung. Anh dùng cho buồn nôn: I feel sick.",
+"He stayed home because he was *sick*.",
+"Anh ấy ở nhà vì bị ốm.",
+"trung tính",
+null
+],
+[
+"ill",
+"tính từ",
+"ɪl",
+null,
+"ốm, đau bệnh",
+"Anh hay dùng cho bệnh nặng hơn hoặc kéo dài, đứng sau động từ be.",
+"She has been *ill* for a week.",
+"Cô ấy ốm một tuần rồi.",
+"trung tính",
+null
+],
+[
+"unwell",
+"tính từ",
+"ənˈwɛl",
+null,
+"không khỏe, thấy khó chịu trong người",
+"Cách nói lịch sự, nhẹ nhàng cho việc bị bệnh.",
+"I'm feeling *unwell*, may I go home?",
+"Tôi thấy không khỏe, tôi về nhà được không?",
+"trang trọng",
+null
+],
+[
+"poorly",
+"tính từ",
+"ˈpuɹli",
+null,
+"ốm yếu (Anh)",
+"Kiểu Anh, thân mật, nhất là nói về trẻ con hoặc người lớn tuổi.",
+"Grandma is *poorly* today.",
+"Hôm nay bà ốm yếu.",
+"thân mật",
+null
+],
+[
+"nauseous",
+"tính từ",
+"ˈnɔʃəs",
+null,
+"buồn nôn",
+"Thấy muốn nôn, dùng trong y khoa và đời thường.",
+"The smell made me *nauseous*.",
+"Mùi đó làm tôi buồn nôn.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b06.py",
+"adult": false,
+"g": [
+"pain: cơn đau nói chung. ache: đau âm ỉ. hurt: làm đau, thấy đau. sore: đau, rát khi chạm. sting: đau nhói, châm chích.",
+[
+[
+"pain",
+"danh từ",
+"peɪn",
+null,
+"đau, cơn đau",
+"Cảm giác đau chung, từ nhẹ đến dữ dội.",
+"I have a *pain* in my back.",
+"Tôi bị đau lưng.",
+"trung tính",
+null
+],
+[
+"ache",
+"danh từ",
+"eɪk",
+null,
+"cơn đau âm ỉ",
+"Đau dai dẳng, không dữ dội. Cũng là động từ: My head aches.",
+"She has a headache and a stomach *ache*.",
+"Cô ấy đau đầu và đau bụng.",
+"trung tính",
+null
+],
+[
+"hurt",
+"động từ",
+"hɝt",
+null,
+"đau; làm đau",
+"Có thể là bị đau (My leg hurts) hoặc làm ai đau (don't hurt him). Cũng là tổn thương tình cảm.",
+"My feet *hurt* after the walk.",
+"Chân tôi đau sau chuyến đi bộ.",
+"trung tính",
+null
+],
+[
+"sore",
+"tính từ",
+"sɔɹ",
+null,
+"đau, ê, rát",
+"Đau khi chạm hay cử động, thường ở cơ hay cổ họng.",
+"I have a *sore* throat.",
+"Tôi bị đau họng.",
+"trung tính",
+null
+],
+[
+"sting",
+"động từ",
+"stɪŋ",
+null,
+"đau nhói, châm",
+"Đau rát như bị ong chích hay xà phòng vào mắt.",
+"The cut *stung* when I washed it.",
+"Vết cắt đau nhói khi tôi rửa.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b06.py",
+"adult": false,
+"g": [
+"buy: mua. purchase: mua (trang trọng). shop: đi mua sắm. order: đặt hàng. afford: đủ tiền mua.",
+[
+[
+"buy",
+"động từ",
+"baɪ",
+null,
+"mua",
+"Từ thông dụng nhất để trả tiền lấy hàng hóa.",
+"I need to *buy* some milk.",
+"Tôi cần mua ít sữa.",
+"trung tính",
+null
+],
+[
+"purchase",
+"động từ",
+"ˈpɝtʃəs",
+null,
+"mua, tậu",
+"Trang trọng hơn buy, hay dùng trong văn bản, thương mại hoặc món lớn.",
+"They *purchased* a new house last year.",
+"Họ mua một ngôi nhà mới năm ngoái.",
+"trang trọng",
+null
+],
+[
+"shop",
+"động từ",
+"ʃɑp",
+null,
+"đi mua sắm",
+"Đi đến cửa hàng để mua hoặc xem hàng. Danh từ: cửa hàng.",
+"We *shop* at the market on Sundays.",
+"Chủ nhật chúng tôi đi chợ mua đồ.",
+"trung tính",
+null
+],
+[
+"order",
+"động từ",
+"ˈɔɹdɚ",
+null,
+"đặt hàng, gọi món",
+"Yêu cầu hàng hóa hoặc món ăn để được giao hoặc phục vụ.",
+"I *ordered* a pizza online.",
+"Tôi đặt pizza qua mạng.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"batch": "pending/b06.py",
+"adult": false,
+"g": [
+"rain: mưa. drizzle: mưa phùn. pour: mưa xối xả. shower: mưa rào. storm: bão, giông.",
+[
+[
+"rain",
+"động từ",
+"ɹeɪn",
+null,
+"mưa",
+"Nước rơi từ trời. Cũng là danh từ.",
+"It *rained* all day yesterday.",
+"Hôm qua mưa cả ngày.",
+"trung tính",
+null
+],
+[
+"drizzle",
+"động từ",
+"ˈdɹɪzəl",
+null,
+"mưa phùn",
+"Mưa nhẹ, hạt nhỏ li ti.",
+"It was just *drizzling*, so we kept walking.",
+"Chỉ mưa phùn nên chúng tôi cứ đi tiếp.",
+"trung tính",
+null
+],
+[
+"pour",
+"động từ",
+"pɔɹ",
+null,
+"mưa xối xả, trút",
+"Mưa rất to. It's pouring. Cũng là rót.",
+"It's *pouring*, take an umbrella.",
+"Mưa như trút, mang ô theo.",
+"trung tính",
+null
+],
+[
+"shower",
+"danh từ",
+"ˈʃaʊɚ",
+null,
+"mưa rào",
+"Mưa ngắn, bất chợt rồi tạnh.",
+"There will be scattered *showers* this afternoon.",
+"Chiều nay có những cơn mưa rào rải rác.",
+"trung tính",
+null
+],
+[
+"storm",
+"danh từ",
+"stɔɹm",
+null,
+"bão, giông bão",
+"Thời tiết dữ dội với gió mạnh, mưa to, sấm chớp.",
+"A *storm* is coming tonight.",
+"Tối nay có bão.",
+"trung tính",
+null
+]
+]
+]
+}
+]
+}
