@@ -29,12 +29,17 @@ jobs:
         with:
           name: ChooseTheCorrectWord-apk
           path: ChooseTheCorrectWord.apk
-      - name: Publish release (only for tags like v1.3.0)
-        if: startsWith(github.ref, 'refs/tags/v')
+      - name: Publish release (when www/version.json has a new version)
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          TAG="${GITHUB_REF_NAME}"
-          cp ChooseTheCorrectWord.apk "ChooseTheCorrectWord-${TAG}.apk"
+          VER=$(python3 -c "import json;print(json.load(open('www/version.json'))['versionName'])")
           NOTES=$(python3 -c "import json;print(json.load(open('www/version.json'))['notes'])")
-          gh release create "$TAG" "ChooseTheCorrectWord-${TAG}.apk" --title "Choose The Correct Word ${TAG}" --notes "$NOTES"
+          TAG="v${VER}"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release $TAG already exists, skipping."
+          else
+            cp ChooseTheCorrectWord.apk "ChooseTheCorrectWord-${TAG}.apk"
+            gh release create "$TAG" "ChooseTheCorrectWord-${TAG}.apk" --target "$GITHUB_SHA" --title "Choose The Correct Word ${TAG}" --notes "$NOTES"
+          fi
