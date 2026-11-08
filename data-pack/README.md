@@ -5,7 +5,7 @@ Cấu trúc mỗi nhóm: `gid, kind, adult, rel, tip, e[]`; mỗi mục có `w, 
 Nguồn và giấy phép: xem `../NOTICE.md`. Trường `exsrc`/`src` cho biết ví dụ lấy từ WordNet hay tự biên soạn.
 Ghi chú: các mục này chưa được người bản ngữ rà soát; các mục `adult: true` chỉ dành cho người từ 18 tuổi.
 
-## vocab-pending.json (dữ liệu chờ nạp, tự biên soạn)
+## vocab-v1.4-merged.json (đã nạp vào app từ bản 1.4.0, giữ để tham khảo)
 
 46 nhóm / 240 mục thuộc các mảng thông dụng: động từ chuyển động, giao tiếp, cảm xúc, tính từ kích thước/chất lượng, nấu ăn, công việc, tần suất, thời tiết, sức khỏe, mua sắm.
 Mỗi nhóm có dạng `{ "batch", "adult", "g": [tip, [[word, pos, ipaUS, ipaUK, vi, use, ex, exVi, reg, say], ...]] }`.
