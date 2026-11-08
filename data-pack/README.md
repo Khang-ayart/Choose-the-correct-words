@@ -11,3 +11,9 @@ Ghi chú: các mục này chưa được người bản ngữ rà soát; các m�
 Mỗi nhóm có dạng `{ "batch", "adult", "g": [tip, [[word, pos, ipaUS, ipaUK, vi, use, ex, exVi, reg, say], ...]] }`.
 `adult: true` thì nạp vào `D.search18`, ngược lại vào `D.search`. Khi nạp, quy tắc hiện có trong `www/index.html` tự thay các nhóm cũ có từ trùng.
 IPA lấy từ CMU Pronouncing Dictionary; nghĩa, sắc thái, ví dụ do dự án tự biên soạn nên cần rà soát bởi người bản ngữ.
+
+## phrasal-pending.json (cụm động từ, chờ nạp)
+
+41 nhóm / 205 mục, gom theo nhóm nghĩa (ví dụ: tìm ra, bỏ cuộc, hòa thuận, tan làm). 8 nhóm có `adult: true` (nạp vào mục 18+), 33 nhóm còn lại dùng cho bản thường.
+Dự kiến thêm hai mục mới "Cụm động từ" (`phrasal`) và "Cụm động từ 18+" (`phrasal18`) trong `www/index.html`, cùng cách làm với "Cụm liên quan".
+Một số cụm không phải cụm động từ đúng nghĩa (click, bungle, bang, shag, throw in the towel) được đưa vào vì cùng nhóm nghĩa. Nghĩa và ví dụ tự biên soạn, chưa có người bản ngữ rà soát; IPA lấy từ CMU.

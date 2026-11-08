@@ -1,0 +1,2794 @@
+{
+"version": 1,
+"note": "Cụm động từ tự biên soạn, chưa nạp vào app. Dự kiến mục riêng \"Cụm động từ\" (phrasal / phrasal18). Mỗi nhóm: g=[tip,[[phrase,pos,ipaUS,ipaUK,vi,use,ex,exVi,reg,say],...]], adult=true là 18+.",
+"groups": [
+{
+"adult": false,
+"g": [
+"Tìm ra, giải quyết được điều chưa biết hoặc khó hiểu.",
+[
+[
+"find out",
+"cụm động từ",
+"faɪnd aʊt",
+null,
+"tìm ra, biết được",
+"Biết được thông tin mới, thường nhờ hỏi hay tìm hiểu. Tân ngữ thường là mệnh đề: find out who/what/how.",
+"I need to *find out* what time the shop opens.",
+"Tôi cần tìm hiểu cửa hàng mở lúc mấy giờ.",
+"trung tính",
+null
+],
+[
+"figure out",
+"cụm động từ",
+"ˈfɪɡjɚ aʊt",
+null,
+"hiểu ra, nghĩ ra",
+"Dùng đầu óc để hiểu một việc khó hoặc giải được vấn đề. Thân mật.",
+"I can't *figure out* how to use this app.",
+"Tôi không hiểu cách dùng ứng dụng này.",
+"thân mật",
+null
+],
+[
+"work out",
+"cụm động từ",
+"wɝk aʊt",
+null,
+"tính ra, giải quyết được",
+"Tìm ra đáp án hay cách xử lý, có thể qua tính toán hoặc suy nghĩ. Cũng có nghĩa tập thể dục.",
+"We'll *work out* a solution together.",
+"Chúng ta sẽ cùng tìm ra giải pháp.",
+"thân mật",
+null
+],
+[
+"make out",
+"cụm động từ",
+"meɪk aʊt",
+null,
+"nhận ra, hiểu được (khó khăn)",
+"Thấy hoặc nghe hoặc hiểu một cách khó khăn: I can't make out what he's saying.",
+"I couldn't *make out* the words on the sign.",
+"Tôi không đọc ra chữ trên biển.",
+"thân mật",
+null
+],
+[
+"sort out",
+"cụm động từ",
+"sɔɹt aʊt",
+null,
+"giải quyết, sắp xếp ổn thỏa",
+"Xử lý một vấn đề cho xong, hoặc phân loại. Kiểu Anh phổ biến.",
+"I'll *sort out* the problem tomorrow.",
+"Mai tôi sẽ giải quyết vấn đề đó.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Tra cứu, xem xét hay kiểm tra thông tin.",
+[
+[
+"look up",
+"cụm động từ",
+"lʊk ʌp",
+null,
+"tra (từ điển, thông tin)",
+"Tìm một thông tin trong sách, từ điển hoặc mạng.",
+"*Look up* the word in the dictionary.",
+"Hãy tra từ đó trong từ điển.",
+"trung tính",
+null
+],
+[
+"check out",
+"cụm động từ",
+"tʃɛk aʊt",
+null,
+"xem thử, kiểm tra; trả phòng",
+"Xem một thứ hay ho, hoặc kiểm tra. Cũng là trả phòng khách sạn, mượn sách.",
+"*Check out* this new cafe!",
+"Xem thử quán cà phê mới này đi!",
+"thân mật",
+null
+],
+[
+"look into",
+"cụm động từ",
+"lʊk ˈɪntu",
+null,
+"điều tra, xem xét kỹ",
+"Tìm hiểu nguyên nhân hoặc khả năng của một vấn đề, trang trọng hơn look up.",
+"The police are *looking into* the case.",
+"Cảnh sát đang điều tra vụ việc.",
+"trang trọng",
+null
+],
+[
+"go over",
+"cụm động từ",
+"ɡoʊ ˈoʊvɚ",
+null,
+"xem lại, rà soát",
+"Kiểm tra hoặc nhắc lại cẩn thận từng điểm.",
+"Let's *go over* the plan once more.",
+"Chúng ta xem lại kế hoạch một lần nữa.",
+"trung tính",
+null
+],
+[
+"look through",
+"cụm động từ",
+"lʊk θɹu",
+null,
+"xem lướt qua, lục tìm",
+"Xem nhanh một tập tài liệu hoặc lục tìm thứ gì.",
+"She *looked through* the old photos.",
+"Cô ấy xem lướt qua những tấm ảnh cũ.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Xuất hiện hoặc đến một nơi.",
+[
+[
+"turn up",
+"cụm động từ",
+"tɝn ʌp",
+null,
+"xuất hiện, tới (thường bất ngờ)",
+"Tới nơi, thường không báo trước hoặc muộn. Cũng là vặn to.",
+"He *turned up* at the party uninvited.",
+"Anh ta xuất hiện ở bữa tiệc dù không được mời.",
+"thân mật",
+null
+],
+[
+"show up",
+"cụm động từ",
+"ʃoʊ ʌp",
+null,
+"có mặt, xuất hiện",
+"Đến dự đúng như kỳ vọng hoặc đến muộn. Phủ định: không đến.",
+"She didn't *show up* for the meeting.",
+"Cô ấy không đến dự cuộc họp.",
+"thân mật",
+null
+],
+[
+"pop up",
+"cụm động từ",
+"pɑp ʌp",
+null,
+"bỗng hiện ra, nảy ra",
+"Xuất hiện đột ngột, như cửa sổ trên màn hình.",
+"A message *popped up* on my screen.",
+"Một thông báo bỗng hiện lên màn hình tôi.",
+"thân mật",
+null
+],
+[
+"drop in",
+"cụm động từ",
+"dɹɑp ɪn",
+null,
+"ghé thăm bất chợt",
+"Ghé qua nhà ai không hẹn trước.",
+"Why don't you *drop in* on your way home?",
+"Sao bạn không ghé qua trên đường về?",
+"thân mật",
+null
+],
+[
+"roll up",
+"cụm động từ",
+"ɹoʊl ʌp",
+null,
+"đến, kéo đến (thường lơ là)",
+"Đến nơi một cách thong thả, đôi khi muộn.",
+"He *rolled up* at noon.",
+"Anh ta lục đục đến lúc trưa.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Thức dậy và các trạng thái ngủ.",
+[
+[
+"get up",
+"cụm động từ",
+"ɡɛt ʌp",
+null,
+"dậy, ra khỏi giường",
+"Rời giường để bắt đầu ngày mới. Khác wake up (tỉnh giấc).",
+"I *get up* at six every day.",
+"Ngày nào tôi cũng dậy lúc sáu giờ.",
+"trung tính",
+null
+],
+[
+"wake up",
+"cụm động từ",
+"weɪk ʌp",
+null,
+"tỉnh dậy, thức dậy",
+"Chuyển từ ngủ sang tỉnh, chưa chắc đã ra khỏi giường.",
+"I *woke up* at three in the morning.",
+"Tôi tỉnh giấc lúc ba giờ sáng.",
+"trung tính",
+null
+],
+[
+"stay up",
+"cụm động từ",
+"steɪ ʌp",
+null,
+"thức khuya",
+"Không đi ngủ dù đã khuya.",
+"We *stayed up* all night talking.",
+"Chúng tôi thức cả đêm nói chuyện.",
+"thân mật",
+null
+],
+[
+"lie in",
+"cụm động từ",
+"laɪ ɪn",
+null,
+"ngủ nướng (Anh)",
+"Nằm lâu hơn trên giường vào buổi sáng, kiểu Anh. Đồng nghĩa sleep in.",
+"I like to *lie in* on Saturdays.",
+"Tôi thích ngủ nướng vào thứ Bảy.",
+"thân mật",
+null
+],
+[
+"sleep over",
+"cụm động từ",
+"slip ˈoʊvɚ",
+null,
+"ngủ lại nhà người khác",
+"Ngủ qua đêm ở nhà bạn bè.",
+"The kids *slept over* at their cousin's house.",
+"Bọn trẻ ngủ lại nhà anh họ.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Mặc, cởi và thử quần áo.",
+[
+[
+"put on",
+"cụm động từ",
+"pʊt ɑn",
+null,
+"mặc vào, đội vào",
+"Mặc quần áo hay đeo phụ kiện. Chú ý: hành động, khác với wear là trạng thái.",
+"*Put on* your coat, it's cold.",
+"Mặc áo khoác vào, trời lạnh.",
+"trung tính",
+null
+],
+[
+"take off",
+"cụm động từ",
+"teɪk ɔf",
+null,
+"cởi ra; cất cánh",
+"Cởi đồ ra. Cũng là máy bay cất cánh, hoặc nghỉ làm.",
+"Please *take off* your shoes.",
+"Xin hãy cởi giày ra.",
+"trung tính",
+null
+],
+[
+"try on",
+"cụm động từ",
+"tɹaɪ ɑn",
+null,
+"mặc thử",
+"Thử xem quần áo vừa không.",
+"Can I *try on* this jacket?",
+"Tôi mặc thử chiếc áo này được không?",
+"trung tính",
+null
+],
+[
+"dress up",
+"cụm động từ",
+"dɹɛs ʌp",
+null,
+"ăn diện, hóa trang",
+"Mặc đẹp, trang trọng hoặc hóa trang.",
+"They *dressed up* for the wedding.",
+"Họ ăn mặc chỉnh tề đi đám cưới.",
+"thân mật",
+null
+],
+[
+"slip on",
+"cụm động từ",
+"slɪp ɑn",
+null,
+"xỏ nhanh vào",
+"Mặc hay xỏ nhanh một thứ dễ mặc như dép, áo khoác.",
+"She *slipped on* her sandals.",
+"Cô xỏ vội đôi sandal.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Bật và tắt thiết bị.",
+[
+[
+"turn on",
+"cụm động từ",
+"tɝn ɑn",
+null,
+"bật",
+"Bật đèn, máy, vòi. Cũng nghĩa kích thích (xem nhóm 18+).",
+"Could you *turn on* the light?",
+"Bạn bật đèn giúp tôi được không?",
+"trung tính",
+null
+],
+[
+"switch on",
+"cụm động từ",
+"swɪtʃ ɑn",
+null,
+"bật (công tắc)",
+"Giống turn on, dùng công tắc, hơi Anh.",
+"*Switch on* the computer.",
+"Bật máy tính lên.",
+"trung tính",
+null
+],
+[
+"turn off",
+"cụm động từ",
+"tɝn ɔf",
+null,
+"tắt",
+"Tắt thiết bị, vòi nước.",
+"Don't forget to *turn off* the TV.",
+"Đừng quên tắt tivi.",
+"trung tính",
+null
+],
+[
+"switch off",
+"cụm động từ",
+"swɪtʃ ɔf",
+null,
+"tắt (công tắc); mất tập trung",
+"Tắt bằng công tắc. Nghĩa bóng: ngừng chú ý.",
+"*Switch off* your phone in the cinema.",
+"Hãy tắt điện thoại trong rạp phim.",
+"trung tính",
+null
+],
+[
+"power up",
+"cụm động từ",
+"ˈpaʊɚ ʌp",
+null,
+"khởi động (nguồn)",
+"Bật nguồn cho thiết bị chạy hết công suất.",
+"The laptop takes a minute to *power up*.",
+"Máy tính xách tay mất một phút để khởi động.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Bỏ cuộc, ngừng cố gắng.",
+[
+[
+"give up",
+"cụm động từ",
+"ɡɪv ʌp",
+null,
+"bỏ cuộc, từ bỏ",
+"Ngừng cố gắng vì thấy không thể.",
+"Never *give up* on your dreams.",
+"Đừng bao giờ từ bỏ ước mơ.",
+"trung tính",
+null
+],
+[
+"back down",
+"cụm động từ",
+"bæk daʊn",
+null,
+"lùi bước, nhượng bộ",
+"Rút lại ý kiến hoặc yêu cầu khi bị phản đối.",
+"He refused to *back down* in the argument.",
+"Anh ta không chịu lùi bước trong cuộc tranh cãi.",
+"trung tính",
+null
+],
+[
+"pack in",
+"cụm động từ",
+"pæk ɪn",
+null,
+"bỏ, nghỉ (Anh)",
+"Ngừng làm việc đang làm, kiểu Anh thân mật.",
+"He *packed in* his job and went travelling.",
+"Anh nghỉ việc và đi du lịch.",
+"thân mật",
+null
+],
+[
+"throw in the towel",
+"cụm động từ",
+"θɹoʊ ɪn ðə ˈtaʊəl",
+null,
+"chịu thua, bỏ cuộc",
+"Thành ngữ nghĩa là chịu thua, từ quyền Anh.",
+"After three failures, she *threw in the towel*.",
+"Sau ba lần thất bại, cô ấy bỏ cuộc.",
+"thân mật",
+null
+],
+[
+"fall behind",
+"cụm động từ",
+"fɔl bɪˈhaɪnd",
+null,
+"tụt lại phía sau",
+"Không theo kịp tiến độ hoặc đối thủ.",
+"He *fell behind* in his studies.",
+"Anh ấy tụt lại trong việc học.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Hỏng, ngừng hoạt động.",
+[
+[
+"break down",
+"cụm động từ",
+"bɹeɪk daʊn",
+null,
+"hỏng, trục trặc; suy sụp",
+"Máy móc ngừng chạy, hoặc người suy sụp tinh thần.",
+"Our car *broke down* on the highway.",
+"Xe chúng tôi hỏng trên đường cao tốc.",
+"trung tính",
+null
+],
+[
+"fall apart",
+"cụm động từ",
+"fɔl əˈpɑɹt",
+null,
+"vỡ vụn, tan rã",
+"Rời ra từng mảnh, hoặc kế hoạch, mối quan hệ đổ vỡ.",
+"The old chair is *falling apart*.",
+"Chiếc ghế cũ đang rã ra.",
+"thân mật",
+null
+],
+[
+"conk out",
+"cụm động từ",
+"kɑŋk aʊt",
+null,
+"hỏng, tắt ngúm",
+"Thân mật, đột ngột ngừng chạy, hoặc ngủ thiếp đi.",
+"My phone *conked out* this morning.",
+"Điện thoại tôi tắt ngúm sáng nay.",
+"thân mật",
+null
+],
+[
+"pack up",
+"cụm động từ",
+"pæk ʌp",
+null,
+"hỏng hẳn (Anh); thu dọn",
+"Anh thân mật: máy dừng hẳn. Cũng nghĩa thu dọn đồ.",
+"The washing machine has *packed up*.",
+"Máy giặt hỏng hẳn rồi.",
+"thân mật",
+null
+],
+[
+"give out",
+"cụm động từ",
+"ɡɪv aʊt",
+null,
+"cạn kiệt, hỏng",
+"Dùng hết hoặc ngừng hoạt động vì quá tải.",
+"His voice *gave out* after the long speech.",
+"Giọng ông ấy tắt sau bài phát biểu dài.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Hợp nhau, hòa thuận.",
+[
+[
+"get along",
+"cụm động từ",
+"ɡɛt əˈlɔŋ",
+null,
+"hòa thuận, sống hợp nhau",
+"Có quan hệ tốt với ai. Kiểu Mỹ; Anh thường nói get on.",
+"Do you *get along* with your roommate?",
+"Bạn có hòa thuận với bạn cùng phòng không?",
+"trung tính",
+null
+],
+[
+"get on",
+"cụm động từ",
+"ɡɛt ɑn",
+null,
+"hợp nhau (Anh)",
+"Kiểu Anh của get along: get on with someone.",
+"I *get on* well with my sister.",
+"Tôi rất hợp với chị gái.",
+"trung tính",
+null
+],
+[
+"hit it off",
+"cụm động từ",
+"hɪt ɪt ɔf",
+null,
+"hợp nhau ngay lần gặp đầu",
+"Quý mến nhau ngay từ đầu.",
+"They *hit it off* immediately.",
+"Họ hợp nhau ngay từ phút đầu.",
+"thân mật",
+null
+],
+[
+"click",
+"cụm động từ",
+"klɪk",
+null,
+"hợp ý ngay, ăn ý",
+"Thân mật, vừa quen đã hiểu nhau. Cũng là bấm chuột.",
+"We just *clicked* from the start.",
+"Chúng tôi ăn ý ngay từ đầu.",
+"thân mật",
+null
+],
+[
+"bond with",
+"cụm động từ",
+"bɑnd wɪð",
+null,
+"gắn bó với",
+"Tạo mối quan hệ gần gũi, thân thiết.",
+"She *bonded with* her new classmates.",
+"Cô ấy gắn bó với các bạn cùng lớp mới.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Bất hòa, xa cách.",
+[
+[
+"fall out",
+"cụm động từ",
+"fɔl aʊt",
+null,
+"cãi nhau, giận nhau",
+"Mất hòa khí với ai sau mâu thuẫn. Cũng là rơi ra.",
+"They *fell out* over money.",
+"Họ cãi nhau vì tiền.",
+"thân mật",
+null
+],
+[
+"drift apart",
+"cụm động từ",
+"dɹɪft əˈpɑɹt",
+null,
+"dần xa cách",
+"Mối quan hệ nhạt dần, không cãi vã.",
+"We *drifted apart* after college.",
+"Chúng tôi dần xa nhau sau đại học.",
+"trung tính",
+null
+],
+[
+"grow apart",
+"cụm động từ",
+"ɡɹoʊ əˈpɑɹt",
+null,
+"ngày càng khác nhau, xa nhau",
+"Hai người thay đổi theo hướng khác nhau nên tình cảm nhạt.",
+"The couple *grew apart* over the years.",
+"Đôi vợ chồng ngày càng xa nhau theo năm tháng.",
+"trung tính",
+null
+],
+[
+"cut off",
+"cụm động từ",
+"kʌt ɔf",
+null,
+"cắt đứt, cắt liên lạc",
+"Chấm dứt quan hệ hoặc ngắt nguồn cung cấp.",
+"She *cut off* all contact with him.",
+"Cô cắt đứt mọi liên lạc với anh ta.",
+"trung tính",
+null
+],
+[
+"have a falling out",
+"cụm động từ",
+"hæv ə ˈfɑlɪŋ aʊt",
+null,
+"cãi vã dẫn đến rạn nứt",
+"Cãi nhau nghiêm trọng, quan hệ hỏng.",
+"They had a *falling out* years ago.",
+"Họ đã rạn nứt từ nhiều năm trước.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Chăm sóc, nuôi dưỡng.",
+[
+[
+"look after",
+"cụm động từ",
+"lʊk ˈæftɚ",
+null,
+"chăm sóc, trông nom",
+"Lo cho người, vật, thường kiểu Anh.",
+"Can you *look after* my cat this weekend?",
+"Cuối tuần này bạn trông mèo giúp tôi được không?",
+"trung tính",
+null
+],
+[
+"take care of",
+"cụm động từ",
+"teɪk kɛɹ ʌv",
+null,
+"chăm lo, xử lý",
+"Chăm sóc hoặc đảm nhận một việc.",
+"I'll *take care of* the bills.",
+"Tôi sẽ lo các hóa đơn.",
+"trung tính",
+null
+],
+[
+"bring up",
+"cụm động từ",
+"bɹɪŋ ʌp",
+null,
+"nuôi nấng, dạy dỗ; nêu ra",
+"Nuôi con đến lớn. Cũng là đưa một vấn đề ra nói.",
+"She was *brought up* by her grandparents.",
+"Cô được ông bà nuôi lớn.",
+"trung tính",
+null
+],
+[
+"watch over",
+"cụm động từ",
+"wɑtʃ ˈoʊvɚ",
+null,
+"trông chừng, bảo vệ",
+"Canh giữ, chăm chú trông nom ai.",
+"A nurse *watched over* the patient all night.",
+"Một y tá trông chừng bệnh nhân suốt đêm.",
+"trang trọng",
+null
+],
+[
+"see to",
+"cụm động từ",
+"si tu",
+null,
+"lo liệu, xử lý",
+"Đảm bảo việc gì được làm xong.",
+"I'll *see to* dinner.",
+"Tôi sẽ lo bữa tối.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Kính trọng hay coi thường.",
+[
+[
+"look up to",
+"cụm động từ",
+"lʊk ʌp tu",
+null,
+"ngưỡng mộ, kính trọng",
+"Nể phục ai.",
+"He *looks up to* his older brother.",
+"Cậu ấy ngưỡng mộ anh trai.",
+"trung tính",
+null
+],
+[
+"look down on",
+"cụm động từ",
+"lʊk daʊn ɑn",
+null,
+"coi thường, khinh",
+"Cho rằng mình hơn người khác.",
+"Don't *look down on* people who work hard.",
+"Đừng coi thường người làm việc chăm chỉ.",
+"trung tính",
+null
+],
+[
+"put down",
+"cụm động từ",
+"pʊt daʊn",
+null,
+"chê bai, hạ thấp",
+"Nói xấu hoặc làm ai mất tự tin. Cũng là đặt xuống.",
+"He always *puts down* his team.",
+"Anh ta cứ hạ thấp đội của mình.",
+"thân mật",
+null
+],
+[
+"talk down to",
+"cụm động từ",
+"tɔk daʊn tu",
+null,
+"nói chuyện với giọng kẻ cả",
+"Nói như thể người kia kém hiểu biết.",
+"Stop *talking down to* me.",
+"Đừng nói kiểu kẻ cả với tôi.",
+"thân mật",
+null
+],
+[
+"suck up to",
+"cụm động từ",
+"sʌk ʌp tu",
+null,
+"nịnh bợ",
+"Nịnh người có quyền để được lợi. Thô, hơi chê.",
+"He *sucks up to* the boss all the time.",
+"Anh ta lúc nào cũng nịnh sếp.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Làm lành, giảng hòa.",
+[
+[
+"make up",
+"cụm động từ",
+"meɪk ʌp",
+null,
+"làm lành; bịa ra; trang điểm",
+"Nhiều nghĩa: làm lành sau cãi nhau, bịa chuyện, trang điểm.",
+"They *made up* after the argument.",
+"Họ làm lành sau cuộc cãi vã.",
+"thân mật",
+null
+],
+[
+"patch up",
+"cụm động từ",
+"pætʃ ʌp",
+null,
+"hàn gắn, vá víu",
+"Làm lại quan hệ hoặc sửa tạm.",
+"They tried to *patch up* their friendship.",
+"Họ cố hàn gắn tình bạn.",
+"thân mật",
+null
+],
+[
+"make up for",
+"cụm động từ",
+"meɪk ʌp fɔɹ",
+null,
+"bù đắp",
+"Làm điều gì để sửa lại lỗi hoặc thiếu sót.",
+"I'll *make up for* lost time.",
+"Tôi sẽ bù lại thời gian đã mất.",
+"trung tính",
+null
+],
+[
+"smooth over",
+"cụm động từ",
+"smuð ˈoʊvɚ",
+null,
+"làm dịu, xoa dịu",
+"Làm cho căng thẳng hay bất đồng bớt đi.",
+"He tried to *smooth over* the conflict.",
+"Anh ấy cố xoa dịu xung đột.",
+"trung tính",
+null
+],
+[
+"come round",
+"cụm động từ",
+"kʌm ɹaʊnd",
+null,
+"đổi ý, nguôi giận (Anh)",
+"Chấp nhận quan điểm khác sau khi suy nghĩ. Cũng là ghé nhà hoặc tỉnh lại.",
+"She will *come round* eventually.",
+"Rồi cô ấy sẽ nghĩ lại thôi.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Thất hứa hoặc từ chối.",
+[
+[
+"let down",
+"cụm động từ",
+"lɛt daʊn",
+null,
+"làm thất vọng",
+"Không đáp ứng kỳ vọng của ai.",
+"I don't want to *let* my parents *down*.",
+"Tôi không muốn làm bố mẹ thất vọng.",
+"trung tính",
+null
+],
+[
+"stand up",
+"cụm động từ",
+"stænd ʌp",
+null,
+"cho leo cây",
+"Hẹn mà không đến.",
+"He *stood* her *up* on their first date.",
+"Anh ta cho cô ấy leo cây trong buổi hẹn đầu tiên.",
+"thân mật",
+null
+],
+[
+"turn down",
+"cụm động từ",
+"tɝn daʊn",
+null,
+"từ chối; vặn nhỏ",
+"Từ chối đề nghị hoặc làm bé âm lượng.",
+"She *turned down* the job offer.",
+"Cô ấy từ chối lời mời làm việc.",
+"trung tính",
+null
+],
+[
+"blow off",
+"cụm động từ",
+"bloʊ ɔf",
+null,
+"phớt lờ, cho qua",
+"Thân mật: không đến hay không thèm quan tâm.",
+"He *blew off* the meeting.",
+"Anh ta bỏ qua cuộc họp.",
+"thân mật",
+null
+],
+[
+"brush off",
+"cụm động từ",
+"bɹʌʃ ɔf",
+null,
+"gạt phăng, phớt lờ",
+"Không coi trọng lời hay đề nghị của ai.",
+"She *brushed off* my suggestion.",
+"Cô ấy gạt phăng đề xuất của tôi.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Đi chơi, thư giãn.",
+[
+[
+"hang out",
+"cụm động từ",
+"hæŋ aʊt",
+null,
+"đi chơi, tụ tập",
+"Dành thời gian thoải mái với bạn bè.",
+"We *hang out* at the café after school.",
+"Tan học chúng tôi hay tụ tập ở quán cà phê.",
+"thân mật",
+null
+],
+[
+"chill out",
+"cụm động từ",
+"tʃɪl aʊt",
+null,
+"thư giãn, bình tĩnh",
+"Nghỉ ngơi hoặc bảo ai đó bình tĩnh.",
+"Just *chill out*, it's not a big deal.",
+"Bình tĩnh đi, có gì to tát đâu.",
+"thân mật",
+null
+],
+[
+"kick back",
+"cụm động từ",
+"kɪk bæk",
+null,
+"nghỉ ngơi, thả lỏng",
+"Thư giãn thoải mái.",
+"I like to *kick back* on Sundays.",
+"Tôi thích thư giãn vào Chủ nhật.",
+"thân mật",
+null
+],
+[
+"hang around",
+"cụm động từ",
+"hæŋ ɚˈaʊnd",
+null,
+"la cà, quanh quẩn",
+"Ở lại một nơi không có mục đích rõ.",
+"Don't *hang around* here after dark.",
+"Đừng la cà quanh đây sau khi trời tối.",
+"thân mật",
+null
+],
+[
+"mess around",
+"cụm động từ",
+"mɛs ɚˈaʊnd",
+null,
+"nghịch ngợm, làm trò",
+"Làm việc vô ích, đùa nghịch.",
+"Stop *messing around* and do your work.",
+"Đừng nghịch nữa, làm việc đi.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Làm vui lên.",
+[
+[
+"cheer up",
+"cụm động từ",
+"tʃɪɹ ʌp",
+null,
+"vui lên, làm ai vui lên",
+"Bớt buồn hoặc làm ai bớt buồn.",
+"*Cheer up*, things will get better.",
+"Vui lên, mọi việc sẽ tốt hơn.",
+"trung tính",
+null
+],
+[
+"perk up",
+"cụm động từ",
+"pɝk ʌp",
+null,
+"phấn chấn, tỉnh táo hơn",
+"Trở nên có sinh khí hơn.",
+"He *perked up* when he heard the news.",
+"Anh ấy phấn chấn lên khi nghe tin.",
+"thân mật",
+null
+],
+[
+"lighten up",
+"cụm động từ",
+"ˈlaɪtən ʌp",
+null,
+"thoải mái đi, đừng nghiêm trọng quá",
+"Bảo ai thôi căng thẳng.",
+"*Lighten up*, it was only a joke.",
+"Thoải mái đi, chỉ là đùa thôi.",
+"thân mật",
+null
+],
+[
+"brighten up",
+"cụm động từ",
+"ˈbɹaɪtən ʌp",
+null,
+"sáng lên, tươi tỉnh",
+"Làm cho tươi sáng hơn, nói về nơi chốn hoặc tâm trạng.",
+"Flowers *brighten up* the room.",
+"Hoa làm căn phòng tươi sáng hơn.",
+"trung tính",
+null
+],
+[
+"pick up",
+"cụm động từ",
+"pɪk ʌp",
+null,
+"khá lên, đón; nhặt",
+"Nhiều nghĩa: nhặt, đón ai, học nhanh, khá lên.",
+"Business has *picked up* this month.",
+"Việc kinh doanh tháng này khá hơn.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Lấy, đón, đưa, nộp.",
+[
+[
+"pick up",
+"cụm động từ",
+"pɪk ʌp",
+null,
+"nhặt; đón ai",
+"Nhặt lên hoặc đến đón người, lấy đồ.",
+"I'll *pick* you *up* at eight.",
+"Tám giờ tôi sẽ đến đón bạn.",
+"trung tính",
+null
+],
+[
+"drop off",
+"cụm động từ",
+"dɹɑp ɔf",
+null,
+"đưa tới, thả xuống",
+"Đưa người hoặc đồ đến nơi rồi đi. Cũng là ngủ thiếp.",
+"Can you *drop* me *off* at the station?",
+"Bạn thả tôi ở nhà ga được không?",
+"thân mật",
+null
+],
+[
+"hand in",
+"cụm động từ",
+"hænd ɪn",
+null,
+"nộp (bài, đơn)",
+"Nộp cho thầy cô hoặc cấp trên.",
+"Please *hand in* your homework.",
+"Xin nộp bài tập về nhà.",
+"trung tính",
+null
+],
+[
+"hand over",
+"cụm động từ",
+"hænd ˈoʊvɚ",
+null,
+"giao lại, trao",
+"Chuyển quyền hay vật cho người khác.",
+"He *handed over* the keys.",
+"Anh ấy giao lại chìa khóa.",
+"trung tính",
+null
+],
+[
+"take away",
+"cụm động từ",
+"teɪk əˈweɪ",
+null,
+"mang đi; lấy đi",
+"Lấy đi hoặc mua mang về (Anh: takeaway).",
+"Two coffees to *take away*, please.",
+"Cho hai cà phê mang đi.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Ngất xỉu và tỉnh lại.",
+[
+[
+"pass out",
+"cụm động từ",
+"pæs aʊt",
+null,
+"ngất xỉu",
+"Mất ý thức đột ngột, hoặc say đến bất tỉnh.",
+"She *passed out* from the heat.",
+"Cô ngất vì nóng.",
+"thân mật",
+null
+],
+[
+"black out",
+"cụm động từ",
+"blæk aʊt",
+null,
+"ngất, mất ý thức; mất điện",
+"Mất ý thức hoặc mất điện cả khu.",
+"He *blacked out* for a few seconds.",
+"Anh ta bất tỉnh vài giây.",
+"trung tính",
+null
+],
+[
+"come to",
+"cụm động từ",
+"kʌm tu",
+null,
+"tỉnh lại",
+"Hồi phục ý thức sau khi ngất.",
+"When she *came to*, she was in hospital.",
+"Khi tỉnh lại, cô đang ở bệnh viện.",
+"trung tính",
+null
+],
+[
+"come round",
+"cụm động từ",
+"kʌm ɹaʊnd",
+null,
+"tỉnh lại (Anh)",
+"Giống come to, kiểu Anh.",
+"He slowly *came round* after the operation.",
+"Anh từ từ tỉnh lại sau ca mổ.",
+"trung tính",
+null
+],
+[
+"knock out",
+"cụm động từ",
+"nɑk aʊt",
+null,
+"đánh bất tỉnh; hạ gục",
+"Làm ai mất ý thức, hoặc loại khỏi cuộc thi.",
+"The punch *knocked* him *out*.",
+"Cú đấm hạ gục anh ta.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Vứt bỏ.",
+[
+[
+"throw away",
+"cụm động từ",
+"θɹoʊ əˈweɪ",
+null,
+"vứt đi",
+"Bỏ vào thùng rác. Nghĩa bóng: lãng phí cơ hội.",
+"Don't *throw away* that box.",
+"Đừng vứt cái hộp đó.",
+"trung tính",
+null
+],
+[
+"throw out",
+"cụm động từ",
+"θɹoʊ aʊt",
+null,
+"quăng ra, bỏ đi",
+"Bỏ đồ không cần hoặc đuổi ai ra.",
+"We *threw out* all the old magazines.",
+"Chúng tôi vứt hết tạp chí cũ.",
+"trung tính",
+null
+],
+[
+"chuck out",
+"cụm động từ",
+"tʃʌk aʊt",
+null,
+"vứt đi, tống cổ (Anh)",
+"Anh thân mật, bỏ hoặc đuổi.",
+"He got *chucked out* of the pub.",
+"Anh ta bị tống cổ khỏi quán rượu.",
+"thân mật",
+null
+],
+[
+"get rid of",
+"cụm động từ",
+"ɡɛt ɹɪd ʌv",
+null,
+"loại bỏ, tống khứ",
+"Dứt bỏ thứ không muốn.",
+"I need to *get rid of* old clothes.",
+"Tôi cần dọn bớt quần áo cũ.",
+"trung tính",
+null
+],
+[
+"dump",
+"cụm động từ",
+"dʌmp",
+null,
+"vứt bỏ, đổ; đá (người yêu)",
+"Vứt bừa hoặc chia tay phũ phàng.",
+"She *dumped* him by text.",
+"Cô ấy đá anh ta bằng tin nhắn.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Điền, ghi chép.",
+[
+[
+"fill in",
+"cụm động từ",
+"fɪl ɪn",
+null,
+"điền vào",
+"Điền thông tin vào chỗ trống. Anh hay dùng fill in, Mỹ dùng fill out.",
+"Please *fill in* this form.",
+"Xin điền vào mẫu này.",
+"trung tính",
+null
+],
+[
+"fill out",
+"cụm động từ",
+"fɪl aʊt",
+null,
+"điền (biểu mẫu)",
+"Kiểu Mỹ của fill in.",
+"*Fill out* the application online.",
+"Hãy điền đơn trực tuyến.",
+"trung tính",
+null
+],
+[
+"write down",
+"cụm động từ",
+"ɹaɪt daʊn",
+null,
+"ghi lại",
+"Viết ra để nhớ.",
+"*Write down* my number.",
+"Ghi số của tôi lại.",
+"trung tính",
+null
+],
+[
+"jot down",
+"cụm động từ",
+"dʒɑt daʊn",
+null,
+"ghi nhanh",
+"Ghi chép vội vài ý.",
+"She *jotted down* a few notes.",
+"Cô ghi nhanh vài ý.",
+"thân mật",
+null
+],
+[
+"sign up",
+"cụm động từ",
+"saɪn ʌp",
+null,
+"đăng ký",
+"Đăng ký tham gia khóa học hay dịch vụ.",
+"I *signed up* for a yoga class.",
+"Tôi đăng ký lớp yoga.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Tư thế đứng ngồi nằm.",
+[
+[
+"sit down",
+"cụm động từ",
+"sɪt daʊn",
+null,
+"ngồi xuống",
+"Chuyển sang tư thế ngồi.",
+"Please *sit down*.",
+"Xin mời ngồi.",
+"trung tính",
+null
+],
+[
+"stand up",
+"cụm động từ",
+"stænd ʌp",
+null,
+"đứng dậy",
+"Từ ngồi sang đứng. Cũng là cho leo cây.",
+"Everyone *stood up* when she entered.",
+"Mọi người đứng dậy khi cô bước vào.",
+"trung tính",
+null
+],
+[
+"lie down",
+"cụm động từ",
+"laɪ daʊn",
+null,
+"nằm xuống",
+"Nằm để nghỉ.",
+"I need to *lie down* for a while.",
+"Tôi cần nằm nghỉ một lát.",
+"trung tính",
+null
+],
+[
+"lean back",
+"cụm động từ",
+"lin bæk",
+null,
+"ngả người ra sau",
+"Dựa ra sau thả lỏng.",
+"He *leaned back* in his chair.",
+"Anh ngả người ra ghế.",
+"trung tính",
+null
+],
+[
+"settle down",
+"cụm động từ",
+"ˈsɛtəl daʊn",
+null,
+"ổn định cuộc sống; bình tĩnh",
+"Lập gia đình ổn định, hoặc yên lặng lại.",
+"They *settled down* in a small town.",
+"Họ ổn định cuộc sống ở một thị trấn nhỏ.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Giảm bớt.",
+[
+[
+"cut down",
+"cụm động từ",
+"kʌt daʊn",
+null,
+"giảm bớt, cắt giảm",
+"Giảm số lượng hay mức độ. Cũng là đốn cây.",
+"I'm trying to *cut down* on sugar.",
+"Tôi đang cố giảm đường.",
+"trung tính",
+null
+],
+[
+"cut back",
+"cụm động từ",
+"kʌt bæk",
+null,
+"cắt giảm (chi tiêu)",
+"Giảm, nhất là chi phí.",
+"The company had to *cut back* spending.",
+"Công ty phải cắt giảm chi tiêu.",
+"trung tính",
+null
+],
+[
+"scale back",
+"cụm động từ",
+"skeɪl bæk",
+null,
+"thu hẹp quy mô",
+"Giảm bớt phạm vi kế hoạch.",
+"They *scaled back* their plans.",
+"Họ thu hẹp kế hoạch.",
+"trang trọng",
+null
+],
+[
+"wind down",
+"cụm động từ",
+"waɪnd daʊn",
+null,
+"giảm dần; thư giãn",
+"Từ từ ngừng, hoặc thả lỏng sau ngày dài.",
+"I *wind down* with a book before bed.",
+"Tôi thư giãn với cuốn sách trước khi ngủ.",
+"thân mật",
+null
+],
+[
+"slow down",
+"cụm động từ",
+"sloʊ daʊn",
+null,
+"chậm lại",
+"Giảm tốc độ.",
+"Please *slow down*, you're driving too fast.",
+"Xin hãy chạy chậm lại, bạn đang lái quá nhanh.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Tăng và giảm.",
+[
+[
+"go up",
+"cụm động từ",
+"ɡoʊ ʌp",
+null,
+"tăng lên",
+"Giá, nhiệt độ tăng.",
+"Prices have *gone up* again.",
+"Giá lại tăng.",
+"trung tính",
+null
+],
+[
+"shoot up",
+"cụm động từ",
+"ʃut ʌp",
+null,
+"tăng vọt",
+"Tăng rất nhanh.",
+"House prices *shot up* last year.",
+"Giá nhà tăng vọt năm ngoái.",
+"thân mật",
+null
+],
+[
+"go down",
+"cụm động từ",
+"ɡoʊ daʊn",
+null,
+"giảm xuống",
+"Giá, nhiệt độ giảm.",
+"The temperature *went down* at night.",
+"Nhiệt độ giảm vào ban đêm.",
+"trung tính",
+null
+],
+[
+"drop off",
+"cụm động từ",
+"dɹɑp ɔf",
+null,
+"giảm dần",
+"Số lượng giảm từ từ.",
+"Sales *dropped off* in winter.",
+"Doanh số giảm vào mùa đông.",
+"trung tính",
+null
+],
+[
+"tail off",
+"cụm động từ",
+"teɪl ɔf",
+null,
+"yếu dần, thưa dần",
+"Giảm dần rồi biến mất.",
+"The noise *tailed off* after midnight.",
+"Tiếng ồn yếu dần sau nửa đêm.",
+"trang trọng",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Hết, dùng cạn.",
+[
+[
+"run out",
+"cụm động từ",
+"ɹʌn aʊt",
+null,
+"cạn, hết",
+"Không còn nữa.",
+"We've *run out* of milk.",
+"Chúng ta hết sữa rồi.",
+"trung tính",
+null
+],
+[
+"use up",
+"cụm động từ",
+"jus ʌp",
+null,
+"dùng hết",
+"Dùng đến khi không còn.",
+"She *used up* all the paper.",
+"Cô ấy dùng hết giấy.",
+"trung tính",
+null
+],
+[
+"sell out",
+"cụm động từ",
+"sɛl aʊt",
+null,
+"bán hết",
+"Bán sạch hàng hoặc vé.",
+"The tickets *sold out* in minutes.",
+"Vé bán hết trong vài phút.",
+"trung tính",
+null
+],
+[
+"wear out",
+"cụm động từ",
+"wɛɹ aʊt",
+null,
+"mòn, làm kiệt sức",
+"Dùng đến hỏng, hoặc làm ai mệt rã.",
+"My shoes are *worn out*.",
+"Giày của tôi mòn hết rồi.",
+"trung tính",
+null
+],
+[
+"run low",
+"cụm động từ",
+"ɹʌn loʊ",
+null,
+"sắp hết",
+"Còn rất ít.",
+"We're *running low* on petrol.",
+"Chúng ta sắp hết xăng.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Tuyển người, cho nghỉ việc.",
+[
+[
+"take on",
+"cụm động từ",
+"teɪk ɑn",
+null,
+"nhận (việc, người); đảm nhận",
+"Nhận thêm việc hay thuê thêm người.",
+"The firm *took on* ten new staff.",
+"Công ty nhận thêm mười nhân viên.",
+"trung tính",
+null
+],
+[
+"bring in",
+"cụm động từ",
+"bɹɪŋ ɪn",
+null,
+"đưa vào, mời về",
+"Mời người hay đưa thứ mới vào.",
+"They *brought in* an expert.",
+"Họ mời một chuyên gia về.",
+"trung tính",
+null
+],
+[
+"lay off",
+"cụm động từ",
+"leɪ ɔf",
+null,
+"sa thải (vì cắt giảm)",
+"Cho nghỉ việc vì kinh tế, không phải lỗi người đó.",
+"The factory *laid off* 200 workers.",
+"Nhà máy cho 200 công nhân nghỉ việc.",
+"trung tính",
+null
+],
+[
+"let go",
+"cụm động từ",
+"lɛt ɡoʊ",
+null,
+"cho thôi việc; thả ra",
+"Sa thải nhẹ nhàng.",
+"She was *let go* last month.",
+"Cô ấy bị cho thôi việc tháng trước.",
+"trang trọng",
+null
+],
+[
+"take over",
+"cụm động từ",
+"teɪk ˈoʊvɚ",
+null,
+"tiếp quản",
+"Nắm quyền điều hành từ người khác.",
+"He will *take over* as manager.",
+"Anh ấy sẽ tiếp quản vị trí quản lý.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Tan làm, ra về.",
+[
+[
+"clock in",
+"cụm động từ",
+"klɑk ɪn",
+null,
+"chấm công vào ca",
+"Ghi giờ bắt đầu làm.",
+"I *clock in* at nine.",
+"Tôi chấm công vào lúc chín giờ.",
+"trung tính",
+null
+],
+[
+"clock out",
+"cụm động từ",
+"klɑk aʊt",
+null,
+"chấm công ra về",
+"Ghi giờ tan làm.",
+"He *clocked out* early.",
+"Anh ấy tan ca sớm.",
+"trung tính",
+null
+],
+[
+"knock off",
+"cụm động từ",
+"nɑk ɔf",
+null,
+"tan làm, nghỉ tay",
+"Thân mật: ngừng làm việc.",
+"We *knock off* at five.",
+"Chúng tôi tan làm lúc năm giờ.",
+"thân mật",
+null
+],
+[
+"sign off",
+"cụm động từ",
+"saɪn ɔf",
+null,
+"ký duyệt; kết thúc",
+"Chính thức phê duyệt hoặc kết thúc thư.",
+"The boss *signed off* on the plan.",
+"Sếp ký duyệt kế hoạch.",
+"trang trọng",
+null
+],
+[
+"log off",
+"cụm động từ",
+"lɔɡ ɔf",
+null,
+"đăng xuất, kết thúc làm việc",
+"Thoát khỏi hệ thống.",
+"She *logged off* at six.",
+"Cô đăng xuất lúc sáu giờ.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Liên lạc, theo dõi công việc.",
+[
+[
+"follow up",
+"cụm động từ",
+"ˈfɑloʊ ʌp",
+null,
+"theo dõi tiếp, hỏi lại",
+"Liên hệ lại để xử lý việc tiếp theo.",
+"I'll *follow up* with you tomorrow.",
+"Mai tôi sẽ liên hệ lại bạn.",
+"trang trọng",
+null
+],
+[
+"get back to",
+"cụm động từ",
+"ɡɛt bæk tu",
+null,
+"trả lời lại, liên hệ lại",
+"Phản hồi sau.",
+"I'll *get back to* you by Friday.",
+"Tôi sẽ phản hồi bạn trước thứ Sáu.",
+"thân mật",
+null
+],
+[
+"check in",
+"cụm động từ",
+"tʃɛk ɪn",
+null,
+"làm thủ tục; hỏi thăm",
+"Đăng ký ở khách sạn, sân bay, hoặc liên lạc để cập nhật.",
+"We *checked in* at noon.",
+"Chúng tôi làm thủ tục nhận phòng lúc trưa.",
+"trung tính",
+null
+],
+[
+"catch up",
+"cụm động từ",
+"kætʃ ʌp",
+null,
+"theo kịp; cập nhật tin",
+"Bắt kịp tiến độ hoặc nói chuyện sau thời gian không gặp.",
+"I need to *catch up* on emails.",
+"Tôi cần xử lý cho kịp số email.",
+"thân mật",
+null
+],
+[
+"touch base",
+"cụm động từ",
+"tʌtʃ beɪs",
+null,
+"liên lạc nhanh",
+"Thân mật, hỏi thăm hoặc cập nhật ngắn.",
+"Let's *touch base* next week.",
+"Tuần sau mình liên lạc nhé.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Thực hiện, hoàn thành.",
+[
+[
+"carry out",
+"cụm động từ",
+"ˈkæɹi aʊt",
+null,
+"tiến hành, thực hiện",
+"Thực hiện một kế hoạch hay nhiệm vụ.",
+"They *carried out* a survey.",
+"Họ tiến hành một cuộc khảo sát.",
+"trang trọng",
+null
+],
+[
+"go through with",
+"cụm động từ",
+"ɡoʊ θɹu wɪð",
+null,
+"làm đến cùng",
+"Thực hiện dù khó khăn.",
+"He couldn't *go through with* the wedding.",
+"Anh không thể làm đám cưới đến cùng.",
+"trung tính",
+null
+],
+[
+"follow through",
+"cụm động từ",
+"ˈfɑloʊ θɹu",
+null,
+"làm đến nơi đến chốn",
+"Hoàn thành điều đã bắt đầu hay hứa.",
+"She always *follows through* on her promises.",
+"Cô ấy luôn làm đúng lời hứa.",
+"trung tính",
+null
+],
+[
+"pull through",
+"cụm động từ",
+"pʊl θɹu",
+null,
+"vượt qua (bệnh, khó khăn)",
+"Sống sót hoặc vượt qua giai đoạn khó.",
+"The patient *pulled through*.",
+"Bệnh nhân đã vượt qua.",
+"trung tính",
+null
+],
+[
+"get through",
+"cụm động từ",
+"ɡɛt θɹu",
+null,
+"làm xong; vượt qua",
+"Hoàn thành việc nhiều hoặc chịu đựng giai đoạn khó.",
+"I need to *get through* this report.",
+"Tôi cần làm xong báo cáo này.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Lập, tạo ra, nghĩ ra.",
+[
+[
+"set up",
+"cụm động từ",
+"sɛt ʌp",
+null,
+"thiết lập, thành lập",
+"Lập ra công ty, hệ thống, cuộc họp.",
+"They *set up* a small business.",
+"Họ lập một doanh nghiệp nhỏ.",
+"trung tính",
+null
+],
+[
+"put together",
+"cụm động từ",
+"pʊt təˈɡɛðɚ",
+null,
+"lắp ráp, soạn ra",
+"Ghép các phần thành một thứ hoàn chỉnh.",
+"She *put together* a presentation.",
+"Cô soạn một bài thuyết trình.",
+"trung tính",
+null
+],
+[
+"draw up",
+"cụm động từ",
+"dɹɔ ʌp",
+null,
+"soạn thảo",
+"Soạn văn bản chính thức như hợp đồng.",
+"The lawyer *drew up* a contract.",
+"Luật sư soạn hợp đồng.",
+"trang trọng",
+null
+],
+[
+"think up",
+"cụm động từ",
+"θɪŋk ʌp",
+null,
+"nghĩ ra",
+"Nghĩ ra ý tưởng hoặc cái cớ.",
+"He *thought up* a clever idea.",
+"Anh nghĩ ra một ý tưởng thông minh.",
+"thân mật",
+null
+],
+[
+"dream up",
+"cụm động từ",
+"dɹim ʌp",
+null,
+"nghĩ ra (sáng tạo)",
+"Hình dung ra thứ mới mẻ, đôi khi kỳ quặc.",
+"Who *dreamed up* this plan?",
+"Ai nghĩ ra kế hoạch này vậy?",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Chịu đựng, xử lý.",
+[
+[
+"deal with",
+"cụm động từ",
+"dil wɪð",
+null,
+"xử lý, giải quyết",
+"Giải quyết vấn đề hoặc người khó.",
+"I have to *deal with* many emails.",
+"Tôi phải xử lý nhiều email.",
+"trung tính",
+null
+],
+[
+"cope with",
+"cụm động từ",
+"koʊp wɪð",
+null,
+"đối phó, xoay xở",
+"Xoay xở được với khó khăn.",
+"How do you *cope with* stress?",
+"Bạn đối phó với căng thẳng thế nào?",
+"trung tính",
+null
+],
+[
+"put up with",
+"cụm động từ",
+"pʊt ʌp wɪð",
+null,
+"chịu đựng",
+"Chấp nhận điều khó chịu mà không phàn nàn.",
+"I can't *put up with* the noise.",
+"Tôi không chịu nổi tiếng ồn.",
+"thân mật",
+null
+],
+[
+"live with",
+"cụm động từ",
+"laɪv wɪð",
+null,
+"chấp nhận sống chung với",
+"Chấp nhận điều không hoàn hảo.",
+"You'll have to *live with* it.",
+"Bạn sẽ phải chấp nhận thôi.",
+"thân mật",
+null
+],
+[
+"get by",
+"cụm động từ",
+"ɡɛt baɪ",
+null,
+"xoay xở được, đủ sống",
+"Sống được dù thiếu thốn.",
+"They *get by* on a small income.",
+"Họ xoay xở sống bằng thu nhập ít ỏi.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Trì hoãn, cản trở.",
+[
+[
+"hold up",
+"cụm động từ",
+"hoʊld ʌp",
+null,
+"làm chậm trễ; cướp",
+"Làm trễ hoặc chặn đường, cũng là cướp có vũ khí.",
+"Traffic *held* us *up*.",
+"Giao thông làm chúng tôi trễ.",
+"thân mật",
+null
+],
+[
+"hold back",
+"cụm động từ",
+"hoʊld bæk",
+null,
+"kìm lại, cản",
+"Ngăn lại hoặc giữ cho mình không tiến.",
+"Fear *holds* him *back*.",
+"Nỗi sợ kìm chân anh ta.",
+"trung tính",
+null
+],
+[
+"back up",
+"cụm động từ",
+"bæk ʌp",
+null,
+"sao lưu; ủng hộ; lùi xe",
+"Sao lưu dữ liệu, xác nhận lời nói, hoặc lùi.",
+"*Back up* your files regularly.",
+"Hãy sao lưu tệp thường xuyên.",
+"trung tính",
+null
+],
+[
+"hold on",
+"cụm động từ",
+"hoʊld ɑn",
+null,
+"chờ; bám chắc",
+"Chờ chút hoặc nắm chắc.",
+"*Hold on* a second.",
+"Chờ một chút.",
+"thân mật",
+null
+],
+[
+"drag on",
+"cụm động từ",
+"dɹæɡ ɑn",
+null,
+"kéo dài lê thê",
+"Kéo dài hơn mong muốn.",
+"The meeting *dragged on* for hours.",
+"Cuộc họp kéo dài lê thê hàng giờ.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Trả tiền, trả lại, lừa tiền.",
+[
+[
+"pay back",
+"cụm động từ",
+"peɪ bæk",
+null,
+"trả lại (tiền)",
+"Hoàn trả khoản vay.",
+"I'll *pay* you *back* on Friday.",
+"Thứ Sáu tôi sẽ trả lại bạn.",
+"trung tính",
+null
+],
+[
+"cash in",
+"cụm động từ",
+"kæʃ ɪn",
+null,
+"thu lợi, quy ra tiền",
+"Lấy lợi từ thứ gì hoặc đổi thành tiền.",
+"He *cashed in* on his fame.",
+"Anh ta kiếm lợi nhờ danh tiếng.",
+"thân mật",
+null
+],
+[
+"rip off",
+"cụm động từ",
+"ɹɪp ɔf",
+null,
+"chặt chém, lừa",
+"Tính giá quá cao hoặc lừa.",
+"The taxi driver *ripped* us *off*.",
+"Tài xế taxi chặt chém chúng tôi.",
+"thân mật",
+null
+],
+[
+"save up",
+"cụm động từ",
+"seɪv ʌp",
+null,
+"để dành tiền",
+"Tiết kiệm dần để mua thứ gì.",
+"I'm *saving up* for a bike.",
+"Tôi đang để dành tiền mua xe đạp.",
+"trung tính",
+null
+],
+[
+"chip in",
+"cụm động từ",
+"tʃɪp ɪn",
+null,
+"góp tiền",
+"Mỗi người góp một phần.",
+"We all *chipped in* for the gift.",
+"Cả nhóm góp tiền mua quà.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"adult": true,
+"g": [
+"Tán tỉnh, làm quen, quan hệ chớp nhoáng.",
+[
+[
+"hook up",
+"cụm động từ",
+"hʊk ʌp",
+null,
+"qua đêm với ai, quan hệ chớp nhoáng",
+"Lóng, mơ hồ: từ làm quen đến quan hệ tình dục không ràng buộc. Cũng là kết nối thiết bị.",
+"They *hooked up* at the party.",
+"Họ qua đêm với nhau ở bữa tiệc.",
+"tiếng lóng",
+null
+],
+[
+"make out",
+"cụm động từ",
+"meɪk aʊt",
+null,
+"hôn hít, âu yếm",
+"Hôn và vuốt ve nhau, có thể chưa đến quan hệ.",
+"Teenagers were *making out* in the back row.",
+"Mấy đứa tuổi teen hôn hít nhau ở hàng ghế cuối.",
+"thân mật",
+null
+],
+[
+"pick up",
+"cụm động từ",
+"pɪk ʌp",
+null,
+"cưa cẩm, bắt chuyện để tán",
+"Tán người lạ ở nơi công cộng với mục đích tình cảm hoặc tình dục.",
+"He tried to *pick* her *up* at the bar.",
+"Anh ta cố cưa cô ở quán bar.",
+"thân mật",
+null
+],
+[
+"get off with",
+"cụm động từ",
+"ɡɛt ɔf wɪð",
+null,
+"hôn hoặc qua đêm với ai (Anh)",
+"Anh thân mật, bắt đầu hôn, quan hệ với ai.",
+"She *got off with* a guy at the club.",
+"Cô ấy dính với một gã ở câu lạc bộ.",
+"thân mật",
+null
+],
+[
+"shack up with",
+"cụm động từ",
+"ʃæk ʌp wɪð",
+null,
+"sống chung như vợ chồng (không cưới)",
+"Thân mật, hàm ý chê hoặc đùa: ở chung với người yêu.",
+"He *shacked up with* his girlfriend.",
+"Anh ta dọn về ở chung với bạn gái.",
+"thô tục",
+null
+]
+]
+]
+},
+{
+"adult": true,
+"g": [
+"Kích thích và thỏa mãn tình dục.",
+[
+[
+"turn on",
+"cụm động từ",
+"tɝn ɑn",
+null,
+"kích thích, làm hưng phấn",
+"Làm ai cảm thấy bị kích thích tình dục. Danh từ: turn-on.",
+"Candlelight *turns* her *on*.",
+"Ánh nến làm cô ấy hưng phấn.",
+"thân mật",
+null
+],
+[
+"turn off",
+"cụm động từ",
+"tɝn ɔf",
+null,
+"làm mất hứng",
+"Làm ai hết hứng thú, kể cả về tình dục.",
+"Bad breath *turns* me *off*.",
+"Hơi thở hôi làm tôi mất hứng.",
+"thân mật",
+null
+],
+[
+"get off",
+"cụm động từ",
+"ɡɛt ɔf",
+null,
+"lên đỉnh, khoái cảm",
+"Đạt cực khoái, hay nhận khoái cảm từ điều gì (get off on).",
+"He *gets off* on being in control.",
+"Anh ta khoái cảm khi nắm quyền kiểm soát.",
+"thô tục",
+null
+],
+[
+"work up",
+"cụm động từ",
+"wɝk ʌp",
+null,
+"khơi dậy, kích động",
+"Làm cảm xúc dâng lên, như work up an appetite. Cũng là làm ai hưng phấn.",
+"The music *worked* the crowd *up*.",
+"Âm nhạc kích động đám đông.",
+"thân mật",
+null
+],
+[
+"come on to",
+"cụm động từ",
+"kʌm ɑn tu",
+null,
+"tán trực tiếp, gợi ý tình dục",
+"Thể hiện rõ ý muốn gần gũi thể xác.",
+"He *came on to* me at the party.",
+"Anh ta tỏ ý tán tôi ở bữa tiệc.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"adult": true,
+"g": [
+"Đuổi đi, bảo biến.",
+[
+[
+"piss off",
+"cụm động từ",
+"pɪs ɔf",
+null,
+"cút đi; làm tức",
+"Cút đi (mệnh lệnh), hoặc làm ai bực.",
+"Just *piss off* and leave me alone!",
+"Cút đi và để tao yên!",
+"thô tục",
+null
+],
+[
+"sod off",
+"cụm động từ",
+"sɑd ɔf",
+null,
+"cút xéo (Anh)",
+"Anh thô nhẹ hơn fuck off.",
+"Tell him to *sod off*.",
+"Bảo hắn cút xéo.",
+"thô tục",
+null
+],
+[
+"bugger off",
+"cụm động từ",
+"ˈbʌɡɚ ɔf",
+null,
+"biến đi (Anh)",
+"Anh thân mật thô nhẹ.",
+"*Bugger off*, I'm busy.",
+"Biến đi, tao đang bận.",
+"thô tục",
+null
+],
+[
+"clear off",
+"cụm động từ",
+"klɪɹ ɔf",
+null,
+"biến, đi chỗ khác",
+"Nhẹ hơn các từ trên, vẫn thô lỗ.",
+"*Clear off* before I call the police!",
+"Biến đi trước khi tôi gọi cảnh sát!",
+"thân mật",
+null
+],
+[
+"fuck off",
+"cụm động từ",
+"fʌk ɔf",
+null,
+"cút đi",
+"Mạnh nhất nhóm, rất thô tục.",
+"I told him to *fuck off*.",
+"Tao bảo nó cút đi.",
+"thô tục",
+null
+]
+]
+]
+},
+{
+"adult": true,
+"g": [
+"Làm hỏng việc.",
+[
+[
+"fuck up",
+"cụm động từ",
+"fʌk ʌp",
+null,
+"làm hỏng bét; làm rối tung",
+"Rất thô tục: gây ra sai lầm lớn. Danh từ: fuck-up.",
+"I really *fucked up* the interview.",
+"Tôi làm hỏng bét buổi phỏng vấn.",
+"thô tục",
+null
+],
+[
+"screw up",
+"cụm động từ",
+"skɹu ʌp",
+null,
+"làm hỏng, làm rối",
+"Nhẹ hơn fuck up nhưng vẫn thô.",
+"Don't *screw up* this time.",
+"Lần này đừng làm hỏng nhé.",
+"thân mật",
+null
+],
+[
+"balls up",
+"cụm động từ",
+"bɔlz ʌp",
+null,
+"làm rối tung (Anh)",
+"Anh thô, có từ balls, làm hỏng việc.",
+"He *balled up* the whole project.",
+"Anh ta làm rối tung cả dự án.",
+"thô tục",
+null
+],
+[
+"foul up",
+"cụm động từ",
+"faʊl ʌp",
+null,
+"làm hỏng, gây rối",
+"Nhẹ, hơi cũ, làm hỏng kế hoạch.",
+"Someone *fouled up* the orders.",
+"Ai đó làm rối các đơn hàng.",
+"thân mật",
+null
+],
+[
+"bungle",
+"cụm động từ",
+"ˈbʌŋɡəl",
+null,
+"làm vụng về, hỏng việc",
+"Không phải phrasal nhưng cùng nghĩa, nhẹ nhất, trung tính.",
+"He *bungled* the job.",
+"Anh ta làm hỏng việc.",
+"trung tính",
+null
+]
+]
+]
+},
+{
+"adult": true,
+"g": [
+"Lãng phí thời gian, vớ vẩn.",
+[
+[
+"fuck around",
+"cụm động từ",
+"fʌk ɚˈaʊnd",
+null,
+"lông bông; làm vớ vẩn; đùa giỡn",
+"Rất thô: lãng phí thời gian hoặc đùa giỡn với ai.",
+"Stop *fucking around* and work.",
+"Đừng làm trò vớ vẩn nữa, làm việc đi.",
+"thô tục",
+null
+],
+[
+"screw around",
+"cụm động từ",
+"skɹu ɚˈaʊnd",
+null,
+"làm trò vớ vẩn; lăng nhăng",
+"Nhẹ hơn fuck around, cũng có nghĩa ngoại tình.",
+"He *screws around* instead of studying.",
+"Anh ta làm trò vớ vẩn thay vì học.",
+"thô tục",
+null
+],
+[
+"mess about",
+"cụm động từ",
+"mɛs əˈbaʊt",
+null,
+"nghịch ngợm, làm trò (Anh)",
+"Nhẹ, không tục.",
+"Stop *messing about*!",
+"Đừng nghịch nữa!",
+"thân mật",
+null
+],
+[
+"piss about",
+"cụm động từ",
+"pɪs əˈbaʊt",
+null,
+"đùa giỡn vô ích (Anh)",
+"Anh thô: lãng phí thời gian.",
+"Don't *piss about* with the paperwork.",
+"Đừng lằng nhằng với giấy tờ.",
+"thô tục",
+null
+],
+[
+"muck about",
+"cụm động từ",
+"mʌk əˈbaʊt",
+null,
+"làm trò, nghịch ngợm (Anh)",
+"Anh nhẹ, thân mật.",
+"They *mucked about* all afternoon.",
+"Họ nghịch cả buổi chiều.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"adult": true,
+"g": [
+"Đối xử tệ với người khác.",
+[
+[
+"shit on",
+"cụm động từ",
+"ʃɪt ɑn",
+null,
+"đối xử tệ, chà đạp",
+"Thô: đối xử bất công, khinh bỉ.",
+"He *shits on* everyone who helps him.",
+"Hắn chà đạp bất cứ ai giúp hắn.",
+"thô tục",
+null
+],
+[
+"dump on",
+"cụm động từ",
+"dʌmp ɑn",
+null,
+"trút bực lên; chê bai",
+"Trút giận hoặc phàn nàn lên ai, hoặc chê.",
+"Don't *dump on* me, I didn't do it.",
+"Đừng trút bực lên tôi, tôi không làm.",
+"thân mật",
+null
+],
+[
+"walk all over",
+"cụm động từ",
+"wɔk ɔl ˈoʊvɚ",
+null,
+"chà đạp, coi thường",
+"Đối xử không tôn trọng, lợi dụng.",
+"Don't let her *walk all over* you.",
+"Đừng để cô ta chà đạp bạn.",
+"thân mật",
+null
+],
+[
+"piss on",
+"cụm động từ",
+"pɪs ɑn",
+null,
+"khinh miệt; chê thậm tệ",
+"Rất thô, coi thường, hoặc nghĩa đen là đái lên.",
+"The critics *pissed on* the film.",
+"Giới phê bình chê thậm tệ bộ phim.",
+"thô tục",
+null
+],
+[
+"push around",
+"cụm động từ",
+"pʊʃ ɚˈaʊnd",
+null,
+"bắt nạt, sai khiến",
+"Lấn át người yếu thế.",
+"He likes to *push* people *around*.",
+"Hắn thích bắt nạt người khác.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"adult": true,
+"g": [
+"Quan hệ tình dục bừa bãi.",
+[
+[
+"sleep around",
+"cụm động từ",
+"slip ɚˈaʊnd",
+null,
+"ngủ bừa, lăng nhăng",
+"Quan hệ với nhiều người, thường mang ý chê.",
+"He has a reputation for *sleeping around*.",
+"Hắn nổi tiếng là ngủ bừa.",
+"thô tục",
+null
+],
+[
+"play around",
+"cụm động từ",
+"pleɪ ɚˈaʊnd",
+null,
+"ngoại tình; đùa",
+"Quan hệ ngoài hôn nhân. Cũng là chơi đùa.",
+"He was *playing around* behind her back.",
+"Anh ta ngoại tình sau lưng cô.",
+"thân mật",
+null
+],
+[
+"knock up",
+"cụm động từ",
+"nɑk ʌp",
+null,
+"làm có thai (Mỹ thô); gõ cửa (Anh)",
+"Mỹ thô: làm ai mang thai. Anh: gõ cửa gọi dậy, hoặc làm nhanh. Hai nghĩa khác hẳn, cần chú ý.",
+"He *knocked* her *up* in college.",
+"Anh ta làm cô ấy có bầu thời đại học.",
+"thô tục",
+null
+],
+[
+"bang",
+"cụm động từ",
+"bæŋ",
+null,
+"quan hệ tình dục (thô)",
+"Từ thô cho quan hệ tình dục. Không phải phrasal nhưng hay đi kèm trong lóng.",
+"They *banged* all night.",
+"Họ làm tình suốt đêm.",
+"thô tục",
+null
+],
+[
+"shag",
+"cụm động từ",
+"ʃæɡ",
+null,
+"quan hệ tình dục (Anh thô)",
+"Anh thô, đôi khi đùa.",
+"He's been *shagging* his neighbour.",
+"Anh ta đang qua lại với hàng xóm.",
+"thô tục",
+null
+]
+]
+]
+},
+{
+"adult": true,
+"g": [
+"Nôn mửa và say xỉn.",
+[
+[
+"throw up",
+"cụm động từ",
+"θɹoʊ ʌp",
+null,
+"nôn, ói",
+"Từ thân mật phổ biến nhất cho nôn.",
+"I felt like I'd *throw up*.",
+"Tôi thấy muốn nôn.",
+"thân mật",
+null
+],
+[
+"puke up",
+"cụm động từ",
+"pjuk ʌp",
+null,
+"ói ra",
+"Thân mật, thô, hình ảnh rõ.",
+"He *puked up* his dinner.",
+"Anh ta ói bữa tối ra.",
+"thô tục",
+null
+],
+[
+"bring up",
+"cụm động từ",
+"bɹɪŋ ʌp",
+null,
+"nôn ra",
+"Nhẹ, y học hoặc nói tránh.",
+"The baby *brought up* her milk.",
+"Em bé trớ sữa.",
+"trung tính",
+null
+],
+[
+"sober up",
+"cụm động từ",
+"ˈsoʊbɚ ʌp",
+null,
+"tỉnh rượu",
+"Hết say.",
+"Let him *sober up* before driving.",
+"Để anh ta tỉnh rượu rồi hãy lái xe.",
+"thân mật",
+null
+],
+[
+"sleep off",
+"cụm động từ",
+"slip ɔf",
+null,
+"ngủ cho tan (say, mệt)",
+"Ngủ để hết say hoặc hết bệnh.",
+"He went home to *sleep off* the booze.",
+"Anh về nhà ngủ cho tan rượu.",
+"thân mật",
+null
+]
+]
+]
+},
+{
+"adult": false,
+"g": [
+"Đánh đập, bạo lực.",
+[
+[
+"beat up",
+"cụm động từ",
+"bit ʌp",
+null,
+"đánh đập",
+"Đánh ai bị thương nặng.",
+"Three men *beat* him *up*.",
+"Ba người đàn ông đánh đập anh ta.",
+"thân mật",
+null
+],
+[
+"rough up",
+"cụm động từ",
+"ɹʌf ʌp",
+null,
+"hành hung, đánh sơ sơ",
+"Đánh hoặc xô đẩy mạnh, nhẹ hơn beat up.",
+"The thugs *roughed* him *up*.",
+"Bọn côn đồ hành hung anh ta.",
+"thân mật",
+null
+],
+[
+"smack down",
+"cụm động từ",
+"smæk daʊn",
+null,
+"đánh gục; chê thẳng thừng",
+"Đánh hoặc bác bỏ phũ phàng.",
+"The champion *smacked down* his rival.",
+"Nhà vô địch đánh gục đối thủ.",
+"thân mật",
+null
+],
+[
+"lay into",
+"cụm động từ",
+"leɪ ˈɪntu",
+null,
+"nhào vô đánh, mắng xối xả",
+"Tấn công dữ dội bằng tay hoặc lời.",
+"He *laid into* me for being late.",
+"Anh ta mắng xối xả vì tôi đến trễ.",
+"thân mật",
+null
+],
+[
+"rip into",
+"cụm động từ",
+"ɹɪp ˈɪntu",
+null,
+"mắng nhiếc dữ dội",
+"Chỉ trích gay gắt.",
+"The coach *ripped into* the team.",
+"Huấn luyện viên mắng nhiếc cả đội.",
+"thân mật",
+null
+]
+]
+]
+}
+]
+}
