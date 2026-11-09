@@ -12,7 +12,7 @@ Mỗi nhóm có dạng `{ "batch", "adult", "g": [tip, [[word, pos, ipaUS, ipaUK
 `adult: true` thì nạp vào `D.search18`, ngược lại vào `D.search`. Khi nạp, quy tắc hiện có trong `www/index.html` tự thay các nhóm cũ có từ trùng.
 IPA lấy từ CMU Pronouncing Dictionary; nghĩa, sắc thái, ví dụ do dự án tự biên soạn nên cần rà soát bởi người bản ngữ.
 
-## phrasal-pending.json (cụm động từ gom theo động từ gốc, chờ nạp)
+## phrasal-v1.5-merged.json (đã nạp vào app từ bản 1.5.0)
 
 139 nhóm / 324 mục. Mỗi nhóm là MỘT động từ gốc cùng các giới từ đi kèm (ví dụ nhóm `bring`: bring up, bring in, bring out, bring back, bring about, bring down, bring forward, bring off). Phần `tip` của nhóm liệt kê nhanh nghĩa của từng giới từ.
 Cụm có nhiều nghĩa (như pick up) được gộp thành một mục, các nghĩa phụ nằm trong trường `oth` (mục thứ 11 của mảng).
