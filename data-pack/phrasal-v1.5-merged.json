@@ -246,7 +246,7 @@ null
 "verb": "bring",
 "adult": false,
 "g": [
-"Cụm động từ với “bring”. Nghĩa thay đổi theo giới từ đi sau: up (nuôi nấng); in (đưa vào); out (đưa ra); back (mang trả lại); about (gây ra); down (hạ bệ); forward (dời sớm lên); off (làm thành công điều khó).",
+"Cụm động từ với “bring”. Nghĩa thay đổi theo giới từ đi sau: up (nuôi nấng); in (đưa vào); out (đưa ra); back (mang trả lại); about (gây ra); down (hạ bệ); forward (dời sớm lên); off (làm thành công điều khó); around (làm tỉnh lại); round (làm tỉnh lại); along (mang theo); on (gây ra); over (mang sang); together (gắn kết); to (làm tỉnh lại).",
 [
 [
 "bring up",
@@ -341,9 +341,93 @@ null
 "bɹɪŋ ɔf",
 null,
 "làm thành công điều khó",
-"Hoàn thành việc khó, hơi bất ngờ.",
+"Cấu trúc: bring sth off. Hoàn thành được việc khó hoặc đạt được điều tưởng khó, hơi bất ngờ.",
 "She *brought off* the deal against the odds.",
 "Cô ấy chốt được thương vụ dù khó khăn.",
+"trang trọng",
+null
+],
+[
+"bring around",
+"cụm động từ",
+"bɹɪŋ ɚˈaʊnd",
+"",
+"làm tỉnh lại; thuyết phục đổi ý; mang đến (nhà)",
+"Cấu trúc: bring sb around. Ba nghĩa: làm ai tỉnh lại sau khi ngất, thuyết phục ai đồng ý, hoặc đưa ai, thứ gì đến nhà mình. Kiểu Anh thường nói bring round.",
+"They managed to *bring* her *around* to their point of view.",
+"Họ thuyết phục được cô ấy chấp nhận quan điểm của họ.",
+"trung tính",
+null
+],
+[
+"bring round",
+"cụm động từ",
+"bɹɪŋ ɹaʊnd",
+"",
+"làm tỉnh lại; thuyết phục; mang đến (Anh)",
+"Cấu trúc: bring sb round. Kiểu Anh của bring around.",
+"The doctor *brought* him *round* with smelling salts.",
+"Bác sĩ làm anh ấy tỉnh lại bằng muối ngửi.",
+"trung tính",
+null
+],
+[
+"bring along",
+"cụm động từ",
+"bɹɪŋ əˈlɔŋ",
+"",
+"mang theo, dẫn theo",
+"Cấu trúc: bring sb/sth along. Đem người hoặc đồ cùng đi đến một nơi.",
+"Feel free to *bring* a friend *along*.",
+"Cứ thoải mái dẫn bạn đi cùng.",
+"trung tính",
+null
+],
+[
+"bring on",
+"cụm động từ",
+"bɹɪŋ ɑn",
+"",
+"gây ra; làm nặng thêm; cho vào sân",
+"Cấu trúc: bring sth on. Làm bệnh hay vấn đề xuất hiện, hoặc cho cầu thủ vào sân. Nói bring it on là thách thức: cứ thử đi.",
+"Stress can *bring on* headaches.",
+"Căng thẳng có thể gây ra đau đầu.",
+"trung tính",
+null
+],
+[
+"bring over",
+"cụm động từ",
+"bɹɪŋ ˈoʊvɚ",
+"",
+"mang sang, đưa đến",
+"Cấu trúc: bring sb/sth over. Mang đến nhà người nói hoặc sang nước khác.",
+"*Bring* your guitar *over* tonight.",
+"Tối nay mang đàn guitar sang nhé.",
+"thân mật",
+null
+],
+[
+"bring together",
+"cụm động từ",
+"bɹɪŋ təˈɡɛðɚ",
+"",
+"gắn kết, tập hợp lại",
+"Cấu trúc: bring sb together. Làm cho nhiều người hay nhóm xích lại gần nhau.",
+"The festival *brings* the whole town *together*.",
+"Lễ hội gắn kết cả thị trấn.",
+"trung tính",
+null
+],
+[
+"bring to",
+"cụm động từ",
+"bɹɪŋ tu",
+"",
+"làm tỉnh lại; đưa đến mức",
+"Cấu trúc: bring sb to. Làm ai tỉnh lại, hoặc bring sth to an end là kết thúc.",
+"The cold water *brought* him *to*.",
+"Nước lạnh làm anh ấy tỉnh lại.",
 "trang trọng",
 null
 ]
