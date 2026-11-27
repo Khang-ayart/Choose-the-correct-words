@@ -1,0 +1,6325 @@
+{
+"search": [
+[
+"woman: phụ nữ nói chung. girl: bé gái hoặc cô gái trẻ. lady: quý bà, lịch sự. female: giống cái, dùng trong thống kê. gal: cô nàng, thân mật kiểu Mỹ.",
+[
+[
+"woman",
+"danh từ",
+"ˈwʊmən",
+null,
+"phụ nữ, đàn bà",
+"Người nữ trưởng thành, cách nói trung tính nhất.",
+"She is a successful *woman* in business.",
+"Cô ấy là một phụ nữ thành đạt trong kinh doanh.",
+"trung tính",
+null
+],
+[
+"girl",
+"danh từ",
+"ɡɝl",
+null,
+"bé gái; cô gái trẻ",
+"Nữ chưa trưởng thành, đôi khi người lớn gọi bạn nữ thân (girls' night out). Gọi phụ nữ lớn là girl có thể bị coi là coi nhẹ.",
+"The little *girl* held her mother's hand.",
+"Cô bé nắm tay mẹ.",
+"trung tính",
+null
+],
+[
+"lady",
+"danh từ",
+"ˈleɪdi",
+null,
+"quý bà, quý cô",
+"Lịch sự, trang trọng, hay dùng khi nói với hoặc về phụ nữ để tỏ kính trọng: ladies and gentlemen.",
+"The *lady* at the desk helped me.",
+"Quý cô ở quầy đã giúp tôi.",
+"trang trọng",
+null
+],
+[
+"female",
+"tính từ",
+"ˈfiˌmeɪl",
+null,
+"nữ, giống cái",
+"Dùng trong văn bản, thống kê, khoa học. Dùng làm danh từ để gọi một người phụ nữ nghe lạnh lùng.",
+"The company hired five *female* engineers.",
+"Công ty tuyển năm kỹ sư nữ.",
+"trang trọng",
+null
+],
+[
+"gal",
+"danh từ",
+"ɡæl",
+null,
+"cô nàng, cô bạn",
+"Kiểu Mỹ, thân mật, hơi cũ hoặc vùng miền.",
+"She's a fun *gal* to be around.",
+"Cô nàng ấy rất vui tính khi ở cạnh.",
+"thân mật",
+null
+]
+]
+],
+[
+"man: đàn ông nói chung. boy: bé trai. guy: gã, anh chàng, thân mật. gentleman: người đàn ông lịch thiệp. fellow: anh bạn, hơi cũ.",
+[
+[
+"man",
+"danh từ",
+"mæn",
+null,
+"đàn ông, người đàn ông",
+"Nam trưởng thành, trung tính. Cũng chỉ nhân loại, nhưng ngày nay hay dùng humans.",
+"A *man* was waiting outside.",
+"Một người đàn ông đang chờ bên ngoài.",
+"trung tính",
+null
+],
+[
+"boy",
+"danh từ",
+"bɔɪ",
+null,
+"bé trai, cậu bé",
+"Nam chưa trưởng thành, hoặc thân mật gọi bạn nam (the boys).",
+"The *boy* kicked the ball over the fence.",
+"Cậu bé đá quả bóng qua hàng rào.",
+"trung tính",
+null
+],
+[
+"guy",
+"danh từ",
+"ɡaɪ",
+null,
+"anh chàng, gã",
+"Thân mật, kiểu Mỹ. Số nhiều guys còn gọi chung nhóm người cả nam nữ.",
+"He's a nice *guy*.",
+"Anh ấy là một chàng trai tốt.",
+"thân mật",
+null
+],
+[
+"gentleman",
+"danh từ",
+"ˈdʒɛntəlmən",
+null,
+"quý ông, người lịch thiệp",
+"Chỉ người đàn ông cư xử tốt, hoặc cách gọi lịch sự.",
+"Be a *gentleman* and hold the door.",
+"Hãy lịch thiệp và giữ cửa cho người ta.",
+"trang trọng",
+null
+],
+[
+"fellow",
+"danh từ",
+"ˈfɛloʊ",
+null,
+"anh bạn; đồng nghiệp",
+"Hơi cũ, chỉ người đàn ông hoặc người cùng nhóm: fellow students.",
+"He's a decent *fellow*.",
+"Anh ấy là người tử tế.",
+"thân mật",
+null
+]
+]
+],
+[
+"make: làm ra, tạo ra từ vật liệu hoặc hành động. do: thực hiện, làm việc, hành động. build: xây dựng, dựng lên từng phần. create: sáng tạo ra cái mới. produce: sản xuất, tạo ra số lượng.",
+[
+[
+"make",
+"động từ",
+"meɪk",
+null,
+"làm, tạo ra, chế tạo",
+"Tạo ra thứ gì đó mới từ nguyên liệu, hoặc gây ra một kết quả: make a cake, make a mistake, make a decision. Hay đi với danh từ cố định.",
+"She *makes* her own clothes.",
+"Cô ấy tự may quần áo.",
+"trung tính",
+null
+],
+[
+"do",
+"động từ",
+"du",
+null,
+"làm, thực hiện",
+"Hành động hay công việc nói chung: do homework, do the dishes, do business. Thường không tạo ra vật cụ thể.",
+"I have to *do* my homework.",
+"Tôi phải làm bài tập.",
+"trung tính",
+null
+],
+[
+"build",
+"động từ",
+"bɪld",
+null,
+"xây, dựng",
+"Xây dựng thứ lớn từng bước, như nhà, công ty, mối quan hệ.",
+"They *built* a house by the lake.",
+"Họ xây một ngôi nhà bên hồ.",
+"trung tính",
+null
+],
+[
+"create",
+"động từ",
+"kɹiˈeɪt",
+null,
+"tạo ra, sáng tạo",
+"Làm ra thứ chưa từng có, nhấn vào sáng tạo.",
+"The artist *created* a stunning sculpture.",
+"Người nghệ sĩ tạo ra một tác phẩm điêu khắc tuyệt đẹp.",
+"trang trọng",
+null
+],
+[
+"produce",
+"động từ",
+"pɹəˈdus",
+null,
+"sản xuất, tạo ra",
+"Tạo ra sản phẩm với số lượng, hoặc kết quả: produce a film, produce results.",
+"The factory *produces* 500 cars a day.",
+"Nhà máy sản xuất 500 chiếc xe mỗi ngày.",
+"trang trọng",
+null
+]
+]
+],
+[
+"little: nhỏ bé, hoặc một chút. a little: một ít, còn đủ dùng. few: ít, đếm được và gần như không đủ. a few: vài, đếm được và đủ dùng. less: ít hơn.",
+[
+[
+"little",
+"từ hạn định",
+"ˈlɪtəl",
+null,
+"ít, gần như không có (không đếm được)",
+"Mang nghĩa phủ định, hầu như không có: little time, little hope.",
+"We have *little* time left.",
+"Chúng ta còn rất ít thời gian.",
+"trung tính",
+null
+],
+[
+"a little",
+"từ hạn định",
+"ə ˈlɪtəl",
+null,
+"một chút, một ít (không đếm được)",
+"Mang nghĩa tích cực, còn đủ dùng: a little sugar, a little help.",
+"Add *a little* salt to the soup.",
+"Cho thêm một ít muối vào súp.",
+"trung tính",
+null
+],
+[
+"few",
+"từ hạn định",
+"fju",
+null,
+"ít, hầu như không có (đếm được)",
+"Nghĩa phủ định với danh từ đếm được: few people, few chances.",
+"*Few* students passed the test.",
+"Rất ít học sinh đỗ bài kiểm tra.",
+"trung tính",
+null
+],
+[
+"a few",
+"từ hạn định",
+"ə fju",
+null,
+"một vài (đếm được)",
+"Mang nghĩa tích cực, vừa đủ: a few friends, a few days.",
+"I invited *a few* friends.",
+"Tôi mời một vài người bạn.",
+"trung tính",
+null
+],
+[
+"less",
+"từ hạn định",
+"lɛs",
+null,
+"ít hơn",
+"So sánh hơn của little và much, dùng cho không đếm được. Với đếm được nói fewer.",
+"I spend *less* money now.",
+"Giờ tôi tiêu ít tiền hơn.",
+"trung tính",
+null
+]
+]
+],
+[
+"hear: nghe thấy, tai bắt được. listen: lắng nghe có chủ ý. overhear: nghe lỏm. eavesdrop: nghe trộm. catch: nghe được, bắt được (từ).",
+[
+[
+"hear",
+"động từ",
+"hiɹ",
+null,
+"nghe thấy",
+"Âm thanh đến tai mình, không cần cố ý: I hear a noise.",
+"I can *hear* someone singing.",
+"Tôi nghe thấy ai đó đang hát.",
+"trung tính",
+null
+],
+[
+"listen",
+"động từ",
+"ˈlɪsən",
+null,
+"nghe, lắng nghe",
+"Chủ động tập trung nghe. Dùng với to: listen to music.",
+"*Listen* to what I'm saying.",
+"Hãy nghe tôi nói đây.",
+"trung tính",
+null
+],
+[
+"overhear",
+"động từ",
+"ˈoʊvɚˈhiɹ",
+null,
+"nghe lỏm",
+"Vô tình nghe được cuộc nói chuyện của người khác.",
+"I *overheard* them talking about me.",
+"Tôi nghe lỏm họ nói chuyện về tôi.",
+"trung tính",
+null
+],
+[
+"eavesdrop",
+"động từ",
+"ˈivzˌdɹɑp",
+null,
+"nghe trộm",
+"Cố tình nghe lén chuyện người khác, hàm ý xấu.",
+"He was *eavesdropping* at the door.",
+"Anh ta đang nghe trộm ở cửa.",
+"trang trọng",
+null
+],
+[
+"catch",
+"động từ",
+"kætʃ",
+null,
+"nghe được, bắt được",
+"Thân mật: nghe hoặc hiểu được: I didn't catch your name.",
+"Sorry, I didn't *catch* your name.",
+"Xin lỗi, tôi không nghe được tên bạn.",
+"thân mật",
+null
+]
+]
+],
+[
+"borrow: mượn của ai. lend: cho ai mượn. loan: cho vay chính thức. rent: thuê. hire: thuê (Anh, ngắn hạn hoặc nhân sự).",
+[
+[
+"borrow",
+"động từ",
+"ˈbɑˌɹoʊ",
+null,
+"mượn",
+"Mình lấy dùng tạm của người khác rồi trả: borrow a book from someone.",
+"Can I *borrow* your pen?",
+"Tôi mượn bút của bạn được không?",
+"trung tính",
+null
+],
+[
+"lend",
+"động từ",
+"lɛnd",
+null,
+"cho mượn",
+"Mình đưa người khác dùng tạm: lend someone something.",
+"Could you *lend* me some money?",
+"Bạn cho tôi mượn ít tiền được không?",
+"trung tính",
+null
+],
+[
+"loan",
+"động từ",
+"loʊn",
+null,
+"cho vay",
+"Cho vay chính thức, nhất là tiền hoặc đồ có giá trị, thường có thỏa thuận.",
+"The bank *loaned* them money to buy a house.",
+"Ngân hàng cho họ vay tiền mua nhà.",
+"trang trọng",
+null
+],
+[
+"rent",
+"động từ",
+"ɹɛnt",
+null,
+"thuê (nhà, xe, thiết bị)",
+"Trả tiền để dùng một thời gian. Mỹ rent, Anh còn dùng hire cho xe, đồ.",
+"We *rent* an apartment downtown.",
+"Chúng tôi thuê một căn hộ ở trung tâm.",
+"trung tính",
+null
+],
+[
+"hire",
+"động từ",
+"ˈhaɪɚ",
+null,
+"thuê; tuyển",
+"Anh thuê đồ ngắn hạn: hire a car. Mỹ dùng hire cho tuyển người.",
+"They *hired* a new assistant.",
+"Họ tuyển một trợ lý mới.",
+"trung tính",
+null
+]
+]
+],
+[
+"learn: học, tiếp thu kiến thức hoặc kỹ năng. study: học, nghiên cứu một cách có hệ thống. practice: luyện tập. revise: ôn lại (Anh). review: ôn lại, xem lại (Mỹ).",
+[
+[
+"learn",
+"động từ",
+"lɝn",
+null,
+"học, học được",
+"Tiếp thu kiến thức hay kỹ năng, nhấn vào kết quả: learn to swim.",
+"I want to *learn* Spanish.",
+"Tôi muốn học tiếng Tây Ban Nha.",
+"trung tính",
+null
+],
+[
+"study",
+"động từ",
+"ˈstʌdi",
+null,
+"học, nghiên cứu",
+"Dành thời gian tìm hiểu một môn: study law, study for an exam.",
+"She *studies* medicine at university.",
+"Cô ấy học y ở trường đại học.",
+"trung tính",
+null
+],
+[
+"practice",
+"động từ",
+"ˈpɹæktəs",
+null,
+"luyện tập",
+"Làm đi làm lại để giỏi hơn.",
+"He *practices* piano every day.",
+"Anh ấy luyện đàn piano mỗi ngày.",
+"trung tính",
+null
+],
+[
+"revise",
+"động từ",
+"ɹɪˈvaɪz",
+null,
+"ôn lại (Anh); sửa lại",
+"Anh: ôn bài trước kỳ thi. Cũng là chỉnh sửa văn bản.",
+"I need to *revise* for my exam.",
+"Tôi cần ôn bài cho kỳ thi.",
+"trung tính",
+null
+],
+[
+"review",
+"động từ",
+"ˌɹiˈvju",
+null,
+"ôn lại, xem xét",
+"Mỹ: ôn bài. Cũng là đánh giá, nhận xét.",
+"Let's *review* the main points.",
+"Chúng ta cùng ôn lại những ý chính.",
+"trung tính",
+null
+]
+]
+],
+[
+"win: thắng, giành chiến thắng. beat: đánh bại ai. defeat: đánh bại (trang trọng). earn: kiếm được, xứng đáng nhận. gain: giành được, tăng thêm.",
+[
+[
+"win",
+"động từ",
+"wɪn",
+null,
+"thắng, giành chiến thắng",
+"Chủ ngữ là người thắng, tân ngữ là giải hay trận: win a game, win a prize.",
+"Our team *won* the match.",
+"Đội của chúng tôi thắng trận.",
+"trung tính",
+null
+],
+[
+"beat",
+"động từ",
+"bit",
+null,
+"đánh bại",
+"Tân ngữ là đối thủ: beat someone. Không nói win someone.",
+"She *beat* me at chess.",
+"Cô ấy thắng tôi ở cờ vua.",
+"trung tính",
+null
+],
+[
+"defeat",
+"động từ",
+"dɪˈfit",
+null,
+"đánh bại, đánh thắng",
+"Trang trọng, hay dùng cho chiến tranh, bầu cử.",
+"The army *defeated* the enemy.",
+"Quân đội đánh bại kẻ thù.",
+"trang trọng",
+null
+],
+[
+"earn",
+"động từ",
+"ɝn",
+null,
+"kiếm được; xứng đáng",
+"Nhận tiền hay sự công nhận nhờ nỗ lực.",
+"He *earns* a good salary.",
+"Anh ấy kiếm được mức lương tốt.",
+"trung tính",
+null
+],
+[
+"gain",
+"động từ",
+"ɡeɪn",
+null,
+"giành được, tăng thêm",
+"Thu được lợi ích, kinh nghiệm, cân nặng.",
+"She *gained* valuable experience abroad.",
+"Cô ấy thu được kinh nghiệm quý báu ở nước ngoài.",
+"trang trọng",
+null
+]
+]
+],
+[
+"lose: mất, thua, đánh mất. miss: bỏ lỡ, nhớ ai. waste: lãng phí. fail: trượt, thất bại. drop: làm rơi, đánh rơi.",
+[
+[
+"lose",
+"động từ",
+"luz",
+null,
+"mất, thua, đánh mất",
+"Không còn có thứ gì, hoặc thua cuộc.",
+"I *lost* my keys yesterday.",
+"Hôm qua tôi làm mất chìa khóa.",
+"trung tính",
+null
+],
+[
+"miss",
+"động từ",
+"mɪs",
+null,
+"bỏ lỡ; nhớ",
+"Không kịp, không bắt được, hoặc thấy nhớ ai.",
+"I *missed* the last train.",
+"Tôi lỡ chuyến tàu cuối.",
+"trung tính",
+null
+],
+[
+"waste",
+"động từ",
+"weɪst",
+null,
+"lãng phí",
+"Dùng tiền, thời gian một cách vô ích.",
+"Don't *waste* your time on that.",
+"Đừng phí thời gian vào việc đó.",
+"trung tính",
+null
+],
+[
+"fail",
+"động từ",
+"feɪl",
+null,
+"trượt, thất bại",
+"Không đạt kết quả hoặc không vượt qua kỳ thi.",
+"He *failed* his driving test.",
+"Anh ấy trượt kỳ thi lái xe.",
+"trung tính",
+null
+],
+[
+"drop",
+"động từ",
+"dɹɑp",
+null,
+"làm rơi, đánh rơi",
+"Để vật tuột khỏi tay, hoặc giảm xuống.",
+"She *dropped* her phone.",
+"Cô ấy làm rơi điện thoại.",
+"trung tính",
+null
+]
+]
+],
+[
+"rob: cướp (người hoặc nơi). steal: ăn cắp (đồ vật). burgle: đột nhập trộm nhà (Anh). mug: cướp giật ngoài đường. pickpocket: móc túi.",
+[
+[
+"rob",
+"động từ",
+"ɹɑb",
+null,
+"cướp",
+"Tân ngữ là người hoặc nơi bị cướp: rob a bank, rob someone.",
+"Two men *robbed* the bank.",
+"Hai người đàn ông cướp ngân hàng.",
+"trung tính",
+null
+],
+[
+"steal",
+"động từ",
+"stil",
+null,
+"ăn cắp, trộm",
+"Tân ngữ là vật bị lấy: steal a wallet. Không nói steal someone.",
+"Someone *stole* my bike.",
+"Ai đó trộm xe đạp của tôi.",
+"trung tính",
+null
+],
+[
+"burgle",
+"động từ",
+"ˈbɝɡəl",
+null,
+"đột nhập trộm nhà",
+"Anh: vào nhà để trộm. Mỹ thường nói burglarize.",
+"Our house was *burgled* last night.",
+"Nhà chúng tôi bị trộm đột nhập đêm qua.",
+"trung tính",
+null
+],
+[
+"mug",
+"động từ",
+"mʌɡ",
+null,
+"cướp giật, chặn đường cướp",
+"Tấn công và cướp người đi đường.",
+"He was *mugged* on his way home.",
+"Anh ta bị cướp trên đường về nhà.",
+"trung tính",
+null
+],
+[
+"pickpocket",
+"động từ",
+"ˈpɪkˌpɑkət",
+null,
+"móc túi",
+"Lấy trộm đồ trong túi người khác.",
+"Tourists are often *pickpocketed* in crowded places.",
+"Khách du lịch hay bị móc túi ở nơi đông người.",
+"trung tính",
+null
+]
+]
+],
+[
+"seem: có vẻ (cảm giác). appear: có vẻ, xuất hiện. look: trông có vẻ (nhìn thấy). sound: nghe có vẻ. feel: cảm thấy.",
+[
+[
+"seem",
+"động từ",
+"sim",
+null,
+"có vẻ, dường như",
+"Ấn tượng chung, không chắc chắn: It seems that...",
+"She *seems* tired today.",
+"Hôm nay cô ấy có vẻ mệt.",
+"trung tính",
+null
+],
+[
+"appear",
+"động từ",
+"əˈpɪɹ",
+null,
+"có vẻ; xuất hiện",
+"Trang trọng hơn seem. Cũng nghĩa là hiện ra.",
+"He *appears* to be lost.",
+"Anh ta có vẻ bị lạc.",
+"trang trọng",
+null
+],
+[
+"look",
+"động từ",
+"lʊk",
+null,
+"trông có vẻ",
+"Dựa vào những gì nhìn thấy: look tired, look happy.",
+"You *look* great in that dress.",
+"Bạn trông tuyệt trong chiếc váy đó.",
+"trung tính",
+null
+],
+[
+"sound",
+"động từ",
+"saʊnd",
+null,
+"nghe có vẻ",
+"Dựa vào những gì nghe thấy hay được kể.",
+"That *sounds* like a good idea.",
+"Nghe có vẻ là ý hay.",
+"trung tính",
+null
+],
+[
+"feel",
+"động từ",
+"fil",
+null,
+"cảm thấy; sờ thấy",
+"Dựa vào cảm xúc hay xúc giác: feel cold, feel sad.",
+"I *feel* a bit dizzy.",
+"Tôi thấy hơi chóng mặt.",
+"trung tính",
+null
+]
+]
+],
+[
+"affect: ảnh hưởng đến (động từ). effect: tác động, kết quả (danh từ). influence: ảnh hưởng gián tiếp, uy tín. impact: va chạm, tác động mạnh. result: kết quả.",
+[
+[
+"affect",
+"động từ",
+"əˈfɛkt",
+null,
+"ảnh hưởng đến, tác động lên",
+"Động từ. Làm thay đổi ai hay cái gì: The weather affects my mood.",
+"The noise *affects* my sleep.",
+"Tiếng ồn ảnh hưởng đến giấc ngủ của tôi.",
+"trung tính",
+null
+],
+[
+"effect",
+"danh từ",
+"ɪˈfɛkt",
+null,
+"tác động, hiệu ứng, kết quả",
+"Thường là danh từ: the effect of something. Cũng là động từ trang trọng effect change (thực hiện thay đổi).",
+"The medicine had a quick *effect*.",
+"Thuốc có tác dụng nhanh.",
+"trung tính",
+null
+],
+[
+"influence",
+"danh từ",
+"ˈɪnfluəns",
+null,
+"ảnh hưởng, sức ảnh hưởng",
+"Tác động gián tiếp lên suy nghĩ, hành vi. Cũng là động từ.",
+"Parents have a strong *influence* on children.",
+"Cha mẹ có ảnh hưởng mạnh đến con cái.",
+"trung tính",
+null
+],
+[
+"impact",
+"danh từ",
+"ˌɪmˈpækt",
+null,
+"tác động mạnh, va chạm",
+"Tác động lớn, rõ rệt. Cũng là động từ.",
+"The new law will have a big *impact*.",
+"Luật mới sẽ có tác động lớn.",
+"trang trọng",
+null
+],
+[
+"result",
+"danh từ",
+"ɹɪˈzʌlt",
+null,
+"kết quả",
+"Điều xảy ra do một nguyên nhân hoặc điểm số: exam results.",
+"The *result* surprised everyone.",
+"Kết quả khiến mọi người ngạc nhiên.",
+"trung tính",
+null
+]
+]
+],
+[
+"accept: chấp nhận, nhận. receive: nhận được. take: lấy, nhận. admit: thừa nhận. agree: đồng ý.",
+[
+[
+"accept",
+"động từ",
+"ækˈsɛpt",
+null,
+"chấp nhận, nhận lấy",
+"Đồng ý nhận một thứ được đưa hay đề nghị: accept a gift.",
+"She *accepted* the job offer.",
+"Cô ấy nhận lời mời làm việc.",
+"trung tính",
+null
+],
+[
+"receive",
+"động từ",
+"ɹəˈsiv",
+null,
+"nhận được",
+"Nhận một thứ được gửi tới, không nhất thiết đồng ý.",
+"I *received* your email yesterday.",
+"Tôi đã nhận email của bạn hôm qua.",
+"trang trọng",
+null
+],
+[
+"take",
+"động từ",
+"teɪk",
+null,
+"lấy, nhận",
+"Từ rất rộng: lấy, cầm, mất thời gian, đưa đi.",
+"Please *take* a seat.",
+"Xin mời ngồi.",
+"trung tính",
+null
+],
+[
+"admit",
+"động từ",
+"ədˈmɪt",
+null,
+"thừa nhận, cho vào",
+"Thừa nhận sai, hoặc cho phép vào nơi nào.",
+"He *admitted* that he was wrong.",
+"Anh ấy thừa nhận mình sai.",
+"trung tính",
+null
+],
+[
+"agree",
+"động từ",
+"əˈɡɹi",
+null,
+"đồng ý",
+"Có chung ý kiến, dùng với with, to, on.",
+"I *agree* with you.",
+"Tôi đồng ý với bạn.",
+"trung tính",
+null
+]
+]
+],
+[
+"advise: khuyên (động từ). advice: lời khuyên (danh từ, không đếm được). suggest: gợi ý, đề xuất. recommend: giới thiệu, khuyên dùng. propose: đề xuất chính thức.",
+[
+[
+"advise",
+"động từ",
+"ædˈvaɪz",
+null,
+"khuyên, tư vấn",
+"Động từ: advise someone to do something.",
+"The doctor *advised* him to rest.",
+"Bác sĩ khuyên anh ấy nghỉ ngơi.",
+"trang trọng",
+null
+],
+[
+"advice",
+"danh từ",
+"ædˈvaɪs",
+null,
+"lời khuyên",
+"Danh từ không đếm được, không nói an advice mà a piece of advice.",
+"Thanks for your *advice*.",
+"Cảm ơn lời khuyên của bạn.",
+"trung tính",
+null
+],
+[
+"suggest",
+"động từ",
+"səˈdʒɛst",
+null,
+"gợi ý, đề xuất",
+"Đưa ý kiến để người khác cân nhắc: suggest that, suggest V-ing.",
+"I *suggest* we leave early.",
+"Tôi đề nghị chúng ta đi sớm.",
+"trung tính",
+null
+],
+[
+"recommend",
+"động từ",
+"ˌɹɛkəˈmɛnd",
+null,
+"giới thiệu, khuyên dùng",
+"Khuyên ai nên dùng, đến, hoặc làm vì tốt.",
+"Can you *recommend* a good restaurant?",
+"Bạn giới thiệu nhà hàng nào ngon không?",
+"trung tính",
+null
+],
+[
+"propose",
+"động từ",
+"pɹəˈpoʊz",
+null,
+"đề xuất; cầu hôn",
+"Đề xuất chính thức, hoặc ngỏ lời cầu hôn.",
+"He *proposed* a new plan.",
+"Anh ấy đề xuất một kế hoạch mới.",
+"trang trọng",
+null
+]
+]
+],
+[
+"city: thành phố lớn. town: thị trấn, thành phố nhỏ. village: làng. capital: thủ đô. countryside: vùng quê.",
+[
+[
+"city",
+"danh từ",
+"ˈsɪti",
+null,
+"thành phố",
+"Nơi rộng lớn, đông dân, thường là trung tâm kinh tế.",
+"I live in a big *city*.",
+"Tôi sống ở một thành phố lớn.",
+"trung tính",
+null
+],
+[
+"town",
+"danh từ",
+"taʊn",
+null,
+"thị trấn, thị xã",
+"Nhỏ hơn city nhưng lớn hơn village.",
+"She grew up in a small *town*.",
+"Cô ấy lớn lên ở một thị trấn nhỏ.",
+"trung tính",
+null
+],
+[
+"village",
+"danh từ",
+"ˈvɪlədʒ",
+null,
+"làng, thôn",
+"Khu dân cư nhỏ ở nông thôn.",
+"The *village* has only 200 people.",
+"Ngôi làng chỉ có 200 dân.",
+"trung tính",
+null
+],
+[
+"capital",
+"danh từ",
+"ˈkæpətəl",
+null,
+"thủ đô; vốn",
+"Thành phố là trung tâm hành chính của nước. Cũng là tiền vốn.",
+"Hanoi is the *capital* of Vietnam.",
+"Hà Nội là thủ đô của Việt Nam.",
+"trung tính",
+null
+],
+[
+"countryside",
+"danh từ",
+"ˈkʌntɹiˌsaɪd",
+null,
+"vùng nông thôn, miền quê",
+"Khu vực ngoài thành phố, có đồng ruộng và thiên nhiên.",
+"We spent the weekend in the *countryside*.",
+"Chúng tôi dành cuối tuần ở miền quê.",
+"trung tính",
+null
+]
+]
+],
+[
+"price: giá của hàng hóa. cost: chi phí phải bỏ ra. fee: phí dịch vụ. fare: giá vé đi lại. charge: khoản tính phí.",
+[
+[
+"price",
+"danh từ",
+"pɹaɪs",
+null,
+"giá, giá cả",
+"Số tiền cần trả để mua một thứ.",
+"The *price* of petrol has gone up.",
+"Giá xăng đã tăng.",
+"trung tính",
+null
+],
+[
+"cost",
+"danh từ",
+"kɑst",
+null,
+"chi phí; giá phải trả",
+"Tổng tiền hay công sức bỏ ra. Cũng là động từ: It costs $10.",
+"The *cost* of living is rising.",
+"Chi phí sinh hoạt đang tăng.",
+"trung tính",
+null
+],
+[
+"fee",
+"danh từ",
+"fi",
+null,
+"phí, lệ phí",
+"Tiền trả cho dịch vụ chuyên môn hoặc quyền tham gia: school fees, entrance fee.",
+"There is a small *fee* for parking.",
+"Có một khoản phí nhỏ cho việc đỗ xe.",
+"trang trọng",
+null
+],
+[
+"fare",
+"danh từ",
+"fɛɹ",
+null,
+"giá vé (xe, tàu, máy bay)",
+"Tiền trả cho một chuyến đi bằng phương tiện công cộng.",
+"The bus *fare* is two dollars.",
+"Giá vé xe buýt là hai đô la.",
+"trung tính",
+null
+],
+[
+"charge",
+"danh từ",
+"tʃɑɹdʒ",
+null,
+"khoản phí; tiền tính",
+"Số tiền tính cho một dịch vụ hay món. Cũng là buộc tội.",
+"There's no *charge* for delivery.",
+"Giao hàng không tính phí.",
+"trung tính",
+null
+]
+]
+],
+[
+"hard: khó hoặc cứng, vất vả. difficult: khó, trang trọng. tough: khó khăn, cứng rắn. challenging: đầy thử thách. demanding: đòi hỏi nhiều.",
+[
+[
+"hard",
+"tính từ",
+"hɑɹd",
+null,
+"khó; cứng; vất vả",
+"Rất rộng: khó làm, vật cứng, làm việc cật lực.",
+"This exercise is very *hard*.",
+"Bài tập này rất khó.",
+"thân mật",
+null
+],
+[
+"difficult",
+"tính từ",
+"ˈdɪfəkəlt",
+null,
+"khó, khó khăn",
+"Trung tính, hơi trang trọng hơn hard, nhấn vào độ khó của việc.",
+"It's *difficult* to find a parking space here.",
+"Ở đây khó tìm chỗ đỗ xe.",
+"trung tính",
+null
+],
+[
+"tough",
+"tính từ",
+"tʌf",
+null,
+"khó khăn; dai; cứng cỏi",
+"Thân mật, hay nói về tình huống nặng nề hoặc người mạnh mẽ.",
+"It was a *tough* decision.",
+"Đó là một quyết định khó khăn.",
+"thân mật",
+null
+],
+[
+"challenging",
+"tính từ",
+"ˈtʃæləndʒɪŋ",
+null,
+"đầy thử thách",
+"Khó nhưng có tính thúc đẩy, cách nói tích cực.",
+"It's a *challenging* but rewarding job.",
+"Đó là công việc nhiều thử thách nhưng xứng đáng.",
+"trang trọng",
+null
+],
+[
+"demanding",
+"tính từ",
+"dɪˈmændɪŋ",
+null,
+"đòi hỏi cao, khắt khe",
+"Cần nhiều công sức hoặc người đòi hỏi nhiều.",
+"She has a *demanding* boss.",
+"Cô ấy có một ông sếp khắt khe.",
+"trung tính",
+null
+]
+]
+],
+[
+"easy: dễ làm. simple: đơn giản, không phức tạp. effortless: không tốn công. straightforward: rõ ràng, dễ hiểu. basic: cơ bản.",
+[
+[
+"easy",
+"tính từ",
+"ˈizi",
+null,
+"dễ, dễ dàng",
+"Không cần nhiều công sức.",
+"The test was *easy*.",
+"Bài kiểm tra dễ.",
+"trung tính",
+null
+],
+[
+"simple",
+"tính từ",
+"ˈsɪmpəl",
+null,
+"đơn giản",
+"Không phức tạp, ít bộ phận, dễ hiểu.",
+"The instructions are *simple*.",
+"Hướng dẫn rất đơn giản.",
+"trung tính",
+null
+],
+[
+"effortless",
+"tính từ",
+"ˈɛfɚtləs",
+null,
+"nhẹ nhàng, không tốn sức",
+"Làm tốt mà trông như không phải cố gắng.",
+"Her dancing looks *effortless*.",
+"Điệu nhảy của cô ấy trông thật nhẹ nhàng.",
+"trung tính",
+null
+],
+[
+"straightforward",
+"tính từ",
+"ˈstɹeɪtˈfɔɹwɚd",
+null,
+"đơn giản, rõ ràng, thẳng thắn",
+"Dễ hiểu, không có chỗ rắc rối. Cũng chỉ người nói thẳng.",
+"The process is quite *straightforward*.",
+"Quy trình khá đơn giản.",
+"trung tính",
+null
+],
+[
+"basic",
+"tính từ",
+"ˈbeɪsɪk",
+null,
+"cơ bản; sơ đẳng",
+"Ở mức nền tảng, hoặc quá đơn giản.",
+"You need a *basic* knowledge of English.",
+"Bạn cần kiến thức tiếng Anh cơ bản.",
+"trung tính",
+null
+]
+]
+],
+[
+"old: già hoặc cũ. aged: có tuổi (trang trọng). elderly: người cao tuổi, lịch sự. ancient: cổ xưa. antique: đồ cổ, có giá trị. outdated: lỗi thời.",
+[
+[
+"old",
+"tính từ",
+"oʊld",
+null,
+"già; cũ",
+"Lâu năm, có tuổi, từ rất thông dụng.",
+"My grandfather is very *old*.",
+"Ông tôi đã rất già.",
+"trung tính",
+null
+],
+[
+"elderly",
+"tính từ",
+"ˈɛldɚli",
+null,
+"cao tuổi",
+"Cách nói lịch sự cho người già, tránh old.",
+"The bus has seats for *elderly* passengers.",
+"Xe buýt có ghế cho hành khách cao tuổi.",
+"trang trọng",
+null
+],
+[
+"aged",
+"tính từ",
+"eɪdʒd",
+null,
+"có tuổi, ở độ tuổi",
+"Phát âm eɪdʒd khi chỉ tuổi: a boy aged ten. Phát âm ˈeɪdʒɪd khi chỉ người già.",
+"The *aged* man walked slowly.",
+"Người đàn ông lớn tuổi bước chậm rãi.",
+"trang trọng",
+null
+],
+[
+"ancient",
+"tính từ",
+"ˈeɪntʃənt",
+null,
+"cổ đại, rất xưa",
+"Thuộc thời rất xa xưa: ancient Rome. Thân mật còn đùa nói đồ rất cũ.",
+"They visited *ancient* ruins.",
+"Họ thăm các tàn tích cổ.",
+"trung tính",
+null
+],
+[
+"antique",
+"danh từ",
+"ænˈtik",
+null,
+"đồ cổ",
+"Vật cũ có giá trị cao, thường trên 100 năm tuổi.",
+"She collects *antique* furniture.",
+"Cô ấy sưu tầm đồ nội thất cổ.",
+"trung tính",
+null
+],
+[
+"outdated",
+"tính từ",
+"ˈaʊtˌdeɪtɪd",
+null,
+"lỗi thời, lạc hậu",
+"Đã cũ, không còn phù hợp hay còn dùng.",
+"The software is *outdated*.",
+"Phần mềm đã lỗi thời.",
+"trung tính",
+null
+]
+]
+],
+[
+"new: mới (chưa có trước đây). modern: hiện đại. recent: gần đây. fresh: tươi, mới mẻ. novel: mới lạ, độc đáo.",
+[
+[
+"new",
+"tính từ",
+"nu",
+null,
+"mới",
+"Mới có, mới mua, hoặc chưa từng có.",
+"I bought a *new* phone.",
+"Tôi mua một chiếc điện thoại mới.",
+"trung tính",
+null
+],
+[
+"modern",
+"tính từ",
+"ˈmɑdɚn",
+null,
+"hiện đại",
+"Thuộc thời nay, theo xu hướng mới.",
+"The city has many *modern* buildings.",
+"Thành phố có nhiều tòa nhà hiện đại.",
+"trung tính",
+null
+],
+[
+"recent",
+"tính từ",
+"ˈɹisənt",
+null,
+"gần đây",
+"Xảy ra cách đây không lâu.",
+"There have been many *recent* changes.",
+"Có nhiều thay đổi gần đây.",
+"trung tính",
+null
+],
+[
+"fresh",
+"tính từ",
+"fɹɛʃ",
+null,
+"tươi, mới",
+"Còn tươi (đồ ăn), mới mẻ (ý tưởng), hay vừa mới (fresh start).",
+"We need *fresh* ideas.",
+"Chúng ta cần những ý tưởng mới mẻ.",
+"trung tính",
+null
+],
+[
+"novel",
+"tính từ",
+"ˈnɑvəl",
+null,
+"mới lạ, độc đáo",
+"Trang trọng, chưa từng có, thường dùng trong khoa học.",
+"It's a *novel* approach to the problem.",
+"Đó là một cách tiếp cận mới lạ cho vấn đề.",
+"trang trọng",
+null
+]
+]
+],
+[
+"rich: giàu. wealthy: giàu có, bền vững. affluent: sung túc, khá giả. well-off: khá giả, nhẹ nhàng. loaded: giàu sụ, thân mật.",
+[
+[
+"rich",
+"tính từ",
+"ɹɪtʃ",
+null,
+"giàu, giàu có",
+"Có nhiều tiền. Cũng nghĩa là đậm đà (món ăn).",
+"He became *rich* from his business.",
+"Anh ấy giàu lên nhờ kinh doanh.",
+"trung tính",
+null
+],
+[
+"wealthy",
+"tính từ",
+"ˈwɛlθi",
+null,
+"giàu có",
+"Nhiều tài sản, thường lâu dài, trang trọng hơn rich.",
+"She comes from a *wealthy* family.",
+"Cô ấy xuất thân từ gia đình giàu có.",
+"trang trọng",
+null
+],
+[
+"affluent",
+"tính từ",
+"ˈæfluənt",
+null,
+"sung túc, khá giả",
+"Nói về người hay khu vực thịnh vượng.",
+"They live in an *affluent* neighbourhood.",
+"Họ sống ở một khu phố sung túc.",
+"trang trọng",
+null
+],
+[
+"well-off",
+"tính từ",
+"wɛl ɔf",
+null,
+"khá giả",
+"Có đủ tiền sống thoải mái, cách nói nhẹ nhàng.",
+"Their parents are quite *well-off*.",
+"Bố mẹ họ khá giả.",
+"thân mật",
+null
+],
+[
+"loaded",
+"tính từ",
+"ˈloʊdɪd",
+null,
+"giàu sụ",
+"Thân mật, rất nhiều tiền.",
+"He must be *loaded* to afford that car.",
+"Anh ta chắc giàu sụ mới mua được chiếc xe đó.",
+"thân mật",
+null
+]
+]
+],
+[
+"poor: nghèo. broke: hết tiền, cháy túi. needy: túng thiếu, cần giúp. penniless: không một xu. destitute: bần cùng.",
+[
+[
+"poor",
+"tính từ",
+"puɹ",
+null,
+"nghèo",
+"Có rất ít tiền, thiếu thốn.",
+"They grew up *poor*.",
+"Họ lớn lên trong nghèo khó.",
+"trung tính",
+null
+],
+[
+"broke",
+"tính từ",
+"bɹoʊk",
+null,
+"hết tiền, cháy túi",
+"Thân mật, tạm thời không có tiền.",
+"I'm *broke* until payday.",
+"Tôi cháy túi đến ngày lãnh lương.",
+"thân mật",
+null
+],
+[
+"needy",
+"tính từ",
+"ˈnidi",
+null,
+"túng thiếu, thiếu thốn",
+"Cần sự giúp đỡ về vật chất. Nói về người còn là hay đòi hỏi tình cảm.",
+"The charity helps *needy* families.",
+"Tổ chức từ thiện giúp các gia đình túng thiếu.",
+"trang trọng",
+null
+],
+[
+"penniless",
+"tính từ",
+"ˈpɛniləs",
+null,
+"không một xu dính túi",
+"Hoàn toàn hết tiền.",
+"He arrived in the city *penniless*.",
+"Anh đến thành phố trong tình trạng không một xu.",
+"trang trọng",
+null
+],
+[
+"destitute",
+"tính từ",
+"ˈdɛstəˌtut",
+null,
+"bần cùng, cùng khổ",
+"Rất nghèo đến mức thiếu cái ăn, cái ở.",
+"The war left many people *destitute*.",
+"Chiến tranh khiến nhiều người rơi vào cảnh bần cùng.",
+"trang trọng",
+null
+]
+]
+],
+[
+"clean: sạch sẽ. pure: tinh khiết. tidy: gọn gàng. neat: ngăn nắp, gọn gàng. spotless: sạch bóng.",
+[
+[
+"clean",
+"tính từ",
+"klin",
+null,
+"sạch, sạch sẽ",
+"Không bẩn. Cũng là động từ: dọn.",
+"The kitchen is *clean*.",
+"Nhà bếp sạch sẽ.",
+"trung tính",
+null
+],
+[
+"pure",
+"tính từ",
+"pjʊɹ",
+null,
+"tinh khiết, nguyên chất",
+"Không pha trộn hay nhiễm bẩn.",
+"This is *pure* gold.",
+"Đây là vàng nguyên chất.",
+"trung tính",
+null
+],
+[
+"tidy",
+"tính từ",
+"ˈtaɪdi",
+null,
+"gọn gàng",
+"Mọi thứ được sắp xếp đúng chỗ.",
+"Keep your room *tidy*.",
+"Hãy giữ phòng gọn gàng.",
+"trung tính",
+null
+],
+[
+"neat",
+"tính từ",
+"nit",
+null,
+"ngăn nắp, gọn gàng; hay",
+"Sắp xếp chỉn chu. Kiểu Mỹ thân mật còn là hay, tuyệt.",
+"She has *neat* handwriting.",
+"Cô ấy có nét chữ gọn gàng.",
+"trung tính",
+null
+],
+[
+"spotless",
+"tính từ",
+"ˈspɑtləs",
+null,
+"sạch bóng, không một vết bẩn",
+"Cực kỳ sạch.",
+"The hotel room was *spotless*.",
+"Phòng khách sạn sạch bóng.",
+"trung tính",
+null
+]
+]
+],
+[
+"dirty: bẩn. filthy: bẩn thỉu, rất dơ. messy: bừa bộn. grubby: lem luốc. polluted: ô nhiễm.",
+[
+[
+"dirty",
+"tính từ",
+"ˈdɝti",
+null,
+"bẩn, dơ",
+"Có bụi bẩn hay vết bẩn. Nghĩa bóng: tục tĩu hay không trung thực.",
+"Your shoes are *dirty*.",
+"Giày của bạn bẩn.",
+"trung tính",
+null
+],
+[
+"filthy",
+"tính từ",
+"ˈfɪlθi",
+null,
+"bẩn thỉu, dơ dáy",
+"Cực kỳ bẩn, gây ghê. Nghĩa bóng: tục tĩu.",
+"The kitchen was *filthy*.",
+"Nhà bếp bẩn thỉu.",
+"trung tính",
+null
+],
+[
+"messy",
+"tính từ",
+"ˈmɛsi",
+null,
+"bừa bộn, lộn xộn",
+"Không gọn, đồ để lung tung. Cũng chỉ tình huống rối rắm.",
+"His desk is always *messy*.",
+"Bàn của anh ấy lúc nào cũng bừa bộn.",
+"trung tính",
+null
+],
+[
+"grubby",
+"tính từ",
+"ˈɡɹʌbi",
+null,
+"lem luốc, nhếch nhác",
+"Hơi bẩn, thường do dùng nhiều, hay nói về tay, quần áo trẻ em.",
+"The children came home with *grubby* hands.",
+"Bọn trẻ về nhà với đôi tay lem luốc.",
+"thân mật",
+null
+],
+[
+"polluted",
+"tính từ",
+"pəˈlutɪd",
+null,
+"ô nhiễm",
+"Bị nhiễm chất độc hại: polluted air, polluted river.",
+"The river is badly *polluted*.",
+"Con sông bị ô nhiễm nặng.",
+"trung tính",
+null
+]
+]
+],
+[
+"quiet: yên lặng, ít tiếng ồn. silent: im lặng hoàn toàn. calm: bình tĩnh, yên ả. still: yên, không chuyển động. peaceful: thanh bình.",
+[
+[
+"quiet",
+"tính từ",
+"ˈkwaɪət",
+null,
+"yên tĩnh, ít nói",
+"Ít tiếng ồn, hoặc người ít nói.",
+"It's a *quiet* street.",
+"Đó là một con phố yên tĩnh.",
+"trung tính",
+null
+],
+[
+"silent",
+"tính từ",
+"ˈsaɪlənt",
+null,
+"im lặng, không một tiếng",
+"Hoàn toàn không có âm thanh hay không nói gì.",
+"The room fell *silent*.",
+"Căn phòng chìm vào im lặng.",
+"trung tính",
+null
+],
+[
+"calm",
+"tính từ",
+"kɑm",
+null,
+"bình tĩnh, êm ả",
+"Không lo lắng, hoặc biển, thời tiết yên ả.",
+"Stay *calm* and breathe.",
+"Hãy bình tĩnh và hít thở.",
+"trung tính",
+null
+],
+[
+"still",
+"tính từ",
+"stɪl",
+null,
+"yên, bất động",
+"Không di chuyển, không có gió.",
+"Please sit *still* for a moment.",
+"Xin ngồi yên một lát.",
+"trung tính",
+null
+],
+[
+"peaceful",
+"tính từ",
+"ˈpisfəl",
+null,
+"thanh bình, yên bình",
+"Không có xung đột, mang lại cảm giác an yên.",
+"They live a *peaceful* life in the village.",
+"Họ sống một cuộc sống yên bình ở làng.",
+"trung tính",
+null
+]
+]
+],
+[
+"loud: ồn ào, to tiếng. noisy: ồn ào, nhiều tiếng động. deafening: điếc tai. blaring: inh ỏi. rowdy: ồn ào, quậy phá.",
+[
+[
+"loud",
+"tính từ",
+"laʊd",
+null,
+"to, ồn",
+"Âm lượng lớn: a loud voice, loud music.",
+"The music is too *loud*.",
+"Nhạc to quá.",
+"trung tính",
+null
+],
+[
+"noisy",
+"tính từ",
+"ˈnɔɪzi",
+null,
+"ồn ào",
+"Có nhiều tiếng động gây khó chịu: a noisy street.",
+"The kids are very *noisy* today.",
+"Hôm nay bọn trẻ rất ồn ào.",
+"trung tính",
+null
+],
+[
+"deafening",
+"tính từ",
+"ˈdɛfənɪŋ",
+null,
+"điếc tai, inh tai",
+"To đến mức không nghe được gì khác.",
+"The explosion was *deafening*.",
+"Tiếng nổ điếc tai.",
+"trung tính",
+null
+],
+[
+"blaring",
+"tính từ",
+"ˈblɛɹɪŋ",
+null,
+"inh ỏi",
+"Âm thanh to, gay gắt từ loa, còi, tivi.",
+"A *blaring* siren woke us up.",
+"Tiếng còi inh ỏi đánh thức chúng tôi.",
+"trung tính",
+null
+],
+[
+"rowdy",
+"tính từ",
+"ˈɹaʊdi",
+null,
+"ồn ào, quậy phá",
+"Hay nói về đám đông ồn ào, hơi mất trật tự.",
+"A *rowdy* crowd gathered outside.",
+"Một đám đông quậy phá tụ tập bên ngoài.",
+"thân mật",
+null
+]
+]
+],
+[
+"strong: mạnh, khỏe. powerful: quyền lực, mạnh mẽ. sturdy: chắc chắn. tough: dai, cứng cáp. muscular: vạm vỡ.",
+[
+[
+"strong",
+"tính từ",
+"stɹɔŋ",
+null,
+"mạnh, khỏe, chắc",
+"Có sức mạnh thể chất, ý chí hay độ bền.",
+"He is *strong* enough to lift the box.",
+"Anh ấy đủ khỏe để nhấc cái hộp.",
+"trung tính",
+null
+],
+[
+"powerful",
+"tính từ",
+"ˈpaʊɚfəl",
+null,
+"mạnh mẽ, quyền lực",
+"Có sức ảnh hưởng, công suất lớn.",
+"She is a *powerful* leader.",
+"Bà ấy là một nhà lãnh đạo quyền lực.",
+"trung tính",
+null
+],
+[
+"sturdy",
+"tính từ",
+"ˈstɝdi",
+null,
+"chắc chắn, vững chãi",
+"Đồ vật hay người cứng cáp, bền.",
+"This is a *sturdy* table.",
+"Đây là cái bàn chắc chắn.",
+"trung tính",
+null
+],
+[
+"tough",
+"tính từ",
+"tʌf",
+null,
+"dai, cứng cáp, bền bỉ",
+"Chịu đựng tốt, khó bị hỏng. Thịt dai cũng là tough.",
+"He's a *tough* guy.",
+"Anh ấy là người cứng cáp.",
+"thân mật",
+null
+],
+[
+"muscular",
+"tính từ",
+"ˈmʌskjəlɚ",
+null,
+"vạm vỡ, nhiều cơ bắp",
+"Cơ thể có cơ bắp phát triển.",
+"The boxer has a *muscular* body.",
+"Võ sĩ có thân hình vạm vỡ.",
+"trung tính",
+null
+]
+]
+],
+[
+"weak: yếu. feeble: yếu ớt, đáng thương. frail: mong manh, yếu ớt (người già). fragile: dễ vỡ. delicate: mỏng manh, tinh tế.",
+[
+[
+"weak",
+"tính từ",
+"wik",
+null,
+"yếu, kém",
+"Thiếu sức mạnh, thể chất hoặc tinh thần.",
+"I feel *weak* after the illness.",
+"Tôi thấy yếu sau trận ốm.",
+"trung tính",
+null
+],
+[
+"feeble",
+"tính từ",
+"ˈfibəl",
+null,
+"yếu ớt, èo uột",
+"Rất yếu, đáng thương, đôi khi chê.",
+"He gave a *feeble* excuse.",
+"Anh ta đưa ra một cái cớ yếu ớt.",
+"trang trọng",
+null
+],
+[
+"frail",
+"tính từ",
+"fɹeɪl",
+null,
+"ốm yếu, mong manh",
+"Thường nói về người già hoặc người bệnh, thể chất yếu.",
+"His grandmother is *frail* but cheerful.",
+"Bà anh ấy yếu nhưng vui vẻ.",
+"trang trọng",
+null
+],
+[
+"fragile",
+"tính từ",
+"ˈfɹædʒəl",
+null,
+"dễ vỡ, mong manh",
+"Vật hay tình huống dễ hỏng, dễ tổn thương.",
+"Be careful, it's *fragile*.",
+"Cẩn thận, nó dễ vỡ.",
+"trung tính",
+null
+],
+[
+"delicate",
+"tính từ",
+"ˈdɛləkət",
+null,
+"mỏng manh, tinh tế",
+"Dễ hỏng, cần nhẹ nhàng; cũng chỉ vấn đề tế nhị.",
+"This is a *delicate* fabric.",
+"Đây là loại vải mỏng manh.",
+"trung tính",
+null
+]
+]
+],
+[
+"fat: béo (thô). overweight: thừa cân. obese: béo phì (y học). plump: mũm mĩm. chubby: bụ bẫm.",
+[
+[
+"fat",
+"tính từ",
+"fæt",
+null,
+"béo, mập",
+"Cách nói trực tiếp, dễ xúc phạm nếu dùng với người.",
+"He's gained weight and feels *fat*.",
+"Anh ấy tăng cân và thấy mình béo.",
+"thân mật",
+null
+],
+[
+"overweight",
+"tính từ",
+"ˌoʊvɚˈweɪt",
+null,
+"thừa cân",
+"Cách nói lịch sự, trung tính hơn fat.",
+"The doctor said I'm *overweight*.",
+"Bác sĩ nói tôi thừa cân.",
+"trang trọng",
+null
+],
+[
+"obese",
+"tính từ",
+"oʊˈbis",
+null,
+"béo phì",
+"Thuật ngữ y học cho mức thừa cân nghiêm trọng.",
+"*Obese* patients face higher risks.",
+"Bệnh nhân béo phì chịu nhiều rủi ro hơn.",
+"trang trọng",
+null
+],
+[
+"plump",
+"tính từ",
+"plʌmp",
+null,
+"mũm mĩm, đầy đặn",
+"Hơi tròn trịa, dễ thương, nhẹ nhàng.",
+"The baby has *plump* cheeks.",
+"Em bé có đôi má mũm mĩm.",
+"trung tính",
+null
+],
+[
+"chubby",
+"tính từ",
+"ˈtʃʌbi",
+null,
+"bụ bẫm",
+"Dễ thương, hay nói về em bé hoặc trẻ nhỏ.",
+"What a *chubby* little baby!",
+"Em bé bụ bẫm làm sao!",
+"thân mật",
+null
+]
+]
+],
+[
+"thin: gầy, mỏng. slim: thon thả. skinny: gầy nhom. slender: mảnh mai. lean: gầy gọn, ít mỡ.",
+[
+[
+"thin",
+"tính từ",
+"θɪn",
+null,
+"gầy; mỏng",
+"Gầy hoặc mỏng, trung tính, có thể hơi tiêu cực khi nói người.",
+"He looks *thin* after the flu.",
+"Anh ấy trông gầy sau trận cúm.",
+"trung tính",
+null
+],
+[
+"slim",
+"tính từ",
+"slɪm",
+null,
+"thon thả",
+"Gầy theo hướng tích cực, đẹp dáng.",
+"She kept *slim* by swimming.",
+"Cô giữ dáng thon thả nhờ bơi lội.",
+"trung tính",
+null
+],
+[
+"skinny",
+"tính từ",
+"ˈskɪni",
+null,
+"gầy nhom, gầy trơ xương",
+"Gầy quá mức, thân mật, có thể xúc phạm.",
+"He was a *skinny* kid.",
+"Cậu ấy từng là đứa trẻ gầy nhom.",
+"thân mật",
+null
+],
+[
+"slender",
+"tính từ",
+"ˈslɛndɚ",
+null,
+"mảnh mai, thanh mảnh",
+"Gầy, duyên dáng, cao ráo.",
+"She has *slender* fingers.",
+"Cô có những ngón tay thon dài.",
+"trang trọng",
+null
+],
+[
+"lean",
+"tính từ",
+"lin",
+null,
+"gầy, ít mỡ, săn chắc",
+"Gầy nhưng khỏe khoắn, cũng nói thịt nạc.",
+"He has a *lean* body from running.",
+"Anh có thân hình săn chắc nhờ chạy bộ.",
+"trung tính",
+null
+]
+]
+],
+[
+"tall: cao (người, cây, tòa nhà hẹp). high: cao (độ cao so với mặt đất). lofty: cao vút, cao cả. towering: cao chót vót. short: thấp, ngắn.",
+[
+[
+"tall",
+"tính từ",
+"tɔl",
+null,
+"cao (chiều cao)",
+"Chiều cao lớn, hay dùng cho người, cây, tòa nhà.",
+"He is very *tall* for his age.",
+"Cậu ấy rất cao so với tuổi.",
+"trung tính",
+null
+],
+[
+"high",
+"tính từ",
+"haɪ",
+null,
+"cao (độ cao); cao (mức)",
+"Xa mặt đất, hoặc mức độ lớn. Không dùng cho chiều cao người.",
+"The mountain is very *high*.",
+"Ngọn núi rất cao.",
+"trung tính",
+null
+],
+[
+"lofty",
+"tính từ",
+"ˈlɔfti",
+null,
+"cao vút; cao cả",
+"Rất cao, hoặc ý tưởng cao đẹp, đôi khi tự cao.",
+"They have *lofty* goals.",
+"Họ có những mục tiêu cao cả.",
+"trang trọng",
+null
+],
+[
+"towering",
+"tính từ",
+"ˈtaʊɚɪŋ",
+null,
+"cao chót vót, sừng sững",
+"Rất cao, tạo cảm giác choáng ngợp.",
+"*Towering* trees surrounded the cabin.",
+"Những cây cao chót vót vây quanh căn nhà gỗ.",
+"trang trọng",
+null
+],
+[
+"short",
+"tính từ",
+"ʃɔɹt",
+null,
+"thấp; ngắn",
+"Thấp về chiều cao hoặc ngắn về độ dài thời gian.",
+"She is *short* but strong.",
+"Cô ấy thấp nhưng khỏe.",
+"trung tính",
+null
+]
+]
+],
+[
+"near: gần. close: gần, thân thiết. nearby: ở gần đây. adjacent: liền kề. neighbouring: lân cận.",
+[
+[
+"near",
+"giới từ",
+"nɪɹ",
+null,
+"gần",
+"Không xa về khoảng cách. Dùng cả giới từ lẫn tính từ.",
+"The hotel is *near* the beach.",
+"Khách sạn gần bãi biển.",
+"trung tính",
+null
+],
+[
+"close",
+"tính từ",
+"kloʊs",
+null,
+"gần; thân thiết",
+"Gần về khoảng cách hoặc quan hệ. Chú ý phát âm close khi là động từ đóng.",
+"We live *close* to the school.",
+"Chúng tôi sống gần trường.",
+"trung tính",
+null
+],
+[
+"nearby",
+"tính từ",
+"ˈnɪɹˈbaɪ",
+null,
+"ở gần, lân cận",
+"Không xa, không nói rõ nơi nào.",
+"There's a café *nearby*.",
+"Có một quán cà phê gần đây.",
+"trung tính",
+null
+],
+[
+"adjacent",
+"tính từ",
+"əˈdʒeɪsənt",
+null,
+"liền kề, sát bên",
+"Nằm sát cạnh nhau, trang trọng.",
+"The shop is *adjacent* to the bank.",
+"Cửa hàng liền kề ngân hàng.",
+"trang trọng",
+null
+],
+[
+"neighbouring",
+"tính từ",
+"ˈneɪbɚɪŋ",
+null,
+"lân cận, láng giềng",
+"Nói về nước hay khu vực kế bên.",
+"He works in a *neighbouring* town.",
+"Anh làm việc ở một thị trấn lân cận.",
+"trang trọng",
+null
+]
+]
+],
+[
+"far: xa. distant: xa xôi. remote: hẻo lánh. faraway: xa xôi, ở nơi rất xa. long-distance: đường dài.",
+[
+[
+"far",
+"trạng từ",
+"fɑɹ",
+null,
+"xa",
+"Cách nhau một khoảng cách lớn, hay dùng trong câu hỏi và phủ định.",
+"How *far* is the station?",
+"Nhà ga cách đây bao xa?",
+"trung tính",
+null
+],
+[
+"distant",
+"tính từ",
+"ˈdɪstənt",
+null,
+"xa xôi, xa cách",
+"Ở cách xa, cũng chỉ người lạnh nhạt.",
+"He moved to a *distant* country.",
+"Anh chuyển đến một đất nước xa xôi.",
+"trang trọng",
+null
+],
+[
+"remote",
+"tính từ",
+"ɹɪˈmoʊt",
+null,
+"hẻo lánh, xa xôi; từ xa",
+"Nơi khó đến, hoặc làm việc từ xa.",
+"They live in a *remote* village.",
+"Họ sống trong một ngôi làng hẻo lánh.",
+"trung tính",
+null
+],
+[
+"faraway",
+"tính từ",
+"ˈfɑɹəˈweɪ",
+null,
+"xa xôi, ở nơi rất xa",
+"Văn chương, tạo cảm giác xa vời.",
+"She dreamed of *faraway* lands.",
+"Cô mơ về những vùng đất xa xôi.",
+"văn chương",
+null
+],
+[
+"long-distance",
+"tính từ",
+"lɔŋ ˈdɪstəns",
+null,
+"đường dài, xa",
+"Mối quan hệ hoặc cuộc gọi, chuyến đi ở khoảng cách xa.",
+"They are in a *long-distance* relationship.",
+"Họ đang yêu xa.",
+"trung tính",
+null
+]
+]
+],
+[
+"about: khoảng, về. around: xung quanh, khoảng. approximately: xấp xỉ. roughly: khoảng, đại khái. nearly: gần như.",
+[
+[
+"about",
+"trạng từ",
+"əˈbaʊt",
+null,
+"khoảng, về",
+"Từ thông dụng cho số lượng ước chừng hoặc chủ đề.",
+"It costs *about* ten dollars.",
+"Nó giá khoảng mười đô la.",
+"trung tính",
+null
+],
+[
+"around",
+"trạng từ",
+"ɚˈaʊnd",
+null,
+"khoảng; xung quanh",
+"Thân mật như about khi nói số lượng, thời gian.",
+"I'll arrive *around* six.",
+"Tôi sẽ đến khoảng sáu giờ.",
+"thân mật",
+null
+],
+[
+"approximately",
+"trạng từ",
+"əˈpɹɑksəmətli",
+null,
+"xấp xỉ, khoảng chừng",
+"Trang trọng, hay dùng trong văn bản, số liệu.",
+"The trip takes *approximately* two hours.",
+"Chuyến đi mất xấp xỉ hai giờ.",
+"trang trọng",
+null
+],
+[
+"roughly",
+"trạng từ",
+"ˈɹʌfli",
+null,
+"khoảng, đại khái",
+"Ước lượng sơ bộ.",
+"There were *roughly* fifty people.",
+"Có khoảng năm mươi người.",
+"thân mật",
+null
+],
+[
+"nearly",
+"trạng từ",
+"ˈnɪɹli",
+null,
+"gần như",
+"Chưa tới nhưng rất gần.",
+"I *nearly* missed the bus.",
+"Tôi suýt lỡ chuyến xe buýt.",
+"trung tính",
+null
+]
+]
+],
+[
+"maybe: có thể (thân mật). perhaps: có lẽ (trang trọng). possibly: có khả năng. probably: nhiều khả năng. definitely: chắc chắn.",
+[
+[
+"maybe",
+"trạng từ",
+"ˈmeɪbi",
+null,
+"có thể, biết đâu",
+"Thân mật, thường đứng đầu câu.",
+"*Maybe* we should go home.",
+"Có lẽ chúng ta nên về nhà.",
+"thân mật",
+null
+],
+[
+"perhaps",
+"trạng từ",
+"pɚˈhæps",
+null,
+"có lẽ, có thể",
+"Trang trọng hơn maybe.",
+"*Perhaps* he forgot the time.",
+"Có lẽ anh ấy quên giờ.",
+"trang trọng",
+null
+],
+[
+"possibly",
+"trạng từ",
+"ˈpɑsəbli",
+null,
+"có thể, có khả năng",
+"Mức khả năng thấp đến vừa. Cũng dùng để lịch sự: Could you possibly...?",
+"Could you *possibly* help me?",
+"Bạn có thể giúp tôi được không ạ?",
+"trung tính",
+null
+],
+[
+"probably",
+"trạng từ",
+"ˈpɹɑbəˌbli",
+null,
+"nhiều khả năng, có lẽ",
+"Khả năng cao hơn possibly.",
+"It will *probably* rain tomorrow.",
+"Ngày mai nhiều khả năng sẽ mưa.",
+"trung tính",
+null
+],
+[
+"definitely",
+"trạng từ",
+"ˈdɛfənətli",
+null,
+"chắc chắn, nhất định",
+"Hoàn toàn chắc chắn.",
+"I will *definitely* be there.",
+"Tôi chắc chắn sẽ có mặt.",
+"trung tính",
+null
+]
+]
+],
+[
+"also: cũng, thêm vào đó. too: cũng, quá. as well: cũng vậy. either: cũng không. besides: ngoài ra, hơn nữa.",
+[
+[
+"also",
+"trạng từ",
+"ˈɔlsoʊ",
+null,
+"cũng, ngoài ra",
+"Đứng giữa câu, trước động từ chính, trang trọng hơn too.",
+"She *also* speaks French.",
+"Cô ấy cũng nói tiếng Pháp.",
+"trung tính",
+null
+],
+[
+"too",
+"trạng từ",
+"tu",
+null,
+"cũng; quá",
+"Đứng cuối câu nghĩa là cũng. Đứng trước tính từ nghĩa là quá.",
+"I love pizza *too*.",
+"Tôi cũng thích pizza.",
+"trung tính",
+null
+],
+[
+"as well",
+"cụm từ",
+"æz wɛl",
+null,
+"cũng, thêm nữa",
+"Đứng cuối câu, thân mật như too.",
+"Can I come *as well*?",
+"Tôi đi cùng được không?",
+"trung tính",
+null
+],
+[
+"either",
+"trạng từ",
+"ˈiðɚ",
+null,
+"cũng (không)",
+"Dùng trong câu phủ định thay cho too.",
+"I don't like it *either*.",
+"Tôi cũng không thích nó.",
+"trung tính",
+null
+],
+[
+"besides",
+"trạng từ",
+"bɪˈsaɪdz",
+null,
+"ngoài ra, hơn nữa",
+"Thêm một lý do: Besides, it's too late.",
+"*Besides*, it's already too late.",
+"Ngoài ra, đã quá muộn rồi.",
+"trung tính",
+null
+]
+]
+],
+[
+"but: nhưng. however: tuy nhiên. although: mặc dù. though: mặc dù, tuy nhiên. yet: nhưng mà.",
+[
+[
+"but",
+"liên từ",
+"bʌt",
+null,
+"nhưng",
+"Từ nối thông dụng nhất để đối lập.",
+"I like it, *but* it's too expensive.",
+"Tôi thích nó, nhưng nó đắt quá.",
+"trung tính",
+null
+],
+[
+"however",
+"trạng từ",
+"ˌhaʊˈɛvɚ",
+null,
+"tuy nhiên",
+"Trang trọng hơn but, đứng đầu câu hoặc giữa hai dấu phẩy.",
+"The plan is good. *However*, it's risky.",
+"Kế hoạch tốt. Tuy nhiên, nó có rủi ro.",
+"trang trọng",
+null
+],
+[
+"although",
+"liên từ",
+"ˌɔlˈðoʊ",
+null,
+"mặc dù",
+"Mở đầu mệnh đề nhượng bộ.",
+"*Although* it was raining, we went out.",
+"Mặc dù trời mưa, chúng tôi vẫn ra ngoài.",
+"trung tính",
+null
+],
+[
+"though",
+"liên từ",
+"ðoʊ",
+null,
+"mặc dù; tuy vậy",
+"Thân mật hơn although, cũng có thể đứng cuối câu.",
+"It's cheap, *though* I'm not sure it's good.",
+"Nó rẻ, mặc dù tôi không chắc nó tốt.",
+"thân mật",
+null
+],
+[
+"yet",
+"liên từ",
+"jɛt",
+null,
+"nhưng, tuy vậy",
+"Trang trọng, nhấn mạnh sự đối lập bất ngờ.",
+"It's small, *yet* very powerful.",
+"Nó nhỏ nhưng rất mạnh mẽ.",
+"trang trọng",
+null
+]
+]
+],
+[
+"so: vì vậy. therefore: do đó. thus: như vậy. hence: vì thế. consequently: kết quả là.",
+[
+[
+"so",
+"liên từ",
+"soʊ",
+null,
+"vì vậy, nên",
+"Thân mật, nối nguyên nhân và kết quả.",
+"It was late, *so* we went home.",
+"Trời đã khuya, nên chúng tôi về nhà.",
+"thân mật",
+null
+],
+[
+"therefore",
+"trạng từ",
+"ˈðɛɹˌfɔɹ",
+null,
+"do đó, vì vậy",
+"Trang trọng, hay dùng trong lập luận.",
+"He was ill, *therefore* he stayed home.",
+"Anh ấy ốm nên ở nhà.",
+"trang trọng",
+null
+],
+[
+"thus",
+"trạng từ",
+"ðʌs",
+null,
+"như vậy, do đó",
+"Văn viết trang trọng.",
+"The test was easy, *thus* most passed.",
+"Bài kiểm tra dễ nên hầu hết đều đỗ.",
+"trang trọng",
+null
+],
+[
+"hence",
+"trạng từ",
+"hɛns",
+null,
+"vì thế, từ đó",
+"Rất trang trọng, nói kết quả logic hoặc thời gian sau này.",
+"He was late, *hence* the delay.",
+"Anh ấy đến muộn, vì thế mới trễ.",
+"trang trọng",
+null
+],
+[
+"consequently",
+"trạng từ",
+"ˈkɑnsəkwəntli",
+null,
+"kết quả là, do vậy",
+"Nhấn mạnh hệ quả.",
+"He lost his job and *consequently* his house.",
+"Anh mất việc và kết quả là mất cả nhà.",
+"trang trọng",
+null
+]
+]
+],
+[
+"enough: đủ. sufficient: đủ, trang trọng. adequate: đủ dùng, ở mức tạm được. plenty: dư dả. ample: dồi dào.",
+[
+[
+"enough",
+"trạng từ",
+"ɪˈnʌf",
+null,
+"đủ",
+"Đứng sau tính từ, trước danh từ: enough time, good enough.",
+"Do we have *enough* chairs?",
+"Chúng ta có đủ ghế không?",
+"trung tính",
+null
+],
+[
+"sufficient",
+"tính từ",
+"səˈfɪʃənt",
+null,
+"đủ, đầy đủ",
+"Trang trọng, đáp ứng yêu cầu.",
+"The evidence is *sufficient*.",
+"Bằng chứng là đủ.",
+"trang trọng",
+null
+],
+[
+"adequate",
+"tính từ",
+"ˈædəkwət",
+null,
+"đủ dùng, tạm được",
+"Đủ ở mức tối thiểu chấp nhận được, không hơn.",
+"The room is *adequate* for two people.",
+"Căn phòng đủ cho hai người.",
+"trang trọng",
+null
+],
+[
+"plenty",
+"danh từ",
+"ˈplɛnti",
+null,
+"dư dả, rất nhiều",
+"Nhiều hơn mức cần.",
+"There's *plenty* of food.",
+"Có rất nhiều đồ ăn.",
+"thân mật",
+null
+],
+[
+"ample",
+"tính từ",
+"ˈæmpəl",
+null,
+"dồi dào, rộng rãi",
+"Nhiều hơn đủ, thoải mái.",
+"We have *ample* time to finish.",
+"Chúng ta có dư thời gian để hoàn thành.",
+"trang trọng",
+null
+]
+]
+],
+[
+"interesting: thú vị. fascinating: hấp dẫn, cuốn hút. intriguing: gợi tò mò. exciting: phấn khích. amusing: vui nhộn.",
+[
+[
+"interesting",
+"tính từ",
+"ˈɪntɹəstɪŋ",
+null,
+"thú vị, đáng quan tâm",
+"Gây chú ý, làm muốn tìm hiểu thêm.",
+"That's an *interesting* idea.",
+"Đó là một ý tưởng thú vị.",
+"trung tính",
+null
+],
+[
+"fascinating",
+"tính từ",
+"ˈfæsəˌneɪtɪŋ",
+null,
+"hấp dẫn, quyến rũ",
+"Thú vị mạnh, cuốn hút hoàn toàn.",
+"The documentary was *fascinating*.",
+"Bộ phim tài liệu rất hấp dẫn.",
+"trung tính",
+null
+],
+[
+"intriguing",
+"tính từ",
+"ˌɪnˈtɹiɡɪŋ",
+null,
+"gợi tò mò, bí ẩn",
+"Khiến người ta muốn khám phá, có chút bí ẩn.",
+"It's an *intriguing* mystery.",
+"Đó là một bí ẩn gợi tò mò.",
+"trang trọng",
+null
+],
+[
+"exciting",
+"tính từ",
+"ɪkˈsaɪtɪŋ",
+null,
+"hào hứng, gây phấn khích",
+"Làm người ta háo hức, nhiều năng lượng.",
+"It's an *exciting* time for the team.",
+"Đây là thời điểm đầy hào hứng cho đội.",
+"trung tính",
+null
+],
+[
+"amusing",
+"tính từ",
+"əˈmjuzɪŋ",
+null,
+"vui nhộn, buồn cười",
+"Gây cười nhẹ nhàng.",
+"He told an *amusing* story.",
+"Anh ấy kể một câu chuyện vui.",
+"trung tính",
+null
+]
+]
+],
+[
+"important: quan trọng. significant: đáng kể, có ý nghĩa. essential: thiết yếu. crucial: then chốt. vital: sống còn.",
+[
+[
+"important",
+"tính từ",
+"ˌɪmˈpɔɹtənt",
+null,
+"quan trọng",
+"Từ chung nhất, có giá trị hay ảnh hưởng lớn.",
+"It's *important* to sleep well.",
+"Ngủ đủ giấc rất quan trọng.",
+"trung tính",
+null
+],
+[
+"significant",
+"tính từ",
+"səɡˈnɪfɪkənt",
+null,
+"đáng kể, có ý nghĩa",
+"Đủ lớn để được chú ý, hay dùng trong số liệu, nghiên cứu.",
+"There was a *significant* increase in sales.",
+"Doanh số tăng đáng kể.",
+"trang trọng",
+null
+],
+[
+"essential",
+"tính từ",
+"ɛˈsɛnʃəl",
+null,
+"thiết yếu, cần thiết",
+"Không thể thiếu.",
+"Water is *essential* for life.",
+"Nước thiết yếu cho sự sống.",
+"trang trọng",
+null
+],
+[
+"crucial",
+"tính từ",
+"ˈkɹuʃəl",
+null,
+"then chốt, quyết định",
+"Quan trọng đến mức kết quả phụ thuộc vào đó.",
+"This is a *crucial* moment.",
+"Đây là khoảnh khắc quyết định.",
+"trang trọng",
+null
+],
+[
+"vital",
+"tính từ",
+"ˈvaɪtəl",
+null,
+"sống còn, thiết yếu",
+"Mạnh hơn essential, liên quan đến sự tồn tại.",
+"It's *vital* that we act now.",
+"Điều sống còn là ta phải hành động ngay.",
+"trang trọng",
+null
+]
+]
+],
+[
+"problem: vấn đề, rắc rối. issue: vấn đề được bàn luận. trouble: rắc rối, phiền phức. difficulty: khó khăn. challenge: thử thách.",
+[
+[
+"problem",
+"danh từ",
+"ˈpɹɑbləm",
+null,
+"vấn đề, rắc rối",
+"Điều khó cần giải quyết, từ thông dụng nhất.",
+"We have a *problem* with the printer.",
+"Chúng ta có vấn đề với máy in.",
+"trung tính",
+null
+],
+[
+"issue",
+"danh từ",
+"ˈɪʃu",
+null,
+"vấn đề; số báo",
+"Chủ đề được bàn hoặc vấn đề cần xử lý, lịch sự hơn problem.",
+"Let's discuss the main *issue*.",
+"Hãy bàn về vấn đề chính.",
+"trang trọng",
+null
+],
+[
+"trouble",
+"danh từ",
+"ˈtɹʌbəl",
+null,
+"rắc rối, phiền phức",
+"Tình huống khó chịu hoặc nguy hiểm: in trouble.",
+"I'm in *trouble* with my boss.",
+"Tôi đang gặp rắc rối với sếp.",
+"trung tính",
+null
+],
+[
+"difficulty",
+"danh từ",
+"ˈdɪfəkəlti",
+null,
+"khó khăn",
+"Điều gây cản trở, thường số nhiều difficulties.",
+"She had *difficulty* sleeping.",
+"Cô ấy khó ngủ.",
+"trang trọng",
+null
+],
+[
+"challenge",
+"danh từ",
+"ˈtʃæləndʒ",
+null,
+"thử thách",
+"Việc khó nhưng thú vị, thúc đẩy.",
+"Learning a language is a big *challenge*.",
+"Học một ngôn ngữ là thử thách lớn.",
+"trung tính",
+null
+]
+]
+],
+[
+"idea: ý tưởng. thought: ý nghĩ. concept: khái niệm. notion: quan niệm. plan: kế hoạch.",
+[
+[
+"idea",
+"danh từ",
+"aɪˈdiə",
+null,
+"ý tưởng, ý kiến",
+"Điều nảy ra trong đầu, thường để làm gì đó.",
+"I have a great *idea*.",
+"Tôi có một ý tưởng hay.",
+"trung tính",
+null
+],
+[
+"thought",
+"danh từ",
+"θɔt",
+null,
+"ý nghĩ, suy nghĩ",
+"Điều nghĩ trong đầu, chưa chắc thành ý tưởng.",
+"A sad *thought* crossed his mind.",
+"Một ý nghĩ buồn thoáng qua đầu anh.",
+"trung tính",
+null
+],
+[
+"concept",
+"danh từ",
+"ˈkɑnsɛpt",
+null,
+"khái niệm",
+"Ý tưởng trừu tượng hay lý thuyết.",
+"It's hard to understand this *concept*.",
+"Khó hiểu khái niệm này.",
+"trang trọng",
+null
+],
+[
+"notion",
+"danh từ",
+"ˈnoʊʃən",
+null,
+"quan niệm, ý niệm",
+"Ý tưởng mơ hồ hoặc niềm tin chưa rõ.",
+"He has a strange *notion* of freedom.",
+"Anh ta có quan niệm kỳ lạ về tự do.",
+"trang trọng",
+null
+],
+[
+"plan",
+"danh từ",
+"plæn",
+null,
+"kế hoạch",
+"Dự định có sắp xếp để làm gì.",
+"What's your *plan* for the weekend?",
+"Kế hoạch cuối tuần của bạn là gì?",
+"trung tính",
+null
+]
+]
+],
+[
+"chance: cơ hội, khả năng. opportunity: cơ hội tốt, thời cơ. occasion: dịp. possibility: khả năng. luck: may mắn.",
+[
+[
+"chance",
+"danh từ",
+"tʃæns",
+null,
+"cơ hội; khả năng",
+"Dịp có thể xảy ra, hay khả năng xảy ra: a chance of rain.",
+"There's a *chance* of rain tomorrow.",
+"Ngày mai có khả năng mưa.",
+"trung tính",
+null
+],
+[
+"opportunity",
+"danh từ",
+"ˌɑpɚˈtunəti",
+null,
+"cơ hội, thời cơ",
+"Hoàn cảnh thuận lợi để làm gì, trang trọng hơn chance.",
+"It's a great *opportunity* to learn.",
+"Đây là cơ hội học hỏi tuyệt vời.",
+"trung tính",
+null
+],
+[
+"occasion",
+"danh từ",
+"əˈkeɪʒən",
+null,
+"dịp, sự kiện",
+"Một thời điểm hay sự kiện đặc biệt.",
+"Her wedding was a special *occasion*.",
+"Đám cưới của cô ấy là dịp đặc biệt.",
+"trang trọng",
+null
+],
+[
+"possibility",
+"danh từ",
+"ˌpɑsəˈbɪləˌti",
+null,
+"khả năng",
+"Điều có thể xảy ra.",
+"There's a *possibility* that he'll quit.",
+"Có khả năng anh ấy sẽ nghỉ việc.",
+"trung tính",
+null
+],
+[
+"luck",
+"danh từ",
+"lʌk",
+null,
+"vận may, may mắn",
+"Điều tốt xảy ra bất ngờ, không do nỗ lực.",
+"Good *luck* with your exam!",
+"Chúc may mắn với kỳ thi!",
+"trung tính",
+null
+]
+]
+],
+[
+"rule: quy tắc. law: luật. regulation: quy định chính thức. policy: chính sách. principle: nguyên tắc.",
+[
+[
+"rule",
+"danh từ",
+"ɹul",
+null,
+"quy tắc, luật lệ",
+"Điều phải theo trong một nhóm, trò chơi hay tổ chức.",
+"Follow the *rules* of the game.",
+"Hãy tuân theo luật chơi.",
+"trung tính",
+null
+],
+[
+"law",
+"danh từ",
+"lɔ",
+null,
+"luật, pháp luật",
+"Quy định do nhà nước ban hành.",
+"It's against the *law* to park here.",
+"Đỗ xe ở đây là trái luật.",
+"trung tính",
+null
+],
+[
+"regulation",
+"danh từ",
+"ˌɹɛɡjəˈleɪʃən",
+null,
+"quy định, điều lệ",
+"Quy định cụ thể do cơ quan có thẩm quyền đưa ra.",
+"Safety *regulations* are strict.",
+"Quy định an toàn rất nghiêm.",
+"trang trọng",
+null
+],
+[
+"policy",
+"danh từ",
+"ˈpɑləsi",
+null,
+"chính sách",
+"Hướng đi hay cách làm do tổ chức, chính phủ chọn.",
+"The company has a strict *policy* on lateness.",
+"Công ty có chính sách chặt về việc đi muộn.",
+"trang trọng",
+null
+],
+[
+"principle",
+"danh từ",
+"ˈpɹɪnsəpəl",
+null,
+"nguyên tắc",
+"Niềm tin hay chuẩn mực đạo đức, hoặc nguyên lý cơ bản.",
+"It's a matter of *principle*.",
+"Đó là vấn đề nguyên tắc.",
+"trang trọng",
+null
+]
+]
+],
+[
+"use: dùng. utilize: tận dụng, sử dụng hiệu quả. employ: dùng, thuê. apply: áp dụng, nộp đơn. exploit: khai thác, lợi dụng.",
+[
+[
+"use",
+"động từ",
+"jus",
+null,
+"dùng, sử dụng",
+"Từ chung và đơn giản nhất.",
+"Can I *use* your phone?",
+"Tôi dùng điện thoại của bạn được không?",
+"trung tính",
+null
+],
+[
+"utilize",
+"động từ",
+"ˈjutəˌlaɪz",
+null,
+"tận dụng, sử dụng hiệu quả",
+"Trang trọng, dùng thứ gì một cách có mục đích.",
+"We *utilize* solar power.",
+"Chúng tôi tận dụng năng lượng mặt trời.",
+"trang trọng",
+null
+],
+[
+"employ",
+"động từ",
+"ɛmˈplɔɪ",
+null,
+"sử dụng; thuê làm",
+"Dùng phương pháp, hoặc thuê người.",
+"The firm *employs* 500 people.",
+"Công ty thuê 500 người.",
+"trang trọng",
+null
+],
+[
+"apply",
+"động từ",
+"əˈplaɪ",
+null,
+"áp dụng; nộp đơn",
+"Dùng vào thực tế, hoặc nộp đơn xin: apply for a job.",
+"You can *apply* this rule here.",
+"Bạn có thể áp dụng quy tắc này ở đây.",
+"trang trọng",
+null
+],
+[
+"exploit",
+"động từ",
+"ˈɛkˌsplɔɪt",
+null,
+"khai thác; lợi dụng",
+"Dùng tối đa tài nguyên, hoặc lợi dụng người khác một cách không công bằng.",
+"They *exploit* cheap labour.",
+"Họ lợi dụng lao động giá rẻ.",
+"trang trọng",
+null
+]
+]
+],
+[
+"want: muốn. wish: ước, mong. hope: hy vọng. desire: khao khát. would like: muốn (lịch sự).",
+[
+[
+"want",
+"động từ",
+"wɑnt",
+null,
+"muốn",
+"Trực tiếp nhất, thân mật.",
+"I *want* a cup of tea.",
+"Tôi muốn một tách trà.",
+"trung tính",
+null
+],
+[
+"wish",
+"động từ",
+"wɪʃ",
+null,
+"ước, mong",
+"Điều không có thật hay khó xảy ra: I wish I were taller.",
+"I *wish* I had more time.",
+"Ước gì tôi có nhiều thời gian hơn.",
+"trung tính",
+null
+],
+[
+"hope",
+"động từ",
+"hoʊp",
+null,
+"hy vọng",
+"Mong điều có thể xảy ra.",
+"I *hope* you feel better soon.",
+"Mong bạn mau khỏe.",
+"trung tính",
+null
+],
+[
+"desire",
+"động từ",
+"dɪˈzaɪɚ",
+null,
+"khao khát",
+"Mạnh hơn want, trang trọng hay văn chương.",
+"He *desires* success above all.",
+"Anh ấy khao khát thành công hơn hết.",
+"văn chương",
+null
+],
+[
+"would like",
+"cụm từ",
+"wʊd laɪk",
+null,
+"muốn (lịch sự)",
+"Cách nói lịch sự hơn want trong lời yêu cầu.",
+"I'd *like* a table for two, please.",
+"Tôi muốn đặt bàn cho hai người.",
+"trang trọng",
+null
+]
+]
+],
+[
+"need: cần. require: yêu cầu, đòi hỏi. demand: đòi hỏi mạnh. necessitate: bắt buộc phải. must: phải.",
+[
+[
+"need",
+"động từ",
+"nid",
+null,
+"cần",
+"Thiếu thứ thiết yếu, hoặc phải làm gì.",
+"I *need* some help.",
+"Tôi cần giúp đỡ.",
+"trung tính",
+null
+],
+[
+"require",
+"động từ",
+"ˌɹiˈkwaɪɚ",
+null,
+"đòi hỏi, yêu cầu",
+"Trang trọng, hay dùng với quy định, điều kiện.",
+"This job *requires* experience.",
+"Công việc này đòi hỏi kinh nghiệm.",
+"trang trọng",
+null
+],
+[
+"demand",
+"động từ",
+"dɪˈmænd",
+null,
+"đòi hỏi, yêu sách",
+"Yêu cầu mạnh, ra lệnh.",
+"The workers *demanded* higher pay.",
+"Công nhân đòi tăng lương.",
+"trang trọng",
+null
+],
+[
+"necessitate",
+"động từ",
+"nəˈsɛsəˌteɪt",
+null,
+"bắt buộc phải, khiến cần phải",
+"Rất trang trọng, làm cho việc gì thành cần thiết.",
+"The damage *necessitated* repairs.",
+"Hư hại buộc phải sửa chữa.",
+"trang trọng",
+null
+],
+[
+"must",
+"động từ",
+"mʌst",
+null,
+"phải, nhất định phải",
+"Động từ khuyết thiếu, bắt buộc hoặc suy đoán chắc chắn.",
+"You *must* wear a seat belt.",
+"Bạn phải thắt dây an toàn.",
+"trung tính",
+null
+]
+]
+],
+[
+"choose: chọn. pick: chọn nhanh, nhặt. select: tuyển chọn kỹ. elect: bầu. prefer: thích hơn.",
+[
+[
+"choose",
+"động từ",
+"tʃuz",
+null,
+"chọn, lựa chọn",
+"Quyết định giữa các lựa chọn, từ chung nhất.",
+"You can *choose* any colour.",
+"Bạn có thể chọn bất kỳ màu nào.",
+"trung tính",
+null
+],
+[
+"pick",
+"động từ",
+"pɪk",
+null,
+"chọn, hái",
+"Thân mật hơn choose, thường là chọn nhanh. Cũng là hái quả.",
+"*Pick* a card, any card.",
+"Chọn một lá bài đi.",
+"thân mật",
+null
+],
+[
+"select",
+"động từ",
+"səˈlɛkt",
+null,
+"chọn lọc, tuyển chọn",
+"Chọn cẩn thận theo tiêu chí.",
+"The panel will *select* the winner.",
+"Hội đồng sẽ chọn ra người thắng.",
+"trang trọng",
+null
+],
+[
+"elect",
+"động từ",
+"ɪˈlɛkt",
+null,
+"bầu chọn",
+"Chọn người bằng cách bỏ phiếu.",
+"They *elected* a new president.",
+"Họ bầu một tổng thống mới.",
+"trang trọng",
+null
+],
+[
+"prefer",
+"động từ",
+"pɹəˈfɝ",
+null,
+"thích hơn",
+"Chọn thứ này thay vì thứ khác.",
+"I *prefer* tea to coffee.",
+"Tôi thích trà hơn cà phê.",
+"trung tính",
+null
+]
+]
+],
+[
+"allow: cho phép. permit: cho phép chính thức. let: để cho. enable: giúp có thể. authorize: ủy quyền.",
+[
+[
+"allow",
+"động từ",
+"əˈlaʊ",
+null,
+"cho phép",
+"Không ngăn cản, dùng rộng: allow someone to do.",
+"Dogs are not *allowed* here.",
+"Chó không được phép vào đây.",
+"trung tính",
+null
+],
+[
+"permit",
+"động từ",
+"pɚˈmɪt",
+null,
+"cho phép (chính thức)",
+"Trang trọng, có quy định hay giấy phép.",
+"Smoking is not *permitted* inside.",
+"Không được phép hút thuốc bên trong.",
+"trang trọng",
+null
+],
+[
+"let",
+"động từ",
+"lɛt",
+null,
+"để cho, cho phép",
+"Thân mật: let me go, let him in.",
+"*Let* me help you.",
+"Để tôi giúp bạn.",
+"thân mật",
+null
+],
+[
+"enable",
+"động từ",
+"ɛˈneɪbəl",
+null,
+"giúp có thể, cho phép",
+"Tạo điều kiện để làm được điều gì.",
+"This app *enables* you to work offline.",
+"Ứng dụng này giúp bạn làm việc ngoại tuyến.",
+"trang trọng",
+null
+],
+[
+"authorize",
+"động từ",
+"ˈɔθɚˌaɪz",
+null,
+"ủy quyền, cho phép chính thức",
+"Cho phép có thẩm quyền.",
+"Only the manager can *authorize* payments.",
+"Chỉ quản lý mới được duyệt thanh toán.",
+"trang trọng",
+null
+]
+]
+],
+[
+"prevent: ngăn chặn. stop: dừng, ngăn. avoid: tránh. prohibit: cấm. ban: cấm hẳn.",
+[
+[
+"prevent",
+"động từ",
+"pɹɪˈvɛnt",
+null,
+"ngăn chặn, phòng ngừa",
+"Làm cho việc xấu không xảy ra: prevent accidents.",
+"Vaccines *prevent* many diseases.",
+"Vắc xin phòng nhiều bệnh.",
+"trang trọng",
+null
+],
+[
+"stop",
+"động từ",
+"stɑp",
+null,
+"ngăn lại, dừng",
+"Làm ngừng lại, hoặc tự dừng.",
+"Nothing can *stop* us now.",
+"Giờ không gì ngăn được chúng tôi.",
+"trung tính",
+null
+],
+[
+"avoid",
+"động từ",
+"əˈvɔɪd",
+null,
+"tránh",
+"Cố không gặp hay không làm: avoid traffic.",
+"I try to *avoid* sugar.",
+"Tôi cố tránh đường.",
+"trung tính",
+null
+],
+[
+"prohibit",
+"động từ",
+"pɹoʊˈhɪbət",
+null,
+"cấm",
+"Cấm chính thức bằng luật hay quy định.",
+"The law *prohibits* smoking in offices.",
+"Luật cấm hút thuốc trong văn phòng.",
+"trang trọng",
+null
+],
+[
+"ban",
+"động từ",
+"bæn",
+null,
+"cấm hẳn",
+"Cấm toàn bộ, thường mang tính chính thức hoặc chính trị.",
+"The city *banned* plastic bags.",
+"Thành phố cấm túi nhựa.",
+"trung tính",
+null
+]
+]
+],
+[
+"explain: giải thích. describe: mô tả. clarify: làm rõ. illustrate: minh họa. demonstrate: chứng minh, trình diễn.",
+[
+[
+"explain",
+"động từ",
+"ɪkˈspleɪn",
+null,
+"giải thích",
+"Làm cho người khác hiểu một điều.",
+"Can you *explain* how this works?",
+"Bạn giải thích cách nó hoạt động được không?",
+"trung tính",
+null
+],
+[
+"describe",
+"động từ",
+"dɪˈskɹaɪb",
+null,
+"mô tả",
+"Nói đặc điểm của người, vật, việc.",
+"*Describe* the man you saw.",
+"Hãy mô tả người đàn ông bạn thấy.",
+"trung tính",
+null
+],
+[
+"clarify",
+"động từ",
+"ˈklɛɹəˌfaɪ",
+null,
+"làm rõ",
+"Làm điều mơ hồ trở nên rõ ràng.",
+"Could you *clarify* your point?",
+"Bạn làm rõ ý được không?",
+"trang trọng",
+null
+],
+[
+"illustrate",
+"động từ",
+"ˈɪləˌstɹeɪt",
+null,
+"minh họa",
+"Dùng ví dụ hay hình để làm rõ.",
+"The chart *illustrates* the trend.",
+"Biểu đồ minh họa xu hướng.",
+"trang trọng",
+null
+],
+[
+"demonstrate",
+"động từ",
+"ˈdɛmənˌstɹeɪt",
+null,
+"chứng minh; trình diễn",
+"Cho thấy rõ bằng chứng hay cách làm.",
+"He *demonstrated* how to use the tool.",
+"Anh trình diễn cách dùng dụng cụ.",
+"trang trọng",
+null
+]
+]
+],
+[
+"show: cho xem. display: trưng bày. reveal: tiết lộ. exhibit: triển lãm. indicate: chỉ ra.",
+[
+[
+"show",
+"động từ",
+"ʃoʊ",
+null,
+"cho xem, chỉ",
+"Từ thông dụng nhất: cho thấy hoặc chỉ dẫn.",
+"Let me *show* you my photos.",
+"Để tôi cho bạn xem ảnh.",
+"trung tính",
+null
+],
+[
+"display",
+"động từ",
+"dɪˈspleɪ",
+null,
+"trưng bày, hiển thị",
+"Đặt ở nơi dễ nhìn, hay dùng cho cửa hàng, màn hình.",
+"The shop *displays* fresh flowers.",
+"Cửa hàng trưng bày hoa tươi.",
+"trung tính",
+null
+],
+[
+"reveal",
+"động từ",
+"ɹɪˈvil",
+null,
+"tiết lộ, để lộ",
+"Làm lộ điều trước đó bị giấu.",
+"The test *revealed* a problem.",
+"Xét nghiệm làm lộ ra một vấn đề.",
+"trang trọng",
+null
+],
+[
+"exhibit",
+"động từ",
+"ɪɡˈzɪbɪt",
+null,
+"triển lãm; thể hiện",
+"Trưng bày tác phẩm, hoặc biểu hiện dấu hiệu.",
+"The museum *exhibits* modern art.",
+"Bảo tàng triển lãm nghệ thuật hiện đại.",
+"trang trọng",
+null
+],
+[
+"indicate",
+"động từ",
+"ˈɪndəˌkeɪt",
+null,
+"chỉ ra, cho thấy",
+"Là dấu hiệu của điều gì.",
+"The results *indicate* a clear pattern.",
+"Kết quả cho thấy một khuôn mẫu rõ.",
+"trang trọng",
+null
+]
+]
+],
+[
+"chaos: hỗn loạn hoàn toàn. mayhem: cảnh náo loạn. havoc: sự tàn phá, rối tung. turmoil: xáo trộn, bất ổn. pandemonium: hỗn loạn ồn ào.",
+[
+[
+"chaos",
+"danh từ",
+"ˈkeɪɑs",
+null,
+"hỗn loạn, rối tung",
+"Tình trạng không có trật tự hay kiểm soát, từ phổ biến nhất của nhóm. Hay dùng đùa cho đời sống bận rộn.",
+"The kitchen was in total *chaos*.",
+"Nhà bếp hoàn toàn hỗn loạn.",
+"trung tính",
+null
+],
+[
+"mayhem",
+"danh từ",
+"ˈmeɪˌhɛm",
+null,
+"cảnh náo loạn, bạo loạn",
+"Hỗn loạn kèm bạo lực hay hư hại.",
+"The football match ended in *mayhem*.",
+"Trận bóng kết thúc trong cảnh náo loạn.",
+"trung tính",
+null
+],
+[
+"havoc",
+"danh từ",
+"ˈhævək",
+null,
+"sự tàn phá, rối tung",
+"Gây ra tổn hại hay rối loạn lớn: wreak havoc.",
+"The storm played *havoc* with our plans.",
+"Cơn bão làm rối tung kế hoạch của chúng tôi.",
+"trung tính",
+null
+],
+[
+"turmoil",
+"danh từ",
+"ˈtɝˌmɔɪl",
+null,
+"xáo trộn, bất ổn",
+"Trạng thái lo âu hoặc rối loạn kéo dài, trong lòng hay xã hội.",
+"The country is in political *turmoil*.",
+"Đất nước đang trong xáo trộn chính trị.",
+"trang trọng",
+null
+],
+[
+"pandemonium",
+"danh từ",
+"ˌpændɪˈmoʊniəm",
+null,
+"hỗn loạn ồn ào",
+"Cảnh ồn ào, rối tung vì nhiều người cùng lúc.",
+"*Pandemonium* broke out when the doors opened.",
+"Cảnh hỗn loạn nổ ra khi cửa mở.",
+"trang trọng",
+null
+]
+]
+],
+[
+"niche: ngách, thị trường ngách. specialty: chuyên môn. forte: sở trường. expertise: chuyên môn. specialist: chuyên gia.",
+[
+[
+"niche",
+"danh từ",
+"nɪtʃ",
+null,
+"ngách, thị trường ngách",
+"Phân khúc nhỏ, chuyên biệt. Cũng chỉ thứ ít người biết: niche music.",
+"They sell to a small *niche* market.",
+"Họ bán cho một thị trường ngách nhỏ.",
+"trung tính",
+null
+],
+[
+"specialty",
+"danh từ",
+"ˈspɛʃəlti",
+null,
+"đặc sản, chuyên môn",
+"Thứ mình giỏi nhất, hay món đặc trưng của nhà hàng.",
+"Seafood is the chef's *specialty*.",
+"Hải sản là món sở trường của đầu bếp.",
+"trung tính",
+null
+],
+[
+"forte",
+"danh từ",
+"ˈfɔɹteɪ",
+null,
+"sở trường",
+"Điều mình làm tốt nhất, hơi trang trọng.",
+"Cooking is not my *forte*.",
+"Nấu ăn không phải sở trường của tôi.",
+"trang trọng",
+null
+],
+[
+"expertise",
+"danh từ",
+"ˌɛkspɚˈtiz",
+null,
+"chuyên môn, kỹ năng chuyên sâu",
+"Kiến thức và kỹ năng cao trong lĩnh vực.",
+"She has *expertise* in digital marketing.",
+"Cô ấy có chuyên môn về tiếp thị số.",
+"trang trọng",
+null
+],
+[
+"specialist",
+"danh từ",
+"ˈspɛʃələst",
+null,
+"chuyên gia",
+"Người chuyên sâu một lĩnh vực.",
+"You should see a *specialist*.",
+"Bạn nên gặp chuyên gia.",
+"trung tính",
+null
+]
+]
+],
+[
+"pivot: đổi hướng chiến lược. adapt: thích nghi. adjust: điều chỉnh. shift: chuyển hướng. overhaul: đại tu, thay đổi toàn diện.",
+[
+[
+"pivot",
+"động từ",
+"ˈpɪvət",
+null,
+"chuyển hướng, đổi chiến lược",
+"Trong kinh doanh: thay đổi hướng đi khi cần. Nghĩa gốc: xoay quanh trục.",
+"The startup *pivoted* to mobile apps.",
+"Công ty khởi nghiệp chuyển sang ứng dụng di động.",
+"trung tính",
+null
+],
+[
+"adapt",
+"động từ",
+"əˈdæpt",
+null,
+"thích nghi",
+"Thay đổi để phù hợp hoàn cảnh mới.",
+"Children *adapt* quickly to new places.",
+"Trẻ em thích nghi nhanh với nơi mới.",
+"trung tính",
+null
+],
+[
+"adjust",
+"động từ",
+"əˈdʒʌst",
+null,
+"điều chỉnh",
+"Thay đổi nhỏ để phù hợp hơn.",
+"I need to *adjust* the volume.",
+"Tôi cần chỉnh âm lượng.",
+"trung tính",
+null
+],
+[
+"shift",
+"động từ",
+"ʃɪft",
+null,
+"chuyển, dịch chuyển",
+"Thay đổi vị trí hay hướng nhìn: shift focus.",
+"The focus has *shifted* to online sales.",
+"Trọng tâm đã chuyển sang bán hàng trực tuyến.",
+"trung tính",
+null
+],
+[
+"overhaul",
+"động từ",
+"ˈoʊvɚˌhɔl",
+null,
+"đại tu, cải tổ toàn diện",
+"Thay đổi sâu rộng một hệ thống.",
+"They plan to *overhaul* the whole system.",
+"Họ định cải tổ toàn bộ hệ thống.",
+"trang trọng",
+null
+]
+]
+],
+[
+"startup: công ty khởi nghiệp. entrepreneur: doanh nhân khởi nghiệp. founder: người sáng lập. freelancer: người làm tự do. investor: nhà đầu tư.",
+[
+[
+"startup",
+"danh từ",
+"ˈstɑɹˌtʌp",
+null,
+"công ty khởi nghiệp",
+"Doanh nghiệp mới, thường dựa trên công nghệ và tăng trưởng nhanh.",
+"She works at a tech *startup*.",
+"Cô làm ở một công ty khởi nghiệp công nghệ.",
+"trung tính",
+null
+],
+[
+"entrepreneur",
+"danh từ",
+"ˌɑntɹəpɹəˈnɝ",
+null,
+"doanh nhân khởi nghiệp",
+"Người tự lập doanh nghiệp, chấp nhận rủi ro.",
+"He's a young *entrepreneur*.",
+"Anh ấy là một doanh nhân trẻ khởi nghiệp.",
+"trung tính",
+null
+],
+[
+"founder",
+"danh từ",
+"ˈfaʊndɚ",
+null,
+"người sáng lập",
+"Người lập ra công ty hay tổ chức.",
+"The *founder* gave a speech.",
+"Người sáng lập phát biểu.",
+"trung tính",
+null
+],
+[
+"freelancer",
+"danh từ",
+"ˈfɹiˌlænsɚ",
+null,
+"người làm tự do",
+"Người nhận việc theo dự án, không thuộc công ty cố định.",
+"As a *freelancer*, she sets her own hours.",
+"Là người làm tự do, cô tự sắp xếp giờ làm.",
+"trung tính",
+null
+],
+[
+"investor",
+"danh từ",
+"ˌɪnˈvɛstɚ",
+null,
+"nhà đầu tư",
+"Người bỏ tiền để thu lợi.",
+"The *investors* backed the project.",
+"Các nhà đầu tư ủng hộ dự án.",
+"trung tính",
+null
+]
+]
+],
+[
+"remote: làm từ xa. hybrid: kết hợp. flexible: linh hoạt. onsite: tại chỗ. telecommute: làm việc từ xa.",
+[
+[
+"remote",
+"tính từ",
+"ɹɪˈmoʊt",
+null,
+"từ xa",
+"Làm việc không ở văn phòng: remote work.",
+"I work *remote* three days a week.",
+"Tôi làm việc từ xa ba ngày một tuần.",
+"trung tính",
+null
+],
+[
+"hybrid",
+"tính từ",
+"ˈhaɪbɹəd",
+null,
+"kết hợp, lai",
+"Làm việc cả ở văn phòng lẫn ở nhà. Cũng chỉ xe hybrid.",
+"The company has a *hybrid* schedule.",
+"Công ty có lịch làm việc kết hợp.",
+"trung tính",
+null
+],
+[
+"flexible",
+"tính từ",
+"ˈflɛksəbəl",
+null,
+"linh hoạt",
+"Có thể điều chỉnh: flexible hours.",
+"They offer *flexible* working hours.",
+"Họ có giờ làm việc linh hoạt.",
+"trung tính",
+null
+],
+[
+"onsite",
+"tính từ",
+"ˈɑnˈsaɪt",
+null,
+"tại chỗ, tại văn phòng",
+"Làm việc ngay tại nơi công ty.",
+"The job requires being *onsite*.",
+"Công việc đòi hỏi có mặt tại chỗ.",
+"trung tính",
+null
+],
+[
+"telecommute",
+"động từ",
+"ˈtɛləkəˌmjut",
+null,
+"làm việc từ xa qua mạng",
+"Làm việc ở nhà bằng internet.",
+"Many staff *telecommute* now.",
+"Nhiều nhân viên giờ làm việc từ xa.",
+"trang trọng",
+null
+]
+]
+],
+[
+"burnout: kiệt sức vì công việc. stress: căng thẳng. exhaustion: kiệt sức. overwork: làm việc quá sức. hustle: cày cuốc.",
+[
+[
+"burnout",
+"danh từ",
+"ˈbɝˌnaʊt",
+null,
+"kiệt sức vì làm việc",
+"Mệt mỏi cả thể chất lẫn tinh thần do làm quá nhiều lâu ngày.",
+"He took leave to recover from *burnout*.",
+"Anh nghỉ phép để hồi phục sau kiệt sức.",
+"trung tính",
+null
+],
+[
+"stress",
+"danh từ",
+"stɹɛs",
+null,
+"căng thẳng, áp lực",
+"Cảm giác bị áp lực.",
+"Work causes a lot of *stress*.",
+"Công việc gây nhiều căng thẳng.",
+"trung tính",
+null
+],
+[
+"exhaustion",
+"danh từ",
+"ɪɡˈzɔstʃən",
+null,
+"kiệt sức",
+"Mệt đến mức không làm nổi nữa.",
+"She collapsed from *exhaustion*.",
+"Cô gục xuống vì kiệt sức.",
+"trang trọng",
+null
+],
+[
+"overwork",
+"động từ",
+"ˌoʊvɚˈwɝk",
+null,
+"làm việc quá sức",
+"Làm quá nhiều so với khả năng.",
+"Don't *overwork* yourself.",
+"Đừng làm việc quá sức.",
+"trung tính",
+null
+],
+[
+"hustle",
+"danh từ",
+"ˈhʌsəl",
+null,
+"cày cuốc, bươn chải",
+"Lóng: làm việc chăm chỉ, tìm cơ hội kiếm tiền. Side hustle là việc làm thêm.",
+"She has a *hustle* selling candles online.",
+"Cô ấy có việc làm thêm bán nến trên mạng.",
+"tiếng lóng",
+null
+]
+]
+],
+[
+"gig: công việc ngắn hạn. side hustle: việc làm thêm. freelance: làm tự do. part-time: bán thời gian. full-time: toàn thời gian.",
+[
+[
+"gig",
+"danh từ",
+"ɡɪɡ",
+null,
+"công việc ngắn hạn, buổi biểu diễn",
+"Việc làm theo hợp đồng ngắn, hoặc buổi diễn nhạc.",
+"He picks up *gigs* as a driver.",
+"Anh nhận việc lái xe theo từng chuyến.",
+"thân mật",
+null
+],
+[
+"side hustle",
+"danh từ",
+"saɪd ˈhʌsəl",
+null,
+"việc làm thêm",
+"Công việc phụ kiếm thêm tiền ngoài việc chính.",
+"Her *side hustle* is baking cakes.",
+"Việc làm thêm của cô là làm bánh.",
+"tiếng lóng",
+null
+],
+[
+"freelance",
+"tính từ",
+"ˈfɹiˌlæns",
+null,
+"làm tự do",
+"Không thuộc công ty nào, nhận việc theo dự án.",
+"She works as a *freelance* designer.",
+"Cô ấy làm thiết kế tự do.",
+"trung tính",
+null
+],
+[
+"part-time",
+"tính từ",
+"pɑɹt taɪm",
+null,
+"bán thời gian",
+"Làm ít giờ hơn một ngày hay tuần đầy đủ.",
+"He has a *part-time* job.",
+"Anh có công việc bán thời gian.",
+"trung tính",
+null
+],
+[
+"full-time",
+"tính từ",
+"fʊl taɪm",
+null,
+"toàn thời gian",
+"Làm đầy đủ giờ chuẩn.",
+"I'm looking for a *full-time* position.",
+"Tôi đang tìm việc toàn thời gian.",
+"trung tính",
+null
+]
+]
+],
+[
+"upskill: nâng cao kỹ năng. reskill: học kỹ năng mới. onboard: hướng dẫn nhân viên mới. mentor: người hướng dẫn. network: kết nối quan hệ.",
+[
+[
+"upskill",
+"động từ",
+"ˈʌpˌskɪl",
+null,
+"nâng cao kỹ năng",
+"Học thêm để giỏi hơn trong công việc hiện tại.",
+"Employees can *upskill* through online courses.",
+"Nhân viên có thể nâng cao kỹ năng qua khóa học trực tuyến.",
+"trung tính",
+null
+],
+[
+"reskill",
+"động từ",
+"ˌriˈskɪl",
+null,
+"học kỹ năng mới",
+"Học nghề mới để chuyển sang công việc khác.",
+"He *reskilled* as a programmer.",
+"Anh ấy học lại để làm lập trình viên.",
+"trung tính",
+null
+],
+[
+"onboard",
+"động từ",
+"ˈɑnˌbɔɹd",
+null,
+"hướng dẫn nhân viên mới",
+"Giúp người mới nhập việc làm quen công ty.",
+"HR will *onboard* the new hires.",
+"Phòng nhân sự sẽ hướng dẫn nhân viên mới.",
+"trung tính",
+null
+],
+[
+"mentor",
+"danh từ",
+"ˈmɛnˌtɔɹ",
+null,
+"người cố vấn, dìu dắt",
+"Người giàu kinh nghiệm hướng dẫn người mới. Cũng là động từ.",
+"She is my *mentor* at work.",
+"Cô ấy là người dìu dắt tôi ở chỗ làm.",
+"trung tính",
+null
+],
+[
+"network",
+"động từ",
+"ˈnɛˌtwɝk",
+null,
+"kết nối quan hệ",
+"Gặp gỡ để xây dựng mối quan hệ nghề nghiệp.",
+"I go to events to *network*.",
+"Tôi đến sự kiện để kết nối quan hệ.",
+"trung tính",
+null
+]
+]
+],
+[
+"deadline: hạn chót. target: mục tiêu. milestone: cột mốc. goal: mục tiêu dài hạn. objective: mục đích cụ thể.",
+[
+[
+"deadline",
+"danh từ",
+"ˈdɛdˌlaɪn",
+null,
+"hạn chót",
+"Thời điểm phải hoàn thành.",
+"The *deadline* is Friday.",
+"Hạn chót là thứ Sáu.",
+"trung tính",
+null
+],
+[
+"target",
+"danh từ",
+"ˈtɑɹɡət",
+null,
+"chỉ tiêu, mục tiêu",
+"Mức số liệu cần đạt: sales target.",
+"We hit our monthly *target*.",
+"Chúng tôi đạt chỉ tiêu tháng.",
+"trung tính",
+null
+],
+[
+"milestone",
+"danh từ",
+"ˈmaɪlˌstoʊn",
+null,
+"cột mốc",
+"Bước tiến quan trọng trong dự án hay cuộc đời.",
+"Graduation is a big *milestone*.",
+"Tốt nghiệp là cột mốc lớn.",
+"trung tính",
+null
+],
+[
+"goal",
+"danh từ",
+"ɡoʊl",
+null,
+"mục tiêu",
+"Điều muốn đạt được lâu dài.",
+"Her *goal* is to run a marathon.",
+"Mục tiêu của cô là chạy marathon.",
+"trung tính",
+null
+],
+[
+"objective",
+"danh từ",
+"əbˈdʒɛktɪv",
+null,
+"mục đích, mục tiêu cụ thể",
+"Việc cụ thể phải đạt, trang trọng hơn goal.",
+"The main *objective* is to cut costs.",
+"Mục tiêu chính là cắt giảm chi phí.",
+"trang trọng",
+null
+]
+]
+],
+[
+"leverage: tận dụng. optimize: tối ưu hóa. streamline: tinh giản. scale: mở rộng quy mô. automate: tự động hóa.",
+[
+[
+"leverage",
+"động từ",
+"ˈlɛvɚɪdʒ",
+null,
+"tận dụng (thế mạnh)",
+"Kinh doanh: dùng lợi thế sẵn có để có lợi thêm.",
+"We can *leverage* our existing customers.",
+"Chúng ta có thể tận dụng khách hàng hiện có.",
+"trang trọng",
+null
+],
+[
+"optimize",
+"động từ",
+"ˈɑptəˌmaɪz",
+null,
+"tối ưu hóa",
+"Làm cho tốt nhất có thể.",
+"They *optimized* the website for mobile.",
+"Họ tối ưu trang web cho điện thoại.",
+"trang trọng",
+null
+],
+[
+"streamline",
+"động từ",
+"ˈstɹimˌlaɪn",
+null,
+"tinh giản, làm gọn quy trình",
+"Làm quy trình nhanh, ít bước thừa hơn.",
+"The new tool *streamlines* the process.",
+"Công cụ mới làm quy trình gọn hơn.",
+"trang trọng",
+null
+],
+[
+"scale",
+"động từ",
+"skeɪl",
+null,
+"mở rộng quy mô",
+"Tăng quy mô hoạt động.",
+"The company wants to *scale* quickly.",
+"Công ty muốn mở rộng nhanh.",
+"trung tính",
+null
+],
+[
+"automate",
+"động từ",
+"ˈɔtəˌmeɪt",
+null,
+"tự động hóa",
+"Dùng máy hay phần mềm làm thay người.",
+"We *automated* the reports.",
+"Chúng tôi tự động hóa các báo cáo.",
+"trung tính",
+null
+]
+]
+],
+[
+"takeaway: điều rút ra. insight: nhận định sâu sắc. feedback: phản hồi. recap: tóm tắt lại. highlight: điểm nổi bật.",
+[
+[
+"takeaway",
+"danh từ",
+"ˈteɪkəˌweɪ",
+null,
+"điều rút ra, ý chính",
+"Thông điệp quan trọng nhất nhớ được. Cũng là đồ ăn mang đi (Anh).",
+"The main *takeaway* is simple.",
+"Điều rút ra chính rất đơn giản.",
+"thân mật",
+null
+],
+[
+"insight",
+"danh từ",
+"ˈɪnˌsaɪt",
+null,
+"nhận định sâu sắc",
+"Hiểu biết sâu về một vấn đề.",
+"Her talk gave us a lot of *insight*.",
+"Bài nói của cô cho chúng tôi nhiều hiểu biết sâu.",
+"trang trọng",
+null
+],
+[
+"feedback",
+"danh từ",
+"ˈfidˌbæk",
+null,
+"phản hồi, góp ý",
+"Ý kiến nhận xét về công việc hay sản phẩm.",
+"Thanks for your *feedback*.",
+"Cảm ơn phản hồi của bạn.",
+"trung tính",
+null
+],
+[
+"recap",
+"danh từ",
+"ˈɹiˌkæp",
+null,
+"tóm tắt lại",
+"Bản tóm tắt nhanh những gì đã xảy ra. Cũng là động từ.",
+"Here's a quick *recap* of the meeting.",
+"Đây là bản tóm tắt nhanh cuộc họp.",
+"thân mật",
+null
+],
+[
+"highlight",
+"danh từ",
+"ˈhaɪˌlaɪt",
+null,
+"điểm nổi bật",
+"Phần hay nhất, đáng nhớ nhất.",
+"The trip's *highlight* was the sunrise.",
+"Điểm nhấn của chuyến đi là bình minh.",
+"trung tính",
+null
+]
+]
+],
+[
+"app: ứng dụng. software: phần mềm. platform: nền tảng. tool: công cụ. program: chương trình.",
+[
+[
+"app",
+"danh từ",
+"æp",
+null,
+"ứng dụng",
+"Phần mềm trên điện thoại, máy tính bảng.",
+"Download the *app* for free.",
+"Hãy tải ứng dụng miễn phí.",
+"thân mật",
+null
+],
+[
+"software",
+"danh từ",
+"ˈsɔfˌtwɛɹ",
+null,
+"phần mềm",
+"Chương trình chạy trên máy tính. Không đếm được.",
+"We use accounting *software*.",
+"Chúng tôi dùng phần mềm kế toán.",
+"trung tính",
+null
+],
+[
+"platform",
+"danh từ",
+"ˈplætˌfɔɹm",
+null,
+"nền tảng",
+"Hệ thống hay dịch vụ để người dùng khác dựa vào: social media platform.",
+"YouTube is a video *platform*.",
+"YouTube là nền tảng video.",
+"trung tính",
+null
+],
+[
+"tool",
+"danh từ",
+"tul",
+null,
+"công cụ",
+"Dụng cụ hay phần mềm giúp làm việc.",
+"This is a useful *tool* for editing.",
+"Đây là công cụ hữu ích để chỉnh sửa.",
+"trung tính",
+null
+],
+[
+"program",
+"danh từ",
+"ˈpɹoʊˌɡɹæm",
+null,
+"chương trình",
+"Chương trình máy tính, hoặc chương trình học.",
+"The *program* crashed again.",
+"Chương trình lại bị treo.",
+"trung tính",
+null
+]
+]
+],
+[
+"bug: lỗi phần mềm. glitch: trục trặc nhỏ. crash: bị treo, sập. lag: độ trễ, giật. hack: thủ thuật, đột nhập.",
+[
+[
+"bug",
+"danh từ",
+"bʌɡ",
+null,
+"lỗi phần mềm",
+"Sai sót khiến chương trình chạy sai. Cũng là con bọ.",
+"There's a *bug* in the code.",
+"Có lỗi trong mã.",
+"trung tính",
+null
+],
+[
+"glitch",
+"danh từ",
+"ɡlɪtʃ",
+null,
+"trục trặc nhỏ",
+"Sự cố ngắn, thường tự hết.",
+"A *glitch* froze the screen.",
+"Một trục trặc làm đơ màn hình.",
+"thân mật",
+null
+],
+[
+"crash",
+"động từ",
+"kɹæʃ",
+null,
+"bị treo, sập",
+"Chương trình hay máy tính ngừng chạy đột ngột.",
+"The app *crashed* again.",
+"Ứng dụng lại bị sập.",
+"trung tính",
+null
+],
+[
+"lag",
+"danh từ",
+"læɡ",
+null,
+"độ trễ, giật lag",
+"Phản hồi chậm trong game, mạng.",
+"There's too much *lag* in this game.",
+"Trò này giật lag quá.",
+"thân mật",
+null
+],
+[
+"hack",
+"danh từ",
+"hæk",
+null,
+"thủ thuật; vụ đột nhập",
+"Mẹo hay giúp làm việc nhanh gọn: life hack. Cũng là đột nhập hệ thống.",
+"Here's a useful kitchen *hack*.",
+"Đây là thủ thuật nhà bếp hữu ích.",
+"thân mật",
+null
+]
+]
+],
+[
+"update: cập nhật. upgrade: nâng cấp. install: cài đặt. download: tải xuống. upload: tải lên.",
+[
+[
+"update",
+"động từ",
+"əpˈdeɪt",
+null,
+"cập nhật",
+"Làm cho mới hơn, thêm tính năng hay sửa lỗi.",
+"Please *update* your app.",
+"Xin hãy cập nhật ứng dụng.",
+"trung tính",
+null
+],
+[
+"upgrade",
+"động từ",
+"əpˈɡɹeɪd",
+null,
+"nâng cấp",
+"Chuyển lên phiên bản hay cấp độ tốt hơn.",
+"I'm going to *upgrade* my laptop.",
+"Tôi sẽ nâng cấp máy tính xách tay.",
+"trung tính",
+null
+],
+[
+"install",
+"động từ",
+"ˌɪnˈstɔl",
+null,
+"cài đặt",
+"Đưa phần mềm vào máy hoặc lắp thiết bị.",
+"*Install* the software first.",
+"Hãy cài phần mềm trước.",
+"trung tính",
+null
+],
+[
+"download",
+"động từ",
+"ˈdaʊnˌloʊd",
+null,
+"tải xuống",
+"Chép tệp từ mạng về máy.",
+"You can *download* the file here.",
+"Bạn có thể tải tệp ở đây.",
+"trung tính",
+null
+],
+[
+"upload",
+"động từ",
+"ˈʌˌploʊd",
+null,
+"tải lên",
+"Đưa tệp từ máy lên mạng.",
+"I *uploaded* the photos to the cloud.",
+"Tôi đã tải ảnh lên đám mây.",
+"trung tính",
+null
+]
+]
+],
+[
+"toxic: độc hại (về người, môi trường). gaslight: thao túng khiến nghi ngờ bản thân. manipulate: thao túng. red flag: dấu hiệu cảnh báo. boundaries: ranh giới cá nhân.",
+[
+[
+"toxic",
+"tính từ",
+"ˈtɑksɪk",
+null,
+"độc hại",
+"Nghĩa gốc là chất độc. Ngày nay hay dùng cho người, mối quan hệ, môi trường làm việc gây tổn hại tinh thần.",
+"She left a *toxic* workplace.",
+"Cô rời bỏ môi trường làm việc độc hại.",
+"thân mật",
+null
+],
+[
+"gaslight",
+"động từ",
+"ˈɡæslaɪt",
+null,
+"thao túng khiến nghi ngờ bản thân",
+"Khiến ai đó nghi ngờ trí nhớ hay nhận thức của chính mình để kiểm soát.",
+"He *gaslit* her into thinking she was crazy.",
+"Anh ta thao túng khiến cô tin mình bị điên.",
+"trung tính",
+null
+],
+[
+"manipulate",
+"động từ",
+"məˈnɪpjəˌleɪt",
+null,
+"thao túng, lèo lái",
+"Điều khiển người khác một cách khéo léo, thường vì lợi ích cá nhân.",
+"He *manipulates* people to get what he wants.",
+"Anh ta thao túng người khác để được điều mình muốn.",
+"trung tính",
+null
+],
+[
+"red flag",
+"danh từ",
+"ɹɛd flæɡ",
+null,
+"dấu hiệu cảnh báo",
+"Dấu hiệu cho thấy có vấn đề, nhất là trong quan hệ.",
+"Lying about small things is a *red flag*.",
+"Nói dối chuyện nhỏ là dấu hiệu đáng lo.",
+"thân mật",
+null
+],
+[
+"boundaries",
+"danh từ",
+"ˈbaʊndɚiz",
+null,
+"ranh giới cá nhân",
+"Giới hạn người ta đặt ra về điều chấp nhận được. Set boundaries là đặt ranh giới.",
+"It's healthy to set *boundaries*.",
+"Đặt ranh giới là điều lành mạnh.",
+"trung tính",
+null
+]
+]
+],
+[
+"self-care: chăm sóc bản thân. mindfulness: chánh niệm. detox: thanh lọc. wellness: sức khỏe toàn diện. mental health: sức khỏe tâm thần.",
+[
+[
+"self-care",
+"danh từ",
+"sɛlf kɛɹ",
+null,
+"chăm sóc bản thân",
+"Việc làm để giữ sức khỏe thể chất và tinh thần.",
+"A long bath is my *self-care*.",
+"Tắm lâu là cách tôi chăm sóc bản thân.",
+"thân mật",
+null
+],
+[
+"mindfulness",
+"danh từ",
+"ˈmaɪndfəlnəs",
+null,
+"chánh niệm",
+"Chú ý trọn vẹn vào hiện tại, không phán xét.",
+"She practices *mindfulness* every morning.",
+"Cô ấy tập chánh niệm mỗi sáng.",
+"trung tính",
+null
+],
+[
+"detox",
+"danh từ",
+"ˈdiˌtɑks",
+null,
+"thanh lọc cơ thể",
+"Giai đoạn loại bỏ chất độc hay thói quen xấu: digital detox.",
+"I'm doing a digital *detox* this weekend.",
+"Cuối tuần này tôi cai mạng.",
+"thân mật",
+null
+],
+[
+"wellness",
+"danh từ",
+"ˈwɛlnəs",
+null,
+"sức khỏe toàn diện",
+"Trạng thái khỏe mạnh cả thân và tâm.",
+"The hotel has a *wellness* centre.",
+"Khách sạn có trung tâm chăm sóc sức khỏe.",
+"trung tính",
+null
+],
+[
+"mental health",
+"danh từ",
+"ˈmɛntəl hɛlθ",
+null,
+"sức khỏe tinh thần",
+"Trạng thái tâm lý, cảm xúc của một người.",
+"*Mental health* matters as much as physical health.",
+"Sức khỏe tinh thần quan trọng như sức khỏe thể chất.",
+"trung tính",
+null
+]
+]
+],
+[
+"closure: sự khép lại, hồi kết. move on: bước tiếp, quên đi. heal: chữa lành. cope: đối phó. let go: buông bỏ.",
+[
+[
+"closure",
+"danh từ",
+"ˈkloʊʒɚ",
+null,
+"sự khép lại, hồi kết cảm xúc",
+"Cảm giác đã chấp nhận và khép lại chuyện cũ.",
+"She needed *closure* after the breakup.",
+"Cô cần một sự khép lại sau chia tay.",
+"trung tính",
+null
+],
+[
+"move on",
+"cụm từ",
+"muv ɑn",
+null,
+"bước tiếp, vượt qua",
+"Ngừng bận tâm chuyện cũ để sống tiếp.",
+"It's time to *move on*.",
+"Đã đến lúc bước tiếp.",
+"thân mật",
+null
+],
+[
+"heal",
+"động từ",
+"hil",
+null,
+"chữa lành",
+"Hồi phục sau tổn thương thể chất hoặc tinh thần.",
+"Time will *heal* the pain.",
+"Thời gian sẽ chữa lành nỗi đau.",
+"trung tính",
+null
+],
+[
+"cope",
+"động từ",
+"koʊp",
+null,
+"đối phó, xoay xở",
+"Xử lý được khó khăn hay căng thẳng.",
+"How do you *cope* with stress?",
+"Bạn xoay xở thế nào với căng thẳng?",
+"trung tính",
+null
+],
+[
+"let go",
+"cụm từ",
+"lɛt ɡoʊ",
+null,
+"buông bỏ",
+"Ngừng giữ chặt một việc, cảm xúc hay người.",
+"You have to *let go* of the past.",
+"Bạn phải buông bỏ quá khứ.",
+"trung tính",
+null
+]
+]
+],
+[
+"situationship: mối quan hệ mập mờ. crush: người mình thầm thích. soulmate: tri kỷ. partner: người bạn đời. ex: người yêu cũ.",
+[
+[
+"situationship",
+"danh từ",
+"ˌsɪtʃuˈeɪʃənˌʃɪp",
+null,
+"mối quan hệ mập mờ",
+"Lóng: quan hệ tình cảm không rõ ràng, chưa gọi là yêu.",
+"They're in a *situationship*.",
+"Họ đang trong mối quan hệ mập mờ.",
+"tiếng lóng",
+null
+],
+[
+"crush",
+"danh từ",
+"kɹʌʃ",
+null,
+"người mình thầm thích",
+"Người khiến mình rung động, thường đơn phương.",
+"He has a *crush* on her.",
+"Anh ấy phải lòng cô ấy.",
+"thân mật",
+null
+],
+[
+"soulmate",
+"danh từ",
+"ˈsoʊlˌmeɪt",
+null,
+"tri kỷ, nửa kia",
+"Người hợp với mình sâu sắc về tâm hồn.",
+"She believes she found her *soulmate*.",
+"Cô tin mình đã tìm được tri kỷ.",
+"trung tính",
+null
+],
+[
+"partner",
+"danh từ",
+"ˈpɑɹtnɚ",
+null,
+"bạn đời, người yêu",
+"Từ trung tính cho người trong quan hệ tình cảm, không nói rõ giới. Cũng là đối tác.",
+"My *partner* and I travel a lot.",
+"Tôi và bạn đời đi du lịch nhiều.",
+"trung tính",
+null
+],
+[
+"ex",
+"danh từ",
+"ɛks",
+null,
+"người yêu cũ, người cũ",
+"Người từng hẹn hò hay kết hôn.",
+"I ran into my *ex* yesterday.",
+"Hôm qua tôi gặp người yêu cũ.",
+"thân mật",
+null
+]
+]
+],
+[
+"breadcrumbing: thả thính nửa vời. love-bomb: dồn dập tình cảm để chiếm lòng tin. commitment: sự cam kết. ghost: cắt liên lạc. benching: để dự bị.",
+[
+[
+"breadcrumbing",
+"danh từ",
+"ˈbɹɛdˌkɹʌmɪŋ",
+null,
+"thả thính nửa vời",
+"Gửi tín hiệu thân mật nhỏ giọt để giữ ai đó mà không nghiêm túc.",
+"He's *breadcrumbing* her with random texts.",
+"Anh ta thả thính cô bằng vài tin nhắn vu vơ.",
+"tiếng lóng",
+null
+],
+[
+"love-bomb",
+"động từ",
+"lʌv bɑm",
+null,
+"dồn dập tình cảm",
+"Dành cho ai tình cảm thái quá lúc đầu để chiếm lòng tin hay kiểm soát.",
+"He *love-bombed* her with gifts.",
+"Anh ta dồn dập tặng quà để chiếm lòng cô.",
+"tiếng lóng",
+null
+],
+[
+"commitment",
+"danh từ",
+"kəˈmɪtmənt",
+null,
+"sự cam kết, gắn bó",
+"Cam kết lâu dài với người hay việc.",
+"He's afraid of *commitment*.",
+"Anh ấy sợ sự ràng buộc.",
+"trung tính",
+null
+],
+[
+"benching",
+"danh từ",
+"ˈbɛntʃɪŋ",
+null,
+"để ai đó dự bị",
+"Lóng: giữ ai đó làm phương án dự phòng trong lúc hẹn hò người khác.",
+"She realized she was being *benched*.",
+"Cô nhận ra mình bị để dự bị.",
+"tiếng lóng",
+null
+],
+[
+"ick",
+"danh từ",
+"ɪk",
+null,
+"cảm giác ghê, mất cảm tình",
+"Lóng: bỗng thấy mất hứng với người mình thích vì một chi tiết nhỏ.",
+"He chewed with his mouth open and I got the *ick*.",
+"Anh ta nhai há miệng và tôi mất hết cảm tình.",
+"tiếng lóng",
+null
+]
+]
+],
+[
+"delulu: ảo tưởng. mood: tâm trạng, đồng cảm. vibe check: kiểm tra không khí. relatable: đồng cảm được. wholesome: lành mạnh, ấm áp.",
+[
+[
+"delulu",
+"tính từ",
+"dɪˈlu.lu",
+null,
+"ảo tưởng, mơ mộng",
+"Lóng, từ delusional: mơ mộng hão huyền, thường đùa.",
+"I'm *delulu* if I think he likes me.",
+"Tôi ảo tưởng nếu nghĩ anh ấy thích tôi.",
+"tiếng lóng",
+null
+],
+[
+"mood",
+"danh từ",
+"mud",
+null,
+"đúng tâm trạng tôi",
+"Lóng: dùng khi thấy ai hay cái gì phản ánh đúng cảm xúc của mình.",
+"A cat sleeping all day? Total *mood*.",
+"Mèo ngủ cả ngày? Đúng tâm trạng tôi.",
+"tiếng lóng",
+null
+],
+[
+"vibe check",
+"danh từ",
+"vaɪb tʃɛk",
+null,
+"kiểm tra không khí",
+"Lóng: hỏi hoặc đánh giá cảm giác hay thái độ chung.",
+"Time for a *vibe check* before we start.",
+"Kiểm tra không khí chút trước khi bắt đầu.",
+"tiếng lóng",
+null
+],
+[
+"relatable",
+"tính từ",
+"ɹɪˈleɪtəbəl",
+null,
+"dễ đồng cảm",
+"Nói về điều ai cũng thấy giống mình.",
+"That post is so *relatable*.",
+"Bài đó đồng cảm quá.",
+"thân mật",
+null
+],
+[
+"wholesome",
+"tính từ",
+"ˈhoʊlsəm",
+null,
+"lành mạnh, ấm áp",
+"Tích cực, dễ thương, không có gì xấu.",
+"It's a *wholesome* story about friendship.",
+"Đó là câu chuyện ấm áp về tình bạn.",
+"trung tính",
+null
+]
+]
+],
+[
+"literally: theo nghĩa đen (hoặc dùng nhấn mạnh). honestly: thành thật. basically: nói đơn giản. seriously: thật sự đấy. totally: hoàn toàn.",
+[
+[
+"literally",
+"trạng từ",
+"ˈlɪtɚəli",
+null,
+"theo nghĩa đen; thực sự là",
+"Nghĩa gốc: đúng từng chữ. Giới trẻ hay dùng chỉ để nhấn mạnh, kể cả khi nói quá.",
+"I'm *literally* dying of laughter.",
+"Tôi cười chết mất thôi.",
+"thân mật",
+null
+],
+[
+"honestly",
+"trạng từ",
+"ˈɑnəstli",
+null,
+"thành thật mà nói",
+"Mở đầu lời nói thật, hay nói thẳng.",
+"*Honestly*, I don't care.",
+"Thật lòng, tôi không quan tâm.",
+"thân mật",
+null
+],
+[
+"basically",
+"trạng từ",
+"ˈbeɪsɪkli",
+null,
+"về cơ bản, nói gọn lại",
+"Tóm tắt điều chính. Hay dùng làm từ đệm.",
+"It's *basically* a big bag.",
+"Về cơ bản nó là cái túi lớn.",
+"thân mật",
+null
+],
+[
+"seriously",
+"trạng từ",
+"ˈsɪɹiəsli",
+null,
+"nghiêm túc đấy, thật sự",
+"Nhấn mạnh hay hỏi lại: Really?",
+"*Seriously*, are you going to quit?",
+"Thật hả, bạn định nghỉ à?",
+"thân mật",
+null
+],
+[
+"totally",
+"trạng từ",
+"ˈtoʊtəli",
+null,
+"hoàn toàn, quá chuẩn",
+"Đồng ý mạnh mẽ: Totally!",
+"I *totally* agree.",
+"Tôi hoàn toàn đồng ý.",
+"thân mật",
+null
+]
+]
+],
+[
+"lowkey: kín đáo, hơi hơi. highkey: rõ ràng, rất. kinda: hơi. sorta: hơi. deadass: thật sự đấy.",
+[
+[
+"lowkey",
+"trạng từ",
+"ˈloʊˌki",
+null,
+"kín đáo; hơi hơi",
+"Lóng: hơi, âm thầm, không phô trương.",
+"I *lowkey* want to stay home.",
+"Tôi hơi hơi muốn ở nhà.",
+"tiếng lóng",
+null
+],
+[
+"highkey",
+"trạng từ",
+"ˈhaɪˌki",
+null,
+"rõ ràng, rất",
+"Lóng: ngược với lowkey, nói thẳng và mạnh.",
+"I *highkey* love this show.",
+"Tôi mê chương trình này cực kỳ.",
+"tiếng lóng",
+null
+],
+[
+"kinda",
+"trạng từ",
+"ˈkɪndə",
+null,
+"hơi, khá là",
+"Dạng nói tắt của kind of.",
+"It's *kinda* cold in here.",
+"Ở đây hơi lạnh.",
+"thân mật",
+null
+],
+[
+"sorta",
+"trạng từ",
+"ˈsɔɹtə",
+null,
+"hơi, tạm coi là",
+"Nói tắt của sort of.",
+"I *sorta* like him.",
+"Tôi hơi thích anh ấy.",
+"thân mật",
+null
+],
+[
+"deadass",
+"trạng từ",
+"ˈdɛdˌæs",
+null,
+"thật sự, nghiêm túc",
+"Lóng (Mỹ): để khẳng định mình không đùa.",
+"Are you *deadass*?",
+"Bạn nói thật đấy à?",
+"tiếng lóng",
+null
+]
+]
+],
+[
+"brunch: bữa nửa sáng nửa trưa. foodie: người mê ăn uống. vegan: thuần chay. plant-based: dựa trên thực vật. gluten-free: không gluten.",
+[
+[
+"brunch",
+"danh từ",
+"bɹʌntʃ",
+null,
+"bữa muộn gộp sáng và trưa",
+"Ăn vào khoảng 10 đến 12 giờ.",
+"We had *brunch* at a café.",
+"Chúng tôi ăn brunch ở quán cà phê.",
+"thân mật",
+null
+],
+[
+"foodie",
+"danh từ",
+"ˈfudi",
+null,
+"người sành ăn, mê ẩm thực",
+"Người rất thích tìm hiểu và thử món ngon.",
+"She's a real *foodie*.",
+"Cô ấy đúng là dân sành ăn.",
+"thân mật",
+null
+],
+[
+"vegan",
+"danh từ",
+"ˈvɛɡən",
+null,
+"người ăn thuần chay",
+"Không ăn bất kỳ sản phẩm nào từ động vật, kể cả sữa, trứng.",
+"My sister is *vegan*.",
+"Chị tôi ăn thuần chay.",
+"trung tính",
+null
+],
+[
+"plant-based",
+"tính từ",
+"plænt beɪst",
+null,
+"dựa trên thực vật",
+"Làm từ rau củ hạt, ít hoặc không có động vật.",
+"They sell *plant-based* burgers.",
+"Họ bán burger từ thực vật.",
+"trung tính",
+null
+],
+[
+"gluten-free",
+"tính từ",
+"ˈɡlutən fɹi",
+null,
+"không chứa gluten",
+"Không có lúa mì, đại mạch, lúa mạch đen.",
+"She orders *gluten-free* bread.",
+"Cô ấy gọi bánh mì không gluten.",
+"trung tính",
+null
+]
+]
+],
+[
+"subscription: gói đăng ký. cashless: không dùng tiền mặt. contactless: không chạm. delivery: giao hàng. checkout: thanh toán.",
+[
+[
+"subscription",
+"danh từ",
+"səbˈskɹɪpʃən",
+null,
+"gói đăng ký dài hạn",
+"Trả định kỳ để dùng dịch vụ.",
+"I cancelled my streaming *subscription*.",
+"Tôi hủy gói đăng ký xem phim.",
+"trung tính",
+null
+],
+[
+"cashless",
+"tính từ",
+"ˈkæʃləs",
+null,
+"không dùng tiền mặt",
+"Thanh toán bằng thẻ, điện thoại.",
+"We're moving to a *cashless* system.",
+"Chúng tôi đang chuyển sang thanh toán không tiền mặt.",
+"trung tính",
+null
+],
+[
+"contactless",
+"tính từ",
+"ˈkɑntæktˌlɛs",
+null,
+"không tiếp xúc",
+"Thanh toán hay giao nhận không cần chạm.",
+"Use *contactless* payment.",
+"Hãy thanh toán không chạm.",
+"trung tính",
+null
+],
+[
+"delivery",
+"danh từ",
+"dɪˈlɪvɚi",
+null,
+"giao hàng",
+"Việc đưa hàng tới tận nhà.",
+"Free *delivery* on orders over $50.",
+"Miễn phí giao hàng cho đơn trên 50 đô.",
+"trung tính",
+null
+],
+[
+"checkout",
+"danh từ",
+"ˈtʃɛˌkaʊt",
+null,
+"quầy thanh toán; thanh toán",
+"Bước hay nơi trả tiền khi mua hàng.",
+"Go to *checkout* to pay.",
+"Hãy qua bước thanh toán để trả tiền.",
+"trung tính",
+null
+]
+]
+],
+[
+"crypto: tiền mã hóa. inflation: lạm phát. budget: ngân sách. save: tiết kiệm. invest: đầu tư.",
+[
+[
+"crypto",
+"danh từ",
+"ˈkɹɪptoʊ",
+null,
+"tiền mã hóa",
+"Tiền kỹ thuật số dùng mật mã, như Bitcoin.",
+"He lost money in *crypto*.",
+"Anh ta mất tiền vì tiền mã hóa.",
+"thân mật",
+null
+],
+[
+"inflation",
+"danh từ",
+"ˌɪnˈfleɪʃən",
+null,
+"lạm phát",
+"Giá cả chung tăng lên theo thời gian.",
+"*Inflation* is making food expensive.",
+"Lạm phát làm đồ ăn đắt đỏ.",
+"trung tính",
+null
+],
+[
+"budget",
+"danh từ",
+"ˈbʌdʒɪt",
+null,
+"ngân sách",
+"Số tiền dự kiến chi tiêu. Cũng là động từ.",
+"We're on a tight *budget*.",
+"Ngân sách của chúng tôi eo hẹp.",
+"trung tính",
+null
+],
+[
+"save",
+"động từ",
+"seɪv",
+null,
+"tiết kiệm",
+"Để dành tiền thay vì tiêu hết.",
+"I *save* ten percent each month.",
+"Mỗi tháng tôi để dành mười phần trăm.",
+"trung tính",
+null
+],
+[
+"invest",
+"động từ",
+"ˌɪnˈvɛst",
+null,
+"đầu tư",
+"Bỏ tiền hay công sức để thu lợi sau.",
+"She *invested* in a small business.",
+"Cô đầu tư vào một việc kinh doanh nhỏ.",
+"trung tính",
+null
+]
+]
+]
+],
+"slang": [
+[
+"cringe: khiến người ta thấy xấu hổ thay. peak: đỉnh cao, hay nhất. mid: tầm thường. based: dám nói điều mình nghĩ. cap: nói dối.",
+[
+[
+"cringe",
+"tính từ",
+"kɹɪndʒ",
+null,
+"ngượng chín người, kém duyên",
+"Lóng: điều khiến người xem thấy xấu hổ thay, ngượng. Cũng là động từ.",
+"That video was so *cringe*.",
+"Video đó ngượng chín người.",
+"tiếng lóng",
+null
+],
+[
+"peak",
+"tính từ",
+"pik",
+null,
+"đỉnh cao, quá chuẩn",
+"Lóng giới trẻ: khen thứ gì cực hay hoặc mỉa mai khi quá đúng chất. Nghĩa thường là đỉnh.",
+"This movie is *peak* cinema.",
+"Bộ phim này là đỉnh cao điện ảnh.",
+"tiếng lóng",
+null
+],
+[
+"mid",
+"tính từ",
+"mɪd",
+null,
+"tầm thường, bình thường",
+"Lóng: không tệ nhưng không đáng khen, chê nhẹ.",
+"The new burger place is kind of *mid*.",
+"Quán burger mới cũng tầm thường.",
+"tiếng lóng",
+null
+],
+[
+"based",
+"tính từ",
+"beɪst",
+null,
+"dám nói dám làm, không sợ phán xét",
+"Lóng: không quan tâm ý kiến người khác, trung thực với niềm tin của mình.",
+"He's *based*, he says what he thinks.",
+"Anh ấy dám nói điều mình nghĩ.",
+"tiếng lóng",
+null
+],
+[
+"cap",
+"danh từ",
+"kæp",
+null,
+"nói dối, nói điêu",
+"Lóng: lời nói dối. No cap nghĩa là thật lòng.",
+"That's *cap*, you didn't do it.",
+"Điêu quá, bạn đâu có làm.",
+"tiếng lóng",
+null
+]
+]
+],
+[
+"slay: làm quá đỉnh, tỏa sáng. ate: làm quá tốt. goated: vĩ đại nhất mọi thời. iconic: kinh điển, đáng nhớ. legend: huyền thoại, quá đỉnh.",
+[
+[
+"slay",
+"động từ",
+"sleɪ",
+null,
+"làm cực đỉnh, tỏa sáng",
+"Lóng: làm điều gì thật xuất sắc, hay khen vẻ ngoài.",
+"You *slayed* that presentation.",
+"Bạn làm bài thuyết trình cực đỉnh.",
+"tiếng lóng",
+null
+],
+[
+"ate",
+"động từ",
+"eɪt",
+null,
+"làm quá tốt",
+"Lóng: she ate, nghĩa là cô ấy làm rất xuất sắc.",
+"She *ate* that performance.",
+"Cô ấy làm màn trình diễn quá đỉnh.",
+"tiếng lóng",
+null
+],
+[
+"goated",
+"tính từ",
+"ˈɡoʊtɪd",
+null,
+"vĩ đại nhất (GOAT)",
+"Viết tắt của Greatest Of All Time, dùng để khen người hay vật hay nhất.",
+"That player is *goated*.",
+"Cầu thủ đó là vĩ đại nhất.",
+"tiếng lóng",
+null
+],
+[
+"iconic",
+"tính từ",
+"ˌaɪˈkɑnɪk",
+null,
+"kinh điển, mang tính biểu tượng",
+"Nổi tiếng và đáng nhớ. Lóng giới trẻ dùng khen cái gì đó đỉnh.",
+"That's an *iconic* scene.",
+"Đó là một cảnh kinh điển.",
+"trung tính",
+null
+],
+[
+"legend",
+"danh từ",
+"ˈlɛdʒənd",
+null,
+"huyền thoại; người quá đỉnh",
+"Khen ai làm điều gì tuyệt vời, thân mật.",
+"You're a *legend*, thanks!",
+"Bạn đúng là huyền thoại, cảm ơn!",
+"thân mật",
+null
+]
+]
+],
+[
+"lit: tuyệt, sôi động. fire: quá đỉnh. bussin: cực ngon. dope: ngầu. sick: tuyệt vời.",
+[
+[
+"lit",
+"tính từ",
+"lɪt",
+null,
+"sôi động, quá đỉnh",
+"Lóng: bữa tiệc hay thứ gì rất vui, ấn tượng.",
+"The party was *lit*.",
+"Bữa tiệc quá sôi động.",
+"tiếng lóng",
+null
+],
+[
+"fire",
+"tính từ",
+"ˈfaɪɚ",
+null,
+"đỉnh của chóp",
+"Lóng: rất tuyệt, thường nói về nhạc, quần áo.",
+"Her new song is *fire*.",
+"Bài hát mới của cô ấy đỉnh quá.",
+"tiếng lóng",
+null
+],
+[
+"bussin",
+"tính từ",
+"ˈbʌsɪn",
+null,
+"ngon xuất sắc",
+"Lóng: nói thức ăn cực ngon.",
+"This pizza is *bussin*.",
+"Cái pizza này ngon xuất sắc.",
+"tiếng lóng",
+null
+],
+[
+"dope",
+"tính từ",
+"doʊp",
+null,
+"ngầu, tuyệt",
+"Lóng cũ hơn, khen thứ gì hay ho, ấn tượng.",
+"That's a *dope* jacket.",
+"Chiếc áo khoác đó ngầu thật.",
+"tiếng lóng",
+null
+],
+[
+"sick",
+"tính từ",
+"sɪk",
+null,
+"tuyệt vời, đỉnh",
+"Lóng: rất tốt, ấn tượng. Nghĩa thường là ốm.",
+"That skateboard trick was *sick*!",
+"Pha trượt ván đó đỉnh thật!",
+"tiếng lóng",
+null
+]
+]
+],
+[
+"sus: đáng ngờ. shady: mờ ám. fishy: đáng ngờ. sketchy: đáng ngờ, không đáng tin. off: có gì đó sai.",
+[
+[
+"sus",
+"tính từ",
+"sʌs",
+null,
+"đáng ngờ",
+"Lóng, rút từ suspicious, phổ biến nhờ trò Among Us.",
+"That guy is acting *sus*.",
+"Gã kia hành động đáng ngờ.",
+"tiếng lóng",
+null
+],
+[
+"shady",
+"tính từ",
+"ˈʃeɪdi",
+null,
+"mờ ám, đáng ngờ",
+"Có vẻ không trung thực hay hợp pháp.",
+"He's involved in some *shady* business.",
+"Anh ta dính vào vài chuyện làm ăn mờ ám.",
+"thân mật",
+null
+],
+[
+"fishy",
+"tính từ",
+"ˈfɪʃi",
+null,
+"đáng ngờ, có mùi lạ",
+"Có gì đó không đúng, như đang bị lừa.",
+"Something smells *fishy* about this deal.",
+"Thương vụ này có gì đó đáng ngờ.",
+"thân mật",
+null
+],
+[
+"sketchy",
+"tính từ",
+"ˈskɛtʃi",
+null,
+"đáng ngờ, kém tin cậy",
+"Mơ hồ, nhìn không an toàn hay không đáng tin.",
+"It's a *sketchy* neighborhood at night.",
+"Khu này ban đêm trông không an toàn.",
+"thân mật",
+null
+],
+[
+"suspicious",
+"tính từ",
+"səˈspɪʃəs",
+null,
+"khả nghi, đáng ngờ",
+"Cách nói trung tính, đầy đủ.",
+"He gave me a *suspicious* look.",
+"Anh ta nhìn tôi đầy nghi ngờ.",
+"trung tính",
+null
+]
+]
+],
+[
+"salty: cay cú, bực. shook: bị sốc, hoảng. triggered: bị chạm nọc. mad: tức. pressed: tức, bực.",
+[
+[
+"salty",
+"tính từ",
+"ˈsɔlti",
+null,
+"cay cú, hậm hực",
+"Lóng: bực vì thua hay bị chê, hơi trẻ con.",
+"He's *salty* about losing.",
+"Anh ta cay cú vì thua.",
+"tiếng lóng",
+null
+],
+[
+"shook",
+"tính từ",
+"ʃʊk",
+null,
+"bàng hoàng, sốc",
+"Lóng: bị hoảng hay sốc vì điều gì.",
+"I'm *shook*, I can't believe it.",
+"Tôi bàng hoàng, không thể tin nổi.",
+"tiếng lóng",
+null
+],
+[
+"triggered",
+"tính từ",
+"ˈtɹɪɡɚd",
+null,
+"bị chạm nọc, nổi cáu",
+"Lóng: nổi giận vì một lời nói hay điều nhỏ. Nghĩa y học: bị gợi lại sang chấn.",
+"Don't get *triggered* over a joke.",
+"Đừng nổi cáu vì một câu đùa.",
+"tiếng lóng",
+null
+],
+[
+"pressed",
+"tính từ",
+"pɹɛst",
+null,
+"tức tối, bực bội",
+"Lóng: bực mình vì chuyện nhỏ.",
+"Why are you so *pressed*?",
+"Sao bạn bực thế?",
+"tiếng lóng",
+null
+],
+[
+"hater",
+"danh từ",
+"ˈheɪtɚ",
+null,
+"người hay ghét, anti",
+"Lóng: người hay chê bai, ghen ghét.",
+"Ignore the *haters* and keep going.",
+"Cứ mặc kệ anti và đi tiếp.",
+"tiếng lóng",
+null
+]
+]
+],
+[
+"flex: khoe khoang. humblebrag: khoe khéo. show-off: người khoe mẽ. brag: khoe. clout: sức ảnh hưởng.",
+[
+[
+"flex",
+"động từ",
+"flɛks",
+null,
+"khoe, khoe của",
+"Lóng: khoe tiền, thành tích hay đồ đắt tiền.",
+"He's always *flexing* his new watch.",
+"Anh ta luôn khoe chiếc đồng hồ mới.",
+"tiếng lóng",
+null
+],
+[
+"humblebrag",
+"danh từ",
+"ˈhʌmbəlˌbɹæɡ",
+null,
+"khoe khéo",
+"Khoe nhưng giả vờ khiêm tốn hoặc than phiền.",
+"\"I'm so tired of being picked first\" is a *humblebrag*.",
+"Câu \"mệt vì lúc nào cũng được chọn đầu tiên\" là khoe khéo.",
+"tiếng lóng",
+null
+],
+[
+"show-off",
+"danh từ",
+"ʃoʊ ɔf",
+null,
+"người hay khoe mẽ",
+"Người cố gây ấn tượng bằng việc phô trương.",
+"Don't be such a *show-off*.",
+"Đừng khoe mẽ thế.",
+"thân mật",
+null
+],
+[
+"brag",
+"động từ",
+"bɹæɡ",
+null,
+"khoe khoang, khoác lác",
+"Nói về thành tích của mình một cách tự hào quá mức.",
+"He likes to *brag* about his salary.",
+"Anh ta thích khoe lương.",
+"thân mật",
+null
+],
+[
+"clout",
+"danh từ",
+"klaʊt",
+null,
+"sức ảnh hưởng, độ nổi tiếng",
+"Lóng: có tiếng nói, được nhiều người biết.",
+"She's doing it just for *clout*.",
+"Cô ấy làm vậy chỉ để nổi tiếng.",
+"tiếng lóng",
+null
+]
+]
+],
+[
+"viral: lan truyền chóng mặt. trending: đang thịnh hành. meme: ảnh chế. clickbait: tiêu đề câu view. hashtag: thẻ chủ đề.",
+[
+[
+"viral",
+"tính từ",
+"ˈvaɪɹəl",
+null,
+"lan truyền, nổi như cồn",
+"Nội dung được chia sẻ nhanh chóng trên mạng.",
+"The video went *viral* overnight.",
+"Video lan truyền chỉ sau một đêm.",
+"trung tính",
+null
+],
+[
+"trending",
+"tính từ",
+"ˈtɹɛndɪŋ",
+null,
+"đang thịnh hành, lên xu hướng",
+"Đang được nhiều người nhắc đến trên mạng.",
+"That song is *trending* right now.",
+"Bài hát đó đang lên xu hướng.",
+"trung tính",
+null
+],
+[
+"meme",
+"danh từ",
+"mim",
+null,
+"ảnh chế, meme",
+"Hình hay câu nói hài hước lan truyền trên mạng.",
+"He made a *meme* about the exam.",
+"Anh ấy làm ảnh chế về kỳ thi.",
+"thân mật",
+null
+],
+[
+"clickbait",
+"danh từ",
+"ˈklɪkˌbeɪt",
+null,
+"tiêu đề giật gân câu view",
+"Nội dung giật tít để người ta bấm vào.",
+"Don't fall for *clickbait* headlines.",
+"Đừng mắc bẫy tiêu đề câu view.",
+"thân mật",
+null
+],
+[
+"hashtag",
+"danh từ",
+"ˈhæʃˌtæɡ",
+null,
+"thẻ hashtag",
+"Từ khóa có dấu # để gom chủ đề trên mạng xã hội.",
+"Use the *hashtag* in your post.",
+"Hãy dùng hashtag trong bài đăng.",
+"trung tính",
+null
+]
+]
+],
+[
+"influencer: người có ảnh hưởng. creator: người sáng tạo nội dung. vlogger: người làm vlog. streamer: người phát trực tiếp. follower: người theo dõi.",
+[
+[
+"influencer",
+"danh từ",
+"ˈɪnfluənsɝ",
+null,
+"người có sức ảnh hưởng mạng xã hội",
+"Người có nhiều người theo dõi và có thể tác động đến lựa chọn của họ.",
+"She's a fitness *influencer*.",
+"Cô ấy là influencer thể hình.",
+"thân mật",
+null
+],
+[
+"creator",
+"danh từ",
+"kɹiˈeɪtɚ",
+null,
+"người sáng tạo nội dung",
+"Người làm video, ảnh, bài đăng cho mạng xã hội.",
+"Many young people want to be *creators*.",
+"Nhiều bạn trẻ muốn thành người sáng tạo nội dung.",
+"trung tính",
+null
+],
+[
+"vlogger",
+"danh từ",
+"ˈvlɑɡɝ",
+null,
+"vlogger, người làm vlog",
+"Người quay video nhật ký chia sẻ trên mạng.",
+"The *vlogger* filmed her trip to Japan.",
+"Vlogger quay lại chuyến đi Nhật.",
+"thân mật",
+null
+],
+[
+"streamer",
+"danh từ",
+"ˈstɹimɚ",
+null,
+"người phát trực tiếp",
+"Người phát sóng trực tiếp, nhất là chơi game.",
+"The *streamer* has a million fans.",
+"Streamer đó có một triệu người hâm mộ.",
+"thân mật",
+null
+],
+[
+"follower",
+"danh từ",
+"ˈfɑloʊɚ",
+null,
+"người theo dõi",
+"Người đăng ký theo dõi tài khoản.",
+"She gained 10,000 *followers* this month.",
+"Tháng này cô có thêm 10.000 người theo dõi.",
+"trung tính",
+null
+]
+]
+],
+[
+"ghost: im lặng cắt liên lạc. catfish: giả danh người khác. troll: người chọc phá. lurk: im lặng theo dõi. spam: tin rác.",
+[
+[
+"ghost",
+"động từ",
+"ɡoʊst",
+null,
+"cắt liên lạc đột ngột (ghosting)",
+"Lóng: biến mất không lời giải thích, hay nói về hẹn hò hoặc bạn bè.",
+"He *ghosted* me after two dates.",
+"Anh ta biến mất sau hai buổi hẹn.",
+"tiếng lóng",
+null
+],
+[
+"catfish",
+"danh từ",
+"ˈkætˌfɪʃ",
+null,
+"người giả danh trên mạng",
+"Người dùng danh tính giả để lừa tình cảm. Cũng là động từ.",
+"She was *catfished* by a fake profile.",
+"Cô bị lừa bởi một tài khoản giả.",
+"tiếng lóng",
+null
+],
+[
+"troll",
+"danh từ",
+"tɹoʊl",
+null,
+"người chọc phá trên mạng",
+"Người cố ý đăng bài gây tranh cãi, kích động.",
+"Don't feed the *trolls*.",
+"Đừng cho đám troll chú ý.",
+"tiếng lóng",
+null
+],
+[
+"lurk",
+"động từ",
+"lɝk",
+null,
+"im lặng theo dõi",
+"Đọc diễn đàn, nhóm chat mà không bao giờ đăng.",
+"I just *lurk* in that group.",
+"Tôi chỉ đọc trong nhóm đó thôi.",
+"thân mật",
+null
+],
+[
+"spam",
+"danh từ",
+"spæm",
+null,
+"tin rác, thư rác",
+"Tin nhắn quảng cáo không mời gửi hàng loạt.",
+"My inbox is full of *spam*.",
+"Hộp thư của tôi đầy thư rác.",
+"trung tính",
+null
+]
+]
+],
+[
+"selfie: ảnh tự chụp. filter: bộ lọc ảnh. post: đăng bài. story: tin tạm thời. scroll: lướt.",
+[
+[
+"selfie",
+"danh từ",
+"ˈsɛlˌfi",
+null,
+"ảnh tự sướng",
+"Ảnh tự chụp bằng điện thoại.",
+"She took a *selfie* with the dog.",
+"Cô chụp ảnh tự sướng với con chó.",
+"thân mật",
+null
+],
+[
+"filter",
+"danh từ",
+"ˈfɪltɚ",
+null,
+"bộ lọc ảnh",
+"Hiệu ứng làm đẹp hay đổi màu ảnh, video.",
+"That *filter* makes everyone look younger.",
+"Bộ lọc đó làm ai cũng trẻ ra.",
+"trung tính",
+null
+],
+[
+"post",
+"động từ",
+"poʊst",
+null,
+"đăng bài",
+"Đưa nội dung lên mạng xã hội.",
+"I *posted* the photos last night.",
+"Tôi đã đăng ảnh tối qua.",
+"trung tính",
+null
+],
+[
+"story",
+"danh từ",
+"ˈstɔɹi",
+null,
+"story (tin 24 giờ)",
+"Tin ảnh hoặc video tự biến mất sau 24 giờ trên mạng xã hội.",
+"She shared it on her *story*.",
+"Cô chia sẻ nó lên story.",
+"thân mật",
+null
+],
+[
+"scroll",
+"động từ",
+"skɹoʊl",
+null,
+"lướt (màn hình)",
+"Kéo nội dung lên xuống trên điện thoại.",
+"I *scroll* through Instagram before bed.",
+"Tôi lướt Instagram trước khi ngủ.",
+"thân mật",
+null
+]
+]
+],
+[
+"doomscroll: lướt tin xấu không dừng. binge: xem, ăn liền một mạch. binge-watch: cày phim. stream: xem trực tuyến. rewatch: xem lại.",
+[
+[
+"doomscroll",
+"động từ",
+"ˈdumˌskɹoʊl",
+null,
+"lướt tin xấu liên tục",
+"Cứ lướt các tin tiêu cực dù biết làm mình căng thẳng.",
+"I *doomscrolled* for an hour last night.",
+"Tối qua tôi lướt tin xấu cả giờ.",
+"tiếng lóng",
+null
+],
+[
+"binge",
+"động từ",
+"bɪndʒ",
+null,
+"làm một mạch quá mức",
+"Ăn, uống hay xem nhiều liền một lúc.",
+"We *binged* the whole series in a weekend.",
+"Chúng tôi cày hết cả bộ phim trong một cuối tuần.",
+"thân mật",
+null
+],
+[
+"binge-watch",
+"động từ",
+"bɪndʒ wɑtʃ",
+null,
+"cày phim",
+"Xem liền nhiều tập phim.",
+"I'm *binge-watching* a new show.",
+"Tôi đang cày một bộ phim mới.",
+"thân mật",
+null
+],
+[
+"stream",
+"động từ",
+"stɹim",
+null,
+"xem trực tuyến",
+"Xem hoặc nghe qua mạng, không tải về.",
+"I usually *stream* movies at night.",
+"Tôi thường xem phim trực tuyến buổi tối.",
+"trung tính",
+null
+],
+[
+"rewatch",
+"động từ",
+"ɹiˈwɑtʃ",
+null,
+"xem lại",
+"Xem lại phim, chương trình đã xem.",
+"I love to *rewatch* old comedies.",
+"Tôi thích xem lại các phim hài cũ.",
+"thân mật",
+null
+]
+]
+],
+[
+"FOMO: sợ bỏ lỡ. YOLO: chỉ sống một lần. TBH: thành thật mà nói. IMO: theo ý tôi. IRL: ngoài đời thật.",
+[
+[
+"FOMO",
+"viết tắt",
+"ˈfoʊ.moʊ",
+null,
+"nỗi sợ bỏ lỡ",
+"Fear Of Missing Out: lo lắng khi người khác có trải nghiệm mà mình không có.",
+"I joined the trip because of *FOMO*.",
+"Tôi đi chuyến đó vì sợ bỏ lỡ.",
+"thân mật",
+"FOMO"
+],
+[
+"YOLO",
+"viết tắt",
+"ˈjoʊ.loʊ",
+null,
+"đời chỉ sống một lần",
+"You Only Live Once: lời biện minh để làm điều liều lĩnh vui vẻ.",
+"Let's go skydiving, *YOLO*!",
+"Đi nhảy dù thôi, đời chỉ một lần!",
+"thân mật",
+"YOLO"
+],
+[
+"TBH",
+"viết tắt",
+"ˌti.bi.ˈeɪtʃ",
+null,
+"thành thật mà nói",
+"To Be Honest: mở đầu một nhận xét thật lòng.",
+"*TBH*, I didn't like the movie.",
+"Thật lòng thì tôi không thích bộ phim.",
+"thân mật",
+"T B H"
+],
+[
+"IMO",
+"viết tắt",
+"ˌaɪ.ɛm.ˈoʊ",
+null,
+"theo ý tôi",
+"In My Opinion, nói về ý kiến cá nhân.",
+"*IMO*, it's too expensive.",
+"Theo tôi thì nó đắt quá.",
+"thân mật",
+"I M O"
+],
+[
+"IRL",
+"viết tắt",
+"ˌaɪ.ɑɹ.ˈɛl",
+null,
+"ngoài đời thật",
+"In Real Life: phân biệt với trên mạng.",
+"We've never met *IRL*.",
+"Chúng tôi chưa gặp nhau ngoài đời.",
+"thân mật",
+"I R L"
+]
+]
+],
+[
+"glow up: lột xác ngoạn mục. main character: nhân vật chính. era: giai đoạn. ship: ủng hộ cặp đôi. gatekeep: giữ khư khư.",
+[
+[
+"glow up",
+"danh từ",
+"ɡloʊ ʌp",
+null,
+"lột xác, tiến bộ ngoạn mục",
+"Lóng: thay đổi theo hướng tốt hơn rõ rệt, nhất là ngoại hình hay cuộc sống.",
+"She had a major *glow up* this year.",
+"Năm nay cô ấy lột xác ngoạn mục.",
+"tiếng lóng",
+null
+],
+[
+"main character",
+"danh từ",
+"meɪn ˈkɛɹɪktɚ",
+null,
+"nhân vật chính",
+"Lóng: sống như thể đời mình là một bộ phim, hay tự tin tỏa sáng. Main character energy.",
+"She walks in with *main character* energy.",
+"Cô bước vào với khí chất nhân vật chính.",
+"tiếng lóng",
+null
+],
+[
+"era",
+"danh từ",
+"ˈɛɹə",
+null,
+"giai đoạn, thời kỳ",
+"Lóng: giai đoạn sống với một phong cách hay sở thích: my villain era.",
+"I'm in my self-care *era*.",
+"Tôi đang trong giai đoạn chăm sóc bản thân.",
+"tiếng lóng",
+null
+],
+[
+"ship",
+"động từ",
+"ʃɪp",
+null,
+"ủng hộ một cặp đôi",
+"Lóng fandom: mong hai người thành đôi, từ relationship.",
+"I *ship* those two so hard.",
+"Tôi ủng hộ hai người đó hết mình.",
+"tiếng lóng",
+null
+],
+[
+"gatekeep",
+"động từ",
+"ˈɡeɪtˌkip",
+null,
+"giữ khư khư, không chia sẻ",
+"Lóng: cố ý không cho người khác biết hay tham gia điều gì hay.",
+"Stop *gatekeeping* that recipe!",
+"Đừng giữ khư khư công thức đó nữa!",
+"tiếng lóng",
+null
+]
+]
+],
+[
+"touch grass: ra ngoài hít thở. NPC: người sống máy móc. ratio: bị phản đối đông hơn. yap: nói luyên thuyên. mute: tắt tiếng, bỏ qua.",
+[
+[
+"touch grass",
+"cụm từ",
+"tʌtʃ ɡɹæs",
+null,
+"ra ngoài hít thở, đừng nghiện mạng",
+"Lóng: bảo ai đó thôi online và quay lại đời thực.",
+"Go *touch grass* for a while.",
+"Ra ngoài hít thở chút đi.",
+"tiếng lóng",
+null
+],
+[
+"NPC",
+"danh từ",
+"ˌɛn.pi.ˈsi",
+null,
+"người sống như nhân vật phụ",
+"Lóng: người hành xử rập khuôn, không có chính kiến. Gốc: nhân vật không do người chơi điều khiển.",
+"He acts like an *NPC* in meetings.",
+"Anh ta cư xử như nhân vật phụ trong các cuộc họp.",
+"tiếng lóng",
+null
+],
+[
+"ratio",
+"động từ",
+"ˈɹeɪʃiˌoʊ",
+null,
+"bị phản đối nhiều hơn ủng hộ",
+"Lóng: bình luận nhận nhiều lượt thích hơn bài gốc nên bài gốc bị chê.",
+"His tweet got *ratioed*.",
+"Bài đăng của anh ta bị chê tơi tả.",
+"tiếng lóng",
+null
+],
+[
+"yap",
+"động từ",
+"jæp",
+null,
+"nói lan man",
+"Lóng: nói nhiều, dài dòng. Nghĩa gốc: sủa ăng ẳng.",
+"She loves to *yap* about her day.",
+"Cô thích kể lể về ngày của mình.",
+"tiếng lóng",
+null
+],
+[
+"mute",
+"động từ",
+"mjut",
+null,
+"tắt tiếng, bỏ qua",
+"Ẩn người hay chủ đề để khỏi thấy nữa.",
+"I *muted* that account.",
+"Tôi tắt tiếng tài khoản đó.",
+"trung tính",
+null
+]
+]
+],
+[
+"no cap: thật không đùa. for real: thật mà. fr: thật đấy. periodt: chấm hết. bet: chốt.",
+[
+[
+"no cap",
+"cụm từ",
+"noʊ kæp",
+null,
+"không nói điêu",
+"Lóng: nói thật, không đùa.",
+"It's the best burger, *no cap*.",
+"Cái burger ngon nhất, không điêu.",
+"tiếng lóng",
+null
+],
+[
+"for real",
+"cụm từ",
+"fɔɹ ɹil",
+null,
+"thật đấy",
+"Nhấn mạnh sự thật, hoặc hỏi lại: Thật hả?",
+"*For real*? That's amazing!",
+"Thật hả? Tuyệt quá!",
+"thân mật",
+null
+],
+[
+"fr",
+"viết tắt",
+"ˌɛf.ˈɑɹ",
+null,
+"thật đấy",
+"For real, viết tắt trên mạng.",
+"That's the best song, *fr*.",
+"Đó là bài hát hay nhất, thật đấy.",
+"tiếng lóng",
+"F R"
+],
+[
+"periodt",
+"thán từ",
+"ˈpɪɹiəd",
+null,
+"chấm hết, không bàn cãi",
+"Lóng: nhấn mạnh quan điểm, không bàn nữa.",
+"She's the best singer, *periodt*.",
+"Cô ấy là ca sĩ hay nhất, chấm hết.",
+"tiếng lóng",
+null
+],
+[
+"bet",
+"thán từ",
+"bɛt",
+null,
+"chốt, ok",
+"Lóng: đồng ý, chốt kèo.",
+"Dinner at seven? *Bet*.",
+"Ăn tối bảy giờ? Chốt.",
+"tiếng lóng",
+null
+]
+]
+],
+[
+"W: thắng lợi. L: thất bại. rent free: ám ảnh. understood the assignment: làm đúng yêu cầu. nailed it: làm rất tốt.",
+[
+[
+"W",
+"danh từ",
+"ˈdʌbəlju",
+null,
+"chiến thắng, điều tốt",
+"Lóng, từ win: dùng khen điều gì thành công. Ngược lại là L.",
+"Getting that job is a big *W*.",
+"Có được việc đó là chiến thắng lớn.",
+"tiếng lóng",
+null
+],
+[
+"L",
+"danh từ",
+"ɛl",
+null,
+"thất bại, điều tệ",
+"Lóng, từ loss: nói về thất bại hay quyết định tệ. Take the L là chấp nhận thua.",
+"That decision was a major *L*.",
+"Quyết định đó là thất bại lớn.",
+"tiếng lóng",
+null
+],
+[
+"rent free",
+"cụm từ",
+"ɹɛnt fɹi",
+null,
+"ám ảnh trong đầu",
+"Lóng: living in my head rent free, nghĩa là cứ nghĩ về ai hay điều gì mãi.",
+"That song lives in my head *rent free*.",
+"Bài hát đó ám ảnh đầu tôi mãi.",
+"tiếng lóng",
+null
+],
+[
+"understood the assignment",
+"cụm từ",
+"ˌʌndɚˈstʊd ðə əˈsaɪnmənt",
+null,
+"làm đúng ý, quá chuẩn",
+"Lóng: làm đúng và xuất sắc điều được kỳ vọng.",
+"She *understood the assignment* with that outfit.",
+"Cô ấy mặc bộ đó đúng chuẩn.",
+"tiếng lóng",
+null
+],
+[
+"nailed it",
+"cụm từ",
+"neɪld ɪt",
+null,
+"làm quá tốt",
+"Thân mật: hoàn thành xuất sắc.",
+"You *nailed it*!",
+"Bạn làm quá tốt!",
+"thân mật",
+null
+]
+]
+]
+],
+"slang18": [
+[
+"thirst trap: ảnh câu tương tác gợi cảm. sexting: nhắn tin gợi dục. nudes: ảnh khỏa thân. NSFW: không an toàn nơi công sở. catcall: huýt sáo trêu ghẹo.",
+[
+[
+"thirst trap",
+"danh từ",
+"θɝst tɹæp",
+null,
+"ảnh gợi cảm để câu thả tim",
+"Lóng: ảnh hay video đăng để gây chú ý và nhận lời khen về sự gợi cảm.",
+"Her page is full of *thirst traps*.",
+"Trang của cô ấy toàn ảnh gợi cảm câu tương tác.",
+"tiếng lóng",
+null
+],
+[
+"sexting",
+"danh từ",
+"ˈsɛkˌstɪŋ",
+null,
+"nhắn tin gợi dục",
+"Gửi tin nhắn hay ảnh mang tính tình dục. Có thể vi phạm pháp luật nếu liên quan đến người chưa đủ tuổi.",
+"*Sexting* can have serious consequences.",
+"Nhắn tin gợi dục có thể gây hậu quả nghiêm trọng.",
+"thô tục",
+null
+],
+[
+"nudes",
+"danh từ",
+"nudz",
+null,
+"ảnh khỏa thân",
+"Lóng: ảnh khỏa thân tự chụp gửi cho người khác. Chia sẻ khi chưa được phép là vi phạm.",
+"Never share someone's *nudes* without consent.",
+"Đừng bao giờ chia sẻ ảnh khỏa thân của ai khi chưa được phép.",
+"thô tục",
+null
+],
+[
+"catcall",
+"động từ",
+"ˈkætˌkɔl",
+null,
+"huýt sáo, buông lời trêu ghẹo",
+"Hành vi trêu ghẹo ngoài đường, bị coi là quấy rối.",
+"Men *catcalled* her on the street.",
+"Mấy gã trêu ghẹo cô ngoài đường.",
+"xúc phạm",
+null
+],
+[
+"cringe-worthy",
+"tính từ",
+"kɹɪndʒ ˈwɝði",
+null,
+"ngượng ngùng, đáng xấu hổ",
+"Dùng cho hành vi ngượng thay, đôi khi liên quan chuyện tán tỉnh.",
+"That pickup line was *cringe-worthy*.",
+"Câu tán đó ngượng thật.",
+"tiếng lóng",
+null
+]
+]
+],
+[
+"booty call: gọi đi qua đêm. friends with benefits: bạn tình. one-night stand: tình một đêm. fling: chuyện tình chóng vánh. cuffing season: mùa tìm người yêu.",
+[
+[
+"booty call",
+"danh từ",
+"ˈbuti kɔl",
+null,
+"cuộc gọi hẹn quan hệ",
+"Lóng: gọi hay nhắn người quen chỉ để quan hệ tình dục.",
+"He only texts her for a *booty call*.",
+"Anh ta chỉ nhắn cô để rủ qua đêm.",
+"thô tục",
+null
+],
+[
+"friends with benefits",
+"danh từ",
+"fɹɛndz wɪð ˈbɛnəfɪts",
+null,
+"bạn có quan hệ tình dục",
+"Bạn bè có quan hệ thể xác nhưng không yêu đương. Viết tắt FWB.",
+"They're *friends with benefits*.",
+"Họ là bạn tình không ràng buộc.",
+"thân mật",
+null
+],
+[
+"one-night stand",
+"danh từ",
+"wʌn naɪt stænd",
+null,
+"tình một đêm",
+"Quan hệ chỉ một lần với người vừa gặp.",
+"It was just a *one-night stand*.",
+"Đó chỉ là tình một đêm.",
+"thân mật",
+null
+],
+[
+"fling",
+"danh từ",
+"flɪŋ",
+null,
+"chuyện tình chóng vánh",
+"Mối quan hệ ngắn, nhẹ nhàng, không nghiêm túc.",
+"They had a summer *fling*.",
+"Họ có một mối tình mùa hè chóng vánh.",
+"thân mật",
+null
+],
+[
+"cuffing season",
+"danh từ",
+"ˈkʌfɪŋ ˈsizən",
+null,
+"mùa tìm người yêu",
+"Lóng: mùa lạnh khi nhiều người muốn có bạn đồng hành.",
+"It's *cuffing season* again.",
+"Lại đến mùa kiếm người yêu rồi.",
+"tiếng lóng",
+null
+]
+]
+],
+[
+"body count: số người đã ngủ cùng. DTF: sẵn sàng quan hệ. thirsty: khát tình, cầu chú ý. hot take: ý kiến gây tranh cãi. smash: quan hệ (thô).",
+[
+[
+"body count",
+"danh từ",
+"ˈbɑdi kaʊnt",
+null,
+"số người từng quan hệ",
+"Lóng: tổng số bạn tình. Hỏi người khác có thể bị coi là soi mói.",
+"Don't ask about her *body count*.",
+"Đừng hỏi cô ấy đã từng ngủ với bao nhiêu người.",
+"thô tục",
+null
+],
+[
+"DTF",
+"viết tắt",
+"ˌdi.ti.ˈɛf",
+null,
+"sẵn sàng quan hệ tình dục",
+"Lóng thô: viết tắt của một cụm từ tục, dùng khi hỏi hay nói ai sẵn sàng qua đêm.",
+"He asked if she was *DTF*.",
+"Anh ta hỏi cô có sẵn sàng qua đêm không.",
+"thô tục",
+"D T F"
+],
+[
+"thirsty",
+"tính từ",
+"ˈθɝsti",
+null,
+"khát tình; thèm sự chú ý",
+"Lóng: quá nỗ lực để lấy lòng hay gây chú ý, đôi khi vì ham muốn.",
+"Don't be so *thirsty*.",
+"Đừng khát chú ý thế.",
+"tiếng lóng",
+null
+],
+[
+"hot take",
+"danh từ",
+"hɑt teɪk",
+null,
+"ý kiến gây tranh cãi",
+"Quan điểm cực đoan đăng để gây phản ứng, không riêng chủ đề tình dục.",
+"That's a spicy *hot take*.",
+"Đó là ý kiến gây tranh cãi đấy.",
+"tiếng lóng",
+null
+],
+[
+"smash",
+"động từ",
+"smæʃ",
+null,
+"ngủ với ai (thô)",
+"Lóng thô: quan hệ tình dục; smash or pass là trò chọn có hay không.",
+"They played *smash* or pass.",
+"Họ chơi trò chọn có hay không với ai đó.",
+"thô tục",
+null
+]
+]
+]
+]
+}
